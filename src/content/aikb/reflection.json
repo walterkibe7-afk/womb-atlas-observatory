@@ -1,0 +1,809 @@
+{
+  "archetypes": [
+    {
+      "id": "ARC-001",
+      "name": "Bleeding Burden",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_001",
+        "pat_018",
+        "pat_044"
+      ]
+    },
+    {
+      "id": "ARC-002",
+      "name": "Prolonged Bleeding Experience",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_002",
+        "pat_019",
+        "pat_045"
+      ]
+    },
+    {
+      "id": "ARC-003",
+      "name": "Clot Concern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_003",
+        "pat_020",
+        "pat_046"
+      ]
+    },
+    {
+      "id": "ARC-004",
+      "name": "Bleeding Disruption",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_004",
+        "pat_021",
+        "pat_047"
+      ]
+    },
+    {
+      "id": "ARC-005",
+      "name": "Bleeding Uncertainty",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_005",
+        "pat_022",
+        "pat_048"
+      ]
+    },
+    {
+      "id": "ARC-006",
+      "name": "Bleeding Escalation",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_006",
+        "pat_023",
+        "pat_049"
+      ]
+    },
+    {
+      "id": "ARC-007",
+      "name": "Bleeding Improvement",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_007",
+        "pat_024",
+        "pat_050"
+      ]
+    },
+    {
+      "id": "ARC-008",
+      "name": "Interperiod Bleeding Concern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_008",
+        "pat_025",
+        "pat_051"
+      ]
+    },
+    {
+      "id": "ARC-009",
+      "name": "Heavy Flow Planning",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_009",
+        "pat_026",
+        "pat_052"
+      ]
+    },
+    {
+      "id": "ARC-010",
+      "name": "Bleeding Normalization",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_010",
+        "pat_027",
+        "pat_053"
+      ]
+    },
+    {
+      "id": "ARC-011",
+      "name": "Pain Burden",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_011",
+        "pat_028",
+        "pat_054"
+      ]
+    },
+    {
+      "id": "ARC-012",
+      "name": "Cyclical Pain Pattern",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_012",
+        "pat_029",
+        "pat_055"
+      ]
+    },
+    {
+      "id": "ARC-013",
+      "name": "Persistent Pelvic Pain",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_013",
+        "pat_030",
+        "pat_056"
+      ]
+    },
+    {
+      "id": "ARC-014",
+      "name": "Pain Spread",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_014",
+        "pat_031",
+        "pat_057"
+      ]
+    },
+    {
+      "id": "ARC-015",
+      "name": "Trigger-Linked Pain",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_015",
+        "pat_032",
+        "pat_058"
+      ]
+    },
+    {
+      "id": "ARC-016",
+      "name": "Pain Unpredictability",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_016",
+        "pat_033",
+        "pat_059"
+      ]
+    },
+    {
+      "id": "ARC-017",
+      "name": "Pain Escalation",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_017",
+        "pat_034",
+        "pat_060"
+      ]
+    },
+    {
+      "id": "ARC-018",
+      "name": "Pain Improvement",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_018",
+        "pat_035",
+        "pat_061"
+      ]
+    },
+    {
+      "id": "ARC-019",
+      "name": "Pressure Dominant Pattern",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_019",
+        "pat_036",
+        "pat_062"
+      ]
+    },
+    {
+      "id": "ARC-020",
+      "name": "Sensitive Pain Narrative",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_020",
+        "pat_037",
+        "pat_063"
+      ]
+    },
+    {
+      "id": "ARC-021",
+      "name": "Cycle Variability",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_021",
+        "pat_038",
+        "pat_064"
+      ]
+    },
+    {
+      "id": "ARC-022",
+      "name": "Skipped Period Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_022",
+        "pat_039",
+        "pat_065"
+      ]
+    },
+    {
+      "id": "ARC-023",
+      "name": "Hormonal Body Change",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_023",
+        "pat_040",
+        "pat_066"
+      ]
+    },
+    {
+      "id": "ARC-024",
+      "name": "Ovulation-Linked Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_024",
+        "pat_041",
+        "pat_067"
+      ]
+    },
+    {
+      "id": "ARC-025",
+      "name": "Cycle Uncertainty",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_025",
+        "pat_042",
+        "pat_068"
+      ]
+    },
+    {
+      "id": "ARC-026",
+      "name": "Emerging Hormonal Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_026",
+        "pat_043",
+        "pat_069"
+      ]
+    },
+    {
+      "id": "ARC-027",
+      "name": "Hormonal-Androgenic Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_027",
+        "pat_044",
+        "pat_070"
+      ]
+    },
+    {
+      "id": "ARC-028",
+      "name": "Cycle Stabilization",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_028",
+        "pat_045",
+        "pat_071"
+      ]
+    },
+    {
+      "id": "ARC-029",
+      "name": "Cycle Escalation",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_029",
+        "pat_046",
+        "pat_072"
+      ]
+    },
+    {
+      "id": "ARC-030",
+      "name": "Reproductive Context Sensitivity",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_030",
+        "pat_047",
+        "pat_073"
+      ]
+    },
+    {
+      "id": "ARC-031",
+      "name": "Functional Burden",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_031",
+        "pat_048",
+        "pat_074"
+      ]
+    },
+    {
+      "id": "ARC-032",
+      "name": "Energy Depletion",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_032",
+        "pat_049",
+        "pat_075"
+      ]
+    },
+    {
+      "id": "ARC-033",
+      "name": "Sleep Disruption Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_033",
+        "pat_050",
+        "pat_076"
+      ]
+    },
+    {
+      "id": "ARC-034",
+      "name": "Work/School Interference",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_034",
+        "pat_051",
+        "pat_077"
+      ]
+    },
+    {
+      "id": "ARC-035",
+      "name": "Caregiving Strain",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_035",
+        "pat_052",
+        "pat_078"
+      ]
+    },
+    {
+      "id": "ARC-036",
+      "name": "Reduced Mobility",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_036",
+        "pat_053",
+        "pat_079"
+      ]
+    },
+    {
+      "id": "ARC-037",
+      "name": "Social Withdrawal",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_037",
+        "pat_054",
+        "pat_080"
+      ]
+    },
+    {
+      "id": "ARC-038",
+      "name": "Daily Planning Around Symptoms",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_038",
+        "pat_055",
+        "pat_081"
+      ]
+    },
+    {
+      "id": "ARC-039",
+      "name": "High Life Disruption",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_039",
+        "pat_056",
+        "pat_082"
+      ]
+    },
+    {
+      "id": "ARC-040",
+      "name": "Function Improving",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_040",
+        "pat_057",
+        "pat_083"
+      ]
+    },
+    {
+      "id": "ARC-041",
+      "name": "Care Access Friction",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_041",
+        "pat_058",
+        "pat_084"
+      ]
+    },
+    {
+      "id": "ARC-042",
+      "name": "Care Navigation Burden",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_042",
+        "pat_059",
+        "pat_085"
+      ]
+    },
+    {
+      "id": "ARC-043",
+      "name": "Care Dismissal Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_043",
+        "pat_060",
+        "pat_086"
+      ]
+    },
+    {
+      "id": "ARC-044",
+      "name": "Validation Deficit",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_044",
+        "pat_061",
+        "pat_087"
+      ]
+    },
+    {
+      "id": "ARC-045",
+      "name": "Care Validation Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_045",
+        "pat_062",
+        "pat_088"
+      ]
+    },
+    {
+      "id": "ARC-046",
+      "name": "Unresolved Care Journey",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_046",
+        "pat_063",
+        "pat_089"
+      ]
+    },
+    {
+      "id": "ARC-047",
+      "name": "Treatment Burden",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_047",
+        "pat_064",
+        "pat_090"
+      ]
+    },
+    {
+      "id": "ARC-048",
+      "name": "Care Avoidance",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_048",
+        "pat_065",
+        "pat_091"
+      ]
+    },
+    {
+      "id": "ARC-049",
+      "name": "Self-Advocacy In Care",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_049",
+        "pat_066",
+        "pat_092"
+      ]
+    },
+    {
+      "id": "ARC-050",
+      "name": "Care Trust Erosion",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_050",
+        "pat_067",
+        "pat_093"
+      ]
+    },
+    {
+      "id": "ARC-051",
+      "name": "High Uncertainty Narrative",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_051",
+        "pat_068",
+        "pat_094"
+      ]
+    },
+    {
+      "id": "ARC-052",
+      "name": "Fear And Concern Narrative",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_052",
+        "pat_069",
+        "pat_095"
+      ]
+    },
+    {
+      "id": "ARC-053",
+      "name": "Embodied Confusion",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_053",
+        "pat_070",
+        "pat_096"
+      ]
+    },
+    {
+      "id": "ARC-054",
+      "name": "Normalized Suffering Narrative",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_054",
+        "pat_071",
+        "pat_097"
+      ]
+    },
+    {
+      "id": "ARC-055",
+      "name": "Loss Of Control Narrative",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_055",
+        "pat_072",
+        "pat_098"
+      ]
+    },
+    {
+      "id": "ARC-056",
+      "name": "Hopeful Reframing",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_056",
+        "pat_073",
+        "pat_099"
+      ]
+    },
+    {
+      "id": "ARC-057",
+      "name": "Identity Impact Narrative",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_057",
+        "pat_074",
+        "pat_100"
+      ]
+    },
+    {
+      "id": "ARC-058",
+      "name": "Sensitive Disclosure Pattern",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_058",
+        "pat_075",
+        "pat_101"
+      ]
+    },
+    {
+      "id": "ARC-059",
+      "name": "Language Gap Pattern",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_059",
+        "pat_076",
+        "pat_102"
+      ]
+    },
+    {
+      "id": "ARC-060",
+      "name": "Meaning-Making Pattern",
+      "tone": "gentle",
+      "selectionSignals": [
+        "pat_060",
+        "pat_077",
+        "pat_103"
+      ]
+    },
+    {
+      "id": "ARC-061",
+      "name": "Self-Observation Strength",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_061",
+        "pat_078",
+        "pat_104"
+      ]
+    },
+    {
+      "id": "ARC-062",
+      "name": "Help-Seeking Strength",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_062",
+        "pat_079",
+        "pat_105"
+      ]
+    },
+    {
+      "id": "ARC-063",
+      "name": "Support Network Strength",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_063",
+        "pat_080",
+        "pat_106"
+      ]
+    },
+    {
+      "id": "ARC-064",
+      "name": "Adaptive Planning",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_064",
+        "pat_081",
+        "pat_107"
+      ]
+    },
+    {
+      "id": "ARC-065",
+      "name": "Body Literacy Growth",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_065",
+        "pat_082",
+        "pat_108"
+      ]
+    },
+    {
+      "id": "ARC-066",
+      "name": "Persistence And Advocacy",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_066",
+        "pat_083",
+        "pat_109"
+      ]
+    },
+    {
+      "id": "ARC-067",
+      "name": "Care Preparation Strength",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_067",
+        "pat_084",
+        "pat_110"
+      ]
+    },
+    {
+      "id": "ARC-068",
+      "name": "Community Support Pattern",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_068",
+        "pat_085",
+        "pat_111"
+      ]
+    },
+    {
+      "id": "ARC-069",
+      "name": "Resilience Narrative",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_069",
+        "pat_086",
+        "pat_112"
+      ]
+    },
+    {
+      "id": "ARC-070",
+      "name": "Stability Strength",
+      "tone": "empowering",
+      "selectionSignals": [
+        "pat_070",
+        "pat_087",
+        "pat_113"
+      ]
+    },
+    {
+      "id": "ARC-071",
+      "name": "Multi-Domain Burden",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_071",
+        "pat_088",
+        "pat_114"
+      ]
+    },
+    {
+      "id": "ARC-072",
+      "name": "Body-Function-Care Constellation",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_072",
+        "pat_089",
+        "pat_115"
+      ]
+    },
+    {
+      "id": "ARC-073",
+      "name": "Progressive Burden",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_073",
+        "pat_090",
+        "pat_116"
+      ]
+    },
+    {
+      "id": "ARC-074",
+      "name": "Stable High Burden",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_074",
+        "pat_091",
+        "pat_117"
+      ]
+    },
+    {
+      "id": "ARC-075",
+      "name": "Improving Trajectory",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_075",
+        "pat_092",
+        "pat_118"
+      ]
+    },
+    {
+      "id": "ARC-076",
+      "name": "Volatile Trajectory",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_076",
+        "pat_093",
+        "pat_119"
+      ]
+    },
+    {
+      "id": "ARC-077",
+      "name": "Newly Emerging Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_077",
+        "pat_094",
+        "pat_120"
+      ]
+    },
+    {
+      "id": "ARC-078",
+      "name": "Longstanding Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_078",
+        "pat_095",
+        "pat_001"
+      ]
+    },
+    {
+      "id": "ARC-079",
+      "name": "Care-Function Feedback Loop",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_079",
+        "pat_096",
+        "pat_002"
+      ]
+    },
+    {
+      "id": "ARC-080",
+      "name": "Protective Buffering Pattern",
+      "tone": "supportive",
+      "selectionSignals": [
+        "pat_080",
+        "pat_097",
+        "pat_003"
+      ]
+    }
+  ],
+  "tones": [
+    "supportive",
+    "gentle",
+    "empowering"
+  ]
+}

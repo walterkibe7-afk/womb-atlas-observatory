@@ -1,0 +1,3005 @@
+{
+  "_template.nonDiagnosticDisclaimer": {
+    "sw": "Rekodi hii si utambuzi. Ni tafakari ya uzoefu wako halisi kama ulivyozingatiwa."
+  },
+  "_template.narrativeLabel": {
+    "sw": "Simulizi"
+  },
+  "_template.sensitiveNarrativeLabel": {
+    "sw": "Simulizi Nyeti"
+  },
+  "_template.pdfPage": {
+    "sw": "Ukurasa"
+  },
+  "_template.pdfGeneratedByFooter": {
+    "sw": "Imetengenezwa na Womb Atlas — ya uchunguzi, si ya utambuzi"
+  },
+  "_template.pdfTimelineTitle": {
+    "sw": "Ratiba ya Atlas"
+  },
+  "_template.pdfEventSingular": {
+    "sw": "tukio"
+  },
+  "_template.pdfEventPlural": {
+    "sw": "matukio"
+  },
+  "_template.pdfGeneratedPrefix": {
+    "sw": "Imetengenezwa"
+  },
+  "_template.pdfHealthJourney": {
+    "sw": "Safari ya Afya"
+  },
+  "_template.pdfNoTimelineEvents": {
+    "sw": "Bado hakuna matukio kwenye ratiba — haya yataonekana uchunguzi wako wa kwanza utakapokamilika."
+  },
+  "_template.pdfSignalEvolutionOverTime": {
+    "sw": "Mabadiliko ya Ishara kwa Muda"
+  },
+  "_template.pdfSignalTrendsEmpty": {
+    "sw": "Mielekeo ya ishara zako itaonekana hapa Rekodi yako ya kwanza ya Atlas itakapoundwa."
+  },
+  "_template.pdfDateColumn": {
+    "sw": "Tarehe"
+  },
+  "_template.pdfCareJourney": {
+    "sw": "Safari ya Huduma"
+  },
+  "_template.pdfCareJourneyEmpty": {
+    "sw": "Huanza baada ya kumaliza uchunguzi wako wa kwanza."
+  },
+  "_template.pdfCurrentPhasePrefix": {
+    "sw": "Hatua ya sasa:"
+  },
+  "_template.pdfDone": {
+    "sw": "Imekamilika"
+  },
+  "_template.pdfPending": {
+    "sw": "Inasubiri"
+  },
+  "_template.pdfLifeStageJourney": {
+    "sw": "Safari ya Hatua za Maisha"
+  },
+  "_template.pdfLifeStageEmpty": {
+    "sw": "Shiriki muktadha wako katika uchunguzi wako wa kwanza ili kuona hili hapa."
+  },
+  "_template.pdfYouAreInYour": {
+    "sw": "Uko katika"
+  },
+  "_template.burdenLevelLow": {
+    "sw": "Chini"
+  },
+  "_template.burdenLevelModerate": {
+    "sw": "Wastani"
+  },
+  "_template.burdenLevelHigh": {
+    "sw": "Juu"
+  },
+  "_template.pdfRecordTitle": {
+    "sw": "Rekodi ya Atlas"
+  },
+  "_template.pdfBurdenPrefix": {
+    "sw": "Mzigo:"
+  },
+  "_template.pdfObservationPortrait": {
+    "sw": "Picha ya Uchunguzi"
+  },
+  "_template.pdfDominantPattern": {
+    "sw": "Mfumo Kuu"
+  },
+  "_template.pdfSupportingPatterns": {
+    "sw": "Mifumo Inayounga Mkono"
+  },
+  "_template.pdfAtlasArchetype": {
+    "sw": "Aina Kuu ya Atlas"
+  },
+  "_template.pdfWhatArchetypeMeans": {
+    "sw": "Aina Hii Kuu Inamaanisha Nini"
+  },
+  "_template.pdfSignalLandscape": {
+    "sw": "Mandhari ya Ishara"
+  },
+  "_template.pdfSignalsObserved": {
+    "sw": "Ishara Zilizozingatiwa"
+  },
+  "_template.pdfDomainColumn": {
+    "sw": "Eneo"
+  },
+  "_template.pdfSignalColumn": {
+    "sw": "Ishara"
+  },
+  "_template.pdfSeverityColumn": {
+    "sw": "Ukali"
+  },
+  "_template.pdfNarrativeThemes": {
+    "sw": "Mada za Simulizi"
+  },
+  "_template.pdfExperienceLayers": {
+    "sw": "Tabaka za Uzoefu"
+  },
+  "_template.pdfStrengthsObserved": {
+    "sw": "Nguvu Atlas Alizoziona"
+  },
+  "_template.pdfBodyLiteracy": {
+    "sw": "Uelewa wa Mwili"
+  },
+  "_template.pdfWhatAtlasWillWatch": {
+    "sw": "Kile Atlas Itakachotazama"
+  },
+  "_template.pdfReflectionCompass": {
+    "sw": "Dira ya Tafakari"
+  },
+  "_template.pdfStrongestTheme": {
+    "sw": "Mada Imara Zaidi"
+  },
+  "_template.pdfEmergingTheme": {
+    "sw": "Mada Inayoibuka"
+  },
+  "_template.pdfStrengthObserved": {
+    "sw": "Nguvu Iliyozingatiwa"
+  },
+  "_template.pdfRecordDisclaimerFallback": {
+    "sw": "Rekodi hii ya Atlas ni ya uchunguzi na tafakari. Si utambuzi."
+  },
+  "_template.streakMonthSingular": {
+    "sw": "Mwezi"
+  },
+  "_template.streakMonthPlural": {
+    "sw": "Miezi"
+  },
+  "_template.progressFirstObservationComplete": {
+    "sw": "Uchunguzi wa kwanza umekamilika"
+  },
+  "_template.progressContinueFirstObservation": {
+    "sw": "Endelea na uchunguzi wako wa kwanza"
+  },
+  "_template.reflectionSummaryFallback": {
+    "sw": "Tafakari yako ni muhtasari wa ulichoshiriki na kile kinachokuhusu zaidi."
+  },
+  "_template.timelineFirstObservationTitle": {
+    "sw": "Uchunguzi wa Kwanza"
+  },
+  "_template.timelineFirstObservationDesc": {
+    "sw": "Uchunguzi wako wa msingi"
+  },
+  "_template.timelineObservationEditedTitle": {
+    "sw": "Uchunguzi Umehaririwa"
+  },
+  "_template.timelineObservationEditedDesc": {
+    "sw": "Uchunguzi wako wa kwanza umesasishwa"
+  },
+  "_template.timelineCheckinCompletedTitle": {
+    "sw": "Check-In Imekamilika"
+  },
+  "_template.timelineCheckinCompletedDesc": {
+    "sw": "Masasisho yameongezwa kwenye ratiba yako"
+  },
+  "_template.timelineReflectionGeneratedTitle": {
+    "sw": "Tafakari Imeundwa"
+  },
+  "_template.timelineKeyThemesIdentified": {
+    "sw": "mada kuu zimetambuliwa"
+  },
+  "_template.timelineReflectionReady": {
+    "sw": "Tafakari yako iko tayari"
+  },
+  "_template.timelineRecordCreatedTitle": {
+    "sw": "Rekodi ya Atlas Imeundwa"
+  },
+  "_template.timelineRecordCreatedDesc": {
+    "sw": "Rekodi iko tayari kwa ukaguzi"
+  },
+  "_template.timelineNextCheckinTitle": {
+    "sw": "Check-In Ijayo"
+  },
+  "_template.timelineReadyWheneverYouAre": {
+    "sw": "Tayari wakati wowote utakapokuwa tayari"
+  },
+  "_template.timelineYouWillBeReminded": {
+    "sw": "Utakumbushwa"
+  },
+  "_template.personalInsightStreakLead": {
+    "sw": "Ishara yako ya"
+  },
+  "_template.personalInsightStreakMid": {
+    "sw": "imeonekana katika"
+  },
+  "_template.personalInsightStreakSuffix": {
+    "sw": "uchunguzi mfululizo."
+  },
+  "_template.personalInsightEmptyFallback": {
+    "sw": "Rekodi yako ya kwanza ya Atlas iko tayari — maarifa yanaongezeka na kila Check-In unayoongeza."
+  },
+  "_template.observatoryInsightGenericCompanion": {
+    "sw": "mabadiliko yanayohusiana kwa muda"
+  },
+  "_template.observatoryInsightLead": {
+    "sw": "Washiriki wanaofuatilia mifumo inayofanana ya"
+  },
+  "_template.observatoryInsightMid": {
+    "sw": "mara nyingi pia hugundua"
+  },
+  "_template.observatoryInsightComparingHelps": {
+    "sw": "Kulinganisha rekodi yako na uchunguzi mpana husaidia kubaini kile cha kuendelea kukifuatilia."
+  },
+  "_template.observatoryInsightEmptyFallback": {
+    "sw": "Rekodi yako ya kwanza ya Atlas itakapoundwa, utaona jinsi mifumo yako inavyohusiana na uchunguzi mpana."
+  },
+  "domain_bleeding.companionPhrase": {
+    "sw": "uchovu na kukosa nguvu"
+  },
+  "domain_pain.companionPhrase": {
+    "sw": "kuvurugika kwa mipango ya kila siku"
+  },
+  "domain_hormonal.companionPhrase": {
+    "sw": "mabadiliko ya usingizi na hisia"
+  },
+  "domain_cycle.companionPhrase": {
+    "sw": "mabadiliko katika kutabirika kwa mzunguko"
+  },
+  "domain_daily_life.companionPhrase": {
+    "sw": "kuvurugika kwa usingizi na kukosa nguvu"
+  },
+  "domain_care_access.companionPhrase": {
+    "sw": "wasiwasi wao kupuuzwa"
+  },
+  "life_stage_adolescence.label": {
+    "sw": "Ujana"
+  },
+  "life_stage_adolescence.description": {
+    "sw": "Atlas inakusaidia kuelewa jinsi uzoefu wako unavyobadilika katika hatua hii na baada yake."
+  },
+  "life_stage_reproductive.label": {
+    "sw": "Miaka ya Uzazi"
+  },
+  "life_stage_reproductive.description": {
+    "sw": "Atlas inakusaidia kuelewa jinsi uzoefu wako unavyobadilika katika hatua hii na baada yake."
+  },
+  "life_stage_pregnancy.label": {
+    "sw": "Ujauzito"
+  },
+  "life_stage_pregnancy.description": {
+    "sw": "Atlas inafuatilia uchunguzi wako ikizingatia ujauzito wako."
+  },
+  "life_stage_postpartum.label": {
+    "sw": "Baada ya Kujifungua"
+  },
+  "life_stage_postpartum.description": {
+    "sw": "Atlas inafuatilia uchunguzi wako wakati wa kupona kwako baada ya kujifungua."
+  },
+  "life_stage_perimenopause.label": {
+    "sw": "Kabla ya Kukoma Hedhi"
+  },
+  "life_stage_perimenopause.description": {
+    "sw": "Atlas inakusaidia kufuatilia jinsi mdundo wa mwili wako unavyobadilika katika kipindi hiki cha mpito."
+  },
+  "life_stage_menopause.label": {
+    "sw": "Kukoma Hedhi"
+  },
+  "life_stage_menopause.description": {
+    "sw": "Atlas inakusaidia kufuatilia mifumo yako baada ya hedhi."
+  },
+  "care_phase_observation.label": {
+    "sw": "Uchunguzi wa Kwanza"
+  },
+  "care_phase_observation.description": {
+    "sw": "Anza uchunguzi wako wa kwanza ili kuanza safari yako na Atlas."
+  },
+  "care_phase_care_outreach.label": {
+    "sw": "Utafutaji wa Huduma"
+  },
+  "care_phase_care_outreach.description": {
+    "sw": "Utafutaji wako wa huduma ni sehemu ya rekodi yako."
+  },
+  "care_phase_atlas_record.label": {
+    "sw": "Rekodi ya Atlas"
+  },
+  "care_phase_atlas_record.description": {
+    "sw": "Rekodi yako ya msingi ya Atlas iko tayari. Fanya check-ins kwa muda ili kufuatilia jinsi mambo yanavyobadilika."
+  },
+  "care_phase_check_ins.label": {
+    "sw": "Check-Ins Zinazoendelea"
+  },
+  "care_phase_check_ins.description": {
+    "sw": "Check-ins zako zinaongeza kwenye picha yako ya muda mrefu."
+  },
+  "care_phase_monitoring.label": {
+    "sw": "Ufuatiliaji Unaoendelea"
+  },
+  "care_phase_monitoring.description": {
+    "sw": "Uko kwenye ufuatiliaji unaoendelea — Atlas inaendelea kujenga picha yako na kila Check-In."
+  },
+  "bleeding_burden.participantLabel": {
+    "sw": "Kutokwa na damu nyingi au kuvuruga"
+  },
+  "bleeding_burden.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa kutokwa na damu kunaweza kuhitaji maandalizi zaidi, nguvu, na uangalizi katika maisha ya kila siku."
+  },
+  "bleeding_burden.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Mzigo wa kutokwa na damu ni wa uchunguzi — unaeleza uzoefu halisi, si utambuzi."
+  },
+  "bleeding_burden.whyConnected": {
+    "sw": "Atlas iliunganisha haya kwa sababu majibu yanayohusiana na kutokwa na damu yanaweza kuunganisha muda, mzigo wa mabonge, mabadiliko ya bidhaa, na maandalizi ya kila siku."
+  },
+  "bleeding_burden.watchOverTime": {
+    "sw": "Kama kutokwa na damu kunabaki thabiti, kunazidi kuwa kwingi au kutokutabirika, au kunaendelea kuathiri nguvu na maandalizi."
+  },
+  "pain_distribution.participantLabel": {
+    "sw": "Mfumo wa Maumivu"
+  },
+  "pain_distribution.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa maumivu yanaweza kuenea kulingana na muda, mwendo, na jinsi unavyoitikia yanapotokea."
+  },
+  "pain_distribution.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Mifumo ya maumivu ni ya uchunguzi, si lebo za utambuzi."
+  },
+  "pain_distribution.whyConnected": {
+    "sw": "Atlas iliunganisha haya kwa sababu muda, mahali, muda gani, na jinsi ya kuitikia maumivu vinaweza kuwa sehemu ya mfumo mmoja wa uzoefu."
+  },
+  "pain_distribution.watchOverTime": {
+    "sw": "Kama maumivu yanabaki mahali pamoja, yanaenea kwa kazi nyingine, au yanakuwa rahisi zaidi kutabiri."
+  },
+  "hormonal_rhythm.participantLabel": {
+    "sw": "Mdundo wa Mzunguko"
+  },
+  "hormonal_rhythm.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa mdundo wa mzunguko na ishara za homoni zinaweza kuunda jinsi mwili wako unavyoonekana kwa muda."
+  },
+  "hormonal_rhythm.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Uchunguzi wa mdundo si utambuzi wa homoni."
+  },
+  "hormonal_rhythm.whyConnected": {
+    "sw": "Atlas iliunganisha haya kwa sababu kutabirika kwa mzunguko, ishara za homoni, na muda wa dalili zinaweza kusafiri pamoja."
+  },
+  "hormonal_rhythm.watchOverTime": {
+    "sw": "Kama mdundo wa mzunguko unakuwa thabiti zaidi, unabadilika zaidi, au unahusiana wazi zaidi na ishara nyingine za mwili."
+  },
+  "pelvic_function.participantLabel": {
+    "sw": "Ishara za Nyonga na Mwili"
+  },
+  "pelvic_function.plainLanguageMeaning": {
+    "sw": "Atlas iligundua ishara za nyonga au mabadiliko ya mwili ambazo zinaweza kuwa zimeunganishwa badala ya kutengwa."
+  },
+  "pelvic_function.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Ishara za nyonga ni makundi ya uchunguzi, si hali moja."
+  },
+  "pelvic_function.whyConnected": {
+    "sw": "Atlas iliunganisha haya kwa sababu shinikizo la nyonga na ishara za mabadiliko ya mwili zinaweza kuonyesha mifumo ya nyonga iliyounganishwa."
+  },
+  "pelvic_function.watchOverTime": {
+    "sw": "Kama shinikizo linabaki mara kwa mara, linakuwa la kudumu, au linaunganishwa na utumbo, kibofu, au mwendo."
+  },
+  "daily_function.participantLabel": {
+    "sw": "Athari kwa Maisha ya Kila Siku"
+  },
+  "daily_function.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa dalili zinaweza kuwa zinabadilisha shule, kazi, mapumziko, na shughuli unazoweza kuendelea nazo."
+  },
+  "daily_function.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Athari ni ushahidi — inaingia kwenye rekodi wakati dalili zinabadilisha maisha ya kila siku."
+  },
+  "daily_function.whyConnected": {
+    "sw": "Atlas iliunganisha haya kwa sababu shughuli zilizokosekana, usingizi uliovurugika, na athari za kiutendaji zinaweza kubadilisha maisha ya kila siku."
+  },
+  "daily_function.watchOverTime": {
+    "sw": "Kama taratibu zinakuwa huru zaidi, zenye vikwazo zaidi, au zinazotabirika zaidi dalili zinapobadilika."
+  },
+  "care_experience.participantLabel": {
+    "sw": "Safari Yako ya Huduma"
+  },
+  "care_experience.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa safari yako ya huduma — upatikanaji, mwitikio, na kujihisi kusikilizwa — ni sehemu ya rekodi hii."
+  },
+  "care_experience.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Uzoefu wa huduma unaunda kile mtu anachofuatilia, kuchelewesha, au kuacha kutaja."
+  },
+  "care_experience.whyConnected": {
+    "sw": "Atlas iliunganisha haya kwa sababu yanaeleza jinsi ulivyopitia huduma pamoja na dalili."
+  },
+  "care_experience.watchOverTime": {
+    "sw": "Kama upatikanaji wa huduma, uwazi, na kujihisi kusikilizwa vinaboreka, vinasimama, au vinabadilika kwa muda."
+  },
+  "body_unpredictability.participantLabel": {
+    "sw": "Mabadiliko ya Mwili Magumu Kutabiri"
+  },
+  "body_unpredictability.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa kutojua kinachofuata kunaweza kuunda jinsi unavyopanga na kujiandaa."
+  },
+  "body_unpredictability.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Kuelewa mifumo kunaweza kupunguza hisia kwamba dalili ni za nasibu."
+  },
+  "body_unpredictability.whyConnected": {
+    "sw": "Atlas iliunganisha haya kwa sababu kutokutabirika kunaweza kuunda upangaji, imani, na maandalizi ya kila siku."
+  },
+  "body_unpredictability.watchOverTime": {
+    "sw": "Kama kutokutabirika kunapungua, kunahamia kati ya maeneo, au kunakuwa rahisi zaidi kupangia."
+  },
+  "planning_around_symptoms.participantLabel": {
+    "sw": "Kupanga Kulingana na Mwili Wako"
+  },
+  "planning_around_symptoms.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa unaweza kuwa unapanga maisha yako kulingana na wakati dalili zinapotokea."
+  },
+  "planning_around_symptoms.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Mzigo wa kupanga ni uzoefu halisi, si sifa ya tabia."
+  },
+  "planning_around_symptoms.whyConnected": {
+    "sw": "Atlas iligundua mahitaji ya kupanga yakijitokeza katika uchunguzi mbalimbali."
+  },
+  "planning_around_symptoms.watchOverTime": {
+    "sw": "Kama mzigo wa kupanga unapungua au unakuwa rahisi zaidi kutabiri."
+  },
+  "symptom_adaptation.participantLabel": {
+    "sw": "Kuzoea Dalili"
+  },
+  "symptom_adaptation.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa unaweza kuwa unabadilisha taratibu zako ili kuishi na dalili zinazoendelea."
+  },
+  "symptom_adaptation.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Kuzoea ni nguvu na ishara ya mzigo unaoendelea."
+  },
+  "symptom_adaptation.whyConnected": {
+    "sw": "Atlas iligundua kuzoea taratibu pamoja na kuendelea kwa dalili."
+  },
+  "symptom_adaptation.watchOverTime": {
+    "sw": "Kama mikakati ya kuzoea inabaki thabiti au inabadilika."
+  },
+  "diagnostic_uncertainty.participantLabel": {
+    "sw": "Kutafuta Majibu"
+  },
+  "diagnostic_uncertainty.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa kutokuwa na majibu wazi kunaweza kuwa sehemu ya uzoefu."
+  },
+  "diagnostic_uncertainty.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Kutokuwa na uhakika kuna uzito katika rekodi ya uzoefu halisi."
+  },
+  "diagnostic_uncertainty.whyConnected": {
+    "sw": "Atlas iligundua kutokuwa na uhakika kuhusu kile mwili unafanya."
+  },
+  "diagnostic_uncertainty.watchOverTime": {
+    "sw": "Kama uwazi unaongezeka katika uchunguzi."
+  },
+  "care_navigation_complexity.participantLabel": {
+    "sw": "Kupitia Huduma"
+  },
+  "care_navigation_complexity.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa kupitia huduma kunaweza kuhitaji juhudi na uvumilivu wa ziada."
+  },
+  "care_navigation_complexity.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Msuguano wa huduma unaweza kuunda kile kinachofuatiliwa au kutajwa."
+  },
+  "care_navigation_complexity.whyConnected": {
+    "sw": "Atlas iligundua msuguano katika jinsi huduma zilivyopatikana na kupokelewa."
+  },
+  "care_navigation_complexity.watchOverTime": {
+    "sw": "Kama upitiaji unakuwa wazi zaidi au unabaki mgumu."
+  },
+  "life_reorganization.participantLabel": {
+    "sw": "Kuishi Kulingana na Dalili Zako"
+  },
+  "life_reorganization.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa dalili zinaweza kuwa zinabadilisha kazi, mapumziko, mwendo, na maisha ya kila siku pamoja."
+  },
+  "life_reorganization.watchOverTime": {
+    "sw": "Kama taratibu zinakuwa huru zaidi, zenye vikwazo zaidi, au zinazotabirika zaidi dalili zinapobadilika."
+  },
+  "life_reorganization.whyConnected": {
+    "sw": "Atlas iligundua kuwa uchunguzi kadhaa uliathiri upangaji, taratibu, na maandalizi badala ya dalili zilizotengwa."
+  },
+  "life_reorganization.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Kubadilisha maisha kunaeleza athari halisi, si lebo ya dalili moja."
+  },
+  "adaptive_living.participantLabel": {
+    "sw": "Kutafuta Njia za Kukabiliana"
+  },
+  "adaptive_living.plainLanguageMeaning": {
+    "sw": "Atlas iligundua ukitafuta njia za kuishi na kile mwili wako unachofanya."
+  },
+  "adaptive_living.watchOverTime": {
+    "sw": "Kama mikakati ya kuzoea inabaki thabiti au inabadilika."
+  },
+  "adaptive_living.whyConnected": {
+    "sw": "Atlas iligundua kuzoea na athari ya kila siku vikienda pamoja."
+  },
+  "adaptive_living.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Kuzoea kunaonyesha uthabiti ndani ya mzigo unaoendelea."
+  },
+  "escalating_burden.participantLabel": {
+    "sw": "Dalili Zinazoongezeka kwa Muda"
+  },
+  "escalating_burden.plainLanguageMeaning": {
+    "sw": "Atlas iligundua ishara kwamba dalili zinaweza kuwa zinaongezeka badala ya kubaki thabiti."
+  },
+  "escalating_burden.watchOverTime": {
+    "sw": "Kama mzigo unaongezeka, unasimama, au unapungua."
+  },
+  "escalating_burden.whyConnected": {
+    "sw": "Atlas iligundua mwelekeo wa kuzorota katika maeneo mbalimbali."
+  },
+  "escalating_burden.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Kuongezeka ni kwa uchunguzi — uchunguzi wa baadaye utaleta uwazi."
+  },
+  "delayed_recognition.participantLabel": {
+    "sw": "Utambuzi Ulichukua Muda"
+  },
+  "delayed_recognition.plainLanguageMeaning": {
+    "sw": "Atlas iligundua kuwa kupata uwazi huenda ulichukua muda mrefu kuliko ilivyotarajiwa."
+  },
+  "delayed_recognition.watchOverTime": {
+    "sw": "Kama utambuzi na uwazi wa huduma unaboreka."
+  },
+  "delayed_recognition.whyConnected": {
+    "sw": "Atlas iligundua msuguano wa huduma pamoja na kutojua."
+  },
+  "delayed_recognition.atlasNote": {
+    "sw": "Kumbukumbu ya Atlas: Utambuzi uliochelewa ni wa kawaida na ni halali."
+  },
+  "_template.emergentAtlasNote": {
+    "sw": "Mada hii ilijitokeza kutokana na jinsi uchunguzi kadhaa ulivyounganika pamoja — si kutoka jibu moja."
+  },
+  "_template.lightlyObserved": {
+    "sw": "ilizingatiwa kidogo katika rekodi hii ya kwanza."
+  },
+  "Bleeding Burden.meaningName": {
+    "sw": "Kutokwa na Damu Zaidi ya Kiasi"
+  },
+  "Bleeding Burden.explanation": {
+    "sw": "Kutokwa na damu kunaweza kuwa na umuhimu kwa sababu ya jinsi kunavyoathiri nguvu, maandalizi, usingizi, mwendo, na taratibu za kila siku, si kwa kiasi tu."
+  },
+  "Pain Distribution.meaningName": {
+    "sw": "Mifumo ya Nyonga Iliyounganishwa"
+  },
+  "Pain Distribution.explanation": {
+    "sw": "Maumivu huenda yasiwe tukio moja lililotengwa. Inaweza kuwa muhimu kuzingatia muda, mwendo, utumbo, kibofu, na uunganisho wa kazi za nyonga."
+  },
+  "Pelvic Function.meaningName": {
+    "sw": "Mifumo ya Nyonga Iliyounganishwa"
+  },
+  "Pelvic Function.explanation": {
+    "sw": "Shinikizo au hisia ya kujaa vinaweza kuhisiwa vimetengwa na kibofu, utumbo, mwendo, au ishara za mabadiliko ya mwili mpaka vionekane pamoja."
+  },
+  "Hormonal Rhythm.meaningName": {
+    "sw": "Mabadiliko ya Mdundo"
+  },
+  "Hormonal Rhythm.explanation": {
+    "sw": "Mdundo wa mzunguko ni zaidi ya tarehe. Mabadiliko ya muda yanaweza kutokea pamoja na ngozi, nywele, nguvu, hisia, au ishara za mabadiliko ya mwili."
+  },
+  "Daily Function.meaningName": {
+    "sw": "Athari kwa Maisha ya Kila Siku"
+  },
+  "Daily Function.explanation": {
+    "sw": "Mfumo wa mwili unakuwa muhimu zaidi unapoanza kubadilisha maisha ya kila siku, hata kama kila dalili moja inaonekana inayoweza kudhibitiwa."
+  },
+  "Life Reorganization.meaningName": {
+    "sw": "Kubadilisha Maisha"
+  },
+  "Life Reorganization.explanation": {
+    "sw": "Uchunguzi kadhaa unapounganika, dalili zinaweza kubadilisha kazi, mapumziko, mwendo, na maisha ya kila siku pamoja."
+  },
+  "Care Experience.meaningName": {
+    "sw": "Uzoefu wa Huduma kama Data"
+  },
+  "Care Experience.explanation": {
+    "sw": "Kuhisi kutosikilizwa au kutopata majibu kunaweza kubadilisha muda dalili zinabaki bila kufuatiliwa, kutibiwa, au kuchukuliwa kama za kawaida."
+  },
+  "Body Unpredictability.meaningName": {
+    "sw": "Kutokuwa na Uhakika kama Mzigo"
+  },
+  "Body Unpredictability.explanation": {
+    "sw": "Kutojua mwili wako utafanya nini baadaye kunaweza kuwa sehemu ya uzoefu. Kutokuwa na uhakika kunaweza kuathiri upangaji, imani katika muda, na utafutaji wa huduma."
+  },
+  "Bleeding Burden.literacyTitle": {
+    "sw": "Kutokwa na Damu ni Zaidi ya Kiasi"
+  },
+  "Bleeding Burden.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Athari ya kutokwa na damu si kiasi tu. Inajumuisha kupona, taratibu, usingizi, safari, na kujihisi umejiandaa."
+  },
+  "Pain Distribution.literacyTitle": {
+    "sw": "Dalili za Nyonga Zinaweza Kuunganika"
+  },
+  "Pain Distribution.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Kuweka ramani ya mahali maumivu yanapotokea kunaweza kuonyesha kama mfumo wa mwili unabaki mahali pamoja au unaenea kwenye taratibu na kazi."
+  },
+  "Pelvic Function.literacyTitle": {
+    "sw": "Dalili za Nyonga Zinaweza Kuunganika"
+  },
+  "Pelvic Function.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Dalili za shinikizo zinaweza kuhisiwa hazihusiani mpaka zionekane kama kundi linalohusu kibofu, utumbo, na mwendo."
+  },
+  "Hormonal Rhythm.literacyTitle": {
+    "sw": "Mdundo ni Zaidi ya Tarehe"
+  },
+  "Hormonal Rhythm.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Mabadiliko ya mdundo yanaweza kuonekana kama mabadiliko ya muda, ngozi, nywele, nguvu, hisia, au uzito, si tu hedhi zilizokosekana."
+  },
+  "Daily Function.literacyTitle": {
+    "sw": "Athari ni Ushahidi"
+  },
+  "Daily Function.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Athari ni sehemu ya rekodi wakati dalili zinabadilisha usingizi, kazi, shule, huduma, mahusiano, au mwendo."
+  },
+  "Life Reorganization.literacyTitle": {
+    "sw": "Kuishi Kulingana na Dalili"
+  },
+  "Life Reorganization.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Uchunguzi kadhaa unapounganika, maisha ya kila siku yanaweza kubadilika kulingana na kile mwili unafanya."
+  },
+  "Care Experience.literacyTitle": {
+    "sw": "Uzoefu wa Huduma Unaunda Rekodi"
+  },
+  "Care Experience.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Uzoefu wa huduma unaweza kuunda kile mtu anachofuatilia, kuchelewesha, kuchukulia kama kawaida, au kuacha kutaja."
+  },
+  "Body Unpredictability.literacyTitle": {
+    "sw": "Kutokuwa na Uhakika Kuna Uzito"
+  },
+  "Body Unpredictability.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Kuelewa mifumo kunaweza kupunguza hisia kwamba dalili ni za nasibu."
+  },
+  "Baseline.literacyTitle": {
+    "sw": "Msingi Una Nguvu"
+  },
+  "Baseline.literacyNote": {
+    "sw": "Kumbukumbu ya Atlas: Uchunguzi wa kwanza hauitaji kutatua kila kitu. Unampa nafsi yako ya baadaye kitu cha kulinganisha nacho."
+  },
+  "_template.noMeaningfulPattern": {
+    "sw": "Rekodi hii ya kwanza ya Atlas inaunda mahali pa kuanzia. Mifumo mingine inaweza kuwa wazi zaidi uchunguzi wa baadaye unapoongezwa."
+  },
+  "_template.respectfulBaseline": {
+    "sw": "Atlas iliunda msingi wa heshima kutokana na kile ulichochagua kushiriki leo."
+  },
+  "_template.closingAgency": {
+    "sw": "Unaweza kuhifadhi rekodi hii, kurudi kwake, au kuitumia kueleza uzoefu wako kwa maneno yako mwenyewe."
+  },
+  "_template.organizedAround": {
+    "sw": "Atlas ilipanga tafakari hii ya kwanza kuzunguka"
+  },
+  "_template.relatedThread": {
+    "sw": "Wazo linalohusiana,"
+  },
+  "_template.mayHelpExplain": {
+    "sw": "linaweza kusaidia kueleza jinsi uzoefu huu unavyounganika."
+  },
+  "_template.addsAnotherLayer": {
+    "sw": "linaongeza tabaka jingine:"
+  },
+  "_template.staysClose": {
+    "sw": "Tafakari hii inabaki karibu na kile kilichozingatiwa leo na inaacha nafasi ya kulinganisha baadaye."
+  },
+  "_template.keepWatching": {
+    "sw": "Atlas itaendelea kutazama jinsi uzoefu huu unavyounganika kwa muda."
+  },
+  "_template.portraitLead": {
+    "sw": "Rekodi hii ya kwanza ya Atlas inaunda picha ya msingi ya uzoefu uliozingatiwa kuhusu"
+  },
+  "_template.portraitOrganizedThrough": {
+    "sw": "iliyopangwa kupitia"
+  },
+  "The Adapting Navigator.name": {
+    "sw": "Mwelekezaji Anayezoea"
+  },
+  "The Adapting Navigator.description": {
+    "sw": "Atlas inaona mtu anayebadilisha maisha ya kila siku huku akijifunza kupitia kutokuwa na uhakika."
+  },
+  "The Adapting Navigator.whatThisMeans": {
+    "sw": "Aina hii kuu inaonekana wakati uzoefu wa mwili unapoanza kuathiri upangaji, maandalizi, na taratibu. Changamoto kuu mara nyingi si dalili moja, bali ni haja ya kuzoea kutokuwa na uhakika."
+  },
+  "The Adapting Navigator.whyTemplate": {
+    "sw": "Atlas ilichagua aina hii kuu kwa sababu kubadilisha maisha, kutokuwa na uhakika wa mwili, na mzigo wa kupanga vilijitokeza pamoja katika rekodi hii."
+  },
+  "The Adapting Navigator.logicSummary": {
+    "sw": "Kwa pamoja, haya yanaonyesha uzoefu unaozunguka kuzoea na maandalizi."
+  },
+  "The Persistent Seeker.name": {
+    "sw": "Mtafutaji Mwenye Uvumilivu"
+  },
+  "The Persistent Seeker.description": {
+    "sw": "Atlas inaona uvumilivu katika kujaribu kuelewa kinachotokea na kutafuta msaada wazi zaidi."
+  },
+  "The Persistent Seeker.whatThisMeans": {
+    "sw": "Aina hii kuu inaonekana wakati utafutaji wa uwazi na msaada unapokuwa sehemu ya uzoefu halisi wenyewe."
+  },
+  "The Persistent Seeker.whyTemplate": {
+    "sw": "Atlas ilichagua aina hii kuu kwa sababu msuguano wa huduma na kutokuwa na uhakika wa mwili vilijitokeza pamoja na maswali yanayoendelea kuhusu kinachotokea."
+  },
+  "The Persistent Seeker.logicSummary": {
+    "sw": "Kwa pamoja, haya yanaonyesha uzoefu unaozunguka uvumilivu na utafutaji wa majibu wazi zaidi."
+  },
+  "The Multi-System Experience.name": {
+    "sw": "Uzoefu wa Mifumo Mingi"
+  },
+  "The Multi-System Experience.description": {
+    "sw": "Atlas inaona uzoefu ambao unaweza kuunganika kupitia maumivu, mdundo, shinikizo, na utendaji wa kila siku."
+  },
+  "The Multi-System Experience.whatThisMeans": {
+    "sw": "Aina hii kuu inaonekana wakati dalili zinaweza kuwa zinasafiri kupitia zaidi ya mfumo mmoja wa mwili au taratibu kwa wakati mmoja."
+  },
+  "The Multi-System Experience.whyTemplate": {
+    "sw": "Atlas ilichagua aina hii kuu kwa sababu kuenea kwa maumivu, shinikizo la nyonga, na ishara za mdundo wa homoni vilijitokeza vimeunganishwa katika rekodi hii."
+  },
+  "The Multi-System Experience.logicSummary": {
+    "sw": "Kwa pamoja, haya yanaonyesha uzoefu unaoweza kuhisiwa kupitia mifumo mingi ya mwili na taratibu."
+  },
+  "The Uncertain Body Experience.name": {
+    "sw": "Uzoefu wa Mwili Usio na Uhakika"
+  },
+  "The Uncertain Body Experience.description": {
+    "sw": "Atlas inaona kutokutabirika na ishara za mwili zinazobadilika kama uzoefu halisi mkuu."
+  },
+  "The Uncertain Body Experience.whatThisMeans": {
+    "sw": "Aina hii kuu inaonekana wakati kutojua mwili utafanya nini baadaye kunapokuwa sehemu ya mzigo."
+  },
+  "The Uncertain Body Experience.whyTemplate": {
+    "sw": "Atlas ilichagua aina hii kuu kwa sababu kutokuwa na uhakika wa mwili na mabadiliko ya mdundo vilijitokeza kama mada imara zaidi katika rekodi hii."
+  },
+  "The Uncertain Body Experience.logicSummary": {
+    "sw": "Kwa pamoja, haya yanaonyesha uzoefu unaozunguka kutokutabirika na ishara za mwili zinazobadilika."
+  },
+  "The Body Negotiator.name": {
+    "sw": "Mjadili wa Mwili"
+  },
+  "The Body Negotiator.description": {
+    "sw": "Atlas inaona mjadala unaoendelea kati ya mahitaji ya mwili, nguvu, na kile maisha ya kila siku yanahitaji."
+  },
+  "The Body Negotiator.whatThisMeans": {
+    "sw": "Aina hii kuu inaonekana wakati mzigo wa mwili na uwezo wa kila siku vinahitaji kujadiliwa mara kwa mara."
+  },
+  "The Body Negotiator.whyTemplate": {
+    "sw": "Atlas ilichagua aina hii kuu kwa sababu mzigo wa kutokwa na damu na kubadilisha maisha vilijitokeza pamoja na msongo wa nguvu na taratibu."
+  },
+  "The Body Negotiator.logicSummary": {
+    "sw": "Kwa pamoja, haya yanaonyesha uzoefu unaozunguka kujadili uwezo, nguvu, na mahitaji ya kila siku."
+  },
+  "The Quiet Burden.name": {
+    "sw": "Mzigo Kimya"
+  },
+  "The Quiet Burden.description": {
+    "sw": "Atlas inaona mzigo thabiti unaoweza kubebwa kwa maonyesho madogo ya nje lakini na athari halisi ya kila siku."
+  },
+  "The Quiet Burden.whatThisMeans": {
+    "sw": "Aina hii kuu inaonekana wakati mzigo upo hata rekodi haizungukii mada moja kubwa."
+  },
+  "The Quiet Burden.whyTemplate": {
+    "sw": "Atlas ilichagua aina hii kuu kwa sababu ishara za mzigo wa mwili zilijitokeza kwa uthabiti, hata bila mada moja kuu ya simulizi."
+  },
+  "The Quiet Burden.logicSummary": {
+    "sw": "Kwa pamoja, haya yanaonyesha mzigo kimya zaidi lakini wenye maana unaostahili kuzingatiwa kwa muda."
+  },
+  "Body Predictability Landscape.name": {
+    "sw": "Mandhari ya Kutabirika kwa Mwili"
+  },
+  "Body Predictability Landscape.description": {
+    "sw": "Mandhari iliyoundwa na jinsi muda wa mwili unavyohisi kutabirika au kubadilika katika rekodi hii."
+  },
+  "Bleeding Burden Landscape.name": {
+    "sw": "Mandhari ya Mzigo wa Kutokwa na Damu"
+  },
+  "Bleeding Burden Landscape.description": {
+    "sw": "Mandhari iliyoundwa na jinsi kutokwa na damu kunavyoweza kuathiri nguvu, maandalizi, na uwezo wa kila siku."
+  },
+  "Pain Landscape.name": {
+    "sw": "Mandhari ya Maumivu"
+  },
+  "Pain Landscape.description": {
+    "sw": "Mandhari iliyoundwa na jinsi maumivu yanavyoweza kuenea kupitia mwendo, kazi, na taratibu."
+  },
+  "Care Navigation Landscape.name": {
+    "sw": "Mandhari ya Kupitia Huduma"
+  },
+  "Care Navigation Landscape.description": {
+    "sw": "Mandhari iliyoundwa na upatikanaji, uwazi, na kama uzoefu wa huduma unahisi kuunga mkono."
+  },
+  "Life Adaptation Landscape.name": {
+    "sw": "Mandhari ya Kuzoea Maisha"
+  },
+  "Life Adaptation Landscape.description": {
+    "sw": "Mandhari iliyoundwa na jinsi dalili zinavyobadilisha kazi, mapumziko, mahusiano, na mwendo."
+  },
+  "Planning Burden.name": {
+    "sw": "Mzigo wa Kupanga"
+  },
+  "Planning Burden.description": {
+    "sw": "Kazi iliyofichika ya kupanga kulingana na ishara za mwili zisizotabirika."
+  },
+  "Planning Burden.reflectionText": {
+    "sw": "Uzoefu huu unaweza kuhitaji upangaji zaidi wa mapema kuliko unavyohisi kuwa haki au endelevu."
+  },
+  "Life Constriction.name": {
+    "sw": "Kubana kwa Maisha"
+  },
+  "Life Constriction.description": {
+    "sw": "Wakati taratibu, mwendo, au maisha ya kijamii yanahisi kubanwa zaidi kuliko hapo awali."
+  },
+  "Life Constriction.reflectionText": {
+    "sw": "Uzoefu huu unaweza kukuomba uzingatie kile kilichokuwa vigumu zaidi kuendelea kukiweka wazi katika maisha ya kila siku."
+  },
+  "Agency.name": {
+    "sw": "Uwezo wa Kujiamulia"
+  },
+  "Agency.description": {
+    "sw": "Hisia halisi ya kama chaguo zako bado zinahisi kufikiwa."
+  },
+  "Agency.reflectionText": {
+    "sw": "Uzoefu huu unaweza kukuuliza kama bado unahisi uwezo wa kuelekeza taratibu, huduma, na mapumziko."
+  },
+  "Adaptation Intelligence.name": {
+    "sw": "Akili ya Kuzoea"
+  },
+  "Adaptation Intelligence.description": {
+    "sw": "Njia ambazo umejifunza kubadilika, kujiandaa, au kupona."
+  },
+  "Adaptation Intelligence.reflectionText": {
+    "sw": "Uzoefu huu unaweza kukuomba utambue akili iliyopo tayari katika jinsi unavyozoea."
+  },
+  "Body Predictability.name": {
+    "sw": "Kutabirika kwa Mwili"
+  },
+  "Body Predictability.description": {
+    "sw": "Kiasi gani mwili wako unahisi kujulikana kutoka siku moja hadi nyingine."
+  },
+  "Body Predictability.reflectionText": {
+    "sw": "Uzoefu huu unaweza kuhitaji uvumilivu wakati Atlas inajifunza kile kinachobaki thabiti na kile kinachobadilika."
+  },
+  "Preparedness Burden.name": {
+    "sw": "Mzigo wa Maandalizi"
+  },
+  "Preparedness Burden.description": {
+    "sw": "Juhudi za kubaki tayari kwa dalili ambazo zinaweza kufika bila onyo."
+  },
+  "Preparedness Burden.reflectionText": {
+    "sw": "Uzoefu huu unaweza kuhitaji utambuzi wa nguvu iliyotumika kubaki umejiandaa."
+  },
+  "Health Labor.name": {
+    "sw": "Kazi ya Afya"
+  },
+  "Health Labor.description": {
+    "sw": "Kazi inayoendelea ya kufuatilia, kueleza, kutafuta huduma, na kubeba hadithi."
+  },
+  "Health Labor.reflectionText": {
+    "sw": "Uzoefu huu unaweza kukuomba utaje kazi iliyohusika katika kubeba hadithi hii ya afya."
+  },
+  "Bleeding Burden::Life Reorganization.description": {
+    "sw": "Mzigo wa kutokwa na damu na kubadilisha maisha vinaweza kuunganika wakati nguvu, maandalizi, na mipaka ya taratibu vinasafiri pamoja."
+  },
+  "Pain-Spread::Life Reorganization.description": {
+    "sw": "Kuenea kwa maumivu na kubadilisha maisha vinaweza kuunganika wakati usumbufu unabadilisha kile mwendo, kazi, au mapumziko vinavyoweza kushikilia."
+  },
+  "Body Uncertainty::Life Reorganization.description": {
+    "sw": "Kutokuwa na uhakika wa mwili na kubadilisha maisha vinaweza kuunganika wakati kutojua kinachofuata kunaunda upya upangaji."
+  },
+  "Hormonal Rhythm::Body Uncertainty.description": {
+    "sw": "Mdundo wa homoni na kutokuwa na uhakika wa mwili vinaweza kuunganika wakati mabadiliko ya muda yanafanya mwili uhisi kutokutabirika zaidi."
+  },
+  "Care Friction::Body Uncertainty.description": {
+    "sw": "Msuguano wa huduma na kutokuwa na uhakika wa mwili vinaweza kuunganika wakati maswali yasiyojibiwa yanaendelea kurefusha utafutaji wa uwazi."
+  },
+  "Bleeding Burden::Body Uncertainty.description": {
+    "sw": "Mzigo wa kutokwa na damu na kutokuwa na uhakika wa mwili vinaweza kuunganika wakati mtiririko, muda, na maandalizi vinahisi vigumu zaidi kuamini."
+  },
+  "Pain-Spread::Pelvic Pressure.description": {
+    "sw": "Kuenea kwa maumivu na shinikizo la nyonga vinaweza kuunganika wakati usumbufu unatokea kupitia mwendo, shinikizo, na kazi."
+  },
+  "Care Friction::Life Reorganization.description": {
+    "sw": "Msuguano wa huduma na kubadilisha maisha vinaweza kuunganika wakati upatikanaji au uwazi vinabadilisha muda dalili zinabebwa peke yako."
+  },
+  "Adaptation.name": {
+    "sw": "Kuzoea"
+  },
+  "Adaptation.description": {
+    "sw": "Atlas iligundua njia unazobadilisha taratibu zako ili kuendeleza maisha."
+  },
+  "Adaptation.reflectionText": {
+    "sw": "Umekuwa ukizoea, hata mabadiliko yanapokuwa yanachosha."
+  },
+  "Persistence.name": {
+    "sw": "Uvumilivu"
+  },
+  "Persistence.description": {
+    "sw": "Atlas iligundua uvumilivu katika kubaki na uzoefu mgumu."
+  },
+  "Persistence.reflectionText": {
+    "sw": "Umeendelea kujitokeza kwa uzoefu huu, hata majibu yalipochelewa kufika."
+  },
+  "Awareness.name": {
+    "sw": "Uangalifu"
+  },
+  "Awareness.description": {
+    "sw": "Atlas iligundua uangalifu wa makini kwa kile mwili wako na taratibu zako zinafanya."
+  },
+  "Awareness.reflectionText": {
+    "sw": "Unazingatia, na uangalifu huo ni sehemu ya rekodi."
+  },
+  "Preparation.name": {
+    "sw": "Maandalizi"
+  },
+  "Preparation.description": {
+    "sw": "Atlas iligundua kazi ya kubaki tayari kwa kile mwili unaweza kufanya baadaye."
+  },
+  "Preparation.reflectionText": {
+    "sw": "Umekuwa ukijiandaa kwa njia ambazo huenda hazionekani kwa wengine lakini ni halisi kwako."
+  },
+  "Resourcefulness.name": {
+    "sw": "Ubunifu"
+  },
+  "Resourcefulness.description": {
+    "sw": "Atlas iligundua njia za ubunifu za kushikilia taratibu, mapumziko, na huduma pamoja."
+  },
+  "Resourcefulness.reflectionText": {
+    "sw": "Umekuwa mbunifu katika kutafuta njia za kuweka maisha yanayowezekana."
+  },
+  "Self-Advocacy.name": {
+    "sw": "Kujitetea"
+  },
+  "Self-Advocacy.description": {
+    "sw": "Atlas iligundua juhudi za kutafuta uwazi, huduma, au mwitikio unaoaminika zaidi."
+  },
+  "Self-Advocacy.reflectionText": {
+    "sw": "Umekuwa ukijitetea ili uzoefu wako uonekane na kuchukuliwa kwa uzito."
+  },
+  "_template.baselineObservation": {
+    "sw": "Uchunguzi wa Msingi"
+  },
+  "_template.strengthsCareful": {
+    "sw": "Majibu yako yanaonyesha uangalifu wa makini kwa kile mwili wako na taratibu zako zinafanya."
+  },
+  "_template.strengthsLead": {
+    "sw": "Majibu yako yanaonyesha kuwa tayari umeendeleza njia za kugundua mabadiliko"
+  },
+  "_template.strengthsPreparingAhead": {
+    "sw": ", kujiandaa mapema"
+  },
+  "_template.strengthsNavigatingUncertainty": {
+    "sw": ", na kupitia kutokuwa na uhakika"
+  },
+  "_template.bodyUnpredictability": {
+    "sw": "Kutotabirika kwa Mwili"
+  },
+  "_template.awareness": {
+    "sw": "Uangalifu"
+  },
+  "_template.watchLandscapeSteadier": {
+    "sw": "Kama uchunguzi wa baadaye utafanya mandhari hii kuwa thabiti zaidi, wazi zaidi, au rahisi zaidi kuelewa."
+  },
+  "_template.watchTheme.Predictability": {
+    "sw": "Kutabirika"
+  },
+  "_template.watchTheme.Care clarity": {
+    "sw": "Uwazi wa Huduma"
+  },
+  "_template.watchTheme.Pain spread": {
+    "sw": "Kuenea kwa Maumivu"
+  },
+  "_template.watchTheme.Bleeding burden": {
+    "sw": "Mzigo wa Kutokwa na Damu"
+  },
+  "_template.watchTheme.Pattern clarity": {
+    "sw": "Uwazi wa Mfumo"
+  },
+  "_template.connectionPhraseWithConnections": {
+    "sw": "upangaji, nguvu, taratibu, na kutabirika"
+  },
+  "_template.connectionPhraseDefault": {
+    "sw": "ishara za mwili, taratibu za kila siku, na uzoefu wa huduma"
+  },
+  "_template.openingInsightLine1": {
+    "sw": "Katika uchunguzi huu wa kwanza, Atlas iligundua kuwa mada imara zaidi si tu dalili zenyewe, bali kiasi cha maandalizi na marekebisho yanayohitajika kuzunguka dalili hizo."
+  },
+  "_template.openingInsightLine2": {
+    "sw": "zinaonekana zimeunganishwa kupitia"
+  },
+  "_template.openingInsightLine3": {
+    "sw": "Hili linaweza kufanya uzoefu uhisi mkubwa zaidi kuliko dalili moja yoyote kwa sababu unaanza kuunda jinsi maisha ya kila siku yanavyopangwa."
+  },
+  "_template.respectfulBaselineLeavesRoom": {
+    "sw": "Atlas iliunda msingi wa heshima kutokana na kile ulichochagua kushiriki leo, ikiacha nafasi ya kulinganisha baadaye."
+  },
+  "_template.addsAnotherLayerDayToDay": {
+    "sw": "linaweza kuongeza tabaka jingine kwa jinsi uzoefu huu unavyohisiwa siku hadi siku."
+  },
+  "_template.startingPointFuture": {
+    "sw": "Rekodi hii ya kwanza inaunda mahali pa kuanzia kwa uchunguzi wa baadaye."
+  },
+  "_template.keepWatchingBodySignals": {
+    "sw": "Atlas itaendelea kutazama jinsi ishara za mwili, taratibu za kila siku, na uzoefu wa huduma vinavyounganika uchunguzi zaidi unapoongezwa."
+  },
+  "_template.noticedAttentionAndCare": {
+    "sw": "Atlas iligundua uangalifu na huduma katika jinsi ulivyoshiriki uzoefu huu."
+  },
+  "_template.noticedAcrossObservations": {
+    "sw": "Atlas iligundua mfumo huu katika uchunguzi kadhaa katika rekodi yako."
+  },
+  "_template.storyNoBaseline": {
+    "sw": "Atlas ilipanga kile ulichochagua kushiriki leo kuwa picha ya awali ya akili. Hii ni ya uchunguzi, si ya utambuzi. Uchunguzi wa baadaye utaleta uwazi kuhusu kile kinachobaki thabiti na kile kinachobadilika."
+  },
+  "_template.storyNoticedThatLead": {
+    "sw": "Atlas iligundua kuwa"
+  },
+  "_template.storyNotOnlySymptoms": {
+    "sw": "si dalili tu katika rekodi hii."
+  },
+  "_template.storyObservedLead": {
+    "sw": "Atlas iliona"
+  },
+  "_template.storyCentralThread": {
+    "sw": "kama wazo kuu katika rekodi hii ya kwanza."
+  },
+  "_template.storyShapesAcrossLead": {
+    "sw": "Zinaonekana kuunda upangaji, usingizi, taratibu, na jinsi maisha ya kila siku yanavyohisi kutabirika katika"
+  },
+  "_template.storyShapesGeneric": {
+    "sw": "Zinaonekana kuunda upangaji, taratibu, na jinsi maisha ya kila siku yanavyohisi kutabirika."
+  },
+  "_template.storyTogetherSuggestLead": {
+    "sw": "Kwa pamoja, uchunguzi uliopangwa unaweza kuonyesha"
+  },
+  "_template.storyObservationalDisclaimer": {
+    "sw": "Picha hii ni ya uchunguzi na maalum kwa mshiriki — si ya utambuzi."
+  },
+  "_template.severalObservationsSameDirection": {
+    "sw": "Uchunguzi kadhaa ulielekeza upande ule ule."
+  },
+  "_template.connectionAnd": {
+    "sw": "na"
+  },
+  "_template.connectionMayTravelTogether": {
+    "sw": "vinaweza kusafiri pamoja katika jinsi dalili, taratibu, na mahitaji ya huduma yanavyojitokeza katika maisha ya kila siku."
+  },
+  "_template.narrativeAlsoShaped": {
+    "sw": "Simulizi lako pia liliunda picha hii."
+  },
+  "context.sectionLabel": {
+    "sw": "Muktadha"
+  },
+  "bleeding.sectionLabel": {
+    "sw": "Kutokwa na Damu"
+  },
+  "pain.sectionLabel": {
+    "sw": "Maumivu"
+  },
+  "hormonal.sectionLabel": {
+    "sw": "Homoni / Mzunguko"
+  },
+  "daily_life.sectionLabel": {
+    "sw": "Maisha ya Kila Siku"
+  },
+  "care.sectionLabel": {
+    "sw": "Uzoefu wa Huduma"
+  },
+  "narrative.sectionLabel": {
+    "sw": "Simulizi"
+  },
+  "sensitive.sectionLabel": {
+    "sw": "Mada Nyeti"
+  },
+  "body.sectionLabel": {
+    "sw": "Mwili"
+  },
+  "Bleeding Pattern.watchItemLabel": {
+    "sw": "Mfumo wa Kutokwa na Damu"
+  },
+  "Bleeding Pattern.watchCompareFallback": {
+    "sw": "Atlas italinganisha kama mfumo wa kutokwa na damu unabaki thabiti, unabadilika, au unakuwa wazi zaidi kwa muda."
+  },
+  "Daily Impact.watchItemLabel": {
+    "sw": "Athari ya Kila Siku"
+  },
+  "Daily Impact.watchCompareFallback": {
+    "sw": "Atlas italinganisha kama athari ya kila siku inabaki thabiti, inabadilika, au inakuwa wazi zaidi kwa muda."
+  },
+  "Planning Burden.watchItemLabel": {
+    "sw": "Mzigo wa Kupanga"
+  },
+  "Planning Burden.watchCompareFallback": {
+    "sw": "Atlas italinganisha kama mzigo wa kupanga unabaki thabiti, unabadilika, au unakuwa wazi zaidi kwa muda."
+  },
+  "Hormonal Rhythm.watchItemLabel": {
+    "sw": "Mdundo wa Homoni"
+  },
+  "Hormonal Rhythm.watchCompareFallback": {
+    "sw": "Atlas italinganisha kama mdundo wa homoni unabaki thabiti, unabadilika, au unakuwa wazi zaidi kwa muda."
+  },
+  "Care Experience.watchItemLabel": {
+    "sw": "Uzoefu wa Huduma"
+  },
+  "Care Experience.watchCompareFallback": {
+    "sw": "Atlas italinganisha kama uzoefu wa huduma unabaki thabiti, unabadilika, au unakuwa wazi zaidi kwa muda."
+  },
+  "Body.watchGroupLabel": {
+    "sw": "Mwili"
+  },
+  "Cycle.watchGroupLabel": {
+    "sw": "Mzunguko"
+  },
+  "Daily Life.watchGroupLabel": {
+    "sw": "Maisha ya Kila Siku"
+  },
+  "Care.watchGroupLabel": {
+    "sw": "Huduma"
+  },
+  "Product changes.evidenceTheme": {
+    "sw": "Mabadiliko ya Bidhaa"
+  },
+  "Duration.evidenceTheme": {
+    "sw": "Muda"
+  },
+  "Clots.evidenceTheme": {
+    "sw": "Mabonge"
+  },
+  "Interperiod bleeding.evidenceTheme": {
+    "sw": "Kutokwa na Damu Kati ya Hedhi"
+  },
+  "Heavier bleeding.evidenceTheme": {
+    "sw": "Kutokwa na Damu Zaidi"
+  },
+  "Lighter bleeding.evidenceTheme": {
+    "sw": "Kutokwa na Damu Kidogo"
+  },
+  "Irregular bleeding.evidenceTheme": {
+    "sw": "Kutokwa na Damu Isiyoregeleka"
+  },
+  "Night disruption.evidenceTheme": {
+    "sw": "Kuvurugika Usiku"
+  },
+  "Energy management.evidenceTheme": {
+    "sw": "Usimamizi wa Nguvu"
+  },
+  "Dizziness.evidenceTheme": {
+    "sw": "Kizunguzungu"
+  },
+  "Pain response.evidenceTheme": {
+    "sw": "Mwitikio wa Maumivu"
+  },
+  "Pain timing.evidenceTheme": {
+    "sw": "Muda wa Maumivu"
+  },
+  "Whole-body pain.evidenceTheme": {
+    "sw": "Maumivu ya Mwili Mzima"
+  },
+  "Pain spread.evidenceTheme": {
+    "sw": "Kuenea kwa Maumivu"
+  },
+  "Increasing severity.evidenceTheme": {
+    "sw": "Ukali Unaoongezeka"
+  },
+  "Pelvic symptoms.evidenceTheme": {
+    "sw": "Dalili za Nyonga"
+  },
+  "Body changes.evidenceTheme": {
+    "sw": "Mabadiliko ya Mwili"
+  },
+  "Pain triggers.evidenceTheme": {
+    "sw": "Vichocheo vya Maumivu"
+  },
+  "Irregular timing.evidenceTheme": {
+    "sw": "Muda Usioregeleka"
+  },
+  "Skipped periods.evidenceTheme": {
+    "sw": "Hedhi Zilizokosekana"
+  },
+  "Hormonal signs.evidenceTheme": {
+    "sw": "Ishara za Homoni"
+  },
+  "Cycle changes.evidenceTheme": {
+    "sw": "Mabadiliko ya Mzunguko"
+  },
+  "Cycle relation.evidenceTheme": {
+    "sw": "Uhusiano na Mzunguko"
+  },
+  "Missed activities.evidenceTheme": {
+    "sw": "Shughuli Zilizokosekana"
+  },
+  "Sleep disruption.evidenceTheme": {
+    "sw": "Kuvurugika kwa Usingizi"
+  },
+  "Planning burden.evidenceTheme": {
+    "sw": "Mzigo wa Kupanga"
+  },
+  "Life areas affected.evidenceTheme": {
+    "sw": "Maeneo ya Maisha Yaliyoathiriwa"
+  },
+  "Routine adaptation.evidenceTheme": {
+    "sw": "Kuzoea Taratibu"
+  },
+  "Worsening trajectory.evidenceTheme": {
+    "sw": "Mwelekeo wa Kuzorota"
+  },
+  "Unpredictable timing.evidenceTheme": {
+    "sw": "Muda Usiotabirika"
+  },
+  "Care-seeking.evidenceTheme": {
+    "sw": "Utafutaji wa Huduma"
+  },
+  "Care response.evidenceTheme": {
+    "sw": "Mwitikio wa Huduma"
+  },
+  "Care dismissal.evidenceTheme": {
+    "sw": "Kupuuzwa kwa Huduma"
+  },
+  "Care access.evidenceTheme": {
+    "sw": "Upatikanaji wa Huduma"
+  },
+  "_template.noStrongPatternObserved": {
+    "sw": "— hakuna mfumo imara uliozingatiwa katika rekodi hii."
+  },
+  "_template.narrativeAlsoSuggestsLead": {
+    "sw": "Simulizi lako pia linaonyesha"
+  },
+  "adaptation.participantLabel": {
+    "sw": "Kutafuta Njia za Kukabiliana"
+  },
+  "adaptation.interpretationModifier": {
+    "sw": "kuzoea kunaonekana kuwa sehemu ya jinsi unavyopitia uzoefu huu"
+  },
+  "persistence.participantLabel": {
+    "sw": "Kuendelea Licha ya Ugumu"
+  },
+  "persistence.interpretationModifier": {
+    "sw": "uvumilivu unaweza kuwa sehemu ya jinsi unavyobeba uzoefu huu"
+  },
+  "uncertainty.participantLabel": {
+    "sw": "Kutojua Kinachofuata"
+  },
+  "uncertainty.interpretationModifier": {
+    "sw": "kutokuwa na uhakika kunaweza kuunda jinsi maisha ya kila siku yanavyohisi kutabirika"
+  },
+  "body_unpredictability.interpretationModifier": {
+    "sw": "kutotabirika kwa mwili kunaweza kuwa sehemu ya maana halisi ya uchunguzi huu"
+  },
+  "planning_burden.participantLabel": {
+    "sw": "Kupanga Kulingana na Mwili Wako"
+  },
+  "planning_burden.interpretationModifier": {
+    "sw": "kupanga kulingana na dalili kunaweza kuwa kunabadilisha maisha ya kila siku"
+  },
+  "feeling_unheard.participantLabel": {
+    "sw": "Ugumu wa Kujihisi Kuaminika"
+  },
+  "feeling_unheard.interpretationModifier": {
+    "sw": "kujihisi kutosikilizwa kunaweza kuwa sehemu ya uzoefu wako wa huduma"
+  },
+  "care_dismissal.participantLabel": {
+    "sw": "Huduma Iliyohisi Kupuuza"
+  },
+  "care_dismissal.interpretationModifier": {
+    "sw": "kupuuzwa kwa huduma kunaweza kuathiri jinsi uzoefu huu unavyoeleweka"
+  },
+  "diagnostic_uncertainty.interpretationModifier": {
+    "sw": "kutafuta uwazi kunaweza kuwa sehemu ya uzoefu huu"
+  },
+  "frustration.participantLabel": {
+    "sw": "Kuchoka na Uchovu"
+  },
+  "frustration.interpretationModifier": {
+    "sw": "kuchoka na uchovu vinaweza kuwa sehemu ya uzito wa kihisia"
+  },
+  "isolation.participantLabel": {
+    "sw": "Kujihisi Peke Yako na Hili"
+  },
+  "isolation.interpretationModifier": {
+    "sw": "kutengwa kunaweza kuongeza jinsi uzoefu huu unavyohisi mzito"
+  },
+  "hope.participantLabel": {
+    "sw": "Matumaini ya Uwazi au Nafuu"
+  },
+  "hope.interpretationModifier": {
+    "sw": "matumaini yanaweza kuwepo pamoja na ugumu"
+  },
+  "fear.participantLabel": {
+    "sw": "Wasiwasi Kuhusu Kinachofuata"
+  },
+  "fear.interpretationModifier": {
+    "sw": "hofu au wasiwasi vinaweza kuwa sehemu ya jinsi uzoefu huu unavyohisiwa"
+  },
+  "self_doubt.participantLabel": {
+    "sw": "Kutilia Shaka Uzoefu Wako Mwenyewe"
+  },
+  "self_doubt.interpretationModifier": {
+    "sw": "shaka juu ya nafsi inaweza kufanya iwe vigumu kuamini kile mwili wako unaonyesha"
+  },
+  "self_advocacy.participantLabel": {
+    "sw": "Kusimama kwa Ajili ya Uzoefu Wako"
+  },
+  "self_advocacy.interpretationModifier": {
+    "sw": "kujitetea kunaweza kuwa sehemu ya jinsi unavyopitia huduma"
+  },
+  "loss_of_normalcy.participantLabel": {
+    "sw": "Maisha Yanahisi Tofauti na Kabla"
+  },
+  "loss_of_normalcy.interpretationModifier": {
+    "sw": "kupoteza hali ya kawaida kunaweza kuwa sehemu ya maana halisi ya dalili hizi"
+  },
+  "domain_bleeding.label": {
+    "sw": "Kutokwa na Damu"
+  },
+  "domain_pain.label": {
+    "sw": "Maumivu"
+  },
+  "domain_hormonal.label": {
+    "sw": "Homoni"
+  },
+  "domain_cycle.label": {
+    "sw": "Mzunguko"
+  },
+  "domain_daily_life.label": {
+    "sw": "Maisha ya Kila Siku"
+  },
+  "domain_care_access.label": {
+    "sw": "Upatikanaji wa Huduma"
+  },
+  "domain_narrative.label": {
+    "sw": "Maneno Yako"
+  },
+  "evidence_baseline.label": {
+    "sw": "Ya Msingi"
+  },
+  "evidence_emerging.label": {
+    "sw": "Inayoibuka"
+  },
+  "evidence_moderate.label": {
+    "sw": "Wastani"
+  },
+  "evidence_strong.label": {
+    "sw": "Imara"
+  },
+  "evidence_very_strong.label": {
+    "sw": "Imara Sana"
+  },
+  "_template.companionFallbackReply": {
+    "sw": "Samahani — hilo halikunifikia vizuri. Unaweza kuniambia zaidi kuhusu jinsi ulivyokuwa ukijisikia?"
+  },
+  "_template.companionNoSignalsWelcome": {
+    "sw": "Karibu tena. Rekodi yako ya mwisho haikuwa na ishara imara zinazoendelea, kwa hivyo tuiweke rahisi — kuna kitu chochote kipya kilichojitokeza tangu wakati huo?"
+  },
+  "_template.voiceMessageTooLarge": {
+    "sw": "Ujumbe wa sauti ni mkubwa mno (10MB ndio kikomo)."
+  },
+  "_template.couldNotMakeOutVoice": {
+    "sw": "Imeshindikana kuelewa ujumbe huo wa sauti — tafadhali jaribu tena au andika badala yake."
+  },
+  "_template.noPriorAtlasRecord": {
+    "sw": "Hakuna Rekodi ya Atlas ya awali ya kufanya Check-In dhidi yake"
+  },
+  "_template.companionUnavailable": {
+    "sw": "Mwandani hapatikani kwa sasa."
+  },
+  "_template.checkinFailed": {
+    "sw": "Check-In imeshindwa"
+  },
+  "_template.messageRequired": {
+    "sw": "Ujumbe unahitajika"
+  },
+  "_template.conversationNotFound": {
+    "sw": "Mazungumzo hayakupatikana"
+  },
+  "bleeding.label": {
+    "sw": "Kutokwa na Damu"
+  },
+  "bleeding.domainPhrase": {
+    "sw": "uzoefu unaohusiana na kutokwa na damu"
+  },
+  "pain.label": {
+    "sw": "Maumivu"
+  },
+  "pain.domainPhrase": {
+    "sw": "maumivu na usumbufu wa nyonga"
+  },
+  "hormonal.label": {
+    "sw": "Homoni"
+  },
+  "hormonal.domainPhrase": {
+    "sw": "uzoefu wa homoni na mdundo wa mzunguko"
+  },
+  "cycle_disruption.label": {
+    "sw": "Kuvurugika kwa Mzunguko"
+  },
+  "cycle_disruption.domainPhrase": {
+    "sw": "kuvurugika na kutokutabirika kwa mzunguko"
+  },
+  "daily_life.label": {
+    "sw": "Maisha ya Kila Siku"
+  },
+  "daily_life.domainPhrase": {
+    "sw": "athari kwa maisha ya kila siku"
+  },
+  "care_access.label": {
+    "sw": "Upatikanaji wa Huduma"
+  },
+  "care_access.domainPhrase": {
+    "sw": "uzoefu unaohusiana na huduma"
+  },
+  "_template.listAnd": {
+    "sw": "na"
+  },
+  "_template.constellationNoObservationsLead": {
+    "sw": "Katika rekodi hii ya kwanza, hukushiriki uchunguzi maalum unaozunguka"
+  },
+  "_template.constellationLightBaselineOnly": {
+    "sw": "Atlas inaeleza hili kama eneo la msingi jepesi tu."
+  },
+  "_template.constellationLightBaselineLead": {
+    "sw": "Atlas iligundua msingi jepesi wa"
+  },
+  "_template.constellationInRecordIncluding": {
+    "sw": "katika rekodi hii, ikiwa ni pamoja na"
+  },
+  "_template.constellationObservedLead": {
+    "sw": "Atlas iligundua"
+  },
+  "_template.constellationOnlyLightBaseline": {
+    "sw": "Atlas ina msingi jepesi tu katika eneo hili kwa sasa. Unapoongeza uchunguzi zaidi, inaweza kuwa wazi zaidi kwa nini uzoefu huu unaenda pamoja."
+  },
+  "_template.constellationGenericWhyConnected": {
+    "sw": "Atlas iliunganisha uchunguzi huu kwa sababu unaweza kuwa sehemu ya mfumo mmoja wa uzoefu halisi katika rekodi hii."
+  },
+  "_template.constellationMultipleAnswersConverged": {
+    "sw": "Katika rekodi hii, majibu kadhaa yaliunganika kuzunguka wazo moja. Hii ni ya uchunguzi, si ya utambuzi."
+  },
+  "_template.constellationObservationalNotDiagnostic": {
+    "sw": "Hii ni ya uchunguzi, si ya utambuzi."
+  },
+  "_template.constellationFutureObservationsMayClarify": {
+    "sw": "Uchunguzi wa baadaye unaweza kufafanua jinsi"
+  },
+  "_template.constellationChangesStabilizesConnects": {
+    "sw": "linavyobadilika, linavyotulia, au linavyounganika na maeneo mengine ya rekodi yako."
+  },
+  "_template.constellationAtlasNoteStrong": {
+    "sw": "Huu ni msingi wa mapema kutoka kwa uchunguzi wako wa kwanza, si utambuzi wala hitimisho la kudumu. Mfumo huu unaweza kuimarika, kubadilika, kuungana na mingine, au kuwa mdogo umuhimu zaidi uchunguzi zaidi unapoongezwa."
+  },
+  "_template.constellationAtlasNoteEmerging": {
+    "sw": "Huu ni msingi wa mapema kutoka kwa uchunguzi wako wa kwanza, si utambuzi wala hitimisho la kudumu. Atlas inaona muunganiko unaoibuka hapa, lakini mfumo huu bado unaweza kuimarika, kubadilika, kuungana, au kufifia uchunguzi zaidi unapoongezwa."
+  },
+  "_template.constellationAtlasNoteLight": {
+    "sw": "Huu ni msingi wa mapema kutoka kwa uchunguzi wako wa kwanza, si utambuzi wala hitimisho la kudumu. Ushahidi hapa bado ni mdogo, na mfumo huu unaweza kuimarika, kubadilika, kuungana na mingine, au kutoweka uchunguzi zaidi unapoongezwa."
+  },
+  "bleeding_burden.constellationWatchOverTime": {
+    "sw": "Uchunguzi wa baadaye unaweza kuonyesha kama kutokwa na damu kunabaki thabiti, kunazidi kuwa kwingi au kutokutabirika, au kunaendelea kuathiri nguvu, usingizi, na maandalizi ya kila siku."
+  },
+  "bleeding_burden.constellationWhyConnected": {
+    "sw": "Atlas iliunganisha uchunguzi huu kwa sababu majibu yanayohusiana na kutokwa na damu yanaweza kuunganika na muda, mzigo wa mabonge, mabadiliko ya bidhaa, na jinsi kutokwa na damu kunavyoathiri taratibu au nguvu."
+  },
+  "pain_distribution.constellationWatchOverTime": {
+    "sw": "Uchunguzi wa baadaye unaweza kuonyesha kama maumivu yanabaki eneo moja, yanaenea kupitia mifumo ya nyonga, utumbo, kibofu, au mwendo, au yanakuwa rahisi zaidi kutabiri."
+  },
+  "pain_distribution.constellationWhyConnected": {
+    "sw": "Atlas iliunganisha uchunguzi huu kwa sababu muda, mahali, muda gani wa maumivu, na majibu ya kazi za mwili vinaweza kuwa sehemu ya uzoefu halisi ule ule badala ya matukio yaliyotengwa."
+  },
+  "hormonal_rhythm.constellationWatchOverTime": {
+    "sw": "Uchunguzi wa baadaye unaweza kuonyesha kama mdundo wa mzunguko unakuwa thabiti zaidi, unabadilika zaidi, au unahusiana wazi zaidi na ishara nyingine za mwili."
+  },
+  "hormonal_rhythm.constellationWhyConnected": {
+    "sw": "Atlas iliunganisha uchunguzi huu kwa sababu kutabirika kwa mzunguko, ishara za homoni, na muda wa dalili vinaweza kueleza jinsi mdundo na mabadiliko ya mwili yanavyosafiri pamoja."
+  },
+  "body_unpredictability.constellationWatchOverTime": {
+    "sw": "Uchunguzi wa baadaye unaweza kuonyesha kama kutokutabirika kunapungua, kunahamia kati ya maeneo, au kunakuwa rahisi zaidi kupangia."
+  },
+  "body_unpredictability.constellationWhyConnected": {
+    "sw": "Atlas iliunganisha uchunguzi huu kwa sababu majibu kuhusu kutokutabirika na kutojua kinachofuata yanaweza kuunda mzigo mmoja wa kutokuwa na uhakika."
+  },
+  "daily_function.constellationWatchOverTime": {
+    "sw": "Uchunguzi wa baadaye unaweza kuonyesha kama taratibu zinakuwa huru zaidi, zenye vikwazo zaidi, au zinazotabirika zaidi dalili zinapobadilika."
+  },
+  "daily_function.constellationWhyConnected": {
+    "sw": "Atlas iliunganisha uchunguzi huu kwa sababu shughuli zilizokosekana, usingizi uliovurugika, maeneo ya maisha yaliyoathiriwa, na athari za kiutendaji vinaweza kuonyesha jinsi dalili zinavyobadilisha maisha ya kila siku."
+  },
+  "care_experience.constellationWatchOverTime": {
+    "sw": "Uchunguzi wa baadaye unaweza kuonyesha kama upatikanaji wa huduma unabadilika, kama utambuzi au matibabu yanakuwa wazi zaidi, kama vikwazo vinaendelea, au kama uzoefu wa huduma unakuwa na umuhimu mdogo zaidi kwa muda."
+  },
+  "care_experience.constellationWhyConnected": {
+    "sw": "Atlas iliunganisha uchunguzi huu kwa sababu unaeleza jinsi ulivyopitia huduma pamoja na dalili na maisha ya kila siku."
+  },
+  "pelvic_function.constellationWatchOverTime": {
+    "sw": "Uchunguzi wa baadaye unaweza kuonyesha kama shinikizo linabaki mara kwa mara, linakuwa la kudumu zaidi, au linaunganika wazi zaidi na mifumo ya utumbo, kibofu, au mwendo."
+  },
+  "pelvic_function.constellationWhyConnected": {
+    "sw": "Atlas iliunganisha uchunguzi huu kwa sababu shinikizo la nyonga, ishara za mabadiliko ya mwili, na mifumo ya mahali vinaweza kuonyesha mifumo ya nyonga iliyounganishwa badala ya dalili moja iliyotengwa."
+  },
+  "preview_pain.label": {
+    "sw": "Maumivu"
+  },
+  "preview_pain.sub": {
+    "sw": "Chunguza mifumo ya maumivu"
+  },
+  "preview_hormonal.label": {
+    "sw": "Homoni"
+  },
+  "preview_hormonal.sub": {
+    "sw": "Chunguza mifumo ya homoni"
+  },
+  "preview_cycle.label": {
+    "sw": "Mzunguko"
+  },
+  "preview_cycle.sub": {
+    "sw": "Chunguza mifumo ya mzunguko"
+  },
+  "preview_daily_life.label": {
+    "sw": "Maisha ya Kila Siku"
+  },
+  "preview_daily_life.sub": {
+    "sw": "Chunguza mifumo ya maisha ya kila siku"
+  },
+  "preview_care_access.label": {
+    "sw": "Safari ya Huduma"
+  },
+  "preview_care_access.sub": {
+    "sw": "Chunguza uzoefu wako wa huduma"
+  },
+  "preview_bleeding.label": {
+    "sw": "Kutokwa na Damu"
+  },
+  "preview_bleeding.sub": {
+    "sw": "Chunguza mifumo ya kutokwa na damu"
+  },
+  "SIG-BOD-BLD-001.label": {
+    "sw": "Kubadilisha Bidhaa Mara kwa Mara"
+  },
+  "SIG-BOD-BLD-002.label": {
+    "sw": "Bidhaa Kujaa Haraka"
+  },
+  "SIG-BOD-BLD-003.label": {
+    "sw": "Mtiririko Mzito wa Hedhi"
+  },
+  "SIG-BOD-BLD-004.label": {
+    "sw": "Muda Mrefu wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-005.label": {
+    "sw": "Kutokwa na Damu kwa Muda Mrefu Sana"
+  },
+  "SIG-BOD-BLD-006.label": {
+    "sw": "Muda Mfupi wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-007.label": {
+    "sw": "Muda Unaobadilika wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-008.label": {
+    "sw": "Kupitisha Mabonge Makubwa"
+  },
+  "SIG-BOD-BLD-009.label": {
+    "sw": "Kuganda Mara kwa Mara"
+  },
+  "SIG-BOD-BLD-010.label": {
+    "sw": "Mzigo wa Mabonge na Mtiririko Mzito"
+  },
+  "SIG-BOD-BLD-011.label": {
+    "sw": "Kutokwa na Damu Kati ya Hedhi"
+  },
+  "SIG-BOD-BLD-012.label": {
+    "sw": "Kutokwa na Damu Kusiotabirika Kati ya Hedhi"
+  },
+  "SIG-BOD-BLD-013.label": {
+    "sw": "Mwendelezo wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-014.label": {
+    "sw": "Kuongezeka kwa Mzigo wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-015.label": {
+    "sw": "Kupungua kwa Mzigo wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-016.label": {
+    "sw": "Mfumo Thabiti wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-017.label": {
+    "sw": "Kuvurugika kwa Shughuli kwa Sababu ya Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-018.label": {
+    "sw": "Mzigo wa Kupanga kwa Sababu ya Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-019.label": {
+    "sw": "Wasiwasi wa Kuvuja"
+  },
+  "SIG-BOD-BLD-020.label": {
+    "sw": "Mzigo wa Usiku kwa Sababu ya Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-021.label": {
+    "sw": "Upungufu wa Nguvu kwa Sababu ya Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-022.label": {
+    "sw": "Kutokuwa na Uhakika Kuhusu Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-023.label": {
+    "sw": "Kuchukulia Kutokwa na Damu kama Kawaida"
+  },
+  "SIG-BOD-BLD-024.label": {
+    "sw": "Ishara ya Wasiwasi wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-025.label": {
+    "sw": "Mfumo wa Kutokwa na Damu Baada ya Mabadiliko"
+  },
+  "SIG-BOD-BLD-026.label": {
+    "sw": "Ishara ya Kutokwa na Damu Yenye Muktadha wa Familia"
+  },
+  "SIG-BOD-BLD-027.label": {
+    "sw": "Kutokwa na Damu na Muktadha wa Uzazi"
+  },
+  "SIG-BOD-BLD-028.label": {
+    "sw": "Kutokwa na Damu Wakati wa Mpito wa Uzazi"
+  },
+  "SIG-BOD-BLD-029.label": {
+    "sw": "Utata wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BLD-030.label": {
+    "sw": "Alama ya Dharura ya Usalama kwa Kutokwa na Damu"
+  },
+  "SIG-BOD-PAIN-001.label": {
+    "sw": "Mfumo wa Maumivu ya Mzunguko"
+  },
+  "SIG-BOD-PAIN-002.label": {
+    "sw": "Mfumo wa Maumivu Yasiyo ya Mzunguko"
+  },
+  "SIG-BOD-PAIN-003.label": {
+    "sw": "Mfumo Mchanganyiko wa Maumivu"
+  },
+  "SIG-BOD-PAIN-004.label": {
+    "sw": "Muda wa Maumivu ya Hedhi"
+  },
+  "SIG-BOD-PAIN-005.label": {
+    "sw": "Muda wa Maumivu Kabla ya Hedhi"
+  },
+  "SIG-BOD-PAIN-006.label": {
+    "sw": "Muda wa Maumivu Unaohusiana na Kutoa Yai"
+  },
+  "SIG-BOD-PAIN-007.label": {
+    "sw": "Muda wa Maumivu Yanayoendelea"
+  },
+  "SIG-BOD-PAIN-008.label": {
+    "sw": "Maumivu Yasiyotabirika"
+  },
+  "SIG-BOD-PAIN-009.label": {
+    "sw": "Maumivu Yanayotabirika"
+  },
+  "SIG-BOD-PAIN-010.label": {
+    "sw": "Maumivu Yanayoendelea Kuongezeka"
+  },
+  "SIG-BOD-PAIN-011.label": {
+    "sw": "Maumivu Yanayopungua"
+  },
+  "SIG-BOD-PAIN-012.label": {
+    "sw": "Maumivu Thabiti"
+  },
+  "SIG-BOD-PAIN-013.label": {
+    "sw": "Mzigo Mkubwa wa Maumivu"
+  },
+  "SIG-BOD-PAIN-014.label": {
+    "sw": "Mzigo Mdogo wa Maumivu"
+  },
+  "SIG-BOD-PAIN-015.label": {
+    "sw": "Mahali pa Maumivu ya Nyonga"
+  },
+  "SIG-BOD-PAIN-016.label": {
+    "sw": "Mahali pa Maumivu ya Tumbo la Chini"
+  },
+  "SIG-BOD-PAIN-017.label": {
+    "sw": "Uhusiano na Maumivu ya Mgongo"
+  },
+  "SIG-BOD-PAIN-018.label": {
+    "sw": "Maumivu Yanayosambaa hadi Mguu"
+  },
+  "SIG-BOD-PAIN-019.label": {
+    "sw": "Maumivu ya Maeneo Mengi"
+  },
+  "SIG-BOD-PAIN-020.label": {
+    "sw": "Maumivu Yaliyoenea ya Nyonga-Mwili"
+  },
+  "SIG-BOD-PAIN-021.label": {
+    "sw": "Maumivu Yanayohusiana na Kichocheo"
+  },
+  "SIG-BOD-PAIN-022.label": {
+    "sw": "Maumivu Yanayosababishwa na Mwendo"
+  },
+  "SIG-BOD-PAIN-023.label": {
+    "sw": "Maumivu Yanayohusiana na Ngono"
+  },
+  "SIG-BOD-PAIN-024.label": {
+    "sw": "Maumivu Yanayohusiana na Utumbo"
+  },
+  "SIG-BOD-PAIN-025.label": {
+    "sw": "Maumivu Yanayohusiana na Kibofu"
+  },
+  "SIG-BOD-PAIN-026.label": {
+    "sw": "Maumivu na Mzigo wa Kutokwa na Damu"
+  },
+  "SIG-BOD-PAIN-027.label": {
+    "sw": "Kuvurugika kwa Utendaji kwa Sababu ya Maumivu"
+  },
+  "SIG-BOD-PAIN-028.label": {
+    "sw": "Udhaifu wa Mapumziko kwa Sababu ya Maumivu"
+  },
+  "SIG-BOD-PAIN-029.label": {
+    "sw": "Kuchukulia Maumivu kama Kawaida"
+  },
+  "SIG-BOD-PAIN-030.label": {
+    "sw": "Ishara ya Wasiwasi wa Maumivu"
+  },
+  "SIG-BOD-PAIN-031.label": {
+    "sw": "Mzigo wa Muda wa Maumivu"
+  },
+  "SIG-BOD-PAIN-032.label": {
+    "sw": "Utata wa Maumivu"
+  },
+  "SIG-BOD-PAIN-033.label": {
+    "sw": "Alama ya Dharura ya Usalama kwa Maumivu"
+  },
+  "SIG-BOD-PAIN-034.label": {
+    "sw": "Maumivu Yenye Muktadha wa Uzazi"
+  },
+  "SIG-BOD-PAIN-035.label": {
+    "sw": "Maumivu Yenye Muktadha wa Homoni"
+  },
+  "SIG-BOD-PEL-001.label": {
+    "sw": "Shinikizo la Nyonga"
+  },
+  "SIG-BOD-PEL-002.label": {
+    "sw": "Hisia ya Kujaa kwa Nyonga"
+  },
+  "SIG-BOD-PEL-003.label": {
+    "sw": "Ishara ya Kuvimba kwa Tumbo"
+  },
+  "SIG-BOD-PEL-004.label": {
+    "sw": "Ishara ya Dalili za Usagaji Chakula"
+  },
+  "SIG-BOD-PEL-005.label": {
+    "sw": "Haraka au Usumbufu wa Utumbo"
+  },
+  "SIG-BOD-PEL-006.label": {
+    "sw": "Mzigo Unaohusiana na Kuvimbiwa"
+  },
+  "SIG-BOD-PEL-007.label": {
+    "sw": "Mzigo Unaohusiana na Kuhara"
+  },
+  "SIG-BOD-PEL-008.label": {
+    "sw": "Ishara ya Haraka ya Kukojoa"
+  },
+  "SIG-BOD-PEL-009.label": {
+    "sw": "Ishara ya Maumivu ya Kukojoa"
+  },
+  "SIG-BOD-PEL-010.label": {
+    "sw": "Ishara ya Kukojoa Mara kwa Mara"
+  },
+  "SIG-BOD-PEL-011.label": {
+    "sw": "Kundi la Dalili za Nyonga-Kibofu"
+  },
+  "SIG-BOD-PEL-012.label": {
+    "sw": "Kundi la Dalili za Nyonga-Utumbo"
+  },
+  "SIG-BOD-PEL-013.label": {
+    "sw": "Kundi la Nyonga la Viungo Vingi"
+  },
+  "SIG-BOD-PEL-014.label": {
+    "sw": "Shinikizo na Mzigo wa Kutokwa na Damu"
+  },
+  "SIG-BOD-PEL-015.label": {
+    "sw": "Shinikizo na Mzigo wa Maumivu"
+  },
+  "SIG-BOD-PEL-016.label": {
+    "sw": "Mwendelezo wa Dalili za Nyonga"
+  },
+  "SIG-BOD-PEL-017.label": {
+    "sw": "Kuendelea kwa Dalili za Nyonga"
+  },
+  "SIG-BOD-PEL-018.label": {
+    "sw": "Kuchukulia Dalili za Nyonga kama Kawaida"
+  },
+  "SIG-BOD-PEL-019.label": {
+    "sw": "Utata wa Dalili za Nyonga"
+  },
+  "SIG-BOD-PEL-020.label": {
+    "sw": "Alama ya Dharura ya Usalama wa Nyonga"
+  },
+  "SIG-BOD-CYC-001.label": {
+    "sw": "Mfumo wa Mzunguko wa Kawaida"
+  },
+  "SIG-BOD-CYC-002.label": {
+    "sw": "Mfumo wa Mzunguko Usioregeleka"
+  },
+  "SIG-BOD-CYC-003.label": {
+    "sw": "Mzunguko Usiotabirika Sana"
+  },
+  "SIG-BOD-CYC-004.label": {
+    "sw": "Mfumo wa Hedhi Iliyokosekana"
+  },
+  "SIG-BOD-CYC-005.label": {
+    "sw": "Hedhi Zilizokosekana Mara kwa Mara"
+  },
+  "SIG-BOD-CYC-006.label": {
+    "sw": "Mabadiliko ya Urefu wa Mzunguko"
+  },
+  "SIG-BOD-CYC-007.label": {
+    "sw": "Mabadiliko ya Mzunguko kwa Muda"
+  },
+  "SIG-BOD-CYC-008.label": {
+    "sw": "Ishara ya Kufupika kwa Mzunguko"
+  },
+  "SIG-BOD-CYC-009.label": {
+    "sw": "Ishara ya Kurefuka kwa Mzunguko"
+  },
+  "SIG-BOD-CYC-010.label": {
+    "sw": "Mfumo wa Dalili Unaohusiana na Mzunguko"
+  },
+  "SIG-BOD-CYC-011.label": {
+    "sw": "Mfumo wa Dalili Unaohusiana na Kutoa Yai"
+  },
+  "SIG-BOD-CYC-012.label": {
+    "sw": "Mfumo wa Dalili Usiohusiana na Mzunguko"
+  },
+  "SIG-BOD-CYC-013.label": {
+    "sw": "Kutokuwa na Uhakika Kuhusu Mzunguko"
+  },
+  "SIG-BOD-CYC-014.label": {
+    "sw": "Mzigo wa Mzunguko na Kutokwa na Damu"
+  },
+  "SIG-BOD-CYC-015.label": {
+    "sw": "Mzigo wa Mzunguko na Maumivu"
+  },
+  "SIG-BOD-CYC-016.label": {
+    "sw": "Mzigo wa Mzunguko na Ishara za Homoni"
+  },
+  "SIG-BOD-CYC-017.label": {
+    "sw": "Kuchukulia Mzunguko kama Kawaida"
+  },
+  "SIG-BOD-CYC-018.label": {
+    "sw": "Ishara ya Wasiwasi wa Mzunguko"
+  },
+  "SIG-BOD-CYC-019.label": {
+    "sw": "Ishara ya Mzunguko Yenye Muktadha wa Uzazi"
+  },
+  "SIG-BOD-CYC-020.label": {
+    "sw": "Ishara ya Mwelekeo wa Mzunguko"
+  },
+  "SIG-BOD-HOR-001.label": {
+    "sw": "Ishara ya Muktadha wa Uzazi wa Mpango wa Homoni"
+  },
+  "SIG-BOD-HOR-002.label": {
+    "sw": "Ishara ya Chunusi au Mabadiliko ya Ngozi"
+  },
+  "SIG-BOD-HOR-003.label": {
+    "sw": "Ishara ya Mabadiliko ya Ukuaji wa Nywele"
+  },
+  "SIG-BOD-HOR-004.label": {
+    "sw": "Ishara ya Kupungua au Kukonda kwa Nywele"
+  },
+  "SIG-BOD-HOR-005.label": {
+    "sw": "Ishara ya Mabadiliko ya Uzito"
+  },
+  "SIG-BOD-HOR-006.label": {
+    "sw": "Ishara ya Muda wa Hisia Unaohusiana na Homoni"
+  },
+  "SIG-BOD-HOR-007.label": {
+    "sw": "Ishara ya Uchungu wa Matiti"
+  },
+  "SIG-BOD-HOR-008.label": {
+    "sw": "Ishara ya Joto la Ghafla au Mabadiliko ya Joto"
+  },
+  "SIG-BOD-HOR-009.label": {
+    "sw": "Ishara ya Kutokwa Jasho Usiku"
+  },
+  "SIG-BOD-HOR-010.label": {
+    "sw": "Kundi la Dalili za Homoni"
+  },
+  "SIG-BOD-HOR-011.label": {
+    "sw": "Kundi la Homoni-Mzunguko"
+  },
+  "SIG-BOD-HOR-012.label": {
+    "sw": "Kundi la Homoni-Maumivu"
+  },
+  "SIG-BOD-HOR-013.label": {
+    "sw": "Kundi la Homoni-Kutokwa na Damu"
+  },
+  "SIG-BOD-HOR-014.label": {
+    "sw": "Mwendelezo wa Mabadiliko ya Mwili Yanayohusiana na Homoni"
+  },
+  "SIG-BOD-HOR-015.label": {
+    "sw": "Kuendelea kwa Dalili za Homoni"
+  },
+  "SIG-BOD-HOR-016.label": {
+    "sw": "Kuchukulia Homoni kama Kawaida"
+  },
+  "SIG-BOD-HOR-017.label": {
+    "sw": "Ishara ya Wasiwasi wa Homoni"
+  },
+  "SIG-BOD-HOR-018.label": {
+    "sw": "Muktadha wa Homoni wa Hatua ya Maisha"
+  },
+  "SIG-BOD-HOR-019.label": {
+    "sw": "Ishara ya Homoni Yenye Muktadha wa Uzazi"
+  },
+  "SIG-BOD-HOR-020.label": {
+    "sw": "Utata wa Homoni"
+  },
+  "SIG-BOD-BODY-001.label": {
+    "sw": "Mabadiliko ya Mwili Yanayoonekana"
+  },
+  "SIG-BOD-BODY-002.label": {
+    "sw": "Mabadiliko ya Ukubwa au Umbo la Tumbo"
+  },
+  "SIG-BOD-BODY-003.label": {
+    "sw": "Hisia ya Kuvimba kwa Mwili"
+  },
+  "SIG-BOD-BODY-004.label": {
+    "sw": "Mfumo wa Mabadiliko ya Uzito"
+  },
+  "SIG-BOD-BODY-005.label": {
+    "sw": "Uhusiano wa Nguvu na Mwili"
+  },
+  "SIG-BOD-BODY-006.label": {
+    "sw": "Ishara ya Mwili ya Kizunguzungu au Udhaifu"
+  },
+  "SIG-BOD-BODY-007.label": {
+    "sw": "Ishara ya Dharura ya Kuzirai"
+  },
+  "SIG-BOD-BODY-008.label": {
+    "sw": "Mabadiliko ya Mwili na Mzigo wa Kutokwa na Damu"
+  },
+  "SIG-BOD-BODY-009.label": {
+    "sw": "Mabadiliko ya Mwili na Mzigo wa Maumivu"
+  },
+  "SIG-BOD-BODY-010.label": {
+    "sw": "Mabadiliko ya Mwili na Kuvurugika kwa Mzunguko"
+  },
+  "SIG-BOD-BODY-011.label": {
+    "sw": "Mabadiliko ya Mwili na Ishara za Homoni"
+  },
+  "SIG-BOD-BODY-012.label": {
+    "sw": "Mwendelezo wa Mabadiliko ya Mwili"
+  },
+  "SIG-BOD-BODY-013.label": {
+    "sw": "Kuendelea kwa Mabadiliko ya Mwili"
+  },
+  "SIG-BOD-BODY-014.label": {
+    "sw": "Kutokuwa na Uhakika wa Mabadiliko ya Mwili"
+  },
+  "SIG-BOD-BODY-015.label": {
+    "sw": "Wasiwasi wa Mabadiliko ya Mwili"
+  },
+  "SIG-BOD-BODY-016.label": {
+    "sw": "Kuchukulia Mabadiliko ya Mwili kama Kawaida"
+  },
+  "SIG-BOD-BODY-017.label": {
+    "sw": "Ishara ya Mzigo wa Taswira ya Mwili"
+  },
+  "SIG-BOD-BODY-018.label": {
+    "sw": "Ishara ya Uzito wa Kimwili"
+  },
+  "SIG-BOD-BODY-019.label": {
+    "sw": "Hisia Inayofanana na Uvimbe"
+  },
+  "SIG-BOD-BODY-020.label": {
+    "sw": "Kundi la Dalili za Mwili"
+  },
+  "SIG-BOD-BODY-021.label": {
+    "sw": "Utata wa Mzigo wa Kimwili"
+  },
+  "SIG-BOD-BODY-022.label": {
+    "sw": "Mabadiliko ya Mwili katika Hatua ya Uzazi"
+  },
+  "SIG-BOD-BODY-023.label": {
+    "sw": "Muktadha wa Mwili Baada ya Ujauzito"
+  },
+  "SIG-BOD-BODY-024.label": {
+    "sw": "Alama ya Dharura ya Usalama wa Mwili"
+  },
+  "SIG-BOD-BODY-025.label": {
+    "sw": "Ujumuishaji wa Dalili za Mwili Mzima"
+  },
+  "SIG-FUNC-001.label": {
+    "sw": "Kikwazo cha Shughuli"
+  },
+  "SIG-FUNC-002.label": {
+    "sw": "Kuvurugika kwa Taratibu"
+  },
+  "SIG-FUNC-003.label": {
+    "sw": "Kuingiliwa kwa Kujitunza"
+  },
+  "SIG-FUNC-004.label": {
+    "sw": "Kuingiliwa kwa Kazi za Nyumbani"
+  },
+  "SIG-FUNC-005.label": {
+    "sw": "Kikwazo cha Shughuli za Nje"
+  },
+  "SIG-FUNC-006.label": {
+    "sw": "Kikwazo cha Safari"
+  },
+  "SIG-FUNC-007.label": {
+    "sw": "Kupanga Kulingana na Dalili"
+  },
+  "SIG-FUNC-008.label": {
+    "sw": "Uwezo wa Kiutendaji Uliopunguzwa"
+  },
+  "SIG-FUNC-009.label": {
+    "sw": "Mzigo Mkubwa wa Kiutendaji"
+  },
+  "SIG-FUNC-010.label": {
+    "sw": "Mzigo Mdogo wa Kiutendaji"
+  },
+  "SIG-FUNC-011.label": {
+    "sw": "Mzigo wa Kiutendaji wa Mara kwa Mara"
+  },
+  "SIG-FUNC-012.label": {
+    "sw": "Mzigo wa Kiutendaji Unaoendelea"
+  },
+  "SIG-FUNC-013.label": {
+    "sw": "Athari katika Maeneo Mengi ya Maisha"
+  },
+  "SIG-FUNC-014.label": {
+    "sw": "Kuzoea Maisha ya Kila Siku"
+  },
+  "SIG-FUNC-015.label": {
+    "sw": "Kutokuwa na Uhakika wa Kiutendaji"
+  },
+  "SIG-FUNC-016.label": {
+    "sw": "Kuepuka Kiutendaji"
+  },
+  "SIG-FUNC-017.label": {
+    "sw": "Kuchelewa kwa Kupona Kiutendaji"
+  },
+  "SIG-FUNC-018.label": {
+    "sw": "Ratiba Inayoongozwa na Dalili"
+  },
+  "SIG-FUNC-019.label": {
+    "sw": "Nguvu Kidogo"
+  },
+  "SIG-FUNC-020.label": {
+    "sw": "Uchovu wa Mara kwa Mara"
+  },
+  "SIG-FUNC-021.label": {
+    "sw": "Uchovu wa Kudumu"
+  },
+  "SIG-FUNC-022.label": {
+    "sw": "Uchovu Unaohusiana na Mzunguko"
+  },
+  "SIG-FUNC-023.label": {
+    "sw": "Uchovu Baada ya Dalili"
+  },
+  "SIG-FUNC-024.label": {
+    "sw": "Uchovu Unaohusiana na Shughuli"
+  },
+  "SIG-FUNC-025.label": {
+    "sw": "Uchovu na Udhaifu"
+  },
+  "SIG-FUNC-026.label": {
+    "sw": "Kutokuwa Thabiti kwa Nguvu"
+  },
+  "SIG-FUNC-027.label": {
+    "sw": "Uwezo wa Kustahimili Uliopungua"
+  },
+  "SIG-FUNC-028.label": {
+    "sw": "Utegemezi wa Mapumziko"
+  },
+  "SIG-FUNC-029.label": {
+    "sw": "Shughuli Zilizokosekana kwa Sababu ya Uchovu"
+  },
+  "SIG-FUNC-030.label": {
+    "sw": "Kuongezeka kwa Mzigo wa Uchovu"
+  },
+  "SIG-FUNC-031.label": {
+    "sw": "Kuchukulia Mzigo wa Nguvu kama Kawaida"
+  },
+  "SIG-FUNC-032.label": {
+    "sw": "Mkakati wa Kuhifadhi Nguvu"
+  },
+  "SIG-FUNC-033.label": {
+    "sw": "Kuvurugika kwa Usingizi"
+  },
+  "SIG-FUNC-034.label": {
+    "sw": "Kuvurugika kwa Usingizi Mara kwa Mara"
+  },
+  "SIG-FUNC-035.label": {
+    "sw": "Kuvurugika kwa Usingizi kwa Kudumu"
+  },
+  "SIG-FUNC-036.label": {
+    "sw": "Kukatizwa kwa Usingizi kwa Sababu ya Maumivu"
+  },
+  "SIG-FUNC-037.label": {
+    "sw": "Kukatizwa kwa Usingizi kwa Sababu ya Kutokwa na Damu"
+  },
+  "SIG-FUNC-038.label": {
+    "sw": "Kupona Vibaya"
+  },
+  "SIG-FUNC-039.label": {
+    "sw": "Mzigo wa Dalili za Usiku"
+  },
+  "SIG-FUNC-040.label": {
+    "sw": "Uharibifu wa Mchana Unaohusiana na Usingizi"
+  },
+  "SIG-FUNC-041.label": {
+    "sw": "Upungufu wa Usingizi wa Kupumzisha"
+  },
+  "SIG-FUNC-042.label": {
+    "sw": "Kuzoea Usingizi"
+  },
+  "SIG-FUNC-043.label": {
+    "sw": "Kuingiliwa kwa Kazi au Shule"
+  },
+  "SIG-FUNC-044.label": {
+    "sw": "Kukosa Kazi au Shule"
+  },
+  "SIG-FUNC-045.label": {
+    "sw": "Kutokuwepo Mara kwa Mara"
+  },
+  "SIG-FUNC-046.label": {
+    "sw": "Uzalishaji Uliopungua"
+  },
+  "SIG-FUNC-047.label": {
+    "sw": "Ugumu wa Kuzingatia"
+  },
+  "SIG-FUNC-048.label": {
+    "sw": "Mzigo wa Ushiriki wa Kitaaluma"
+  },
+  "SIG-FUNC-049.label": {
+    "sw": "Mzigo wa Ushiriki wa Kazini"
+  },
+  "SIG-FUNC-050.label": {
+    "sw": "Hatari ya Kutegemewa kwa Ratiba"
+  },
+  "SIG-FUNC-051.label": {
+    "sw": "Ucheleweshaji wa Kukamilisha Kazi"
+  },
+  "SIG-FUNC-052.label": {
+    "sw": "Kikwazo cha Kazi au Elimu"
+  },
+  "SIG-FUNC-053.label": {
+    "sw": "Mzigo wa Kufichua"
+  },
+  "SIG-FUNC-054.label": {
+    "sw": "Mkakati wa Kukabiliana Kazini-Shuleni"
+  },
+  "SIG-FUNC-055.label": {
+    "sw": "Kuingiliwa kwa Utunzaji wa Wengine"
+  },
+  "SIG-FUNC-056.label": {
+    "sw": "Msongo wa Kutunza Wengine"
+  },
+  "SIG-FUNC-057.label": {
+    "sw": "Mzigo wa Wajibu wa Nyumbani"
+  },
+  "SIG-FUNC-058.label": {
+    "sw": "Mzigo Uliopitiliza wa Majukumu"
+  },
+  "SIG-FUNC-059.label": {
+    "sw": "Kutegemewa Kidogo katika Majukumu ya Utunzaji"
+  },
+  "SIG-FUNC-060.label": {
+    "sw": "Haja ya Msaada Nyumbani"
+  },
+  "SIG-FUNC-061.label": {
+    "sw": "Hatia ya Kutunza Wengine"
+  },
+  "SIG-FUNC-062.label": {
+    "sw": "Kasi ya Nyumbani"
+  },
+  "SIG-FUNC-063.label": {
+    "sw": "Kuvurugika kwa Taratibu za Familia"
+  },
+  "SIG-FUNC-064.label": {
+    "sw": "Mzigo Usioonekana wa Nyumbani"
+  },
+  "SIG-FUNC-065.label": {
+    "sw": "Kikwazo cha Mwendo"
+  },
+  "SIG-FUNC-066.label": {
+    "sw": "Kikwazo cha Mazoezi"
+  },
+  "SIG-FUNC-067.label": {
+    "sw": "Ugumu wa Kutembea au Kusimama"
+  },
+  "SIG-FUNC-068.label": {
+    "sw": "Kuepuka Shughuli"
+  },
+  "SIG-FUNC-069.label": {
+    "sw": "Kutokutabirika kwa Uwezo wa Kutembea"
+  },
+  "SIG-FUNC-070.label": {
+    "sw": "Uwezo wa Kimwili Uliopungua"
+  },
+  "SIG-FUNC-071.label": {
+    "sw": "Mzigo Unaosababishwa na Mwendo"
+  },
+  "SIG-FUNC-072.label": {
+    "sw": "Mzigo wa Uwezo wa Kutembea wa Safari"
+  },
+  "SIG-FUNC-073.label": {
+    "sw": "Mkakati wa Kutembea Unaozingatia Mapumziko"
+  },
+  "SIG-FUNC-074.label": {
+    "sw": "Hatari ya Uwezo wa Kutembea kwa Sababu ya Kizunguzungu"
+  },
+  "SIG-FUNC-075.label": {
+    "sw": "Kupoteza Ushiriki wa Kimwili"
+  },
+  "SIG-FUNC-076.label": {
+    "sw": "Ucheleweshaji wa Kupona kwa Uwezo wa Kutembea"
+  },
+  "SIG-FUNC-077.label": {
+    "sw": "Kuingiliwa kwa Shughuli za Kijamii"
+  },
+  "SIG-FUNC-078.label": {
+    "sw": "Kujitenga na Jamii"
+  },
+  "SIG-FUNC-079.label": {
+    "sw": "Athari kwa Mahusiano"
+  },
+  "SIG-FUNC-080.label": {
+    "sw": "Mzigo wa Kupanga Safari na Maisha ya Kijamii"
+  },
+  "SIG-FUNC-081.label": {
+    "sw": "Mipango Iliyoghairiwa"
+  },
+  "SIG-FUNC-082.label": {
+    "sw": "Wasiwasi wa Ushiriki"
+  },
+  "SIG-FUNC-083.label": {
+    "sw": "Hatari ya Kutengwa"
+  },
+  "SIG-FUNC-084.label": {
+    "sw": "Mzigo wa Ushiriki wa Karibu"
+  },
+  "SIG-FUNC-085.label": {
+    "sw": "Kikwazo cha Ushiriki wa Kijamii"
+  },
+  "SIG-FUNC-086.label": {
+    "sw": "Upungufu wa Nguvu za Kijamii"
+  },
+  "SIG-FUNC-087.label": {
+    "sw": "Kudhibiti Unyanyapaa"
+  },
+  "SIG-FUNC-088.label": {
+    "sw": "Mkakati wa Kukabiliana Kijamii"
+  },
+  "SIG-FUNC-089.label": {
+    "sw": "Athari kwa Hisia"
+  },
+  "SIG-FUNC-090.label": {
+    "sw": "Wasiwasi wa Dalili"
+  },
+  "SIG-FUNC-091.label": {
+    "sw": "Kuchoka Kiutendaji"
+  },
+  "SIG-FUNC-092.label": {
+    "sw": "Kuchukulia Mzigo kama Kawaida"
+  },
+  "SIG-FUNC-093.label": {
+    "sw": "Kupoteza Imani kwa Mwili"
+  },
+  "SIG-FUNC-094.label": {
+    "sw": "Mzigo wa Kutokuwa na Uhakika"
+  },
+  "SIG-FUNC-095.label": {
+    "sw": "Dhiki Kutokana na Kuvurugika"
+  },
+  "SIG-FUNC-096.label": {
+    "sw": "Shaka Juu ya Nafsi Kuhusu Dalili"
+  },
+  "SIG-FUNC-097.label": {
+    "sw": "Uthabiti Kupitia Kuzoea"
+  },
+  "SIG-FUNC-098.label": {
+    "sw": "Uchovu wa Kihisia"
+  },
+  "SIG-FUNC-099.label": {
+    "sw": "Kuhifadhi Uwezo wa Kujiamulia"
+  },
+  "SIG-FUNC-100.label": {
+    "sw": "Utayari wa Kutafuta Msaada"
+  },
+  "SIG-CARE-ACC-001.label": {
+    "sw": "Utafutaji wa Awali wa Huduma"
+  },
+  "SIG-CARE-ACC-002.label": {
+    "sw": "Hakuna Huduma Iliyotafutwa"
+  },
+  "SIG-CARE-ACC-003.label": {
+    "sw": "Utafutaji wa Huduma Uliocheleweshwa"
+  },
+  "SIG-CARE-ACC-004.label": {
+    "sw": "Kuepuka Huduma"
+  },
+  "SIG-CARE-ACC-005.label": {
+    "sw": "Imani ya Upatikanaji wa Huduma"
+  },
+  "SIG-CARE-ACC-006.label": {
+    "sw": "Upatikanaji Mdogo wa Huduma"
+  },
+  "SIG-CARE-ACC-007.label": {
+    "sw": "Upatikanaji Usiokuwa na Uhakika wa Huduma"
+  },
+  "SIG-CARE-ACC-008.label": {
+    "sw": "Kikwazo cha Upatikanaji wa Kijiografia"
+  },
+  "SIG-CARE-ACC-009.label": {
+    "sw": "Kikwazo cha Upatikanaji wa Kifedha"
+  },
+  "SIG-CARE-ACC-010.label": {
+    "sw": "Kikwazo cha Upatikanaji wa Miadi"
+  },
+  "SIG-CARE-ACC-011.label": {
+    "sw": "Kikwazo cha Upatikanaji wa Usafiri"
+  },
+  "SIG-CARE-ACC-012.label": {
+    "sw": "Kikwazo cha Bima au Ufunikaji"
+  },
+  "SIG-CARE-ACC-013.label": {
+    "sw": "Kikwazo cha Upatikanaji wa Mtaalamu"
+  },
+  "SIG-CARE-ACC-014.label": {
+    "sw": "Kutegemea Huduma za Msingi"
+  },
+  "SIG-CARE-ACC-015.label": {
+    "sw": "Kutegemea Huduma za Dharura"
+  },
+  "SIG-CARE-ACC-016.label": {
+    "sw": "Kutegemea Huduma za Kidijitali"
+  },
+  "SIG-CARE-ACC-017.label": {
+    "sw": "Kutegemea Huduma Zisizo Rasmi"
+  },
+  "SIG-CARE-ACC-018.label": {
+    "sw": "Kuboreka kwa Upatikanaji"
+  },
+  "SIG-CARE-ACC-019.label": {
+    "sw": "Kudhoofika kwa Upatikanaji"
+  },
+  "SIG-CARE-ACC-020.label": {
+    "sw": "Uthabiti wa Upatikanaji"
+  },
+  "SIG-CARE-NAV-001.label": {
+    "sw": "Njia Wazi ya Huduma"
+  },
+  "SIG-CARE-NAV-002.label": {
+    "sw": "Njia Isiyo Wazi ya Huduma"
+  },
+  "SIG-CARE-NAV-003.label": {
+    "sw": "Rufaa Iliyopokelewa"
+  },
+  "SIG-CARE-NAV-004.label": {
+    "sw": "Rufaa Isiyopokelewa"
+  },
+  "SIG-CARE-NAV-005.label": {
+    "sw": "Ucheleweshaji wa Rufaa"
+  },
+  "SIG-CARE-NAV-006.label": {
+    "sw": "Kupitia Watoa Huduma Wengi"
+  },
+  "SIG-CARE-NAV-007.label": {
+    "sw": "Mgawanyiko wa Huduma"
+  },
+  "SIG-CARE-NAV-008.label": {
+    "sw": "Mwendelezo wa Huduma"
+  },
+  "SIG-CARE-NAV-009.label": {
+    "sw": "Haja ya Uratibu wa Huduma"
+  },
+  "SIG-CARE-NAV-010.label": {
+    "sw": "Mzigo wa Kupitia Njia ya Utambuzi"
+  },
+  "SIG-CARE-NAV-011.label": {
+    "sw": "Njia ya Uchunguzi Imeanzishwa"
+  },
+  "SIG-CARE-NAV-012.label": {
+    "sw": "Njia ya Uchunguzi Haipo"
+  },
+  "SIG-CARE-NAV-013.label": {
+    "sw": "Ufuatiliaji Umepangwa"
+  },
+  "SIG-CARE-NAV-014.label": {
+    "sw": "Pengo la Ufuatiliaji"
+  },
+  "SIG-CARE-NAV-015.label": {
+    "sw": "Kutafuta Maoni ya Pili"
+  },
+  "SIG-CARE-NAV-016.label": {
+    "sw": "Haja ya Uelewa wa Mfumo"
+  },
+  "SIG-CARE-NAV-017.label": {
+    "sw": "Utetezi wa Kupitia Mfumo"
+  },
+  "SIG-CARE-NAV-018.label": {
+    "sw": "Kufunga Mzunguko wa Huduma"
+  },
+  "SIG-CARE-VAL-001.label": {
+    "sw": "Kujihisi Kusikilizwa"
+  },
+  "SIG-CARE-VAL-002.label": {
+    "sw": "Kujihisi Kuaminika"
+  },
+  "SIG-CARE-VAL-003.label": {
+    "sw": "Dalili Zimechukuliwa kama Kawaida"
+  },
+  "SIG-CARE-VAL-004.label": {
+    "sw": "Dalili Zimepunguzwa Umuhimu"
+  },
+  "SIG-CARE-VAL-005.label": {
+    "sw": "Kupuuzwa kwa Huduma"
+  },
+  "SIG-CARE-VAL-006.label": {
+    "sw": "Kupuuzwa kwa Huduma Mara kwa Mara"
+  },
+  "SIG-CARE-VAL-007.label": {
+    "sw": "Uthibitisho wa Kihisia"
+  },
+  "SIG-CARE-VAL-008.label": {
+    "sw": "Uthibitisho wa Kimatibabu"
+  },
+  "SIG-CARE-VAL-009.label": {
+    "sw": "Uthibitisho wa Kiutambuzi"
+  },
+  "SIG-CARE-VAL-010.label": {
+    "sw": "Uthibitisho kwa Njia ya Vipimo"
+  },
+  "SIG-CARE-VAL-011.label": {
+    "sw": "Uthibitisho kwa Njia ya Matibabu"
+  },
+  "SIG-CARE-VAL-012.label": {
+    "sw": "Hakuna Majibu Wazi"
+  },
+  "SIG-CARE-VAL-013.label": {
+    "sw": "Maoni Yanayokinzana ya Kimatibabu"
+  },
+  "SIG-CARE-VAL-014.label": {
+    "sw": "Kuimarika kwa Imani"
+  },
+  "SIG-CARE-VAL-015.label": {
+    "sw": "Kudhoofika kwa Imani"
+  },
+  "SIG-CARE-VAL-016.label": {
+    "sw": "Shaka Juu ya Nafsi Baada ya Huduma"
+  },
+  "SIG-CARE-VAL-017.label": {
+    "sw": "Udadisi wa Mtoa Huduma"
+  },
+  "SIG-CARE-VAL-018.label": {
+    "sw": "Kufunga kwa Mtoa Huduma Bila Ufumbuzi"
+  },
+  "SIG-CARE-OUT-001.label": {
+    "sw": "Utambuzi Umepokelewa"
+  },
+  "SIG-CARE-OUT-002.label": {
+    "sw": "Bado Hakuna Utambuzi"
+  },
+  "SIG-CARE-OUT-003.label": {
+    "sw": "Maelezo ya Sehemu Yamepokelewa"
+  },
+  "SIG-CARE-OUT-004.label": {
+    "sw": "Matibabu Yametolewa"
+  },
+  "SIG-CARE-OUT-005.label": {
+    "sw": "Usimamizi kwa Dawa Pekee"
+  },
+  "SIG-CARE-OUT-006.label": {
+    "sw": "Vipimo Vimeagizwa"
+  },
+  "SIG-CARE-OUT-007.label": {
+    "sw": "Hakuna Uchunguzi Uliotolewa"
+  },
+  "SIG-CARE-OUT-008.label": {
+    "sw": "Mpango wa Usimamizi wa Dalili"
+  },
+  "SIG-CARE-OUT-009.label": {
+    "sw": "Matokeo ya Huduma Yasiyotatuliwa"
+  },
+  "SIG-CARE-OUT-010.label": {
+    "sw": "Kuboreka kwa Matokeo ya Huduma"
+  },
+  "SIG-CARE-OUT-011.label": {
+    "sw": "Matokeo ya Huduma Bila Mabadiliko"
+  },
+  "SIG-CARE-OUT-012.label": {
+    "sw": "Kuzorota kwa Matokeo ya Huduma"
+  },
+  "SIG-CARE-OUT-013.label": {
+    "sw": "Mzigo wa Matibabu"
+  },
+  "SIG-CARE-OUT-014.label": {
+    "sw": "Wasiwasi wa Madhara ya Matibabu"
+  },
+  "SIG-CARE-OUT-015.label": {
+    "sw": "Ugumu wa Kufuata Matibabu"
+  },
+  "SIG-CARE-OUT-016.label": {
+    "sw": "Kuridhika na Huduma"
+  },
+  "SIG-CARE-OUT-017.label": {
+    "sw": "Kutoridhika na Huduma"
+  },
+  "SIG-CARE-SELF-001.label": {
+    "sw": "Kujifuatilia"
+  },
+  "SIG-CARE-SELF-002.label": {
+    "sw": "Kupanga Dalili"
+  },
+  "SIG-CARE-SELF-003.label": {
+    "sw": "Maandalizi ya Bidhaa"
+  },
+  "SIG-CARE-SELF-004.label": {
+    "sw": "Mkakati wa Kukabiliana na Maumivu"
+  },
+  "SIG-CARE-SELF-005.label": {
+    "sw": "Mkakati wa Mapumziko na Kupona"
+  },
+  "SIG-CARE-SELF-006.label": {
+    "sw": "Marekebisho ya Lishe au Mtindo wa Maisha"
+  },
+  "SIG-CARE-SELF-007.label": {
+    "sw": "Marekebisho ya Mazoezi"
+  },
+  "SIG-CARE-SELF-008.label": {
+    "sw": "Kuzoea Kazini au Shuleni"
+  },
+  "SIG-CARE-SELF-009.label": {
+    "sw": "Kuzoea Katika Kutunza Wengine"
+  },
+  "SIG-CARE-SELF-010.label": {
+    "sw": "Kujitetea"
+  },
+  "SIG-CARE-SELF-011.label": {
+    "sw": "Maandalizi ya Maswali"
+  },
+  "SIG-CARE-SELF-012.label": {
+    "sw": "Nyaraka Zimeandaliwa"
+  },
+  "SIG-CARE-SELF-013.label": {
+    "sw": "Kutafuta Msaada wa Wenzao"
+  },
+  "SIG-CARE-SELF-014.label": {
+    "sw": "Kutafuta Msaada wa Familia"
+  },
+  "SIG-CARE-SELF-015.label": {
+    "sw": "Kutafuta Msaada wa Jamii"
+  },
+  "SIG-CARE-SELF-016.label": {
+    "sw": "Kutafuta Taarifa Mtandaoni"
+  },
+  "SIG-CARE-SELF-017.label": {
+    "sw": "Imani ya Kujisimamia"
+  },
+  "SIG-CARE-SELF-018.label": {
+    "sw": "Mzigo Uliopitiliza wa Kujisimamia"
+  },
+  "SIG-CARE-EMO-001.label": {
+    "sw": "Wasiwasi wa Huduma"
+  },
+  "SIG-CARE-EMO-002.label": {
+    "sw": "Kuchoka na Huduma"
+  },
+  "SIG-CARE-EMO-003.label": {
+    "sw": "Uchovu wa Huduma"
+  },
+  "SIG-CARE-EMO-004.label": {
+    "sw": "Matumaini ya Huduma"
+  },
+  "SIG-CARE-EMO-005.label": {
+    "sw": "Nafuu ya Huduma"
+  },
+  "SIG-CARE-EMO-006.label": {
+    "sw": "Aibu ya Huduma"
+  },
+  "SIG-CARE-EMO-007.label": {
+    "sw": "Hofu ya Huduma"
+  },
+  "SIG-CARE-EMO-008.label": {
+    "sw": "Hasira ya Huduma"
+  },
+  "SIG-CARE-EMO-009.label": {
+    "sw": "Kutengwa kwa Huduma"
+  },
+  "SIG-CARE-EMO-010.label": {
+    "sw": "Kutokuwa na Uhakika wa Huduma"
+  },
+  "SIG-CARE-EMO-011.label": {
+    "sw": "Uchovu wa Huduma"
+  },
+  "SIG-CARE-EMO-012.label": {
+    "sw": "Kutoamini Mfumo wa Matibabu"
+  },
+  "SIG-CARE-EMO-013.label": {
+    "sw": "Kuamini Mfumo wa Matibabu"
+  },
+  "SIG-CARE-EMO-014.label": {
+    "sw": "Usalama wa Kihisia Katika Huduma"
+  },
+  "SIG-CARE-EMO-015.label": {
+    "sw": "Kutokuwa na Usalama wa Kihisia Katika Huduma"
+  },
+  "SIG-CARE-EMO-016.label": {
+    "sw": "Kukubali Dalili"
+  },
+  "SIG-CARE-EMO-017.label": {
+    "sw": "Utayari wa Kutafuta Huduma"
+  },
+  "SIG-CARE-EMO-018.label": {
+    "sw": "Motisha ya Kujilinda kwa Huduma"
+  },
+  "SIG-CARE-EMO-019.label": {
+    "sw": "Wasiwasi wa Uwezo wa Kujiamulia wa Uzazi"
+  },
+  "SIG-NAR-EXP-001.label": {
+    "sw": "Lugha ya Afya Inayopendelewa"
+  },
+  "SIG-NAR-EXP-002.label": {
+    "sw": "Kuelezea Dalili kwa Lugha Rahisi"
+  },
+  "SIG-NAR-EXP-003.label": {
+    "sw": "Lugha ya Mfano kwa Dalili"
+  },
+  "SIG-NAR-EXP-004.label": {
+    "sw": "Msamiati Usiokuwa na Uhakika wa Dalili"
+  },
+  "SIG-NAR-EXP-005.label": {
+    "sw": "Kuelezea kwa Muktadha wa Kitamaduni"
+  },
+  "SIG-NAR-EXP-006.label": {
+    "sw": "Maelezo ya Kuhisi Mwilini"
+  },
+  "SIG-NAR-EXP-007.label": {
+    "sw": "Lugha ya Ukali"
+  },
+  "SIG-NAR-EXP-008.label": {
+    "sw": "Lugha ya Ulinganishi"
+  },
+  "SIG-NAR-EXP-009.label": {
+    "sw": "Lugha ya Kupunguza Umuhimu"
+  },
+  "SIG-NAR-EXP-010.label": {
+    "sw": "Lugha ya Kuongezeka"
+  },
+  "SIG-NAR-EXP-011.label": {
+    "sw": "Kubadilisha Lugha"
+  },
+  "SIG-NAR-EXP-012.label": {
+    "sw": "Haja ya Tafsiri"
+  },
+  "SIG-NAR-EXP-013.label": {
+    "sw": "Ukimya au Kuhifadhi"
+  },
+  "SIG-NAR-EXP-014.label": {
+    "sw": "Maelezo Yaliyokatika"
+  },
+  "SIG-NAR-EXP-015.label": {
+    "sw": "Maelezo ya Kina ya Simulizi"
+  },
+  "SIG-NAR-EXP-016.label": {
+    "sw": "Uelewa wa Mwili wa Nafsi ya Kwanza"
+  },
+  "SIG-NAR-EXP-017.label": {
+    "sw": "Msamiati Mdogo wa Kimatibabu"
+  },
+  "SIG-NAR-SYM-001.label": {
+    "sw": "Hadithi ya Kuanza kwa Dalili"
+  },
+  "SIG-NAR-SYM-002.label": {
+    "sw": "Hadithi ya Kutambua Mfumo"
+  },
+  "SIG-NAR-SYM-003.label": {
+    "sw": "Hadithi ya Kuenea kwa Dalili"
+  },
+  "SIG-NAR-SYM-004.label": {
+    "sw": "Msisitizo wa Hadithi ya Kutokwa na Damu"
+  },
+  "SIG-NAR-SYM-005.label": {
+    "sw": "Msisitizo wa Hadithi ya Maumivu"
+  },
+  "SIG-NAR-SYM-006.label": {
+    "sw": "Hadithi ya Kuvurugika kwa Mzunguko"
+  },
+  "SIG-NAR-SYM-007.label": {
+    "sw": "Hadithi ya Mabadiliko ya Mwili"
+  },
+  "SIG-NAR-SYM-008.label": {
+    "sw": "Msisitizo wa Hadithi ya Uchovu"
+  },
+  "SIG-NAR-SYM-009.label": {
+    "sw": "Hadithi ya Kuvurugika kwa Kila Siku"
+  },
+  "SIG-NAR-SYM-010.label": {
+    "sw": "Hadithi ya Kutotabirika kwa Dalili"
+  },
+  "SIG-NAR-SYM-011.label": {
+    "sw": "Hadithi ya Ukali wa Dalili"
+  },
+  "SIG-NAR-SYM-012.label": {
+    "sw": "Hadithi ya Kuchukulia Dalili kama Kawaida"
+  },
+  "SIG-NAR-SYM-013.label": {
+    "sw": "Hadithi ya Wasiwasi wa Dalili"
+  },
+  "SIG-NAR-SYM-014.label": {
+    "sw": "Hadithi ya Kundi la Dalili Nyingi"
+  },
+  "SIG-NAR-SYM-015.label": {
+    "sw": "Hadithi ya Dalili Iliyofichwa"
+  },
+  "SIG-NAR-SYM-016.label": {
+    "sw": "Hadithi ya Dalili Inayojirudia"
+  },
+  "SIG-NAR-SYM-017.label": {
+    "sw": "Hadithi ya Kuvuka Kikomo"
+  },
+  "SIG-NAR-MEA-001.label": {
+    "sw": "Utafutaji wa Maana"
+  },
+  "SIG-NAR-MEA-002.label": {
+    "sw": "Tafsiri ya Nafsi"
+  },
+  "SIG-NAR-MEA-003.label": {
+    "sw": "Kutokuwa na Uhakika Kuhusu Chanzo"
+  },
+  "SIG-NAR-MEA-004.label": {
+    "sw": "Wasiwasi Kuhusu Baadaye"
+  },
+  "SIG-NAR-MEA-005.label": {
+    "sw": "Maana ya Uzazi"
+  },
+  "SIG-NAR-MEA-006.label": {
+    "sw": "Maana ya Wasiwasi wa Uzazi"
+  },
+  "SIG-NAR-MEA-007.label": {
+    "sw": "Maana ya Athari kwa Utambulisho"
+  },
+  "SIG-NAR-MEA-008.label": {
+    "sw": "Hoja ya Kawaida Dhidi ya Isiyo Kawaida"
+  },
+  "SIG-NAR-MEA-009.label": {
+    "sw": "Kulinganisha na Wengine"
+  },
+  "SIG-NAR-MEA-010.label": {
+    "sw": "Maana ya Historia ya Familia"
+  },
+  "SIG-NAR-MEA-011.label": {
+    "sw": "Muundo wa Maana ya Kitamaduni"
+  },
+  "SIG-NAR-MEA-012.label": {
+    "sw": "Maana ya Kiroho au ya Imani"
+  },
+  "SIG-NAR-MEA-013.label": {
+    "sw": "Uelewa wa Hatari"
+  },
+  "SIG-NAR-MEA-014.label": {
+    "sw": "Utambuzi wa Pengo la Maarifa"
+  },
+  "SIG-NAR-MEA-015.label": {
+    "sw": "Simulizi la Shaka ya Nafsi"
+  },
+  "SIG-NAR-MEA-016.label": {
+    "sw": "Simulizi la Kutafuta Uthibitisho"
+  },
+  "SIG-NAR-MEA-017.label": {
+    "sw": "Haja ya Majibu"
+  },
+  "SIG-NAR-EMO-001.label": {
+    "sw": "Simulizi la Kuchoka"
+  },
+  "SIG-NAR-EMO-002.label": {
+    "sw": "Simulizi la Hofu"
+  },
+  "SIG-NAR-EMO-003.label": {
+    "sw": "Simulizi la Wasiwasi"
+  },
+  "SIG-NAR-EMO-004.label": {
+    "sw": "Simulizi la Nafuu"
+  },
+  "SIG-NAR-EMO-005.label": {
+    "sw": "Simulizi la Uchovu"
+  },
+  "SIG-NAR-EMO-006.label": {
+    "sw": "Simulizi la Kutengwa"
+  },
+  "SIG-NAR-EMO-007.label": {
+    "sw": "Simulizi la Aibu"
+  },
+  "SIG-NAR-EMO-008.label": {
+    "sw": "Simulizi la Aibu Kidogo"
+  },
+  "SIG-NAR-EMO-009.label": {
+    "sw": "Simulizi la Hasira"
+  },
+  "SIG-NAR-EMO-010.label": {
+    "sw": "Simulizi la Huzuni"
+  },
+  "SIG-NAR-EMO-011.label": {
+    "sw": "Simulizi la Matumaini"
+  },
+  "SIG-NAR-EMO-012.label": {
+    "sw": "Simulizi la Kukubali"
+  },
+  "SIG-NAR-EMO-013.label": {
+    "sw": "Simulizi la Kulemewa"
+  },
+  "SIG-NAR-EMO-014.label": {
+    "sw": "Simulizi la Umakini wa Kupindukia"
+  },
+  "SIG-NAR-EMO-015.label": {
+    "sw": "Kufa Ganzi Kihisia"
+  },
+  "SIG-NAR-EMO-016.label": {
+    "sw": "Kutokuwa na Msimamo wa Kihisia"
+  },
+  "SIG-NAR-EMO-017.label": {
+    "sw": "Simulizi la Imani"
+  },
+  "SIG-NAR-CAR-001.label": {
+    "sw": "Simulizi la Utafutaji wa Huduma"
+  },
+  "SIG-NAR-CAR-002.label": {
+    "sw": "Simulizi la Huduma Iliyocheleweshwa"
+  },
+  "SIG-NAR-CAR-003.label": {
+    "sw": "Simulizi la Kupuuzwa na Mtoa Huduma"
+  },
+  "SIG-NAR-CAR-004.label": {
+    "sw": "Simulizi la Kujihisi Kusikilizwa"
+  },
+  "SIG-NAR-CAR-005.label": {
+    "sw": "Simulizi la Kujihisi Kutosikilizwa"
+  },
+  "SIG-NAR-CAR-006.label": {
+    "sw": "Simulizi la Huduma kwa Dawa Pekee"
+  },
+  "SIG-NAR-CAR-007.label": {
+    "sw": "Simulizi la Vipimo au Uchunguzi"
+  },
+  "SIG-NAR-CAR-008.label": {
+    "sw": "Simulizi la Kupitia Rufaa"
+  },
+  "SIG-NAR-CAR-009.label": {
+    "sw": "Simulizi la Kutokuwa na Uhakika wa Utambuzi"
+  },
+  "SIG-NAR-CAR-010.label": {
+    "sw": "Simulizi la Kikwazo cha Upatikanaji wa Huduma"
+  },
+  "SIG-NAR-CAR-011.label": {
+    "sw": "Simulizi la Mwendelezo wa Huduma"
+  },
+  "SIG-NAR-CAR-012.label": {
+    "sw": "Kujitetea Katika Huduma"
+  },
+  "SIG-NAR-CAR-013.label": {
+    "sw": "Simulizi la Imani kwa Mtoa Huduma"
+  },
+  "SIG-NAR-CAR-014.label": {
+    "sw": "Simulizi la Kudhoofika kwa Imani"
+  },
+  "SIG-NAR-CAR-015.label": {
+    "sw": "Simulizi la Huduma Mbadala"
+  },
+  "SIG-NAR-CAR-016.label": {
+    "sw": "Simulizi la Kuepuka Huduma"
+  },
+  "SIG-NAR-CAR-017.label": {
+    "sw": "Simulizi la Matokeo ya Huduma"
+  },
+  "SIG-NAR-SEN-001.label": {
+    "sw": "Simulizi la Kufichua Maumivu ya Ngono"
+  },
+  "SIG-NAR-SEN-002.label": {
+    "sw": "Simulizi la Kufichua Dalili za Utumbo"
+  },
+  "SIG-NAR-SEN-003.label": {
+    "sw": "Simulizi la Kufichua Dalili za Kibofu"
+  },
+  "SIG-NAR-SEN-004.label": {
+    "sw": "Simulizi la Athari kwa Ukaribu"
+  },
+  "SIG-NAR-SEN-005.label": {
+    "sw": "Simulizi la Wasiwasi wa Faragha"
+  },
+  "SIG-NAR-SEN-006.label": {
+    "sw": "Haja ya Kufichua Kunakozingatia Kiwewe"
+  },
+  "SIG-NAR-SEN-007.label": {
+    "sw": "Kufichua Kulikozuiwa na Unyanyapaa"
+  },
+  "SIG-NAR-SEN-008.label": {
+    "sw": "Kuepuka Dalili Nyeti"
+  },
+  "SIG-NAR-SEN-009.label": {
+    "sw": "Kuchukulia Dalili Nyeti kama Kawaida"
+  },
+  "SIG-NAR-SEN-010.label": {
+    "sw": "Simulizi la Kuweka Mipaka"
+  },
+  "SIG-NAR-SEN-011.label": {
+    "sw": "Simulizi la Wasiwasi wa Usalama"
+  },
+  "SIG-NAR-SEN-012.label": {
+    "sw": "Haja ya Usiri"
+  },
+  "SIG-NAR-SEN-013.label": {
+    "sw": "Simulizi la Udhaifu wa Mwili"
+  },
+  "SIG-NAR-SEN-014.label": {
+    "sw": "Maelezo Yanayozingatia Ridhaa"
+  },
+  "SIG-NAR-SEN-015.label": {
+    "sw": "Simulizi la Kutafuta Huduma Nyeti"
+  },
+  "SIG-NAR-TRA-001.label": {
+    "sw": "Hadithi ya Kuzorota kwa Dalili"
+  },
+  "SIG-NAR-TRA-002.label": {
+    "sw": "Hadithi ya Kuboreka kwa Dalili"
+  },
+  "SIG-NAR-TRA-003.label": {
+    "sw": "Hadithi ya Dalili Zinazobadilika"
+  },
+  "SIG-NAR-TRA-004.label": {
+    "sw": "Hadithi ya Muda Mrefu"
+  },
+  "SIG-NAR-TRA-005.label": {
+    "sw": "Hadithi ya Mabadiliko ya Karibuni"
+  },
+  "SIG-NAR-TRA-006.label": {
+    "sw": "Hadithi ya Mpito wa Hatua ya Maisha"
+  },
+  "SIG-NAR-TRA-007.label": {
+    "sw": "Hadithi ya Masasisho ya Huduma"
+  },
+  "SIG-NAR-TRA-008.label": {
+    "sw": "Masasisho ya Dalili Mpya"
+  },
+  "SIG-NAR-TRA-009.label": {
+    "sw": "Masasisho ya Dalili Iliyotatuliwa"
+  },
+  "SIG-NAR-TRA-010.label": {
+    "sw": "Hadithi ya Mzigo Unaoendelea"
+  },
+  "SIG-NAR-TRA-011.label": {
+    "sw": "Hadithi ya Kutulia kwa Mfumo"
+  },
+  "SIG-NAR-TRA-012.label": {
+    "sw": "Tafakari ya Check-In"
+  },
+  "SIG-NAR-TRA-013.label": {
+    "sw": "Ulinganisho wa Kabla na Baada"
+  },
+  "SIG-NAR-TRA-014.label": {
+    "sw": "Hadithi ya Kipindi cha Mageuzi"
+  },
+  "SIG-NAR-TRA-015.label": {
+    "sw": "Hadithi ya Mzigo Uliokusanyika"
+  },
+  "SIG-NAR-TRA-016.label": {
+    "sw": "Haja ya Ufuatiliaji wa Baadaye"
+  },
+  "SIG-NAR-AGS-001.label": {
+    "sw": "Simulizi la Kujitetea"
+  },
+  "SIG-NAR-AGS-002.label": {
+    "sw": "Simulizi la Mkakati wa Kukabiliana"
+  },
+  "SIG-NAR-AGS-003.label": {
+    "sw": "Simulizi la Kujisimamia"
+  },
+  "SIG-NAR-AGS-004.label": {
+    "sw": "Simulizi la Msaada wa Wenzao"
+  },
+  "SIG-NAR-AGS-005.label": {
+    "sw": "Simulizi la Msaada wa Familia"
+  },
+  "SIG-NAR-AGS-006.label": {
+    "sw": "Simulizi la Msaada wa Mwenzi"
+  },
+  "SIG-NAR-AGS-007.label": {
+    "sw": "Simulizi la Msaada wa Jamii"
+  },
+  "SIG-NAR-AGS-008.label": {
+    "sw": "Simulizi la Kutafuta Taarifa"
+  },
+  "SIG-NAR-AGS-009.label": {
+    "sw": "Simulizi la Maandalizi"
+  },
+  "SIG-NAR-AGS-010.label": {
+    "sw": "Simulizi la Mipaka na Mapumziko"
+  },
+  "SIG-NAR-AGS-011.label": {
+    "sw": "Simulizi la Ubunifu"
+  },
+  "SIG-NAR-AGS-012.label": {
+    "sw": "Utayari wa Kutafuta Msaada"
+  },
+  "SIG-NAR-AGS-013.label": {
+    "sw": "Simulizi la Kupanga Huduma"
+  },
+  "SIG-NAR-AGS-014.label": {
+    "sw": "Simulizi la Uthabiti"
+  },
+  "SIG-NAR-AGS-015.label": {
+    "sw": "Utambuzi wa Nguvu"
+  }
+}

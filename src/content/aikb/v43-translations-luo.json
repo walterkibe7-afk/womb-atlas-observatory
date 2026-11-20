@@ -1,0 +1,3005 @@
+{
+  "_template.nonDiagnosticDisclaimer": {
+    "luo": "Ndikoni ok en ng'ado tuo. En mana paro mar gima iselimo adier kaka moseneno."
+  },
+  "_template.narrativeLabel": {
+    "luo": "Sigana"
+  },
+  "_template.sensitiveNarrativeLabel": {
+    "luo": "Sigana Malit"
+  },
+  "_template.pdfPage": {
+    "luo": "Ite"
+  },
+  "_template.pdfGeneratedByFooter": {
+    "luo": "Olosi gi Womb Atlas — mar neno, ok mar ng'ado tuo"
+  },
+  "_template.pdfTimelineTitle": {
+    "luo": "Atlas Timeline"
+  },
+  "_template.pdfEventSingular": {
+    "luo": "gima notimore"
+  },
+  "_template.pdfEventPlural": {
+    "luo": "gik mane otimore"
+  },
+  "_template.pdfGeneratedPrefix": {
+    "luo": "Olosi"
+  },
+  "_template.pdfHealthJourney": {
+    "luo": "Wuoth mar Ngima"
+  },
+  "_template.pdfNoTimelineEvents": {
+    "luo": "Onge gik mane otimore e timeline pod — ma biro pongo ka neno mari mokwongo oserumo."
+  },
+  "_template.pdfSignalEvolutionOverTime": {
+    "luo": "Lokruok mar Ranyisi e Kinde"
+  },
+  "_template.pdfSignalTrendsEmpty": {
+    "luo": "Kido mag ranyisi mari biro nyisore ka Ndiko mari mokwongo mar Atlas oselosore."
+  },
+  "_template.pdfDateColumn": {
+    "luo": "Tarik"
+  },
+  "_template.pdfCareJourney": {
+    "luo": "Wuoth mar Rit"
+  },
+  "_template.pdfCareJourneyEmpty": {
+    "luo": "Chakore ka isetieko neno mari mokwongo."
+  },
+  "_template.pdfCurrentPhasePrefix": {
+    "luo": "Kinde ma nitie sani:"
+  },
+  "_template.pdfDone": {
+    "luo": "Oserumo"
+  },
+  "_template.pdfPending": {
+    "luo": "Pod Orito"
+  },
+  "_template.pdfLifeStageJourney": {
+    "luo": "Wuoth mar Kinde Ngima"
+  },
+  "_template.pdfLifeStageEmpty": {
+    "luo": "Nyis wecheni e neno mari mokwongo mondo ine ma ka."
+  },
+  "_template.pdfYouAreInYour": {
+    "luo": "In e"
+  },
+  "_template.burdenLevelLow": {
+    "luo": "Matin"
+  },
+  "_template.burdenLevelModerate": {
+    "luo": "Mopimore"
+  },
+  "_template.burdenLevelHigh": {
+    "luo": "Maduong'"
+  },
+  "_template.pdfRecordTitle": {
+    "luo": "Ndiko mar Atlas"
+  },
+  "_template.pdfBurdenPrefix": {
+    "luo": "Pek:"
+  },
+  "_template.pdfObservationPortrait": {
+    "luo": "Kido mar Nenoni"
+  },
+  "_template.pdfDominantPattern": {
+    "luo": "Ranyisi Maduong'"
+  },
+  "_template.pdfSupportingPatterns": {
+    "luo": "Ranyisi Makonyo"
+  },
+  "_template.pdfAtlasArchetype": {
+    "luo": "Ranyisi mar Atlas"
+  },
+  "_template.pdfWhatArchetypeMeans": {
+    "luo": "Gima Ranyisini Tiende"
+  },
+  "_template.pdfSignalLandscape": {
+    "luo": "Kit Ranyisi Duto"
+  },
+  "_template.pdfSignalsObserved": {
+    "luo": "Ranyisi Moseneno"
+  },
+  "_template.pdfDomainColumn": {
+    "luo": "Bor"
+  },
+  "_template.pdfSignalColumn": {
+    "luo": "Ranyisi"
+  },
+  "_template.pdfSeverityColumn": {
+    "luo": "Teko"
+  },
+  "_template.pdfNarrativeThemes": {
+    "luo": "Puonj Madongo mag Sigana"
+  },
+  "_template.pdfExperienceLayers": {
+    "luo": "Kaka Wachni Ochanore"
+  },
+  "_template.pdfStrengthsObserved": {
+    "luo": "Gik Mabeyo ma Atlas Oseneno"
+  },
+  "_template.pdfBodyLiteracy": {
+    "luo": "Ng'eyo mar Ringruok"
+  },
+  "_template.pdfWhatAtlasWillWatch": {
+    "luo": "Gima Atlas Biro Siko ka Neno"
+  },
+  "_template.pdfReflectionCompass": {
+    "luo": "Yo mar Parruok"
+  },
+  "_template.pdfStrongestTheme": {
+    "luo": "Puonj Motegno Moloyo"
+  },
+  "_template.pdfEmergingTheme": {
+    "luo": "Puonj Manyien Mochakore"
+  },
+  "_template.pdfStrengthObserved": {
+    "luo": "Teko Moseneno"
+  },
+  "_template.pdfRecordDisclaimerFallback": {
+    "luo": "Ndikoni mar Atlas en mar neno kendo paro. Ok en ng'ado tuo."
+  },
+  "_template.streakMonthSingular": {
+    "luo": "Dwe"
+  },
+  "_template.streakMonthPlural": {
+    "luo": "Dwe"
+  },
+  "_template.progressFirstObservationComplete": {
+    "luo": "Neno mokwongo oserumo"
+  },
+  "_template.progressContinueFirstObservation": {
+    "luo": "Dhi nyime gi neno mari mokwongo"
+  },
+  "_template.reflectionSummaryFallback": {
+    "luo": "Parruokni en achiel mar gik mane inyiso kod gik madongo ne in."
+  },
+  "_template.timelineFirstObservationTitle": {
+    "luo": "Neno Mokwongo"
+  },
+  "_template.timelineFirstObservationDesc": {
+    "luo": "Neno mari mar chakruok"
+  },
+  "_template.timelineObservationEditedTitle": {
+    "luo": "Neno Moseloso"
+  },
+  "_template.timelineObservationEditedDesc": {
+    "luo": "Neno mari mokwongo noseloso"
+  },
+  "_template.timelineCheckinCompletedTitle": {
+    "luo": "Check-In Oserumo"
+  },
+  "_template.timelineCheckinCompletedDesc": {
+    "luo": "Gik mosemed e timeline mari"
+  },
+  "_template.timelineReflectionGeneratedTitle": {
+    "luo": "Parruok Oselosore"
+  },
+  "_template.timelineKeyThemesIdentified": {
+    "luo": "puonj madongo mosefwenyore"
+  },
+  "_template.timelineReflectionReady": {
+    "luo": "Parruokni oikore"
+  },
+  "_template.timelineRecordCreatedTitle": {
+    "luo": "Ndiko mar Atlas Oselosore"
+  },
+  "_template.timelineRecordCreatedDesc": {
+    "luo": "Ndikoni oikore mar nono"
+  },
+  "_template.timelineNextCheckinTitle": {
+    "luo": "Check-In Maluwo"
+  },
+  "_template.timelineReadyWheneverYouAre": {
+    "luo": "In moikore sa moro amora"
+  },
+  "_template.timelineYouWillBeReminded": {
+    "luo": "Ibiro paro nyisi"
+  },
+  "_template.personalInsightStreakLead": {
+    "luo": "Mari"
+  },
+  "_template.personalInsightStreakMid": {
+    "luo": "ranyisi osenenore"
+  },
+  "_template.personalInsightStreakSuffix": {
+    "luo": "neno molandore."
+  },
+  "_template.personalInsightEmptyFallback": {
+    "luo": "Ndikoni mokwongo mar Atlas oikore — ng'eyo medore gi Check-In ka Check-In ma imedo."
+  },
+  "_template.observatoryInsightGenericCompanion": {
+    "luo": "gik mamoko molokore e kinde"
+  },
+  "_template.observatoryInsightLead": {
+    "luo": "Jotiyo maluwo ranyisi marom kaka"
+  },
+  "_template.observatoryInsightMid": {
+    "luo": "ranyisi bende neno"
+  },
+  "_template.observatoryInsightComparingHelps": {
+    "luo": "Poro ndikoni gi observatori maduong' konyo fwenyo gima onego osik ka nenore."
+  },
+  "_template.observatoryInsightEmptyFallback": {
+    "luo": "Ka Ndikoni mokwongo mar Atlas oselosore, ibiro neno kaka ranyisi mari luwore gi observatori maduong'."
+  },
+  "domain_bleeding.companionPhrase": {
+    "luo": "ol kod nyap chuny"
+  },
+  "domain_pain.companionPhrase": {
+    "luo": "chandruok e chenro mapile"
+  },
+  "domain_hormonal.companionPhrase": {
+    "luo": "lokruok e nindo kod chuny"
+  },
+  "domain_cycle.companionPhrase": {
+    "luo": "lokruok e ng'eyo kinde mar dwe"
+  },
+  "domain_daily_life.companionPhrase": {
+    "luo": "chandruok e nindo kod ol"
+  },
+  "domain_care_access.companionPhrase": {
+    "luo": "wechegi kwedo"
+  },
+  "life_stage_adolescence.label": {
+    "luo": "Rundo"
+  },
+  "life_stage_adolescence.description": {
+    "luo": "Atlas konyi winjo kaka gik moseloso e kindeni kod bang'e."
+  },
+  "life_stage_reproductive.label": {
+    "luo": "Higni mag Nywol"
+  },
+  "life_stage_reproductive.description": {
+    "luo": "Atlas konyi winjo kaka gik moseloso e kindeni kod bang'e."
+  },
+  "life_stage_pregnancy.label": {
+    "luo": "Ich"
+  },
+  "life_stage_pregnancy.description": {
+    "luo": "Atlas luwo nenoni ka opar ich mari."
+  },
+  "life_stage_postpartum.label": {
+    "luo": "Bang' Nywol"
+  },
+  "life_stage_postpartum.description": {
+    "luo": "Atlas luwo nenoni e kinde ma ichango bang' nywol."
+  },
+  "life_stage_perimenopause.label": {
+    "luo": "Machiegni gi Rumo Dwe"
+  },
+  "life_stage_perimenopause.description": {
+    "luo": "Atlas konyi luwo kaka kit ringruokni lokore e kindeni mar lokruok."
+  },
+  "life_stage_menopause.label": {
+    "luo": "Rumo Dwe"
+  },
+  "life_stage_menopause.description": {
+    "luo": "Atlas konyi luwo ranyisi mari bang' rumo dwe."
+  },
+  "care_phase_observation.label": {
+    "luo": "Neno Mokwongo"
+  },
+  "care_phase_observation.description": {
+    "luo": "Chak neno mari mokwongo mondo ichak wuodhi gi Atlas."
+  },
+  "care_phase_care_outreach.label": {
+    "luo": "Manyo Rit"
+  },
+  "care_phase_care_outreach.description": {
+    "luo": "Manyo rit mari en achiel kuom ndikoni."
+  },
+  "care_phase_atlas_record.label": {
+    "luo": "Ndiko mar Atlas"
+  },
+  "care_phase_atlas_record.description": {
+    "luo": "Ndikoni mar chakruok mar Atlas oikore. Timne Check-In e kinde mondo iluw kaka gik moloko."
+  },
+  "care_phase_check_ins.label": {
+    "luo": "Check-Ins Madhi Nyime"
+  },
+  "care_phase_check_ins.description": {
+    "luo": "Check-Ins mari medo kido maduong' mar ndikoni."
+  },
+  "care_phase_monitoring.label": {
+    "luo": "Nono Madhi Nyime"
+  },
+  "care_phase_monitoring.description": {
+    "luo": "In e nono madhi nyime — Atlas medo gero ndikoni gi Check-In ka Check-In."
+  },
+  "bleeding_burden.participantLabel": {
+    "luo": "Ol matek kata machandi"
+  },
+  "bleeding_burden.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni olni nyalo dwaro ikruok mang'eny, teko, kod rit e ngima mapile."
+  },
+  "bleeding_burden.atlasNote": {
+    "luo": "Fweny mar Atlas: Pek mar ol en mar neno kende — oleroga gima iselimo, ok en ng'ado tuo."
+  },
+  "bleeding_burden.whyConnected": {
+    "luo": "Atlas ochoko wechegi nikech dwoko moluwore gi ol nyalo chako kinde, lith remo, loko gige tich, kod ikruok mapile."
+  },
+  "bleeding_burden.watchOverTime": {
+    "luo": "Ka ol osiko mana achiel, medore kata bedo mapok ng'ere, kata dhi nyime kod muoch chuny kod ikruok."
+  },
+  "pain_distribution.participantLabel": {
+    "luo": "Kit Rem"
+  },
+  "pain_distribution.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni rem nyalo landore e kinde, wuoth, kod kaka idwoko ka obiro."
+  },
+  "pain_distribution.atlasNote": {
+    "luo": "Fweny mar Atlas: Kit rem en mar neno, ok en nying ma ng'ado tuo."
+  },
+  "pain_distribution.whyConnected": {
+    "luo": "Atlas ochoko wechegi nikech kinde mar rem, kama en, dak, kod dwoko nyalo bedo gimoro achiel ma iselimo."
+  },
+  "pain_distribution.watchOverTime": {
+    "luo": "Ka rem osiko mana kar achiel, landore e tije mamoko, kata bedo mayot ng'eyo motelo."
+  },
+  "hormonal_rhythm.participantLabel": {
+    "luo": "Kit Dwe"
+  },
+  "hormonal_rhythm.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni kit dwe kod ranyisi mag hormone nyalo bedo gik machweyo kaka ringruokni fwenyore e kinde."
+  },
+  "hormonal_rhythm.atlasNote": {
+    "luo": "Fweny mar Atlas: Nenruok mar kit en ok ng'ado tuo mar hormone."
+  },
+  "hormonal_rhythm.whyConnected": {
+    "luo": "Atlas ochoko wechegi nikech ng'eyo motelo mar dwe, ranyisi mag hormone, kod kinde mar tuoche nyalo wuoth kaachiel."
+  },
+  "hormonal_rhythm.watchOverTime": {
+    "luo": "Ka kit dweni bedo maler moloyo, lokore mang'eny moloyo, kata luwore maler gi ranyisi mamoko mag ringruok."
+  },
+  "pelvic_function.participantLabel": {
+    "luo": "Ranyisi mag Iye Piny kod Ringruok"
+  },
+  "pelvic_function.plainLanguageMeaning": {
+    "luo": "Atlas noneno ranyisi mag iye piny kata lokruok mar ringruok ma nyalo bedo moriwore, ok gimoro ka gimoro kende."
+  },
+  "pelvic_function.atlasNote": {
+    "luo": "Fweny mar Atlas: Ranyisi mag iye piny gin gik mochoki mag neno, ok tuo achiel."
+  },
+  "pelvic_function.whyConnected": {
+    "luo": "Atlas ochoko wechegi nikech chandruok mar iye piny kod ranyisi mag lokruok mar ringruok nyalo nyiso chenro mar iye piny moriwore."
+  },
+  "pelvic_function.watchOverTime": {
+    "luo": "Ka chandruokno osiko mabor mabor, bedo mosiko, kata luwore gi iye, thuno, kata wuoth."
+  },
+  "daily_function.participantLabel": {
+    "luo": "Gima Omulo Ngima Mapile"
+  },
+  "daily_function.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni tuoche nyalo miyo skul, tich, yweyo, kod tije ma inyalo timo lokore."
+  },
+  "daily_function.atlasNote": {
+    "luo": "Fweny mar Atlas: Gima omulo en ranyisi — odonjo e ndikoni ka tuoche loko ngima mapile."
+  },
+  "daily_function.whyConnected": {
+    "luo": "Atlas ochoko wechegi nikech tije mokadho, nindo mochandi, kod gima omulo nyalo loko ngima mapile."
+  },
+  "daily_function.watchOverTime": {
+    "luo": "Ka chenro bedo mothuolo moloyo, ochung' matek moloyo, kata bedo mayot ng'eyo motelo ka tuoche loko."
+  },
+  "care_experience.participantLabel": {
+    "luo": "Wuoth Mari mar Rit"
+  },
+  "care_experience.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni wuoth mari mar rit — yudo, dwoko, kod winjo ni owinji — en achiel kuom ndikoni."
+  },
+  "care_experience.atlasNote": {
+    "luo": "Fweny mar Atlas: Wuoth mar rit loso gima ng'ato luwo, weyo, kata weyo wacho."
+  },
+  "care_experience.whyConnected": {
+    "luo": "Atlas ochoko wechegi nikech gilero kaka isewuotho gi rit kaachiel gi tuoche."
+  },
+  "care_experience.watchOverTime": {
+    "luo": "Ka yudo rit, ler, kod winjo ni owinji dhi maber, chung, kata lokore e kinde."
+  },
+  "body_unpredictability.participantLabel": {
+    "luo": "Lokruok mar Ringruok Mayot Ng'ere"
+  },
+  "body_unpredictability.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni ok ng'eyo gima biro timore bang'e nyalo chweyo kaka ichano kod iikori."
+  },
+  "body_unpredictability.atlasNote": {
+    "luo": "Fweny mar Atlas: Winjo ranyisi nyalo dwoko winjo ni tuoche gin mag apoya."
+  },
+  "body_unpredictability.whyConnected": {
+    "luo": "Atlas ochoko wechegi nikech ok ng'ere nyalo chweyo chano, geno, kod ikruok mapile."
+  },
+  "body_unpredictability.watchOverTime": {
+    "luo": "Ka ok ng'ere dwokore, lokore e bor mopogore, kata bedo mayot chano motelo."
+  },
+  "planning_around_symptoms.participantLabel": {
+    "luo": "Chano Kuom Ringruoki"
+  },
+  "planning_around_symptoms.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni inyalo bedo ka ichano ngimani kuom kinde ma tuoche biroe."
+  },
+  "planning_around_symptoms.atlasNote": {
+    "luo": "Fweny mar Atlas: Pek mar chano en gima iselimo, ok kido mar chunyi."
+  },
+  "planning_around_symptoms.whyConnected": {
+    "luo": "Atlas noneno dwaro mar chano konenore e neno mang'eny."
+  },
+  "planning_around_symptoms.watchOverTime": {
+    "luo": "Ka pek mar chano dwokore kata bedo mayot ng'eyo motelo."
+  },
+  "symptom_adaptation.participantLabel": {
+    "luo": "Winjruok gi Tuoche"
+  },
+  "symptom_adaptation.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni inyalo bedo ka iloso chenro mari mondo idag gi tuoche madhi nyime."
+  },
+  "symptom_adaptation.atlasNote": {
+    "luo": "Fweny mar Atlas: Winjruok en teko kendo ranyisi mar pek madhi nyime."
+  },
+  "symptom_adaptation.whyConnected": {
+    "luo": "Atlas noneno loso chenro konenore kaachiel gi siko mar tuoche."
+  },
+  "symptom_adaptation.watchOverTime": {
+    "luo": "Ka yore mag winjruok osiko mochung' kata lokore."
+  },
+  "diagnostic_uncertainty.participantLabel": {
+    "luo": "Manyo Dwoko"
+  },
+  "diagnostic_uncertainty.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni bedo maonge dwoko maler nyalo bedo achiel kuom gima iselimo."
+  },
+  "diagnostic_uncertainty.atlasNote": {
+    "luo": "Fweny mar Atlas: Ok ng'ere nigi pek e ndiko mar gima iselimo."
+  },
+  "diagnostic_uncertainty.whyConnected": {
+    "luo": "Atlas noneno ok ng'ere kuom gima ringruok timo."
+  },
+  "diagnostic_uncertainty.watchOverTime": {
+    "luo": "Ka ler medore e neno mamoko."
+  },
+  "care_navigation_complexity.participantLabel": {
+    "luo": "Wuotho e Yo mar Rit"
+  },
+  "care_navigation_complexity.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni wuotho e yo mar rit nyalo dwaro tich mang'eny kod siko."
+  },
+  "care_navigation_complexity.atlasNote": {
+    "luo": "Fweny mar Atlas: Chandruok mar rit nyalo miyo gima iluwo kata iwacho lokore."
+  },
+  "care_navigation_complexity.whyConnected": {
+    "luo": "Atlas noneno chandruok e kaka rit oseyud kendo orwako."
+  },
+  "care_navigation_complexity.watchOverTime": {
+    "luo": "Ka yo mar rit bedo maler moloyo kata dongo mos."
+  },
+  "life_reorganization.participantLabel": {
+    "luo": "Dak Kuom Tuoche"
+  },
+  "life_reorganization.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni tuoche nyalo loko tich, yweyo, wuoth, kod ngima mapile kaachiel."
+  },
+  "life_reorganization.watchOverTime": {
+    "luo": "Ka chenro bedo mothuolo moloyo, ochung' matek moloyo, kata bedo mayot ng'eyo motelo ka tuoche loko."
+  },
+  "life_reorganization.whyConnected": {
+    "luo": "Atlas noneno ni neno mang'eny nomulo chano, chenro, kod ikruok, ok mana tuoche achiel achiel."
+  },
+  "life_reorganization.atlasNote": {
+    "luo": "Fweny mar Atlas: Loko ngima leroga gima omulo, ok nying mar tuo achiel."
+  },
+  "adaptive_living.participantLabel": {
+    "luo": "Manyo Yore mag Dak"
+  },
+  "adaptive_living.plainLanguageMeaning": {
+    "luo": "Atlas noneno ka imanyo yore mag dak gi gima ringruoki timo."
+  },
+  "adaptive_living.watchOverTime": {
+    "luo": "Ka yore mag winjruok osiko mochung' kata lokore."
+  },
+  "adaptive_living.whyConnected": {
+    "luo": "Atlas noneno winjruok kod gima omulo ka wuotho kaachiel."
+  },
+  "adaptive_living.atlasNote": {
+    "luo": "Fweny mar Atlas: Winjruok nyiso teko manie i pek madhi nyime."
+  },
+  "escalating_burden.participantLabel": {
+    "luo": "Tuoche Madongo e Kinde"
+  },
+  "escalating_burden.plainLanguageMeaning": {
+    "luo": "Atlas noneno ranyisi ni tuoche nyalo dongo, ok mana siko mana achiel."
+  },
+  "escalating_burden.watchOverTime": {
+    "luo": "Ka pek dongo, chung, kata dwokore."
+  },
+  "escalating_burden.whyConnected": {
+    "luo": "Atlas noneno kit dhi marach e borni mopogore."
+  },
+  "escalating_burden.atlasNote": {
+    "luo": "Fweny mar Atlas: Dongruok en mar neno — neno mabiro biro miyo ler."
+  },
+  "delayed_recognition.participantLabel": {
+    "luo": "Fweny Nokawo Kinde"
+  },
+  "delayed_recognition.plainLanguageMeaning": {
+    "luo": "Atlas noneno ni yudo ler nyalo bedo ni nokawo kinde moloyo kaka nogeno."
+  },
+  "delayed_recognition.watchOverTime": {
+    "luo": "Ka fweny kod ler mar rit dhi maber."
+  },
+  "delayed_recognition.whyConnected": {
+    "luo": "Atlas noneno chandruok mar rit kaachiel gi ok ng'ere."
+  },
+  "delayed_recognition.atlasNote": {
+    "luo": "Fweny mar Atlas: Fweny mochwe en gima ojwang'ore kendo en adier."
+  },
+  "_template.emergentAtlasNote": {
+    "luo": "Puonjni nowuok kaka neno mang'eny nochokore kaachiel — ok koa kuom dwoko achiel."
+  },
+  "_template.lightlyObserved": {
+    "luo": "nonenore matin e ndikoni mokwongo."
+  },
+  "Bleeding Burden.meaningName": {
+    "luo": "Ol Moloyo mana Ng'eny"
+  },
+  "Bleeding Burden.explanation": {
+    "luo": "Ol nyalo dwarore nikech kaka omulo teko, ikruok, nindo, wuoth, kod chenro mapile, ok mana nikech ng'enyne."
+  },
+  "Pain Distribution.meaningName": {
+    "luo": "Chenro mag Iye Piny Moriwore"
+  },
+  "Pain Distribution.explanation": {
+    "luo": "Rem sa moro ok bedo gimoro achiel kende. Onyalo konyo ka ineno kinde, wuoth, thuno, kod chenro mag iye piny kaachiel."
+  },
+  "Pelvic Function.meaningName": {
+    "luo": "Chenro mag Iye Piny Moriwore"
+  },
+  "Pelvic Function.explanation": {
+    "luo": "Chandruok kata bedo mopong' nyalo winjore kaka gimoro achiel nyaka gineni kaachiel gi thuno, iye, wuoth, kata ranyisi mag lokruok mar ringruok."
+  },
+  "Hormonal Rhythm.meaningName": {
+    "luo": "Lokruok mar Kit"
+  },
+  "Hormonal Rhythm.explanation": {
+    "luo": "Kit dwe en moloyo mana tarike. Lokruok mar kinde nyalo bedo kaachiel gi del, yier, teko, chuny, kata ranyisi mag lokruok mar ringruok."
+  },
+  "Daily Function.meaningName": {
+    "luo": "Gima Omulo Ngima Mapile"
+  },
+  "Daily Function.explanation": {
+    "luo": "Chenro mar ringruok bedo maduong' moloyo ka ochako loko ngima mapile, kata bed ni tuo ka tuo winjore ni inyalo rito."
+  },
+  "Life Reorganization.meaningName": {
+    "luo": "Loko Ngima"
+  },
+  "Life Reorganization.explanation": {
+    "luo": "Ka neno mang'eny ochokore kaachiel, tuoche nyalo loko tich, yweyo, wuoth, kod ngima mapile kaachiel."
+  },
+  "Care Experience.meaningName": {
+    "luo": "Wuoth mar Rit kaka Ranyisi"
+  },
+  "Care Experience.explanation": {
+    "luo": "Winjo ni ok owinji kata onge dwoko nyalo loko kinde ma tuo osiko ma ok ondik, ma ok ochang, kata ma okawo kaka gima ojwang'ore."
+  },
+  "Body Unpredictability.meaningName": {
+    "luo": "Ok Ng'ere kaka Pek"
+  },
+  "Body Unpredictability.explanation": {
+    "luo": "Ok ng'eyo gima ringruoki biro timo bang'e nyalo bedo achiel kuom gima iselimo. Ok ng'ere nyalo mulo chano, geno mar kinde, kod manyo rit."
+  },
+  "Bleeding Burden.literacyTitle": {
+    "luo": "Ol Moloyo mana Ng'eny"
+  },
+  "Bleeding Burden.literacyNote": {
+    "luo": "Fweny mar Atlas: Gima ol omulo ok en mana ng'enyne. Orwako yweyo, chenro, nindo, wuoth mabor, kod winjo ni oikore."
+  },
+  "Pain Distribution.literacyTitle": {
+    "luo": "Ranyisi mag Iye Piny Nyalo Riwore"
+  },
+  "Pain Distribution.literacyNote": {
+    "luo": "Fweny mar Atlas: Neno kama rem fwenyoree nyalo nyiso ka chenro mar ringruok osiko kar achiel kata landore e chenro mamoko."
+  },
+  "Pelvic Function.literacyTitle": {
+    "luo": "Ranyisi mag Iye Piny Nyalo Riwore"
+  },
+  "Pelvic Function.literacyNote": {
+    "luo": "Fweny mar Atlas: Ranyisi mag chandruok nyalo winjore ni ok oriwore nyaka ginenre kaka chogo moriwore e thuno, iye, kod wuoth."
+  },
+  "Hormonal Rhythm.literacyTitle": {
+    "luo": "Kit en Moloyo mana Tarike"
+  },
+  "Hormonal Rhythm.literacyNote": {
+    "luo": "Fweny mar Atlas: Lokruok mar kit nyalo fwenyore kaka kinde, del, yier, teko, chuny, kata lokruok mar pek, ok mana dwe molal."
+  },
+  "Daily Function.literacyTitle": {
+    "luo": "Gima Omulo en Ranyisi"
+  },
+  "Daily Function.literacyNote": {
+    "luo": "Fweny mar Atlas: Gima omulo en achiel kuom ndikoni ka tuoche loko nindo, tich, skul, rit, winjruok, kata wuoth."
+  },
+  "Life Reorganization.literacyTitle": {
+    "luo": "Dak Kuom Tuoche"
+  },
+  "Life Reorganization.literacyNote": {
+    "luo": "Fweny mar Atlas: Ka neno mang'eny ochokore kaachiel, ngima mapile nyalo lokore kuom gima ringruok timo."
+  },
+  "Care Experience.literacyTitle": {
+    "luo": "Wuoth mar Rit Loso Ndikoni"
+  },
+  "Care Experience.literacyNote": {
+    "luo": "Fweny mar Atlas: Wuoth mar rit nyalo loso gima ng'ato luwo, weyo, kawo kaka gima ojwang'ore, kata weyo wacho."
+  },
+  "Body Unpredictability.literacyTitle": {
+    "luo": "Ok Ng'ere Nigi Pek"
+  },
+  "Body Unpredictability.literacyNote": {
+    "luo": "Fweny mar Atlas: Winjo ranyisi nyalo dwoko winjo ni tuoche gin mag apoya."
+  },
+  "Baseline.literacyTitle": {
+    "luo": "Chakruok en Teko Maduong'"
+  },
+  "Baseline.literacyNote": {
+    "luo": "Fweny mar Atlas: Neno mokwongo ok nyaka lo gik moko duto. Omiyo chunyi mabiro gimoro mar pimo kode."
+  },
+  "_template.noMeaningfulPattern": {
+    "luo": "Ndikoni mokwongo mar Atlas chweyo kama ichakoe. Ranyisi moko nyalo bedo maler moloyo ka neno mamoko omedi."
+  },
+  "_template.respectfulBaseline": {
+    "luo": "Atlas noloso chakruok mowinjore koa e gima ne iyiero nyiso kawuono."
+  },
+  "_template.closingAgency": {
+    "luo": "Inyalo kano ndikoni, duogo ire, kata tiyo kode mondo iler gima iselimo gi dhoki iwuon."
+  },
+  "_template.organizedAround": {
+    "luo": "Atlas nochano parruokni mokwongo koluwore gi"
+  },
+  "_template.relatedThread": {
+    "luo": "Wach moluwore,"
+  },
+  "_template.mayHelpExplain": {
+    "luo": "nyalo konyo lero kaka gigi luworore."
+  },
+  "_template.addsAnotherLayer": {
+    "luo": "medo bor machielo:"
+  },
+  "_template.staysClose": {
+    "luo": "Parruokni osiko machiegni gi gima nonenore kawuono kendo weyo thuolo mar pimo motelo."
+  },
+  "_template.keepWatching": {
+    "luo": "Atlas biro siko ka neno kaka gigi luworore e kinde."
+  },
+  "_template.portraitLead": {
+    "luo": "Ndikoni mokwongo mar Atlas chweyo kido mar chakruok mar gik moseneno kuom"
+  },
+  "_template.portraitOrganizedThrough": {
+    "luo": "mochan gi"
+  },
+  "The Adapting Navigator.name": {
+    "luo": "Jawuoth Maloso Yo"
+  },
+  "The Adapting Navigator.description": {
+    "luo": "Atlas neno ng'at ma loso ngima mapile ka opuonjore wuotho e ok ng'ere."
+  },
+  "The Adapting Navigator.whatThisMeans": {
+    "luo": "Ranyisini fwenyore ka gik ma ringruok timo ochako mulo chano, ikruok, kod chenro. Chandruok maduong' ok en tuo achiel, to en dwaro mar winjruok gi ok ng'ere."
+  },
+  "The Adapting Navigator.whyTemplate": {
+    "luo": "Atlas noyiero ranyisini nikech loko ngima, ok ng'ere mar ringruok, kod pek mar chano nofwenyore kaachiel e ndikoni."
+  },
+  "The Adapting Navigator.logicSummary": {
+    "luo": "Kaachiel gigi nyiso gima ochung' kuom winjruok kod ikruok."
+  },
+  "The Persistent Seeker.name": {
+    "luo": "Jamany Mosiko"
+  },
+  "The Persistent Seeker.description": {
+    "luo": "Atlas neno siko mar manyo winjo gima timore kod yudo kony maler."
+  },
+  "The Persistent Seeker.whatThisMeans": {
+    "luo": "Ranyisini fwenyore ka manyo ler kod kony bedo achiel kuom gima iselimo iwuon."
+  },
+  "The Persistent Seeker.whyTemplate": {
+    "luo": "Atlas noyiero ranyisini nikech chandruok mar rit kod ok ng'ere mar ringruok nofwenyore kaachiel gi penjo madhi nyime kuom gima timore."
+  },
+  "The Persistent Seeker.logicSummary": {
+    "luo": "Kaachiel gigi nyiso gima ochung' kuom siko kod manyo dwoko maler."
+  },
+  "The Multi-System Experience.name": {
+    "luo": "Gima Omulo Chenro Mang'eny"
+  },
+  "The Multi-System Experience.description": {
+    "luo": "Atlas neno gik ma nyalo luworore e rem, kit, chandruok, kod gima omulo ngima mapile."
+  },
+  "The Multi-System Experience.whatThisMeans": {
+    "luo": "Ranyisini fwenyore ka tuoche nyalo wuotho e chenro mang'eny mar ringruok kata ngima mapile kaachiel."
+  },
+  "The Multi-System Experience.whyTemplate": {
+    "luo": "Atlas noyiero ranyisini nikech landruok mar rem, chandruok mar iye piny, kod ranyisi mag kit nofwenyore ka luworore e ndikoni."
+  },
+  "The Multi-System Experience.logicSummary": {
+    "luo": "Kaachiel gigi nyiso gima nyalo winjore e chenro mang'eny mar ringruok kod ngima mapile."
+  },
+  "The Uncertain Body Experience.name": {
+    "luo": "Gima Omulo Ringruok Mayot Ng'ere"
+  },
+  "The Uncertain Body Experience.description": {
+    "luo": "Atlas neno ok ng'ere kod ranyisi mag ringruok molokore kaka gima iselimo maduong'."
+  },
+  "The Uncertain Body Experience.whatThisMeans": {
+    "luo": "Ranyisini fwenyore ka ok ng'eyo gima ringruok biro timo bang'e bedo achiel kuom pek."
+  },
+  "The Uncertain Body Experience.whyTemplate": {
+    "luo": "Atlas noyiero ranyisini nikech ok ng'ere mar ringruok kod lokruok mar kit nofwenyore kaka puonj motegno moloyo e ndikoni."
+  },
+  "The Uncertain Body Experience.logicSummary": {
+    "luo": "Kaachiel gigi nyiso gima ochung' kuom ok ng'ere kod ranyisi mag ringruok molokore."
+  },
+  "The Body Negotiator.name": {
+    "luo": "Jariemb Ringruok"
+  },
+  "The Body Negotiator.description": {
+    "luo": "Atlas neno riemb mosiko e kind dwaro mar ringruok, teko, kod gima ngima mapile dwaro."
+  },
+  "The Body Negotiator.whatThisMeans": {
+    "luo": "Ranyisini fwenyore ka pek mar ringruok kod nyalo mar ngima mapile nyaka riembre kinde ka kinde."
+  },
+  "The Body Negotiator.whyTemplate": {
+    "luo": "Atlas noyiero ranyisini nikech pek mar ol kod loko ngima nofwenyore kaachiel gi teko kod chandruok mar chenro."
+  },
+  "The Body Negotiator.logicSummary": {
+    "luo": "Kaachiel gigi nyiso gima ochung' kuom riemb nyalo, teko, kod dwaro mapile."
+  },
+  "The Quiet Burden.name": {
+    "luo": "Pek Molingo-lingo"
+  },
+  "The Quiet Burden.description": {
+    "luo": "Atlas neno pek mosiko ma nyalo bedo maonge nyisruok maduong', to nigi teko madier e ngima mapile."
+  },
+  "The Quiet Burden.whatThisMeans": {
+    "luo": "Ranyisini fwenyore ka pek nitie kata obedo ni ndikoni ok ochung' kuom puonj achiel maduong'."
+  },
+  "The Quiet Burden.whyTemplate": {
+    "luo": "Atlas noyiero ranyisini nikech ranyisi mag pek mar ringruok nofwenyore mosiko, kata maonge puonj achiel maduong'."
+  },
+  "The Quiet Burden.logicSummary": {
+    "luo": "Kaachiel gigi nyiso pek molingo-lingo to madier monego onen e kinde."
+  },
+  "Body Predictability Landscape.name": {
+    "luo": "Kit Ng'eyo Ringruok Motelo"
+  },
+  "Body Predictability Landscape.description": {
+    "luo": "Kit mochwe gi kaka kinde mar ringruok winjore ni ing'eyo kata lokore e ndikoni."
+  },
+  "Bleeding Burden Landscape.name": {
+    "luo": "Kit Pek mar Ol"
+  },
+  "Bleeding Burden Landscape.description": {
+    "luo": "Kit mochwe gi kaka ol nyalo mulo teko, ikruok, kod nyalo mar odiechieng'."
+  },
+  "Pain Landscape.name": {
+    "luo": "Kit Rem"
+  },
+  "Pain Landscape.description": {
+    "luo": "Kit mochwe gi kaka rem nyalo landore e wuoth, tich, kod chenro."
+  },
+  "Care Navigation Landscape.name": {
+    "luo": "Kit Wuotho e Rit"
+  },
+  "Care Navigation Landscape.description": {
+    "luo": "Kit mochwe gi yudo, ler, kod ka wuoth mar rit winjore ni okonyo."
+  },
+  "Life Adaptation Landscape.name": {
+    "luo": "Kit Winjruok gi Ngima"
+  },
+  "Life Adaptation Landscape.description": {
+    "luo": "Kit mochwe gi kaka tuoche loko tich, yweyo, winjruok, kod wuoth."
+  },
+  "Planning Burden.name": {
+    "luo": "Pek mar Chano"
+  },
+  "Planning Burden.description": {
+    "luo": "Tich mopondo mar chano kuom ranyisi mag ringruok mayot ng'ere."
+  },
+  "Planning Burden.reflectionText": {
+    "luo": "Gima iselimoni nyalo dwaro chano mang'eny moloyo kaka winjore ni nyalore kata bedo mayot."
+  },
+  "Life Constriction.name": {
+    "luo": "Ngima Madok Matin"
+  },
+  "Life Constriction.description": {
+    "luo": "Ka chenro, wuoth, kata ngima mag oganda winjore ni odok matin moloyo mokwongo."
+  },
+  "Life Constriction.reflectionText": {
+    "luo": "Gima iselimoni nyalo dwaro ni ineni gima osedok matek moloyo mondo iyaw e ngima mapile."
+  },
+  "Agency.name": {
+    "luo": "Teko mar Yiero"
+  },
+  "Agency.description": {
+    "luo": "Winjruok mar ka yiero mari pod inyalo timo."
+  },
+  "Agency.reflectionText": {
+    "luo": "Gima iselimoni nyalo penji ka pod iwinjo ni inyalo telo chenro, rit, kod yweyo."
+  },
+  "Adaptation Intelligence.name": {
+    "luo": "Rieko mar Winjruok"
+  },
+  "Adaptation Intelligence.description": {
+    "luo": "Yore ma isepuonjori kod loso, ikruok, kata chier."
+  },
+  "Adaptation Intelligence.reflectionText": {
+    "luo": "Gima iselimoni nyalo dwaro ni ing'e rieko manie kaka iwinjori."
+  },
+  "Body Predictability.name": {
+    "luo": "Ng'eyo Ringruok Motelo"
+  },
+  "Body Predictability.description": {
+    "luo": "Kaka ing'eyo ringruoki koa odiechieng' achiel nyaka machielo."
+  },
+  "Body Predictability.reflectionText": {
+    "luo": "Gima iselimoni nyalo dwaro horuok ka Atlas puonjore gima osiko kod gima lokore."
+  },
+  "Preparedness Burden.name": {
+    "luo": "Pek mar Ikruok"
+  },
+  "Preparedness Burden.description": {
+    "luo": "Tich mar siko koikori ne tuoche ma nyalo biro maonge siem."
+  },
+  "Preparedness Burden.reflectionText": {
+    "luo": "Gima iselimoni nyalo dwaro ni ofweny teko mosetiyo kuom siko koikori."
+  },
+  "Health Labor.name": {
+    "luo": "Tich Mar Ngima"
+  },
+  "Health Labor.description": {
+    "luo": "Tich mosiko mar luwo, lero, manyo rit, kod tingo sigana."
+  },
+  "Health Labor.reflectionText": {
+    "luo": "Gima iselimoni nyalo dwaro ni iluong nying tich manie kuom tingo sigana ma ngimani."
+  },
+  "Bleeding Burden::Life Reorganization.description": {
+    "luo": "Pek mar ol kod loko ngima nyalo luworore ka teko, ikruok, kod cha mag chenro wuotho kaachiel."
+  },
+  "Pain-Spread::Life Reorganization.description": {
+    "luo": "Landruok mar rem kod loko ngima nyalo luworore ka chandruok loko gima wuoth, tich, kata yweyo nyalo mako."
+  },
+  "Body Uncertainty::Life Reorganization.description": {
+    "luo": "Ok ng'ere mar ringruok kod loko ngima nyalo luworore ka ok ng'eyo gima biro loko chano."
+  },
+  "Hormonal Rhythm::Body Uncertainty.description": {
+    "luo": "Kit dwe kod ok ng'ere mar ringruok nyalo luworore ka lokruok mar kinde miyo ringruok winjore mayot ng'ere moloyo."
+  },
+  "Care Friction::Body Uncertainty.description": {
+    "luo": "Chandruok mar rit kod ok ng'ere mar ringruok nyalo luworore ka penjo maonge dwoko medo manyo ler."
+  },
+  "Bleeding Burden::Body Uncertainty.description": {
+    "luo": "Pek mar ol kod ok ng'ere mar ringruok nyalo luworore ka ol, kinde, kod ikruok bedo matek moyie."
+  },
+  "Pain-Spread::Pelvic Pressure.description": {
+    "luo": "Landruok mar rem kod chandruok mar iye piny nyalo luworore ka rem fwenyore e wuoth, chandruok, kod tich."
+  },
+  "Care Friction::Life Reorganization.description": {
+    "luo": "Chandruok mar rit kod loko ngima nyalo luworore ka yudo kata ler loko kinde ma tuoche itingo kendi."
+  },
+  "Adaptation.name": {
+    "luo": "Winjruok"
+  },
+  "Adaptation.description": {
+    "luo": "Atlas noneno yore ma iloso chenro mari mondo ngima mapile dhi nyime."
+  },
+  "Adaptation.reflectionText": {
+    "luo": "Isebedo ka iwinjori, kata obedo ni lokruokgo ol."
+  },
+  "Persistence.name": {
+    "luo": "Siko"
+  },
+  "Persistence.description": {
+    "luo": "Atlas noneno siko e gima chandi."
+  },
+  "Persistence.reflectionText": {
+    "luo": "Isebedo ka ichung' gi wachni, kata obedo ni dwoko nokawo kinde mondo obi."
+  },
+  "Awareness.name": {
+    "luo": "Winjo Ranyisi"
+  },
+  "Awareness.description": {
+    "luo": "Atlas noneno rit motegno kuom gima ringruoki kod chenro mari timo."
+  },
+  "Awareness.reflectionText": {
+    "luo": "Iketo chunyi, kendo mano en achiel kuom ndikoni."
+  },
+  "Preparation.name": {
+    "luo": "Ikruok"
+  },
+  "Preparation.description": {
+    "luo": "Atlas noneno tich mar siko koikori ne gima ringruok nyalo timo bang'e."
+  },
+  "Preparation.reflectionText": {
+    "luo": "Isebedo ka iikori e yore ma nyalo bedo ni jomoko ok one, to gin adier ne in."
+  },
+  "Resourcefulness.name": {
+    "luo": "Rieko mar Yudo Yo"
+  },
+  "Resourcefulness.description": {
+    "luo": "Atlas noneno yore mag rieko mag tingo chenro, yweyo, kod rit kaachiel."
+  },
+  "Resourcefulness.reflectionText": {
+    "luo": "Isebedo gi rieko mar yudo yore ma ngima mapile dhi nyime."
+  },
+  "Self-Advocacy.name": {
+    "luo": "Wuoyo Ni Iwuon"
+  },
+  "Self-Advocacy.description": {
+    "luo": "Atlas noneno teko mar manyo ler, rit, kata dwoko moyie moloyo."
+  },
+  "Self-Advocacy.reflectionText": {
+    "luo": "Isebedo ka iwuoyo mondo gima iselimo one kendo okaw kaka adier."
+  },
+  "_template.baselineObservation": {
+    "luo": "Neno mar Chakruok"
+  },
+  "_template.strengthsCareful": {
+    "luo": "Dwokoni nyiso rit motegno kuom gima ringruoki kod chenro mari timo."
+  },
+  "_template.strengthsLead": {
+    "luo": "Dwokoni nyiso ni isepuonjori yore mag neno lokruok"
+  },
+  "_template.strengthsPreparingAhead": {
+    "luo": ", ikori motelo"
+  },
+  "_template.strengthsNavigatingUncertainty": {
+    "luo": ", kendo wuotho e ok ng'ere"
+  },
+  "_template.bodyUnpredictability": {
+    "luo": "Ringruok Mayot Ng'ere"
+  },
+  "_template.awareness": {
+    "luo": "Winjo Ranyisi"
+  },
+  "_template.watchLandscapeSteadier": {
+    "luo": "Ka neno mabiro miyo kitni bedo mochung' moloyo, maler moloyo, kata mayot winjo moloyo."
+  },
+  "_template.watchTheme.Predictability": {
+    "luo": "Ng'eyo Motelo"
+  },
+  "_template.watchTheme.Care clarity": {
+    "luo": "Ler mar Rit"
+  },
+  "_template.watchTheme.Pain spread": {
+    "luo": "Landruok mar Rem"
+  },
+  "_template.watchTheme.Bleeding burden": {
+    "luo": "Pek mar Ol"
+  },
+  "_template.watchTheme.Pattern clarity": {
+    "luo": "Ler mar Ranyisi"
+  },
+  "_template.connectionPhraseWithConnections": {
+    "luo": "chano, teko, chenro, kod ng'eyo motelo"
+  },
+  "_template.connectionPhraseDefault": {
+    "luo": "ranyisi mag ringruok, chenro mapile, kod wuoth mar rit"
+  },
+  "_template.openingInsightLine1": {
+    "luo": "E neno mokwongoni, Atlas noneno ni puonj motegno moloyo ok en mana tuoche giwegi, to en ikruok kod lokruok madwarore kuomgi."
+  },
+  "_template.openingInsightLine2": {
+    "luo": "fwenyore ka luworore gi"
+  },
+  "_template.openingInsightLine3": {
+    "luo": "Ma nyalo miyo gima iselimo winjore maduong' moloyo tuo achiel achiel nikech ochako mulo kaka ngima mapile ochano."
+  },
+  "_template.respectfulBaselineLeavesRoom": {
+    "luo": "Atlas noloso chakruok mowinjore koa e gima ne iyiero nyiso kawuono, ka oweyo thuolo mar pimo motelo."
+  },
+  "_template.addsAnotherLayerDayToDay": {
+    "luo": "nyalo medo bor machielo kaka gima iselimoni winjore odiechieng' ka odiechieng'."
+  },
+  "_template.startingPointFuture": {
+    "luo": "Ndikoni mokwongo chweyo kama ichakoe ne neno mabiro."
+  },
+  "_template.keepWatchingBodySignals": {
+    "luo": "Atlas biro siko ka neno kaka ranyisi mag ringruok, chenro mapile, kod wuoth mar rit luworore ka neno mamoko omedi."
+  },
+  "_template.noticedAttentionAndCare": {
+    "luo": "Atlas noneno rit kod winjruok e kaka ne inyiso gima iselimoni."
+  },
+  "_template.noticedAcrossObservations": {
+    "luo": "Atlas noneno ranyisini e neno mang'eny mar ndikoni."
+  },
+  "_template.storyNoBaseline": {
+    "luo": "Atlas nochano gima ne iyiero nyiso kawuono obed kido mar chakruok mar rieko. Ma en mar neno, ok mar ng'ado tuo. Neno mabiro biro miyo ler gima osiko kod gima lokore."
+  },
+  "_template.storyNoticedThatLead": {
+    "luo": "Atlas noneno ni"
+  },
+  "_template.storyNotOnlySymptoms": {
+    "luo": "ok gin mana tuoche e ndikoni."
+  },
+  "_template.storyObservedLead": {
+    "luo": "Atlas noneno"
+  },
+  "_template.storyCentralThread": {
+    "luo": "kaka wach maduong' e ndikoni mokwongoni."
+  },
+  "_template.storyShapesAcrossLead": {
+    "luo": "Ginenore ka gimulo chano, nindo, chenro, kod kaka ngima mapile winjore ni ing'eyo motelo e"
+  },
+  "_template.storyShapesGeneric": {
+    "luo": "Ginenore ka gimulo chano, chenro, kod kaka ngima mapile winjore ni ing'eyo motelo."
+  },
+  "_template.storyTogetherSuggestLead": {
+    "luo": "Kaachiel, neno mochan nyalo nyiso"
+  },
+  "_template.storyObservationalDisclaimer": {
+    "luo": "Kidoni en mar neno kendo mar jatiyoni kende — ok en mar ng'ado tuo."
+  },
+  "_template.severalObservationsSameDirection": {
+    "luo": "Neno mang'eny nonyiso yo achiel."
+  },
+  "_template.connectionAnd": {
+    "luo": "kod"
+  },
+  "_template.connectionMayTravelTogether": {
+    "luo": "nyalo wuotho kaachiel e kaka tuoche, chenro, kod dwaro mar rit fwenyore e ngima mapile."
+  },
+  "_template.narrativeAlsoShaped": {
+    "luo": "Siganani bende nomulo kidoni."
+  },
+  "context.sectionLabel": {
+    "luo": "Chal Mar Ngima"
+  },
+  "bleeding.sectionLabel": {
+    "luo": "Ol"
+  },
+  "pain.sectionLabel": {
+    "luo": "Rem"
+  },
+  "hormonal.sectionLabel": {
+    "luo": "Kit Dwe"
+  },
+  "daily_life.sectionLabel": {
+    "luo": "Ngima Mapile"
+  },
+  "care.sectionLabel": {
+    "luo": "Wuoth mar Rit"
+  },
+  "narrative.sectionLabel": {
+    "luo": "Sigana"
+  },
+  "sensitive.sectionLabel": {
+    "luo": "Weche Malit"
+  },
+  "body.sectionLabel": {
+    "luo": "Ringruok"
+  },
+  "Bleeding Pattern.watchItemLabel": {
+    "luo": "Kit Ol"
+  },
+  "Bleeding Pattern.watchCompareFallback": {
+    "luo": "Atlas biro poro ka kit ol osiko mochung', lokore, kata bedo maler moloyo e kinde."
+  },
+  "Daily Impact.watchItemLabel": {
+    "luo": "Gima Omulo Ngima Mapile"
+  },
+  "Daily Impact.watchCompareFallback": {
+    "luo": "Atlas biro poro ka gima omulo ngima mapile osiko mochung', lokore, kata bedo maler moloyo e kinde."
+  },
+  "Planning Burden.watchItemLabel": {
+    "luo": "Pek mar Chano"
+  },
+  "Planning Burden.watchCompareFallback": {
+    "luo": "Atlas biro poro ka pek mar chano osiko mochung', lokore, kata bedo maler moloyo e kinde."
+  },
+  "Hormonal Rhythm.watchItemLabel": {
+    "luo": "Kit Dwe"
+  },
+  "Hormonal Rhythm.watchCompareFallback": {
+    "luo": "Atlas biro poro ka kit dwe osiko mochung', lokore, kata bedo maler moloyo e kinde."
+  },
+  "Care Experience.watchItemLabel": {
+    "luo": "Wuoth mar Rit"
+  },
+  "Care Experience.watchCompareFallback": {
+    "luo": "Atlas biro poro ka wuoth mar rit osiko mochung', lokore, kata bedo maler moloyo e kinde."
+  },
+  "Body.watchGroupLabel": {
+    "luo": "Ringruok"
+  },
+  "Cycle.watchGroupLabel": {
+    "luo": "Dwe"
+  },
+  "Daily Life.watchGroupLabel": {
+    "luo": "Ngima Mapile"
+  },
+  "Care.watchGroupLabel": {
+    "luo": "Rit"
+  },
+  "Product changes.evidenceTheme": {
+    "luo": "Loko gige tich"
+  },
+  "Duration.evidenceTheme": {
+    "luo": "Kinde"
+  },
+  "Clots.evidenceTheme": {
+    "luo": "Remo"
+  },
+  "Interperiod bleeding.evidenceTheme": {
+    "luo": "Ol e kind dwe"
+  },
+  "Heavier bleeding.evidenceTheme": {
+    "luo": "Ol Matek Moloyo"
+  },
+  "Lighter bleeding.evidenceTheme": {
+    "luo": "Ol Matin Moloyo"
+  },
+  "Irregular bleeding.evidenceTheme": {
+    "luo": "Ol Mapok Ng'ere"
+  },
+  "Night disruption.evidenceTheme": {
+    "luo": "Chandruok mar Otieno"
+  },
+  "Energy management.evidenceTheme": {
+    "luo": "Rito Teko"
+  },
+  "Dizziness.evidenceTheme": {
+    "luo": "Yweyo"
+  },
+  "Pain response.evidenceTheme": {
+    "luo": "Dwoko ne Rem"
+  },
+  "Pain timing.evidenceTheme": {
+    "luo": "Kinde mar Rem"
+  },
+  "Whole-body pain.evidenceTheme": {
+    "luo": "Rem e Ringruok Duto"
+  },
+  "Pain spread.evidenceTheme": {
+    "luo": "Landruok mar Rem"
+  },
+  "Increasing severity.evidenceTheme": {
+    "luo": "Medruok mar Teko"
+  },
+  "Pelvic symptoms.evidenceTheme": {
+    "luo": "Tuoche mag Iye Piny"
+  },
+  "Body changes.evidenceTheme": {
+    "luo": "Lokruok mar Ringruok"
+  },
+  "Pain triggers.evidenceTheme": {
+    "luo": "Gik Machako Rem"
+  },
+  "Irregular timing.evidenceTheme": {
+    "luo": "Kinde Mapok Ng'ere"
+  },
+  "Skipped periods.evidenceTheme": {
+    "luo": "Dwe Mokadho"
+  },
+  "Hormonal signs.evidenceTheme": {
+    "luo": "Ranyisi mag Hormone"
+  },
+  "Cycle changes.evidenceTheme": {
+    "luo": "Lokruok mar Dwe"
+  },
+  "Cycle relation.evidenceTheme": {
+    "luo": "Winjruok gi Dwe"
+  },
+  "Missed activities.evidenceTheme": {
+    "luo": "Tije Mokadho"
+  },
+  "Sleep disruption.evidenceTheme": {
+    "luo": "Chandruok mar Nindo"
+  },
+  "Planning burden.evidenceTheme": {
+    "luo": "Pek mar Chano"
+  },
+  "Life areas affected.evidenceTheme": {
+    "luo": "Kuonde Mag Ngima Momulo"
+  },
+  "Routine adaptation.evidenceTheme": {
+    "luo": "Winjruok gi Chenro"
+  },
+  "Worsening trajectory.evidenceTheme": {
+    "luo": "Yo Madhi Marach"
+  },
+  "Unpredictable timing.evidenceTheme": {
+    "luo": "Kinde Mayot Ng'ere"
+  },
+  "Care-seeking.evidenceTheme": {
+    "luo": "Manyo Rit"
+  },
+  "Care response.evidenceTheme": {
+    "luo": "Dwoko mar Rit"
+  },
+  "Care dismissal.evidenceTheme": {
+    "luo": "Rit Mokwedo"
+  },
+  "Care access.evidenceTheme": {
+    "luo": "Yudo Rit"
+  },
+  "_template.noStrongPatternObserved": {
+    "luo": "— onge ranyisi motegno mosenenore e ndikoni."
+  },
+  "_template.narrativeAlsoSuggestsLead": {
+    "luo": "Siganani bende nyiso"
+  },
+  "adaptation.participantLabel": {
+    "luo": "Manyo Yore mag Dak"
+  },
+  "adaptation.interpretationModifier": {
+    "luo": "winjruok fwenyore kaka achiel kuom kaka iwuotho e gima iselimoni"
+  },
+  "persistence.participantLabel": {
+    "luo": "Siko Kata Obedo ni Tek"
+  },
+  "persistence.interpretationModifier": {
+    "luo": "siko nyalo bedo achiel kuom kaka itingo gima iselimoni"
+  },
+  "uncertainty.participantLabel": {
+    "luo": "Ok Ng'eyo Gima Biro"
+  },
+  "uncertainty.interpretationModifier": {
+    "luo": "ok ng'ere nyalo bedo ka mulo kaka ngima mapile winjore ni ing'ere"
+  },
+  "body_unpredictability.interpretationModifier": {
+    "luo": "ok ng'ere mar ringruok nyalo bedo achiel kuom tiend adier mar nenoni"
+  },
+  "planning_burden.participantLabel": {
+    "luo": "Chano Kuom Ringruoki"
+  },
+  "planning_burden.interpretationModifier": {
+    "luo": "chano kuom tuoche nyalo bedo ka loko ngima mapile"
+  },
+  "feeling_unheard.participantLabel": {
+    "luo": "Chandruok mar Winjo ni Ok Oyie"
+  },
+  "feeling_unheard.interpretationModifier": {
+    "luo": "winjo ni ok owinji nyalo bedo achiel kuom wuoth mari mar rit"
+  },
+  "care_dismissal.participantLabel": {
+    "luo": "Rit Mane Owinjore ni Okwedo"
+  },
+  "care_dismissal.interpretationModifier": {
+    "luo": "rit mokwedo nyalo mulo kaka iwinjo gima iselimoni"
+  },
+  "diagnostic_uncertainty.interpretationModifier": {
+    "luo": "manyo ler nyalo bedo achiel kuom gima iselimoni"
+  },
+  "frustration.participantLabel": {
+    "luo": "Chuny Marach kod Ol"
+  },
+  "frustration.interpretationModifier": {
+    "luo": "chuny marach kod ol nyalo bedo achiel kuom pek mar chuny"
+  },
+  "isolation.participantLabel": {
+    "luo": "Winjo ni In Kendi"
+  },
+  "isolation.interpretationModifier": {
+    "luo": "winjo ni in kendi nyalo medo kaka gima iselimoni pek"
+  },
+  "hope.participantLabel": {
+    "luo": "Geno mar Ler kata Yweyo"
+  },
+  "hope.interpretationModifier": {
+    "luo": "geno nyalo bedo kaachiel gi chandruok"
+  },
+  "fear.participantLabel": {
+    "luo": "Parruok Kuom Gima Biro"
+  },
+  "fear.interpretationModifier": {
+    "luo": "luoro kata parruok nyalo bedo achiel kuom kaka gima iselimoni winjore"
+  },
+  "self_doubt.participantLabel": {
+    "luo": "Penjruok Kuom Gima Iselimo"
+  },
+  "self_doubt.interpretationModifier": {
+    "luo": "penjruok kuomi iwuon nyalo miyo bedo matek yie gima ringruoki nyiso"
+  },
+  "self_advocacy.participantLabel": {
+    "luo": "Wuoyo Ni Gima Iselimo"
+  },
+  "self_advocacy.interpretationModifier": {
+    "luo": "wuoyo ni iwuon nyalo bedo achiel kuom kaka iwuotho e rit"
+  },
+  "loss_of_normalcy.participantLabel": {
+    "luo": "Ngima Winjore Mopogore gi Mokwongo"
+  },
+  "loss_of_normalcy.interpretationModifier": {
+    "luo": "lal mar ngima mokwongo nyalo bedo achiel kuom tiend adier mar tuochegi"
+  },
+  "domain_bleeding.label": {
+    "luo": "Ol"
+  },
+  "domain_pain.label": {
+    "luo": "Rem"
+  },
+  "domain_hormonal.label": {
+    "luo": "Hormone"
+  },
+  "domain_cycle.label": {
+    "luo": "Dwe"
+  },
+  "domain_daily_life.label": {
+    "luo": "Ngima Mapile"
+  },
+  "domain_care_access.label": {
+    "luo": "Yudo Rit"
+  },
+  "domain_narrative.label": {
+    "luo": "Wecheni"
+  },
+  "evidence_baseline.label": {
+    "luo": "Mar Chakruok"
+  },
+  "evidence_emerging.label": {
+    "luo": "Mochakore"
+  },
+  "evidence_moderate.label": {
+    "luo": "Mopimore"
+  },
+  "evidence_strong.label": {
+    "luo": "Motegno"
+  },
+  "evidence_very_strong.label": {
+    "luo": "Motegno Ahinya"
+  },
+  "_template.companionFallbackReply": {
+    "luo": "Awuoro — mano ne ok ochopo ka an. Inyalo nyisa matin mamoko kuom kaka isebedo iwinjo?"
+  },
+  "_template.companionNoSignalsWelcome": {
+    "luo": "Oduogo maber. Ndikoni mogik ne onge ranyisi motegno madhi nyime, omiyo wachak kayie — nitie gimoro manyien mosewuok koa e kindeno?"
+  },
+  "_template.voiceMessageTooLarge": {
+    "luo": "Ote mar dwol duong' moloyo (10MB e mokwongo)."
+  },
+  "_template.couldNotMakeOutVoice": {
+    "luo": "Ne ok nyal winjo ote-no mar dwol maler — tem kendo kata ndik kar mano."
+  },
+  "_template.noPriorAtlasRecord": {
+    "luo": "Onge Ndiko machon mar Atlas mar Check-Inni"
+  },
+  "_template.companionUnavailable": {
+    "luo": "Jakony ok oyudore sani."
+  },
+  "_template.checkinFailed": {
+    "luo": "Check-In ne ok otimre"
+  },
+  "_template.messageRequired": {
+    "luo": "Ote dwarore"
+  },
+  "_template.conversationNotFound": {
+    "luo": "Wuoyo ne ok oyudi"
+  },
+  "bleeding.label": {
+    "luo": "Ol"
+  },
+  "bleeding.domainPhrase": {
+    "luo": "gik moluwore gi ol"
+  },
+  "pain.label": {
+    "luo": "Rem"
+  },
+  "pain.domainPhrase": {
+    "luo": "rem kod chandruok mar iye piny"
+  },
+  "hormonal.label": {
+    "luo": "Hormone"
+  },
+  "hormonal.domainPhrase": {
+    "luo": "gik moluwore gi hormone kod kit dwe"
+  },
+  "cycle_disruption.label": {
+    "luo": "Chandruok mar Dwe"
+  },
+  "cycle_disruption.domainPhrase": {
+    "luo": "chandruok mar dwe kod ok ng'ere"
+  },
+  "daily_life.label": {
+    "luo": "Ngima Mapile"
+  },
+  "daily_life.domainPhrase": {
+    "luo": "gima omulo ngima mapile"
+  },
+  "care_access.label": {
+    "luo": "Yudo Rit"
+  },
+  "care_access.domainPhrase": {
+    "luo": "gik moluwore gi rit"
+  },
+  "_template.listAnd": {
+    "luo": "kod"
+  },
+  "_template.constellationNoObservationsLead": {
+    "luo": "E ndikoni mokwongoni, ne ok inyiso ranyisi malare mochung' kuom"
+  },
+  "_template.constellationLightBaselineOnly": {
+    "luo": "Atlas oketo ma kaka bor machakruok matin kende."
+  },
+  "_template.constellationLightBaselineLead": {
+    "luo": "Atlas noneno chakruok matin mar"
+  },
+  "_template.constellationInRecordIncluding": {
+    "luo": "e ndikoni, koriwo"
+  },
+  "_template.constellationObservedLead": {
+    "luo": "Atlas noneno"
+  },
+  "_template.constellationOnlyLightBaseline": {
+    "luo": "Atlas nigi mana chakruok matin e borni nyaka sani. Ka imedo neno mamoko, nyalo bedo maler moloyo nikech ang'o gigi wuotho kaachiel."
+  },
+  "_template.constellationGenericWhyConnected": {
+    "luo": "Atlas ochoko nenogi nikech ginyalo bedo mag ranyisi achiel e ndikoni."
+  },
+  "_template.constellationMultipleAnswersConverged": {
+    "luo": "E ndikoni, dwoko mang'eny nochokore kaachiel e wach achiel. Ma en mar neno, ok mar ng'ado tuo."
+  },
+  "_template.constellationObservationalNotDiagnostic": {
+    "luo": "Ma en mar neno, ok mar ng'ado tuo."
+  },
+  "_template.constellationFutureObservationsMayClarify": {
+    "luo": "Neno mabiro nyalo miyo ler kaka"
+  },
+  "_template.constellationChangesStabilizesConnects": {
+    "luo": "lokore, chung', kata luworore gi borni mamoko mar ndikoni."
+  },
+  "_template.constellationAtlasNoteStrong": {
+    "luo": "Ma en chakruok machon koa e neno mari mokwongo, ok en ng'ado tuo kata paro mochung'. Ranyisini nyalo medo teko, lokore, riwore gi mamoko, kata dok matin ka neno mamoko omedi."
+  },
+  "_template.constellationAtlasNoteEmerging": {
+    "luo": "Ma en chakruok machon koa e neno mari mokwongo, ok en ng'ado tuo kata paro mochung'. Atlas oneno ranyisi mochakore ka, to nyalo medo teko, lokore, riwore, kata lal ka neno mamoko omedi."
+  },
+  "_template.constellationAtlasNoteLight": {
+    "luo": "Ma en chakruok machon koa e neno mari mokwongo, ok en ng'ado tuo kata paro mochung'. Ranyisi manie ka pod tin, kendo nyalo medo teko, lokore, riwore gi mamoko, kata lal ka neno mamoko omedi."
+  },
+  "bleeding_burden.constellationWatchOverTime": {
+    "luo": "Neno mabiro nyalo nyiso ka ol osiko mochung', bedo matek moloyo kata mayot ng'ere, kata dhi nyime kod muoch teko, nindo, kod ikruok."
+  },
+  "bleeding_burden.constellationWhyConnected": {
+    "luo": "Atlas ochoko nenogi nikech dwoko moluwore gi ol nyalo luworore gi kinde, remo, loko gige tich, kod kaka ol omulo chenro kata teko."
+  },
+  "pain_distribution.constellationWatchOverTime": {
+    "luo": "Neno mabiro nyalo nyiso ka rem osiko kar achiel, landore e chenro mag iye piny, thuno, kata wuoth, kata bedo mayot ng'eyo motelo."
+  },
+  "pain_distribution.constellationWhyConnected": {
+    "luo": "Atlas ochoko nenogi nikech kinde mar rem, kama en, dak, kod dwoko mag ringruok nyalo bedo gimoro achiel ma iselimo, ok gik mopogore."
+  },
+  "hormonal_rhythm.constellationWatchOverTime": {
+    "luo": "Neno mabiro nyalo nyiso ka kit dwe bedo mochung' moloyo, lokore mang'eny moloyo, kata luwore maler gi ranyisi mamoko mag ringruok."
+  },
+  "hormonal_rhythm.constellationWhyConnected": {
+    "luo": "Atlas ochoko nenogi nikech ng'eyo motelo mar dwe, ranyisi mag hormone, kod kinde mar tuoche nyalo lero kaka kit kod lokruok mar ringruok wuotho kaachiel."
+  },
+  "body_unpredictability.constellationWatchOverTime": {
+    "luo": "Neno mabiro nyalo nyiso ka ok ng'ere dwokore, lokore e borni mopogore, kata bedo mayot chano motelo."
+  },
+  "body_unpredictability.constellationWhyConnected": {
+    "luo": "Atlas ochoko nenogi nikech dwoko kuom ok ng'ere kod ok ng'eyo gima biro nyalo bedo pek achiel mar ok ng'ere."
+  },
+  "daily_function.constellationWatchOverTime": {
+    "luo": "Neno mabiro nyalo nyiso ka chenro bedo mothuolo moloyo, ochung' matek moloyo, kata bedo mayot ng'eyo motelo ka tuoche loko."
+  },
+  "daily_function.constellationWhyConnected": {
+    "luo": "Atlas ochoko nenogi nikech tije mokadho, nindo mochandi, kuonde mag ngima momulo, kod gima omulo nyalo nyiso kaka tuoche loko ngima mapile."
+  },
+  "care_experience.constellationWatchOverTime": {
+    "luo": "Neno mabiro nyalo nyiso ka yudo rit lokore, ka ng'ado tuo kata thieth bedo maler moloyo, ka gengo osiko, kata ka wuoth mar rit dok matin e ndikoni."
+  },
+  "care_experience.constellationWhyConnected": {
+    "luo": "Atlas ochoko nenogi nikech gilero kaka isewuotho gi rit kaachiel gi tuoche kod ngima mapile."
+  },
+  "pelvic_function.constellationWatchOverTime": {
+    "luo": "Neno mabiro nyalo nyiso ka chandruokno osiko kinde moko, bedo mosiko moloyo, kata luwore maler gi thuno, iye, kata wuoth."
+  },
+  "pelvic_function.constellationWhyConnected": {
+    "luo": "Atlas ochoko nenogi nikech chandruok mar iye piny, ranyisi mag lokruok mar ringruok, kod kama gibetie nyalo nyiso chenro mar iye piny moriwore, ok tuo achiel kende."
+  },
+  "preview_pain.label": {
+    "luo": "Rem"
+  },
+  "preview_pain.sub": {
+    "luo": "Nono kit rem"
+  },
+  "preview_hormonal.label": {
+    "luo": "Hormone"
+  },
+  "preview_hormonal.sub": {
+    "luo": "Nono kit hormone"
+  },
+  "preview_cycle.label": {
+    "luo": "Dwe"
+  },
+  "preview_cycle.sub": {
+    "luo": "Nono kit dwe"
+  },
+  "preview_daily_life.label": {
+    "luo": "Ngima Mapile"
+  },
+  "preview_daily_life.sub": {
+    "luo": "Nono kit ngima mapile"
+  },
+  "preview_care_access.label": {
+    "luo": "Wuoth mar Rit"
+  },
+  "preview_care_access.sub": {
+    "luo": "Nono wuoth mari mar rit"
+  },
+  "preview_bleeding.label": {
+    "luo": "Ol"
+  },
+  "preview_bleeding.sub": {
+    "luo": "Nono kit ol"
+  },
+  "SIG-BOD-BLD-001.label": {
+    "luo": "Loko Gige Tich Pile"
+  },
+  "SIG-BOD-BLD-002.label": {
+    "luo": "Gige Tich Pongo Piyo"
+  },
+  "SIG-BOD-BLD-003.label": {
+    "luo": "Ol Matek mar Dwe"
+  },
+  "SIG-BOD-BLD-004.label": {
+    "luo": "Ol Modak Kinde Mabor"
+  },
+  "SIG-BOD-BLD-005.label": {
+    "luo": "Ol Modak Kinde Mabor Ahinya"
+  },
+  "SIG-BOD-BLD-006.label": {
+    "luo": "Ol Modak Kinde Machiek"
+  },
+  "SIG-BOD-BLD-007.label": {
+    "luo": "Kinde mar Ol Malokore"
+  },
+  "SIG-BOD-BLD-008.label": {
+    "luo": "Wuok mar Remo Madongo"
+  },
+  "SIG-BOD-BLD-009.label": {
+    "luo": "Remo Mabiro Pile"
+  },
+  "SIG-BOD-BLD-010.label": {
+    "luo": "Remo Kaachiel gi Ol Matek"
+  },
+  "SIG-BOD-BLD-011.label": {
+    "luo": "Ol e Kind Dwe"
+  },
+  "SIG-BOD-BLD-012.label": {
+    "luo": "Ol Mayot Ng'ere e Kind Dwe"
+  },
+  "SIG-BOD-BLD-013.label": {
+    "luo": "Dhi Nyime mar Ol"
+  },
+  "SIG-BOD-BLD-014.label": {
+    "luo": "Pek mar Ol Madongo"
+  },
+  "SIG-BOD-BLD-015.label": {
+    "luo": "Pek mar Ol Modok Piny"
+  },
+  "SIG-BOD-BLD-016.label": {
+    "luo": "Kit Ol Mochung'"
+  },
+  "SIG-BOD-BLD-017.label": {
+    "luo": "Ol Momulo Tije"
+  },
+  "SIG-BOD-BLD-018.label": {
+    "luo": "Ol Momiyo Chano Bedo Pek"
+  },
+  "SIG-BOD-BLD-019.label": {
+    "luo": "Luoro mar Ol Mawuok Oko"
+  },
+  "SIG-BOD-BLD-020.label": {
+    "luo": "Ol Momulo Otieno"
+  },
+  "SIG-BOD-BLD-021.label": {
+    "luo": "Ol Momwomo Teko"
+  },
+  "SIG-BOD-BLD-022.label": {
+    "luo": "Ok Ng'ere mar Ol"
+  },
+  "SIG-BOD-BLD-023.label": {
+    "luo": "Kawo Ol kaka Gima Ojwang'ore"
+  },
+  "SIG-BOD-BLD-024.label": {
+    "luo": "Ranyisi mar Parruok Kuom Ol"
+  },
+  "SIG-BOD-BLD-025.label": {
+    "luo": "Kit Ol Bang' Lokruok"
+  },
+  "SIG-BOD-BLD-026.label": {
+    "luo": "Ranyisi mar Ol e Anywola"
+  },
+  "SIG-BOD-BLD-027.label": {
+    "luo": "Ol Kaachiel gi Wach Nywol"
+  },
+  "SIG-BOD-BLD-028.label": {
+    "luo": "Ol e Kinde mar Lokruok mar Nywol"
+  },
+  "SIG-BOD-BLD-029.label": {
+    "luo": "Ol Matek Winjo"
+  },
+  "SIG-BOD-BLD-030.label": {
+    "luo": "Ranyisi mar Ol Madwaro Kony Mapiyo"
+  },
+  "SIG-BOD-PAIN-001.label": {
+    "luo": "Rem Maluwo Dwe"
+  },
+  "SIG-BOD-PAIN-002.label": {
+    "luo": "Rem Ma Ok Luwo Dwe"
+  },
+  "SIG-BOD-PAIN-003.label": {
+    "luo": "Rem Moriwore"
+  },
+  "SIG-BOD-PAIN-004.label": {
+    "luo": "Kinde mar Rem e Dwe"
+  },
+  "SIG-BOD-PAIN-005.label": {
+    "luo": "Kinde mar Rem Kapok Dwe Ochopo"
+  },
+  "SIG-BOD-PAIN-006.label": {
+    "luo": "Rem Maluwo Nyuol Tong'"
+  },
+  "SIG-BOD-PAIN-007.label": {
+    "luo": "Rem Mosiko"
+  },
+  "SIG-BOD-PAIN-008.label": {
+    "luo": "Rem Mayot Ng'ere"
+  },
+  "SIG-BOD-PAIN-009.label": {
+    "luo": "Rem Mayot Ng'eyo Motelo"
+  },
+  "SIG-BOD-PAIN-010.label": {
+    "luo": "Rem Madhi Nyime"
+  },
+  "SIG-BOD-PAIN-011.label": {
+    "luo": "Rem Madhi Maber"
+  },
+  "SIG-BOD-PAIN-012.label": {
+    "luo": "Rem Mochung'"
+  },
+  "SIG-BOD-PAIN-013.label": {
+    "luo": "Pek mar Rem Maduong'"
+  },
+  "SIG-BOD-PAIN-014.label": {
+    "luo": "Pek mar Rem Matin"
+  },
+  "SIG-BOD-PAIN-015.label": {
+    "luo": "Kama Rem Fwenyoree e Iye Piny"
+  },
+  "SIG-BOD-PAIN-016.label": {
+    "luo": "Kama Rem Fwenyoree e Iye Mamwalo"
+  },
+  "SIG-BOD-PAIN-017.label": {
+    "luo": "Rem Moluwore gi Ng'e"
+  },
+  "SIG-BOD-PAIN-018.label": {
+    "luo": "Rem Madhi nyaka Tielo"
+  },
+  "SIG-BOD-PAIN-019.label": {
+    "luo": "Rem e Kuonde Mang'eny"
+  },
+  "SIG-BOD-PAIN-020.label": {
+    "luo": "Rem Molandore e Ringruok kod Iye Piny"
+  },
+  "SIG-BOD-PAIN-021.label": {
+    "luo": "Rem Machakore gi Gimoro"
+  },
+  "SIG-BOD-PAIN-022.label": {
+    "luo": "Rem Machakore gi Wuoth"
+  },
+  "SIG-BOD-PAIN-023.label": {
+    "luo": "Rem Moluwore gi Winjruok mar Ringruok"
+  },
+  "SIG-BOD-PAIN-024.label": {
+    "luo": "Rem Moluwore gi Iye"
+  },
+  "SIG-BOD-PAIN-025.label": {
+    "luo": "Rem Moluwore gi Thuno"
+  },
+  "SIG-BOD-PAIN-026.label": {
+    "luo": "Rem Kaachiel gi Pek mar Ol"
+  },
+  "SIG-BOD-PAIN-027.label": {
+    "luo": "Rem Momulo Tije"
+  },
+  "SIG-BOD-PAIN-028.label": {
+    "luo": "Rem Momiyo Yweyo Bedo Pek"
+  },
+  "SIG-BOD-PAIN-029.label": {
+    "luo": "Kawo Rem kaka Gima Ojwang'ore"
+  },
+  "SIG-BOD-PAIN-030.label": {
+    "luo": "Ranyisi mar Parruok Kuom Rem"
+  },
+  "SIG-BOD-PAIN-031.label": {
+    "luo": "Pek mar Rem Modak"
+  },
+  "SIG-BOD-PAIN-032.label": {
+    "luo": "Rem Matek Winjo"
+  },
+  "SIG-BOD-PAIN-033.label": {
+    "luo": "Ranyisi mar Rem Madwaro Kony Mapiyo"
+  },
+  "SIG-BOD-PAIN-034.label": {
+    "luo": "Rem e Kinde mar Nywol"
+  },
+  "SIG-BOD-PAIN-035.label": {
+    "luo": "Rem Moluwore gi Hormone"
+  },
+  "SIG-BOD-PEL-001.label": {
+    "luo": "Chandruok mar Iye Piny"
+  },
+  "SIG-BOD-PEL-002.label": {
+    "luo": "Winjo Iye Piny Mopong'"
+  },
+  "SIG-BOD-PEL-003.label": {
+    "luo": "Ranyisi mar Iye Yamo"
+  },
+  "SIG-BOD-PEL-004.label": {
+    "luo": "Ranyisi mar Chiemo e Iye"
+  },
+  "SIG-BOD-PEL-005.label": {
+    "luo": "Dwaro Piyo mar Iye kata Chandruok"
+  },
+  "SIG-BOD-PEL-006.label": {
+    "luo": "Pek Moluwore gi Iye Motegno"
+  },
+  "SIG-BOD-PEL-007.label": {
+    "luo": "Pek Moluwore gi Iye Mayom"
+  },
+  "SIG-BOD-PEL-008.label": {
+    "luo": "Ranyisi mar Dwaro Piyo mar Thuno"
+  },
+  "SIG-BOD-PEL-009.label": {
+    "luo": "Ranyisi mar Rem ka Thuno Wuok"
+  },
+  "SIG-BOD-PEL-010.label": {
+    "luo": "Ranyisi mar Thuno Wuok Pile"
+  },
+  "SIG-BOD-PEL-011.label": {
+    "luo": "Ranyisi Moriwore mar Iye Piny kod Thuno"
+  },
+  "SIG-BOD-PEL-012.label": {
+    "luo": "Ranyisi Moriwore mar Iye Piny kod Iye"
+  },
+  "SIG-BOD-PEL-013.label": {
+    "luo": "Ranyisi Moriwore mag Fuond Mang'eny e Iye Piny"
+  },
+  "SIG-BOD-PEL-014.label": {
+    "luo": "Chandruok Kaachiel gi Pek mar Ol"
+  },
+  "SIG-BOD-PEL-015.label": {
+    "luo": "Chandruok Kaachiel gi Pek mar Rem"
+  },
+  "SIG-BOD-PEL-016.label": {
+    "luo": "Dhi Nyime mar Chandruok e Iye Piny"
+  },
+  "SIG-BOD-PEL-017.label": {
+    "luo": "Siko mar Chandruok e Iye Piny"
+  },
+  "SIG-BOD-PEL-018.label": {
+    "luo": "Kawo Chandruok mar Iye Piny kaka Gima Ojwang'ore"
+  },
+  "SIG-BOD-PEL-019.label": {
+    "luo": "Chandruok mar Iye Piny Matek Winjo"
+  },
+  "SIG-BOD-PEL-020.label": {
+    "luo": "Ranyisi mar Iye Piny Madwaro Kony Mapiyo"
+  },
+  "SIG-BOD-CYC-001.label": {
+    "luo": "Kit Dwe Mochung'"
+  },
+  "SIG-BOD-CYC-002.label": {
+    "luo": "Kit Dwe Mapok Ng'ere"
+  },
+  "SIG-BOD-CYC-003.label": {
+    "luo": "Dwe Mayot Ng'ere Ahinya"
+  },
+  "SIG-BOD-CYC-004.label": {
+    "luo": "Kit Dwe Mokadho"
+  },
+  "SIG-BOD-CYC-005.label": {
+    "luo": "Dwe Mokadho Pile"
+  },
+  "SIG-BOD-CYC-006.label": {
+    "luo": "Kinde mar Dwe Malokore"
+  },
+  "SIG-BOD-CYC-007.label": {
+    "luo": "Dwe Molokore e Kinde"
+  },
+  "SIG-BOD-CYC-008.label": {
+    "luo": "Ranyisi mar Dwe Machiek"
+  },
+  "SIG-BOD-CYC-009.label": {
+    "luo": "Ranyisi mar Dwe Modak"
+  },
+  "SIG-BOD-CYC-010.label": {
+    "luo": "Kit Tuoche Moluwore gi Dwe"
+  },
+  "SIG-BOD-CYC-011.label": {
+    "luo": "Kit Tuoche Maluwo Nyuol Tong'"
+  },
+  "SIG-BOD-CYC-012.label": {
+    "luo": "Kit Tuoche Ma Ok Luwo Dwe"
+  },
+  "SIG-BOD-CYC-013.label": {
+    "luo": "Ok Ng'ere mar Dwe"
+  },
+  "SIG-BOD-CYC-014.label": {
+    "luo": "Pek mar Dwe Kaachiel gi Ol"
+  },
+  "SIG-BOD-CYC-015.label": {
+    "luo": "Pek mar Dwe Kaachiel gi Rem"
+  },
+  "SIG-BOD-CYC-016.label": {
+    "luo": "Pek mar Dwe Kaachiel gi Ranyisi mag Hormone"
+  },
+  "SIG-BOD-CYC-017.label": {
+    "luo": "Kawo Dwe kaka Gima Ojwang'ore"
+  },
+  "SIG-BOD-CYC-018.label": {
+    "luo": "Ranyisi mar Parruok Kuom Dwe"
+  },
+  "SIG-BOD-CYC-019.label": {
+    "luo": "Ranyisi mar Dwe e Kinde mar Nywol"
+  },
+  "SIG-BOD-CYC-020.label": {
+    "luo": "Ranyisi mar Yo Ma Dwe Dhiyoe"
+  },
+  "SIG-BOD-HOR-001.label": {
+    "luo": "Ranyisi mar Yath Mar Hormone"
+  },
+  "SIG-BOD-HOR-002.label": {
+    "luo": "Ranyisi mar Lokruok e Del"
+  },
+  "SIG-BOD-HOR-003.label": {
+    "luo": "Ranyisi mar Yier Medore"
+  },
+  "SIG-BOD-HOR-004.label": {
+    "luo": "Ranyisi mar Yier Podho kata Dok Manyien"
+  },
+  "SIG-BOD-HOR-005.label": {
+    "luo": "Ranyisi mar Lokruok mar Pek mar Ringruok"
+  },
+  "SIG-BOD-HOR-006.label": {
+    "luo": "Ranyisi mar Kinde mar Chuny Moluwore gi Hormone"
+  },
+  "SIG-BOD-HOR-007.label": {
+    "luo": "Ranyisi mar Rem e Thuno"
+  },
+  "SIG-BOD-HOR-008.label": {
+    "luo": "Ranyisi mar Liet kata Lokruok mar Chieng'"
+  },
+  "SIG-BOD-HOR-009.label": {
+    "luo": "Ranyisi mar Wuoth Malit Gotieno"
+  },
+  "SIG-BOD-HOR-010.label": {
+    "luo": "Ranyisi Moriwore mag Hormone"
+  },
+  "SIG-BOD-HOR-011.label": {
+    "luo": "Ranyisi Moriwore mag Hormone kod Dwe"
+  },
+  "SIG-BOD-HOR-012.label": {
+    "luo": "Ranyisi Moriwore mag Hormone kod Rem"
+  },
+  "SIG-BOD-HOR-013.label": {
+    "luo": "Ranyisi Moriwore mag Hormone kod Ol"
+  },
+  "SIG-BOD-HOR-014.label": {
+    "luo": "Dhi Nyime mar Lokruok Moluwore gi Hormone"
+  },
+  "SIG-BOD-HOR-015.label": {
+    "luo": "Siko mar Ranyisi mag Hormone"
+  },
+  "SIG-BOD-HOR-016.label": {
+    "luo": "Kawo Hormone kaka Gima Ojwang'ore"
+  },
+  "SIG-BOD-HOR-017.label": {
+    "luo": "Ranyisi mar Parruok Kuom Hormone"
+  },
+  "SIG-BOD-HOR-018.label": {
+    "luo": "Ranyisi mar Hormone e Kinde mar Ngima"
+  },
+  "SIG-BOD-HOR-019.label": {
+    "luo": "Ranyisi mar Hormone e Wach Nywol"
+  },
+  "SIG-BOD-HOR-020.label": {
+    "luo": "Ranyisi mar Hormone Matek Winjo"
+  },
+  "SIG-BOD-BODY-001.label": {
+    "luo": "Lokruok mar Ringruok Ma Inyalo Neno"
+  },
+  "SIG-BOD-BODY-002.label": {
+    "luo": "Lokruok mar Duong' kata Kit Iye Piny"
+  },
+  "SIG-BOD-BODY-003.label": {
+    "luo": "Winjo Ringruok Yamo"
+  },
+  "SIG-BOD-BODY-004.label": {
+    "luo": "Kit Lokruok mar Pek mar Ringruok"
+  },
+  "SIG-BOD-BODY-005.label": {
+    "luo": "Winjruok mar Teko gi Ringruok"
+  },
+  "SIG-BOD-BODY-006.label": {
+    "luo": "Ranyisi mar Yweyo kata Nyap Chuny"
+  },
+  "SIG-BOD-BODY-007.label": {
+    "luo": "Ranyisi mar Yweyo Madongo"
+  },
+  "SIG-BOD-BODY-008.label": {
+    "luo": "Lokruok mar Ringruok Kaachiel gi Pek mar Ol"
+  },
+  "SIG-BOD-BODY-009.label": {
+    "luo": "Lokruok mar Ringruok Kaachiel gi Pek mar Rem"
+  },
+  "SIG-BOD-BODY-010.label": {
+    "luo": "Lokruok mar Ringruok Kaachiel gi Chandruok mar Dwe"
+  },
+  "SIG-BOD-BODY-011.label": {
+    "luo": "Lokruok mar Ringruok Kaachiel gi Ranyisi mag Hormone"
+  },
+  "SIG-BOD-BODY-012.label": {
+    "luo": "Dhi Nyime mar Lokruok mar Ringruok"
+  },
+  "SIG-BOD-BODY-013.label": {
+    "luo": "Siko mar Lokruok mar Ringruok"
+  },
+  "SIG-BOD-BODY-014.label": {
+    "luo": "Ok Ng'ere mar Lokruok mar Ringruok"
+  },
+  "SIG-BOD-BODY-015.label": {
+    "luo": "Parruok Kuom Lokruok mar Ringruok"
+  },
+  "SIG-BOD-BODY-016.label": {
+    "luo": "Kawo Lokruok mar Ringruok kaka Gima Ojwang'ore"
+  },
+  "SIG-BOD-BODY-017.label": {
+    "luo": "Ranyisi mar Pek Moluwore gi Kido mar Ringruok"
+  },
+  "SIG-BOD-BODY-018.label": {
+    "luo": "Ranyisi mar Pek mar Ringruok"
+  },
+  "SIG-BOD-BODY-019.label": {
+    "luo": "Winjo Machalo gi Yamo e Ringruok"
+  },
+  "SIG-BOD-BODY-020.label": {
+    "luo": "Ranyisi Moriwore mag Ringruok"
+  },
+  "SIG-BOD-BODY-021.label": {
+    "luo": "Pek Moriwore mar Ringruok"
+  },
+  "SIG-BOD-BODY-022.label": {
+    "luo": "Lokruok mar Ringruok e Kinde mar Nywol"
+  },
+  "SIG-BOD-BODY-023.label": {
+    "luo": "Kit Ringruok Bang' Nywol"
+  },
+  "SIG-BOD-BODY-024.label": {
+    "luo": "Ranyisi mar Ringruok Madwaro Kony Mapiyo"
+  },
+  "SIG-BOD-BODY-025.label": {
+    "luo": "Riwruok mar Ranyisi mag Ringruok Duto"
+  },
+  "SIG-FUNC-001.label": {
+    "luo": "Gengo mar Tije"
+  },
+  "SIG-FUNC-002.label": {
+    "luo": "Chandruok mar Chenro"
+  },
+  "SIG-FUNC-003.label": {
+    "luo": "Gengo mar Rito Ringruoki"
+  },
+  "SIG-FUNC-004.label": {
+    "luo": "Gengo mar Tije Mag Ot"
+  },
+  "SIG-FUNC-005.label": {
+    "luo": "Gengo mar Dhi Kar Moro"
+  },
+  "SIG-FUNC-006.label": {
+    "luo": "Gengo mar Wuoth"
+  },
+  "SIG-FUNC-007.label": {
+    "luo": "Chano Kuom Tuoche"
+  },
+  "SIG-FUNC-008.label": {
+    "luo": "Nyalo Matin mar Timo Tich"
+  },
+  "SIG-FUNC-009.label": {
+    "luo": "Pek Maduong' mar Timo Tich"
+  },
+  "SIG-FUNC-010.label": {
+    "luo": "Pek Matin mar Timo Tich"
+  },
+  "SIG-FUNC-011.label": {
+    "luo": "Pek Mopogore mar Timo Tich"
+  },
+  "SIG-FUNC-012.label": {
+    "luo": "Pek Mosiko mar Timo Tich"
+  },
+  "SIG-FUNC-013.label": {
+    "luo": "Gima Omulo Kuonde Mang'eny Mag Ngima"
+  },
+  "SIG-FUNC-014.label": {
+    "luo": "Winjruok gi Ngima Mapile"
+  },
+  "SIG-FUNC-015.label": {
+    "luo": "Ok Ng'ere mar Timo Tich"
+  },
+  "SIG-FUNC-016.label": {
+    "luo": "Weyo Timo Tich"
+  },
+  "SIG-FUNC-017.label": {
+    "luo": "Chier Modeko"
+  },
+  "SIG-FUNC-018.label": {
+    "luo": "Chano Chenro Kuom Tuoche"
+  },
+  "SIG-FUNC-019.label": {
+    "luo": "Teko Matin"
+  },
+  "SIG-FUNC-020.label": {
+    "luo": "Nyap Chuny Mapile"
+  },
+  "SIG-FUNC-021.label": {
+    "luo": "Nyap Chuny Mosiko"
+  },
+  "SIG-FUNC-022.label": {
+    "luo": "Nyap Chuny Moluwore gi Dwe"
+  },
+  "SIG-FUNC-023.label": {
+    "luo": "Ol Bang' Tuoche"
+  },
+  "SIG-FUNC-024.label": {
+    "luo": "Ol Moluwore gi Tich"
+  },
+  "SIG-FUNC-025.label": {
+    "luo": "Nyap Chuny Kaachiel gi Yweyo"
+  },
+  "SIG-FUNC-026.label": {
+    "luo": "Teko Malokore"
+  },
+  "SIG-FUNC-027.label": {
+    "luo": "Teko Modok Piny"
+  },
+  "SIG-FUNC-028.label": {
+    "luo": "Dwaro Yweyo Mang'eny"
+  },
+  "SIG-FUNC-029.label": {
+    "luo": "Tije Mokadho Nikech Nyap Chuny"
+  },
+  "SIG-FUNC-030.label": {
+    "luo": "Nyap Chuny Madongo"
+  },
+  "SIG-FUNC-031.label": {
+    "luo": "Kawo Nyap Chuny kaka Gima Ojwang'ore"
+  },
+  "SIG-FUNC-032.label": {
+    "luo": "Yo mar Rito Teko"
+  },
+  "SIG-FUNC-033.label": {
+    "luo": "Chandruok mar Nindo"
+  },
+  "SIG-FUNC-034.label": {
+    "luo": "Chandruok mar Nindo Mapile"
+  },
+  "SIG-FUNC-035.label": {
+    "luo": "Chandruok mar Nindo Mosiko"
+  },
+  "SIG-FUNC-036.label": {
+    "luo": "Nindo Mochandi gi Rem"
+  },
+  "SIG-FUNC-037.label": {
+    "luo": "Nindo Mochandi gi Ol"
+  },
+  "SIG-FUNC-038.label": {
+    "luo": "Chier Marach"
+  },
+  "SIG-FUNC-039.label": {
+    "luo": "Pek mar Tuoche Gotieno"
+  },
+  "SIG-FUNC-040.label": {
+    "luo": "Gima Omulo Odiechieng' Nikech Nindo"
+  },
+  "SIG-FUNC-041.label": {
+    "luo": "Onge Nindo Machiwo Chier"
+  },
+  "SIG-FUNC-042.label": {
+    "luo": "Winjruok gi Nindo"
+  },
+  "SIG-FUNC-043.label": {
+    "luo": "Gengo mar Tich kata Skul"
+  },
+  "SIG-FUNC-044.label": {
+    "luo": "Tich kata Skul Mokadho"
+  },
+  "SIG-FUNC-045.label": {
+    "luo": "Bedo Maonge Pile"
+  },
+  "SIG-FUNC-046.label": {
+    "luo": "Tich Modok Piny"
+  },
+  "SIG-FUNC-047.label": {
+    "luo": "Pek mar Keto Paro"
+  },
+  "SIG-FUNC-048.label": {
+    "luo": "Pek mar Donjo e Skul"
+  },
+  "SIG-FUNC-049.label": {
+    "luo": "Pek mar Donjo e Tich"
+  },
+  "SIG-FUNC-050.label": {
+    "luo": "Luoro mar Bedo Ma Ok Inyal Geno"
+  },
+  "SIG-FUNC-051.label": {
+    "luo": "Rieko mar Tieko Tich"
+  },
+  "SIG-FUNC-052.label": {
+    "luo": "Gengo mar Tich kata Puonjruok"
+  },
+  "SIG-FUNC-053.label": {
+    "luo": "Pek mar Nyiso Wach"
+  },
+  "SIG-FUNC-054.label": {
+    "luo": "Yo mar Winjruok e Tich kata Skul"
+  },
+  "SIG-FUNC-055.label": {
+    "luo": "Gengo mar Rito Jomoko"
+  },
+  "SIG-FUNC-056.label": {
+    "luo": "Pek mar Rito Jomoko"
+  },
+  "SIG-FUNC-057.label": {
+    "luo": "Pek mar Tije Mag Ot"
+  },
+  "SIG-FUNC-058.label": {
+    "luo": "Tingo Tich Mang'eny"
+  },
+  "SIG-FUNC-059.label": {
+    "luo": "Nyalo Matin mar Rito Jomoko Kinde Duto"
+  },
+  "SIG-FUNC-060.label": {
+    "luo": "Dwaro Kony e Ot"
+  },
+  "SIG-FUNC-061.label": {
+    "luo": "Chuny Marach Kuom Rito Jomoko"
+  },
+  "SIG-FUNC-062.label": {
+    "luo": "Timo Tije Mag Ot Mos Mos"
+  },
+  "SIG-FUNC-063.label": {
+    "luo": "Chandruok mar Chenro mar Anywola"
+  },
+  "SIG-FUNC-064.label": {
+    "luo": "Pek Mopondo mar Tije Mag Ot"
+  },
+  "SIG-FUNC-065.label": {
+    "luo": "Gengo mar Wuoth"
+  },
+  "SIG-FUNC-066.label": {
+    "luo": "Gengo mar Chiel Ringruok"
+  },
+  "SIG-FUNC-067.label": {
+    "luo": "Pek mar Wuoth kata Chung'"
+  },
+  "SIG-FUNC-068.label": {
+    "luo": "Weyo Timo Tije"
+  },
+  "SIG-FUNC-069.label": {
+    "luo": "Ok Ng'ere mar Wuoth"
+  },
+  "SIG-FUNC-070.label": {
+    "luo": "Nyalo mar Ringruok Modok Piny"
+  },
+  "SIG-FUNC-071.label": {
+    "luo": "Pek Machakore gi Wuoth"
+  },
+  "SIG-FUNC-072.label": {
+    "luo": "Pek mar Wuoth Mabor"
+  },
+  "SIG-FUNC-073.label": {
+    "luo": "Yo mar Yweyo Kuom Wuoth"
+  },
+  "SIG-FUNC-074.label": {
+    "luo": "Luoro mar Wuoth Nikech Yweyo"
+  },
+  "SIG-FUNC-075.label": {
+    "luo": "Lal mar Donjo e Wuoth"
+  },
+  "SIG-FUNC-076.label": {
+    "luo": "Chier Mag Wuoth Modeko"
+  },
+  "SIG-FUNC-077.label": {
+    "luo": "Gengo mar Donjo e Weche mag Oganda"
+  },
+  "SIG-FUNC-078.label": {
+    "luo": "Pogo Ii Kende gi Ji"
+  },
+  "SIG-FUNC-079.label": {
+    "luo": "Gima Omulo Winjruok"
+  },
+  "SIG-FUNC-080.label": {
+    "luo": "Pek mar Chano Wuoth kod Donjo e Oganda"
+  },
+  "SIG-FUNC-081.label": {
+    "luo": "Chenro Mowe"
+  },
+  "SIG-FUNC-082.label": {
+    "luo": "Luoro mar Donjo e Weche"
+  },
+  "SIG-FUNC-083.label": {
+    "luo": "Luoro mar Bedo Kendi"
+  },
+  "SIG-FUNC-084.label": {
+    "luo": "Pek mar Winjruok Machiegni"
+  },
+  "SIG-FUNC-085.label": {
+    "luo": "Gengo mar Donjo e Oganda"
+  },
+  "SIG-FUNC-086.label": {
+    "luo": "Teko Modhero Nikech Weche mag Oganda"
+  },
+  "SIG-FUNC-087.label": {
+    "luo": "Rito Wich Kuyo"
+  },
+  "SIG-FUNC-088.label": {
+    "luo": "Yo mar Winjruok gi Oganda"
+  },
+  "SIG-FUNC-089.label": {
+    "luo": "Gima Omulo Chuny"
+  },
+  "SIG-FUNC-090.label": {
+    "luo": "Parruok Kuom Tuoche"
+  },
+  "SIG-FUNC-091.label": {
+    "luo": "Chuny Marach Nikech Ok Nyal Timo Gik"
+  },
+  "SIG-FUNC-092.label": {
+    "luo": "Kawo Pek kaka Gima Ojwang'ore"
+  },
+  "SIG-FUNC-093.label": {
+    "luo": "Bedo Maonge Geno gi Ringruoki"
+  },
+  "SIG-FUNC-094.label": {
+    "luo": "Pek mar Ok Ng'ere"
+  },
+  "SIG-FUNC-095.label": {
+    "luo": "Chuny Malit Nikech Chandruok"
+  },
+  "SIG-FUNC-096.label": {
+    "luo": "Penjruok Kuom Tuoche"
+  },
+  "SIG-FUNC-097.label": {
+    "luo": "Teko mar Winjruok gi Lokruok"
+  },
+  "SIG-FUNC-098.label": {
+    "luo": "Ol mar Chuny"
+  },
+  "SIG-FUNC-099.label": {
+    "luo": "Rito Teko mar Yiero"
+  },
+  "SIG-FUNC-100.label": {
+    "luo": "Ikruok mar Manyo Kony"
+  },
+  "SIG-CARE-ACC-001.label": {
+    "luo": "Chak Manyo Rit"
+  },
+  "SIG-CARE-ACC-002.label": {
+    "luo": "Onge Rit Mosemany"
+  },
+  "SIG-CARE-ACC-003.label": {
+    "luo": "Manyo Rit Modeko"
+  },
+  "SIG-CARE-ACC-004.label": {
+    "luo": "Weyo Manyo Rit"
+  },
+  "SIG-CARE-ACC-005.label": {
+    "luo": "Geno mar Yudo Rit"
+  },
+  "SIG-CARE-ACC-006.label": {
+    "luo": "Yudo Rit Matin"
+  },
+  "SIG-CARE-ACC-007.label": {
+    "luo": "Yudo Rit Mayot Ng'ere"
+  },
+  "SIG-CARE-ACC-008.label": {
+    "luo": "Gengo mar Kar Rit"
+  },
+  "SIG-CARE-ACC-009.label": {
+    "luo": "Gengo mar Pesa"
+  },
+  "SIG-CARE-ACC-010.label": {
+    "luo": "Gengo mar Yudo Kinde mar Neno"
+  },
+  "SIG-CARE-ACC-011.label": {
+    "luo": "Gengo mar Wuoth Dhi Kar Rit"
+  },
+  "SIG-CARE-ACC-012.label": {
+    "luo": "Gengo mar Insurance"
+  },
+  "SIG-CARE-ACC-013.label": {
+    "luo": "Gengo mar Yudo Jarit Molony"
+  },
+  "SIG-CARE-ACC-014.label": {
+    "luo": "Geno gi Rit Machakruok"
+  },
+  "SIG-CARE-ACC-015.label": {
+    "luo": "Geno gi Rit Mapiyo"
+  },
+  "SIG-CARE-ACC-016.label": {
+    "luo": "Geno gi Rit Mar Kompyuta"
+  },
+  "SIG-CARE-ACC-017.label": {
+    "luo": "Geno gi Rit Ma Ok Opuonjre"
+  },
+  "SIG-CARE-ACC-018.label": {
+    "luo": "Yudo Rit Dhi Maber"
+  },
+  "SIG-CARE-ACC-019.label": {
+    "luo": "Yudo Rit Dhi Marach"
+  },
+  "SIG-CARE-ACC-020.label": {
+    "luo": "Yudo Rit Mochung'"
+  },
+  "SIG-CARE-NAV-001.label": {
+    "luo": "Yo mar Rit Maler"
+  },
+  "SIG-CARE-NAV-002.label": {
+    "luo": "Yo mar Rit Ma Ok Ler"
+  },
+  "SIG-CARE-NAV-003.label": {
+    "luo": "Oor Ir Jarit Machielo"
+  },
+  "SIG-CARE-NAV-004.label": {
+    "luo": "Ne Ok Oor Ir Jarit Machielo"
+  },
+  "SIG-CARE-NAV-005.label": {
+    "luo": "Deko mar Oro Ir Jarit Machielo"
+  },
+  "SIG-CARE-NAV-006.label": {
+    "luo": "Wuotho e Kind Jorit Mang'eny"
+  },
+  "SIG-CARE-NAV-007.label": {
+    "luo": "Rit Mopogore Pogore"
+  },
+  "SIG-CARE-NAV-008.label": {
+    "luo": "Rit Mosiko"
+  },
+  "SIG-CARE-NAV-009.label": {
+    "luo": "Dwaro Riwo Rit Kaachiel"
+  },
+  "SIG-CARE-NAV-010.label": {
+    "luo": "Pek mar Manyo Ng'ado Tuo"
+  },
+  "SIG-CARE-NAV-011.label": {
+    "luo": "Chak Yo mar Teme"
+  },
+  "SIG-CARE-NAV-012.label": {
+    "luo": "Onge Yo mar Teme"
+  },
+  "SIG-CARE-NAV-013.label": {
+    "luo": "Luwo Mochan Bang'e"
+  },
+  "SIG-CARE-NAV-014.label": {
+    "luo": "Thuolo e Luwo Bang'e"
+  },
+  "SIG-CARE-NAV-015.label": {
+    "luo": "Manyo Paro Machielo"
+  },
+  "SIG-CARE-NAV-016.label": {
+    "luo": "Dwaro Ng'eyo Kaka Yo Rit Chalo"
+  },
+  "SIG-CARE-NAV-017.label": {
+    "luo": "Wuoyo Ni Iwuon e Yo Rit"
+  },
+  "SIG-CARE-NAV-018.label": {
+    "luo": "Tieko Wach mar Rit Maler"
+  },
+  "SIG-CARE-VAL-001.label": {
+    "luo": "Winjo ni Owinji"
+  },
+  "SIG-CARE-VAL-002.label": {
+    "luo": "Winjo ni Oyie Kode"
+  },
+  "SIG-CARE-VAL-003.label": {
+    "luo": "Tuoche Okaw kaka Gik Mojwang'ore"
+  },
+  "SIG-CARE-VAL-004.label": {
+    "luo": "Tuoche Okwan kaka Matin"
+  },
+  "SIG-CARE-VAL-005.label": {
+    "luo": "Rit Mokwedo"
+  },
+  "SIG-CARE-VAL-006.label": {
+    "luo": "Rit Mokwedo Pile"
+  },
+  "SIG-CARE-VAL-007.label": {
+    "luo": "Yie gi Chuny"
+  },
+  "SIG-CARE-VAL-008.label": {
+    "luo": "Yie gi Yo mar Thieth"
+  },
+  "SIG-CARE-VAL-009.label": {
+    "luo": "Yie Bang' Ng'ado Tuo"
+  },
+  "SIG-CARE-VAL-010.label": {
+    "luo": "Yie Nikech Teme"
+  },
+  "SIG-CARE-VAL-011.label": {
+    "luo": "Yie Nikech Thieth"
+  },
+  "SIG-CARE-VAL-012.label": {
+    "luo": "Onge Dwoko Maler"
+  },
+  "SIG-CARE-VAL-013.label": {
+    "luo": "Paro Mopogore mar Jothieth"
+  },
+  "SIG-CARE-VAL-014.label": {
+    "luo": "Geno Medore"
+  },
+  "SIG-CARE-VAL-015.label": {
+    "luo": "Geno Dok Piny"
+  },
+  "SIG-CARE-VAL-016.label": {
+    "luo": "Penjruok Bang' Rit"
+  },
+  "SIG-CARE-VAL-017.label": {
+    "luo": "Jarit Manyo Ng'eyo Ahinya"
+  },
+  "SIG-CARE-VAL-018.label": {
+    "luo": "Jarit Otieko Wach Maonge Dwoko"
+  },
+  "SIG-CARE-OUT-001.label": {
+    "luo": "Ng'ado Tuo Oyudi"
+  },
+  "SIG-CARE-OUT-002.label": {
+    "luo": "Onge Ng'ado Tuo Pod"
+  },
+  "SIG-CARE-OUT-003.label": {
+    "luo": "Ler Matin Oyudi"
+  },
+  "SIG-CARE-OUT-004.label": {
+    "luo": "Thieth Ochiwi"
+  },
+  "SIG-CARE-OUT-005.label": {
+    "luo": "Rit gi Yath Kende"
+  },
+  "SIG-CARE-OUT-006.label": {
+    "luo": "Teme Ochan"
+  },
+  "SIG-CARE-OUT-007.label": {
+    "luo": "Onge Teme Mane Ochiwi"
+  },
+  "SIG-CARE-OUT-008.label": {
+    "luo": "Chenro mar Rito Tuoche"
+  },
+  "SIG-CARE-OUT-009.label": {
+    "luo": "Wach mar Rit Ma Pok Orum"
+  },
+  "SIG-CARE-OUT-010.label": {
+    "luo": "Rit Dhi Maber"
+  },
+  "SIG-CARE-OUT-011.label": {
+    "luo": "Rit Ma Ok Olokore"
+  },
+  "SIG-CARE-OUT-012.label": {
+    "luo": "Rit Dhi Marach"
+  },
+  "SIG-CARE-OUT-013.label": {
+    "luo": "Pek mar Thieth"
+  },
+  "SIG-CARE-OUT-014.label": {
+    "luo": "Luoro mar Gik Marach Moa e Yath"
+  },
+  "SIG-CARE-OUT-015.label": {
+    "luo": "Pek mar Luwo Yath"
+  },
+  "SIG-CARE-OUT-016.label": {
+    "luo": "Winjruok Maber gi Rit"
+  },
+  "SIG-CARE-OUT-017.label": {
+    "luo": "Winjruok Marach gi Rit"
+  },
+  "SIG-CARE-SELF-001.label": {
+    "luo": "Ndiko Kendi"
+  },
+  "SIG-CARE-SELF-002.label": {
+    "luo": "Chano Kuom Tuoche"
+  },
+  "SIG-CARE-SELF-003.label": {
+    "luo": "Ikruok gi Gige Tich"
+  },
+  "SIG-CARE-SELF-004.label": {
+    "luo": "Yo mar Dwoko ne Rem"
+  },
+  "SIG-CARE-SELF-005.label": {
+    "luo": "Yo mar Yweyo kod Chier"
+  },
+  "SIG-CARE-SELF-006.label": {
+    "luo": "Loko Chiemo kata Ngima Mapile"
+  },
+  "SIG-CARE-SELF-007.label": {
+    "luo": "Loko Yo mar Chielo Ringruok"
+  },
+  "SIG-CARE-SELF-008.label": {
+    "luo": "Winjruok e Tich kata Skul"
+  },
+  "SIG-CARE-SELF-009.label": {
+    "luo": "Winjruok e Rito Jomoko"
+  },
+  "SIG-CARE-SELF-010.label": {
+    "luo": "Wuoyo Ni Iwuon"
+  },
+  "SIG-CARE-SELF-011.label": {
+    "luo": "Ikruok gi Penjo"
+  },
+  "SIG-CARE-SELF-012.label": {
+    "luo": "Ndiko Moiki"
+  },
+  "SIG-CARE-SELF-013.label": {
+    "luo": "Manyo Kony Kuom Jowetegi"
+  },
+  "SIG-CARE-SELF-014.label": {
+    "luo": "Manyo Kony Kuom Anywola"
+  },
+  "SIG-CARE-SELF-015.label": {
+    "luo": "Manyo Kony Kuom Oganda"
+  },
+  "SIG-CARE-SELF-016.label": {
+    "luo": "Manyo Ng'eyo e Kompyuta"
+  },
+  "SIG-CARE-SELF-017.label": {
+    "luo": "Geno mar Rito Ngimani Iwuon"
+  },
+  "SIG-CARE-SELF-018.label": {
+    "luo": "Tingo Mang'eny mar Rito Ngimani"
+  },
+  "SIG-CARE-EMO-001.label": {
+    "luo": "Luoro Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-002.label": {
+    "luo": "Chuny Marach Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-003.label": {
+    "luo": "Ol Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-004.label": {
+    "luo": "Geno Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-005.label": {
+    "luo": "Yweyo Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-006.label": {
+    "luo": "Wichkuot Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-007.label": {
+    "luo": "Luoro Maduong' Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-008.label": {
+    "luo": "Mirima Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-009.label": {
+    "luo": "Winjo In Kendi e Rit"
+  },
+  "SIG-CARE-EMO-010.label": {
+    "luo": "Ok Ng'ere Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-011.label": {
+    "luo": "Ol Moduong' Moluwore gi Rit"
+  },
+  "SIG-CARE-EMO-012.label": {
+    "luo": "Ok Yie gi Yo mar Thieth"
+  },
+  "SIG-CARE-EMO-013.label": {
+    "luo": "Yie gi Yo mar Thieth"
+  },
+  "SIG-CARE-EMO-014.label": {
+    "luo": "Winjo Rit ka Orit"
+  },
+  "SIG-CARE-EMO-015.label": {
+    "luo": "Winjo Rit ka Ok Orit"
+  },
+  "SIG-CARE-EMO-016.label": {
+    "luo": "Yie Bedo Kod Tuoche Kaka Gin"
+  },
+  "SIG-CARE-EMO-017.label": {
+    "luo": "Iikore mar Manyo Rit"
+  },
+  "SIG-CARE-EMO-018.label": {
+    "luo": "Dwaro mar Rito Ngimani"
+  },
+  "SIG-CARE-EMO-019.label": {
+    "luo": "Parruok Kuom Teko mar Yiero e Wach Nywol"
+  },
+  "SIG-NAR-EXP-001.label": {
+    "luo": "Dhok Moyiero e Wach Ngima"
+  },
+  "SIG-NAR-EXP-002.label": {
+    "luo": "Lero Tuoche gi Dhok Mayot"
+  },
+  "SIG-NAR-EXP-003.label": {
+    "luo": "Lero Tuoche gi Ngeche"
+  },
+  "SIG-NAR-EXP-004.label": {
+    "luo": "Dhok Mopok Ng'ere mar Lero Tuoche"
+  },
+  "SIG-NAR-EXP-005.label": {
+    "luo": "Lero gi Kido mar Pinygi"
+  },
+  "SIG-NAR-EXP-006.label": {
+    "luo": "Lero gi Kaka Ringruok Winjo"
+  },
+  "SIG-NAR-EXP-007.label": {
+    "luo": "Dhok mar Nyiso Teko mar Rem"
+  },
+  "SIG-NAR-EXP-008.label": {
+    "luo": "Dhok mar Pimo"
+  },
+  "SIG-NAR-EXP-009.label": {
+    "luo": "Dhok Modwoko Duong' Piny"
+  },
+  "SIG-NAR-EXP-010.label": {
+    "luo": "Dhok Manyiso Medruok"
+  },
+  "SIG-NAR-EXP-011.label": {
+    "luo": "Loko Dhok e Wuoyo"
+  },
+  "SIG-NAR-EXP-012.label": {
+    "luo": "Dwaro Loko Dhok"
+  },
+  "SIG-NAR-EXP-013.label": {
+    "luo": "Lingo kata Pondo Wach"
+  },
+  "SIG-NAR-EXP-014.label": {
+    "luo": "Lero Mokethore"
+  },
+  "SIG-NAR-EXP-015.label": {
+    "luo": "Sigana Mochanore Maber"
+  },
+  "SIG-NAR-EXP-016.label": {
+    "luo": "Ng'eyo Ringruok gi Ich Ngato Iwuon"
+  },
+  "SIG-NAR-EXP-017.label": {
+    "luo": "Ng'eyo Dhok mag Thieth Matin"
+  },
+  "SIG-NAR-SYM-001.label": {
+    "luo": "Sigana mar Chakruok mar Tuoche"
+  },
+  "SIG-NAR-SYM-002.label": {
+    "luo": "Sigana mar Fweny Kit"
+  },
+  "SIG-NAR-SYM-003.label": {
+    "luo": "Sigana mar Landruok mar Tuoche"
+  },
+  "SIG-NAR-SYM-004.label": {
+    "luo": "Sigana Machiwo Duenge ne Ol"
+  },
+  "SIG-NAR-SYM-005.label": {
+    "luo": "Sigana Machiwo Duenge ne Rem"
+  },
+  "SIG-NAR-SYM-006.label": {
+    "luo": "Sigana mar Chandruok mar Dwe"
+  },
+  "SIG-NAR-SYM-007.label": {
+    "luo": "Sigana mar Lokruok mar Ringruok"
+  },
+  "SIG-NAR-SYM-008.label": {
+    "luo": "Sigana Machiwo Duenge ne Nyap Chuny"
+  },
+  "SIG-NAR-SYM-009.label": {
+    "luo": "Sigana mar Gima Omulo Ngima Mapile"
+  },
+  "SIG-NAR-SYM-010.label": {
+    "luo": "Sigana mar Tuoche Mayot Ng'ere"
+  },
+  "SIG-NAR-SYM-011.label": {
+    "luo": "Sigana mar Teko mar Tuoche"
+  },
+  "SIG-NAR-SYM-012.label": {
+    "luo": "Sigana mar Kawo Tuoche kaka Gik Mojwang'ore"
+  },
+  "SIG-NAR-SYM-013.label": {
+    "luo": "Sigana mar Parruok Kuom Tuoche"
+  },
+  "SIG-NAR-SYM-014.label": {
+    "luo": "Sigana mar Tuoche Mang'eny Moriwore"
+  },
+  "SIG-NAR-SYM-015.label": {
+    "luo": "Sigana mar Tuoche Mopondo"
+  },
+  "SIG-NAR-SYM-016.label": {
+    "luo": "Sigana mar Tuoche Mabiro Pile"
+  },
+  "SIG-NAR-SYM-017.label": {
+    "luo": "Sigana mar Kinde Mane Tuoche Omedo Duong'"
+  },
+  "SIG-NAR-MEA-001.label": {
+    "luo": "Manyo Tiend Wach"
+  },
+  "SIG-NAR-MEA-002.label": {
+    "luo": "Lero Wach gi Pachne Iwuon"
+  },
+  "SIG-NAR-MEA-003.label": {
+    "luo": "Ok Ng'ere Kuom Gima Miyo"
+  },
+  "SIG-NAR-MEA-004.label": {
+    "luo": "Parruok Kuom Gima Biro"
+  },
+  "SIG-NAR-MEA-005.label": {
+    "luo": "Tiend Wach Moluwore gi Nywol"
+  },
+  "SIG-NAR-MEA-006.label": {
+    "luo": "Parruok Kuom Nywol"
+  },
+  "SIG-NAR-MEA-007.label": {
+    "luo": "Tiend Wach Moluwore gi Kaka Ing'eyo Iwuon"
+  },
+  "SIG-NAR-MEA-008.label": {
+    "luo": "Paro Kuom Gima Onego Bedi kata Ooyo"
+  },
+  "SIG-NAR-MEA-009.label": {
+    "luo": "Pimo Kodi gi Jomoko"
+  },
+  "SIG-NAR-MEA-010.label": {
+    "luo": "Tiend Wach Moa e Anywola"
+  },
+  "SIG-NAR-MEA-011.label": {
+    "luo": "Tiend Wach Moa e Pinygi"
+  },
+  "SIG-NAR-MEA-012.label": {
+    "luo": "Tiend Wach Moluwore gi Yie"
+  },
+  "SIG-NAR-MEA-013.label": {
+    "luo": "Ng'eyo Gik Machandi"
+  },
+  "SIG-NAR-MEA-014.label": {
+    "luo": "Fweny mar Kama Ng'eyo Rem"
+  },
+  "SIG-NAR-MEA-015.label": {
+    "luo": "Sigana mar Penjruok Kuomi Iwuon"
+  },
+  "SIG-NAR-MEA-016.label": {
+    "luo": "Sigana mar Manyo Yie"
+  },
+  "SIG-NAR-MEA-017.label": {
+    "luo": "Dwaro Dwoko"
+  },
+  "SIG-NAR-EMO-001.label": {
+    "luo": "Sigana mar Chuny Marach"
+  },
+  "SIG-NAR-EMO-002.label": {
+    "luo": "Sigana mar Luoro"
+  },
+  "SIG-NAR-EMO-003.label": {
+    "luo": "Sigana mar Parruok Maduong'"
+  },
+  "SIG-NAR-EMO-004.label": {
+    "luo": "Sigana mar Yweyo"
+  },
+  "SIG-NAR-EMO-005.label": {
+    "luo": "Sigana mar Ol Maduong'"
+  },
+  "SIG-NAR-EMO-006.label": {
+    "luo": "Sigana mar Winjo In Kendi"
+  },
+  "SIG-NAR-EMO-007.label": {
+    "luo": "Sigana mar Wichkuot"
+  },
+  "SIG-NAR-EMO-008.label": {
+    "luo": "Sigana mar Wichkuot Matin"
+  },
+  "SIG-NAR-EMO-009.label": {
+    "luo": "Sigana mar Mirima"
+  },
+  "SIG-NAR-EMO-010.label": {
+    "luo": "Sigana mar Kuyo"
+  },
+  "SIG-NAR-EMO-011.label": {
+    "luo": "Sigana mar Geno"
+  },
+  "SIG-NAR-EMO-012.label": {
+    "luo": "Sigana mar Yie Bedo Kaka Gin"
+  },
+  "SIG-NAR-EMO-013.label": {
+    "luo": "Sigana mar Pongo Chuny"
+  },
+  "SIG-NAR-EMO-014.label": {
+    "luo": "Sigana mar Rito Matek"
+  },
+  "SIG-NAR-EMO-015.label": {
+    "luo": "Winjo Maonge Chuny"
+  },
+  "SIG-NAR-EMO-016.label": {
+    "luo": "Winjo Mapogore"
+  },
+  "SIG-NAR-EMO-017.label": {
+    "luo": "Sigana mar Geno Kuomi Iwuon"
+  },
+  "SIG-NAR-CAR-001.label": {
+    "luo": "Sigana mar Manyo Rit"
+  },
+  "SIG-NAR-CAR-002.label": {
+    "luo": "Sigana mar Manyo Rit Modeko"
+  },
+  "SIG-NAR-CAR-003.label": {
+    "luo": "Sigana mar Jarit Mokwedo"
+  },
+  "SIG-NAR-CAR-004.label": {
+    "luo": "Sigana mar Winjo ni Owinji"
+  },
+  "SIG-NAR-CAR-005.label": {
+    "luo": "Sigana mar Winjo ni Ok Owinji"
+  },
+  "SIG-NAR-CAR-006.label": {
+    "luo": "Sigana mar Yath Kende"
+  },
+  "SIG-NAR-CAR-007.label": {
+    "luo": "Sigana mar Teme"
+  },
+  "SIG-NAR-CAR-008.label": {
+    "luo": "Sigana mar Wuotho e Jorit Mang'eny"
+  },
+  "SIG-NAR-CAR-009.label": {
+    "luo": "Sigana mar Ok Ng'ere mar Ng'ado Tuo"
+  },
+  "SIG-NAR-CAR-010.label": {
+    "luo": "Sigana mar Gengo mar Yudo Rit"
+  },
+  "SIG-NAR-CAR-011.label": {
+    "luo": "Sigana mar Rit Mosiko"
+  },
+  "SIG-NAR-CAR-012.label": {
+    "luo": "Wuoyo Ni Iwuon e Rit"
+  },
+  "SIG-NAR-CAR-013.label": {
+    "luo": "Sigana mar Geno gi Jarit"
+  },
+  "SIG-NAR-CAR-014.label": {
+    "luo": "Sigana mar Geno Dok Piny"
+  },
+  "SIG-NAR-CAR-015.label": {
+    "luo": "Sigana mar Rit Machielo"
+  },
+  "SIG-NAR-CAR-016.label": {
+    "luo": "Sigana mar Weyo Manyo Rit"
+  },
+  "SIG-NAR-CAR-017.label": {
+    "luo": "Sigana mar Kaka Rit Ochopo"
+  },
+  "SIG-NAR-SEN-001.label": {
+    "luo": "Sigana mar Lero Rem Moluwore gi Winjruok mar Ringruok"
+  },
+  "SIG-NAR-SEN-002.label": {
+    "luo": "Sigana mar Lero Tuoche mag Iye"
+  },
+  "SIG-NAR-SEN-003.label": {
+    "luo": "Sigana mar Lero Tuoche mag Thuno"
+  },
+  "SIG-NAR-SEN-004.label": {
+    "luo": "Sigana mar Gima Omulo Winjruok Machiegni"
+  },
+  "SIG-NAR-SEN-005.label": {
+    "luo": "Sigana mar Parruok Kuom Wach Mopondo"
+  },
+  "SIG-NAR-SEN-006.label": {
+    "luo": "Dwaro Lero Gi Rit Mongewo"
+  },
+  "SIG-NAR-SEN-007.label": {
+    "luo": "Lero Modwok Nikech Wich Kuot"
+  },
+  "SIG-NAR-SEN-008.label": {
+    "luo": "Kwedo Lero Tuoche Malit"
+  },
+  "SIG-NAR-SEN-009.label": {
+    "luo": "Kawo Tuoche Malit kaka Gik Mojwang'ore"
+  },
+  "SIG-NAR-SEN-010.label": {
+    "luo": "Sigana mar Keto Giko"
+  },
+  "SIG-NAR-SEN-011.label": {
+    "luo": "Sigana mar Parruok Kuom Rit"
+  },
+  "SIG-NAR-SEN-012.label": {
+    "luo": "Dwaro Ni Wach Osik Mopondo"
+  },
+  "SIG-NAR-SEN-013.label": {
+    "luo": "Sigana mar Ringruok Mayot Hinyre"
+  },
+  "SIG-NAR-SEN-014.label": {
+    "luo": "Lero Kayie gi Yiero Owuon"
+  },
+  "SIG-NAR-SEN-015.label": {
+    "luo": "Sigana mar Manyo Rit Malit"
+  },
+  "SIG-NAR-TRA-001.label": {
+    "luo": "Sigana mar Tuoche Madhi Marach"
+  },
+  "SIG-NAR-TRA-002.label": {
+    "luo": "Sigana mar Tuoche Madhi Maber"
+  },
+  "SIG-NAR-TRA-003.label": {
+    "luo": "Sigana mar Tuoche Malokore"
+  },
+  "SIG-NAR-TRA-004.label": {
+    "luo": "Sigana mar Kinde Mabor"
+  },
+  "SIG-NAR-TRA-005.label": {
+    "luo": "Sigana mar Lokruok Manyien"
+  },
+  "SIG-NAR-TRA-006.label": {
+    "luo": "Sigana mar Lokruok e Kinde Ngima"
+  },
+  "SIG-NAR-TRA-007.label": {
+    "luo": "Sigana mar Lokruok e Rit"
+  },
+  "SIG-NAR-TRA-008.label": {
+    "luo": "Ranyisi Manyien"
+  },
+  "SIG-NAR-TRA-009.label": {
+    "luo": "Ranyisi Moserumo"
+  },
+  "SIG-NAR-TRA-010.label": {
+    "luo": "Sigana mar Pek Mosiko"
+  },
+  "SIG-NAR-TRA-011.label": {
+    "luo": "Sigana mar Ranyisi Mochung'"
+  },
+  "SIG-NAR-TRA-012.label": {
+    "luo": "Parruok Mar Check-In"
+  },
+  "SIG-NAR-TRA-013.label": {
+    "luo": "Pimo Motelo gi Mag Sani"
+  },
+  "SIG-NAR-TRA-014.label": {
+    "luo": "Sigana mar Kinde Molokore Maduong'"
+  },
+  "SIG-NAR-TRA-015.label": {
+    "luo": "Sigana mar Pek Mosechokore"
+  },
+  "SIG-NAR-TRA-016.label": {
+    "luo": "Dwaro Nono Mabiro"
+  },
+  "SIG-NAR-AGS-001.label": {
+    "luo": "Sigana mar Wuoyo Ni Iwuon"
+  },
+  "SIG-NAR-AGS-002.label": {
+    "luo": "Sigana mar Yo mar Winjruok"
+  },
+  "SIG-NAR-AGS-003.label": {
+    "luo": "Sigana mar Rito Ngimani Iwuon"
+  },
+  "SIG-NAR-AGS-004.label": {
+    "luo": "Sigana mar Kony Kuom Jowetegi"
+  },
+  "SIG-NAR-AGS-005.label": {
+    "luo": "Sigana mar Kony Kuom Anywola"
+  },
+  "SIG-NAR-AGS-006.label": {
+    "luo": "Sigana mar Kony Kuom Jaherani"
+  },
+  "SIG-NAR-AGS-007.label": {
+    "luo": "Sigana mar Kony Kuom Oganda"
+  },
+  "SIG-NAR-AGS-008.label": {
+    "luo": "Sigana mar Manyo Ng'eyo"
+  },
+  "SIG-NAR-AGS-009.label": {
+    "luo": "Sigana mar Ikruok"
+  },
+  "SIG-NAR-AGS-010.label": {
+    "luo": "Sigana mar Keto Giko kod Yweyo"
+  },
+  "SIG-NAR-AGS-011.label": {
+    "luo": "Sigana mar Rieko mar Yudo Yo"
+  },
+  "SIG-NAR-AGS-012.label": {
+    "luo": "Ikruok mar Manyo Kony"
+  },
+  "SIG-NAR-AGS-013.label": {
+    "luo": "Sigana mar Chano Rit"
+  },
+  "SIG-NAR-AGS-014.label": {
+    "luo": "Sigana mar Teko mar Chung' Kata Obedo Tek"
+  },
+  "SIG-NAR-AGS-015.label": {
+    "luo": "Fweny mar Teko"
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-06-27T01:36:16.345Z",
+  "fields": [
+    {
+      "observationId": "OBS-001",
+      "fieldId": "consent_ack",
+      "section": "context",
+      "label": "Consent Acknowledgement"
+    },
+    {
+      "observationId": "OBS-002",
+      "fieldId": "safety_flags",
+      "section": "context",
+      "label": "Urgent Symptom Safety Flag"
+    },
+    {
+      "observationId": "OBS-003",
+      "fieldId": "age_range",
+      "section": "context",
+      "label": "Age Range Context"
+    },
+    {
+      "observationId": "OBS-004",
+      "fieldId": "reproductive_state",
+      "section": "context",
+      "label": "Reproductive Life Stage"
+    },
+    {
+      "observationId": "OBS-005",
+      "fieldId": "hormonal_contraception",
+      "section": "context",
+      "label": "Hormonal Contraception Context"
+    },
+    {
+      "observationId": "OBS-006",
+      "fieldId": "cultural_background",
+      "section": "demographic_and_cultural_chamber",
+      "label": "Cultural Background Context"
+    },
+    {
+      "observationId": "OBS-007",
+      "fieldId": "current_country",
+      "section": "demographic_and_cultural_chamber",
+      "label": "Current Country Context"
+    },
+    {
+      "observationId": "OBS-008",
+      "fieldId": "birth_country",
+      "section": "demographic_and_cultural_chamber",
+      "label": "Birth Country Context"
+    },
+    {
+      "observationId": "OBS-009",
+      "fieldId": "preferred_language",
+      "section": "demographic_and_cultural_chamber",
+      "label": "Preferred Health Expression Language"
+    },
+    {
+      "observationId": "OBS-010",
+      "fieldId": "family_history",
+      "section": "demographic_and_cultural_chamber",
+      "label": "Family Health History Context"
+    },
+    {
+      "observationId": "OBS-011",
+      "fieldId": "ever_pregnant",
+      "section": "reproductive_history",
+      "label": "Pregnancy History Presence"
+    },
+    {
+      "observationId": "OBS-012",
+      "fieldId": "pregnancy_count",
+      "section": "reproductive_history",
+      "label": "Pregnancy Count Context"
+    },
+    {
+      "observationId": "OBS-013",
+      "fieldId": "pregnancy_loss",
+      "section": "reproductive_history",
+      "label": "Pregnancy Loss History"
+    },
+    {
+      "observationId": "OBS-014",
+      "fieldId": "trying_to_conceive",
+      "section": "reproductive_history",
+      "label": "Trying to Conceive Context"
+    },
+    {
+      "observationId": "OBS-015",
+      "fieldId": "product_change_freq",
+      "section": "bleeding",
+      "label": "Product Change Frequency"
+    },
+    {
+      "observationId": "OBS-016",
+      "fieldId": "bleeding_duration",
+      "section": "bleeding",
+      "label": "Bleeding Duration"
+    },
+    {
+      "observationId": "OBS-017",
+      "fieldId": "clot_size",
+      "section": "bleeding",
+      "label": "Clot Presence and Size"
+    },
+    {
+      "observationId": "OBS-018",
+      "fieldId": "interperiod_bleeding",
+      "section": "bleeding",
+      "label": "Interperiod Bleeding"
+    },
+    {
+      "observationId": "OBS-019",
+      "fieldId": "bleeding_progression",
+      "section": "bleeding",
+      "label": "Bleeding Change Over Time"
+    },
+    {
+      "observationId": "OBS-020",
+      "fieldId": "bleeding_impact",
+      "section": "bleeding",
+      "label": "Bleeding Daily-Life Impact"
+    },
+    {
+      "observationId": "OBS-021",
+      "fieldId": "pain_pattern",
+      "section": "pain",
+      "label": "Pain Pattern"
+    },
+    {
+      "observationId": "OBS-022",
+      "fieldId": "pain_timing",
+      "section": "pain",
+      "label": "Pain Timing"
+    },
+    {
+      "observationId": "OBS-023",
+      "fieldId": "pain_location",
+      "section": "pain",
+      "label": "Pain Location"
+    },
+    {
+      "observationId": "OBS-024",
+      "fieldId": "pain_triggers",
+      "section": "pain",
+      "label": "Pain Triggers"
+    },
+    {
+      "observationId": "OBS-025",
+      "fieldId": "pain_predictability",
+      "section": "pain",
+      "label": "Pain Predictability"
+    },
+    {
+      "observationId": "OBS-026",
+      "fieldId": "pain_severity_change",
+      "section": "pain",
+      "label": "Pain Severity Change Over Time"
+    },
+    {
+      "observationId": "OBS-066",
+      "fieldId": "pain_duration",
+      "section": "pain",
+      "label": "Pain Duration"
+    },
+    {
+      "observationId": "OBS-027",
+      "fieldId": "pelvic_symptoms",
+      "section": "pain",
+      "label": "Pelvic, Urinary, Digestive, and Abdominal Symptoms"
+    },
+    {
+      "observationId": "OBS-028",
+      "fieldId": "body_changes",
+      "section": "pain",
+      "label": "Body Change Observation"
+    },
+    {
+      "observationId": "OBS-029",
+      "fieldId": "cycle_predictability",
+      "section": "hormonal",
+      "label": "Cycle Predictability"
+    },
+    {
+      "observationId": "OBS-030",
+      "fieldId": "skipped_periods",
+      "section": "hormonal",
+      "label": "Skipped Period Frequency"
+    },
+    {
+      "observationId": "OBS-031",
+      "fieldId": "hormonal_signs",
+      "section": "hormonal",
+      "label": "Hormonal Sign Observation"
+    },
+    {
+      "observationId": "OBS-032",
+      "fieldId": "cycle_changes",
+      "section": "hormonal",
+      "label": "Cycle Change Over Time"
+    },
+    {
+      "observationId": "OBS-033",
+      "fieldId": "symptoms_related_to",
+      "section": "hormonal",
+      "label": "Symptom-Cycle Relationship"
+    },
+    {
+      "observationId": "OBS-034",
+      "fieldId": "function_impact",
+      "section": "daily_life",
+      "label": "Functional Impact"
+    },
+    {
+      "observationId": "OBS-035",
+      "fieldId": "missed_activities",
+      "section": "daily_life",
+      "label": "Missed Activities"
+    },
+    {
+      "observationId": "OBS-036",
+      "fieldId": "fatigue_freq",
+      "section": "daily_life",
+      "label": "Fatigue Frequency"
+    },
+    {
+      "observationId": "OBS-037",
+      "fieldId": "sleep_disruption",
+      "section": "daily_life",
+      "label": "Sleep Disruption"
+    },
+    {
+      "observationId": "OBS-038",
+      "fieldId": "dizziness_freq",
+      "section": "daily_life",
+      "label": "Dizziness, Weakness, or Faintness"
+    },
+    {
+      "observationId": "OBS-039",
+      "fieldId": "life_disruption",
+      "section": "daily_life",
+      "label": "Overall Life Disruption"
+    },
+    {
+      "observationId": "OBS-040",
+      "fieldId": "life_areas",
+      "section": "daily_life",
+      "label": "Affected Life Areas"
+    },
+    {
+      "observationId": "OBS-041",
+      "fieldId": "normalcy_perception",
+      "section": "daily_life",
+      "label": "Normalcy or Concern Perception"
+    },
+    {
+      "observationId": "OBS-042",
+      "fieldId": "symptom_duration",
+      "section": "daily_life",
+      "label": "Symptom Duration"
+    },
+    {
+      "observationId": "OBS-043",
+      "fieldId": "symptom_predictability",
+      "section": "daily_life",
+      "label": "Symptom Trajectory Direction"
+    },
+    {
+      "observationId": "OBS-044",
+      "fieldId": "symptom_severity",
+      "section": "daily_life",
+      "label": "Symptom Burden Severity"
+    },
+    {
+      "observationId": "OBS-045",
+      "fieldId": "spoken_to_provider",
+      "section": "care",
+      "label": "Care-Seeking Status"
+    },
+    {
+      "observationId": "OBS-046",
+      "fieldId": "care_response",
+      "section": "care",
+      "label": "Provider Response Experience"
+    },
+    {
+      "observationId": "OBS-047",
+      "fieldId": "care_dismissal",
+      "section": "care",
+      "label": "Care Dismissal Experience"
+    },
+    {
+      "observationId": "OBS-048",
+      "fieldId": "access_to_care",
+      "section": "care",
+      "label": "Current Access to Care"
+    },
+    {
+      "observationId": "OBS-049",
+      "fieldId": "narrative_prompts",
+      "section": "narrative",
+      "label": "Narrative Experience Capture"
+    },
+    {
+      "observationId": "OBS-050",
+      "fieldId": "pain_during_sex",
+      "section": "sensitive",
+      "label": "Pain During Sex"
+    },
+    {
+      "observationId": "OBS-051",
+      "fieldId": "bowel_symptoms",
+      "section": "sensitive",
+      "label": "Bowel-Related Pain or Discomfort"
+    },
+    {
+      "observationId": "OBS-052",
+      "fieldId": "bladder_symptoms",
+      "section": "sensitive",
+      "label": "Bladder or Urinary Pain, Urgency, or Discomfort"
+    },
+    {
+      "observationId": "OBS-053",
+      "fieldId": "urgent_symptoms",
+      "section": "sensitive",
+      "label": "Sensitive Urgent Symptom Flag"
+    },
+    {
+      "observationId": "OBS-054",
+      "fieldId": "sensitive_narrative",
+      "section": "sensitive",
+      "label": "Sensitive Narrative Capture"
+    },
+    {
+      "observationId": "OBS-055",
+      "fieldId": "reflection_consent",
+      "section": "review",
+      "label": "Reflection Consent"
+    },
+    {
+      "observationId": "OBS-056",
+      "fieldId": "reflection_summary",
+      "section": "reflection",
+      "label": "Generated Reflection Summary"
+    },
+    {
+      "observationId": "OBS-057",
+      "fieldId": "constellation_scores",
+      "section": "atlas_record",
+      "label": "Generated Constellation Domain Scores"
+    },
+    {
+      "observationId": "OBS-058",
+      "fieldId": "observed_patterns",
+      "section": "atlas_record",
+      "label": "Generated Observed Pattern Cards"
+    },
+    {
+      "observationId": "OBS-059",
+      "fieldId": "atlas_record_final",
+      "section": "atlas_record",
+      "label": "Final Atlas Record Payload"
+    },
+    {
+      "observationId": "OBS-060",
+      "fieldId": "checkin_reason",
+      "section": "atlas_check-in",
+      "label": "Check-In Reason"
+    },
+    {
+      "observationId": "OBS-061",
+      "fieldId": "checkin_symptom_change",
+      "section": "atlas_check-in",
+      "label": "Symptom Change Since Last Record"
+    },
+    {
+      "observationId": "OBS-062",
+      "fieldId": "checkin_bleeding_change",
+      "section": "atlas_check-in",
+      "label": "Bleeding Change Since Last Record"
+    },
+    {
+      "observationId": "OBS-063",
+      "fieldId": "checkin_pain_change",
+      "section": "atlas_check-in",
+      "label": "Pain Change Since Last Record"
+    },
+    {
+      "observationId": "OBS-064",
+      "fieldId": "checkin_care_update",
+      "section": "atlas_check-in",
+      "label": "Care or Support Update Since Last Record"
+    },
+    {
+      "observationId": "OBS-065",
+      "fieldId": "checkin_narrative",
+      "section": "atlas_check-in",
+      "label": "Check-In Narrative Update"
+    }
+  ]
+}

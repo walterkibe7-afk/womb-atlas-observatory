@@ -1,0 +1,728 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// =====================================================================
+// 1. Core Users (RBAC) + NextAuth
+// =====================================================================
+model User {
+  id             String    @id @default(cuid())
+  email          String    @unique
+  emailVerified  DateTime?
+  password       String?
+  name           String?
+  image          String?
+  role           String    @default("participant") // participant, admin, steward, analyst
+  locale         String?   @db.VarChar(10) // set once at first sign-in, permanent thereafter
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  accounts       Account[]
+  sessions       Session[]
+  observations   Observation[]
+  stewardReviews StewardReview[]
+  auditLogs      AuditLog[]
+  checkins       AtlasCheckin[]
+  checkinDraft   CheckinDraft?
+  chatConversations ChatConversation[]
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// =====================================================================
+// 2. FORM DEFINITION (DB-driven content + structure)
+//    Seeded from the Master Screen Register spec via prisma/seed.ts.
+//    Edit these rows to change the form WITHOUT a code deploy.
+// =====================================================================
+model FormFlow {
+  id      String       @id @default(cuid())
+  key     String       @unique // "first_observation" | "atlas_checkin"
+  name    String
+  screens FormScreen[]
+
+  @@map("form_flows")
+}
+
+model FormScreen {
+  id                 String   @id @default(cuid())
+  flowKey            String
+  flow               FormFlow @relation(fields: [flowKey], references: [key], onDelete: Cascade)
+  screenId           String   @unique // "S01"
+  name               String
+  section            String
+  purpose            String   @db.Text
+  inputType          String // raw spec Input_Type (informational)
+  renderKind         String // drives the screen component registry
+  primaryActionLabel String
+  order              Int
+  atlasDomain        String?
+  mvpPhase           String   @default("MVP")
+  status             String   @default("Locked")
+  visibilityRule     Json? // life-stage / conditional show-hide (DSL)
+
+  questions        FormQuestion[]
+  narrativePrompts NarrativePrompt[]
+  routes           ScreenRoute[]     @relation("ScreenRoutesFrom")
+
+  @@map("form_screens")
+}
+
+model FormQuestion {
+  id              String     @id @default(cuid())
+  fieldId         String     @unique // "AGE_RANGE"
+  registryFieldId String? // AIKB registry field id (snake_case, e.g. "age_range")
+  screenId        String
+  screen          FormScreen @relation(fields: [screenId], references: [screenId], onDelete: Cascade)
+  questionText    String     @db.Text
+  fieldType       String // single_select | multi_select | boolean | text | country | text_audio | ...
+  required     String     @default("Optional") // Required | Optional | Conditional
+  validation   String?
+  notes        String?    @db.Text
+  targetTable  String // spec DB_Table  (projection target)
+  targetColumn String // spec DB_Column (projection target)
+  order        Int
+
+  options FormAnswerOption[]
+
+  @@index([screenId])
+  @@map("form_questions")
+}
+
+model FormAnswerOption {
+  id          String       @id @default(cuid())
+  questionId  String
+  question    FormQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  value       String
+  label       String
+  order       Int
+  isExclusive Boolean      @default(false)
+  signalTag   String?
+
+  @@index([questionId])
+  @@map("form_answer_options")
+}
+
+model NarrativePrompt {
+  id          String     @id @default(cuid())
+  promptId    String     @unique // NP01..NP05 / SNP01
+  screenId    String
+  screen      FormScreen @relation(fields: [screenId], references: [screenId], onDelete: Cascade)
+  promptText  String     @db.Text
+  captureType String
+  order       Int
+
+  @@index([screenId])
+  @@map("narrative_prompts")
+}
+
+// =====================================================================
+// 2b. FORM TRANSLATIONS (BOP two-table pattern — DB-level localization)
+// =====================================================================
+model FormTranslation {
+  id        String   @id @default(cuid())
+  key       String   @unique @db.VarChar(255)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  values FormTranslationData[]
+
+  @@map("form_translations")
+}
+
+model FormTranslationData {
+  id            String           @id @default(cuid())
+  translationId String
+  translation   FormTranslation  @relation(fields: [translationId], references: [id], onDelete: Cascade)
+  locale        String           @db.VarChar(10)
+  value         String           @db.Text
+  createdAt     DateTime         @default(now())
+  updatedAt     DateTime         @updatedAt
+
+  @@unique([translationId, locale])
+  @@map("form_translation_data")
+}
+
+// =====================================================================
+// 3. RULE LAYERS (declarative rules, interpreted by the runtime engine)
+// =====================================================================
+model ScreenRoute {
+  id           String     @id @default(cuid())
+  fromScreenId String
+  fromScreen   FormScreen @relation("ScreenRoutesFrom", fields: [fromScreenId], references: [screenId], onDelete: Cascade)
+  toScreenId   String
+  condition    Json? // null = default/fallback route
+  priority     Int // lower = evaluated first
+  note         String?
+
+  @@index([fromScreenId])
+  @@map("screen_routes")
+}
+
+model SignalRule {
+  id           String  @id @default(cuid())
+  signalId     String  @unique // SIG_BLD_001
+  name         String
+  domain       String
+  sourceScreen String
+  condition    Json // structured trigger
+  severity     String // low | moderate | high
+  note         String?
+
+  @@map("signal_rules")
+}
+
+model ReflectionRule {
+  id             String @id @default(cuid())
+  ruleId         String @unique // REF_001
+  condition      Json
+  reflectionType String
+  templateCopy   String @db.Text
+  targetScreen   String // S77 | S77A | S77B
+  priority       Int
+  note           String?
+
+  @@map("reflection_rules")
+}
+
+// =====================================================================
+// 4. OBSERVATIONS + canonical answer capture
+// =====================================================================
+model Observation {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  flowKey     String    @default("first_observation")
+  status      String    @default("draft") // draft | in_progress | reflection_generated | record_saved
+  currentScreenId String? // progress pointer for cross-device resume
+  startedAt   DateTime  @default(now())
+  // Frozen at FIRST completion so the "First Observation" timeline entry never
+  // moves. Subsequent re-completions (edits) are logged to AuditLog instead
+  // (entityType "Observation", actionType UPDATE) — one row per edit, so a
+  // second edit doesn't clobber the first the way a single mutable column would.
+  completedAt DateTime?
+  updatedAt   DateTime  @updatedAt
+
+  responses ObservationResponse[]
+
+  // Spec-aligned domain projections (1:1), populated by the projection mapper.
+  consent      ObservationConsent?
+  safety       ObservationSafety?
+  context      ParticipantContext?
+  reproductive ReproductiveHistory?
+  bleeding     BleedingPattern?
+  pain         PainPattern?
+  cycle        CyclePattern?
+  dailyLife    DailyLife?
+  care         CareAccess?
+  sensitive    SensitiveTopics?
+
+  narratives    Narrative[]
+  signals       Signal[]
+  atlasRecord   AtlasRecord?
+  stewardReview StewardReview?
+  atlasRuns     AtlasIntelligenceRun[]
+
+  @@index([userId])
+  @@map("observations")
+}
+
+// EAV backbone: keeps the form 100% DB-driven (a new question needs no migration).
+model ObservationResponse {
+  id            String      @id @default(cuid())
+  observationId String
+  observation   Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  screenId      String? // originating screen (AIKB parity); optional — fieldIds are globally unique here
+  fieldId       String // -> FormQuestion.fieldId
+  value         Json // string | string[] | boolean | text
+
+  @@unique([observationId, fieldId])
+  @@map("observation_responses")
+}
+
+// =====================================================================
+// 5. Spec domain tables (sheet 10) — field names == spec DB_Column so the
+//    projection mapper can write generically. Arrays stored as Json (MySQL).
+// =====================================================================
+model ObservationConsent {
+  id                   String      @id @default(cuid())
+  observationId        String      @unique
+  observation          Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  consent_acknowledged Boolean     @default(false)
+  consent_timestamp    DateTime?
+
+  @@map("observation_consents")
+}
+
+model ObservationSafety {
+  id                  String      @id @default(cuid())
+  observationId       String      @unique
+  observation         Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  safety_flags        Json?
+  urgent_symptom_flags Json?
+
+  @@map("observation_safety")
+}
+
+model ParticipantContext {
+  id                            String      @id @default(cuid())
+  observationId                 String      @unique
+  observation                   Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  age_range                     String?
+  reproductive_state            String?
+  hormonal_contraception_status String?
+  cultural_background           Json?
+  current_country               String?
+  birth_country                 String?
+  preferred_language            String?
+  family_health_history         Json?
+
+  @@map("participant_context")
+}
+
+model ReproductiveHistory {
+  id                     String      @id @default(cuid())
+  observationId          String      @unique
+  observation            Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  ever_pregnant          String?
+  pregnancy_count        String?
+  pregnancy_loss_history String?
+  trying_to_conceive     String?
+
+  @@map("reproductive_history")
+}
+
+model BleedingPattern {
+  id                       String      @id @default(cuid())
+  observationId            String      @unique
+  observation              Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  product_change_frequency String?
+  bleeding_duration        String?
+  clot_size                String?
+  interperiod_bleeding     String?
+  bleeding_progression     Json? // multi_select in v5 (array of progression descriptors)
+  bleeding_impact          Json?
+
+  @@map("bleeding_patterns")
+}
+
+model PainPattern {
+  id                   String      @id @default(cuid())
+  observationId        String      @unique
+  observation          Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  pain_pattern         String?
+  pain_timing          Json?
+  pain_location        Json?
+  pain_triggers        Json?
+  pain_predictability  String?
+  pain_severity_change String?
+  pelvic_symptoms      Json?
+
+  @@map("pain_patterns")
+}
+
+model CyclePattern {
+  id                   String      @id @default(cuid())
+  observationId        String      @unique
+  observation          Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  cycle_predictability String?
+  skipped_periods      String?
+  hormonal_signs       Json?
+  cycle_changes        String?
+  symptoms_related_to  String?
+
+  @@map("cycle_patterns")
+}
+
+model DailyLife {
+  id                    String      @id @default(cuid())
+  observationId         String      @unique
+  observation           Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  function_impact       Json?
+  missed_activities     String?
+  fatigue_frequency     String?
+  sleep_disruption      String?
+  dizziness_frequency   String?
+  life_disruption       String?
+  life_areas_affected   Json?
+  normalcy_perception   String?
+  symptom_duration      String?
+  symptom_predictability String?
+  symptom_severity      String?
+  body_changes          Json?
+
+  @@map("daily_life")
+}
+
+model CareAccess {
+  id                String      @id @default(cuid())
+  observationId     String      @unique
+  observation       Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  spoken_to_provider String?
+  care_response     Json?
+  care_dismissal    String?
+  access_to_care    String?
+
+  @@map("care_access")
+}
+
+model SensitiveTopics {
+  id              String      @id @default(cuid())
+  observationId   String      @unique
+  observation     Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  pain_during_sex String?
+  bowel_symptoms  String?
+  bladder_symptoms String?
+
+  @@map("sensitive_topics")
+}
+
+model Narrative {
+  id            String      @id @default(cuid())
+  observationId String
+  observation   Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  promptId      String // NP01..NP05 / SNP01
+  textResponse  String?     @db.Text
+  audioUrl      String?
+  transcription String?     @db.Text
+  language      String?
+  status        String      @default("completed") // completed | skipped | saved_for_later
+
+  @@unique([observationId, promptId])
+  @@map("narratives")
+}
+
+// =====================================================================
+// 6. Generated outputs (signals, reflection, Atlas Record)
+// =====================================================================
+model Signal {
+  id            String      @id @default(cuid())
+  observationId String
+  observation   Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  signalId      String // SIG_*
+  domain        String
+  severity      String // low | moderate | high
+  evidence      Json? // source fields + values
+
+  @@index([observationId])
+  @@map("signals")
+}
+
+model AtlasRecord {
+  id                  String      @id @default(cuid())
+  observationId       String      @unique
+  observation         Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  status              String      @default("Active")
+  burdenLevel         String? // Low | Moderate | High
+  reflection_summary  Json?
+  constellation_scores Json?
+  observed_patterns   Json?
+  record_payload      Json?
+  download_url        String?
+  createdAt           DateTime    @default(now())
+
+  @@map("atlas_records")
+}
+
+// In-progress check-in draft (conversation, inferred deltas, notes) — the
+// DB-backed twin of the observation wizard's in_progress Observation rows, so a
+// check-in started on one device resumes on another (localStorage is only a
+// same-device fast path). One draft per participant; scoped to the baseline
+// observation it was started against so a new record invalidates it. Deleted on
+// successful /api/checkin submit.
+model CheckinDraft {
+  id                    String   @id @default(cuid())
+  userId                String   @unique
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  previousObservationId String // baseline Observation.id the draft was started against
+  payload               Json // { messages, deltasByDomain, notes, phase }
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  @@map("checkin_drafts")
+}
+
+model AtlasCheckin {
+  id                     String   @id @default(cuid())
+  userId                 String
+  user                   User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  previousAtlasRecordId  String?
+  checkin_payload        Json?
+  createdAt              DateTime @default(now())
+
+  @@map("atlas_checkins")
+}
+
+// =====================================================================
+// 6b. ATLAS INTELLIGENCE — run-based, auditable pipeline store.
+//     Mirrors the source-of-truth migration 0003 (Postgres) on Prisma/MySQL:
+//     Postgres text[] -> Json, numeric(4,2) -> Float. One run per pipeline
+//     execution; all child rows cascade from the run.
+// =====================================================================
+model AtlasIntelligenceRun {
+  id               String      @id @default(cuid())
+  traceId          String      @unique
+  observationId    String
+  observation      Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  userId           String
+  pipelineVersion  String      @default("1.0.0")
+  governancePassed Boolean     @default(true)
+  timings          Json        @default("{}")
+  createdAt        DateTime    @default(now())
+
+  observations   AtlasObservationRow[]
+  signals        AtlasSignalRow[]
+  patterns       AtlasPatternRow[]
+  indices        AtlasIndexRow[]
+  reflectionPlan AtlasReflectionPlanRow?
+  reflection     AtlasReflectionRow?
+  explainability AtlasExplainabilityRow?
+  trajectory     AtlasTrajectoryRow[]
+  governance     AtlasGovernanceRow?
+  knowledgeGraph KnowledgeGraphRow?
+
+  @@index([observationId])
+  @@index([traceId])
+  @@map("atlas_intelligence_runs")
+}
+
+model AtlasObservationRow {
+  id          String               @id @default(cuid())
+  runId       String
+  run         AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  businessId  String
+  fieldId     String
+  section     String
+  label       String
+  value       String               @db.Text
+  displayText String               @db.Text
+  screenId    String
+  createdAt   DateTime             @default(now())
+
+  @@index([runId])
+  @@map("atlas_observations")
+}
+
+model AtlasSignalRow {
+  id                    String               @id @default(cuid())
+  runId                 String
+  run                   AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  businessId            String
+  signalType            String
+  label                 String
+  fieldId               String
+  observationBusinessIds Json                @default("[]")
+  createdAt             DateTime             @default(now())
+
+  @@index([runId])
+  @@map("atlas_signals")
+}
+
+model AtlasPatternRow {
+  id                    String               @id @default(cuid())
+  runId                 String
+  run                   AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  businessId            String
+  name                  String
+  domain                String
+  role                  String
+  confidence            String
+  observationConfidence Float
+  meaning               String               @db.Text
+  atlasNote             String               @db.Text
+  watchOverTime         String               @db.Text
+  createdAt             DateTime             @default(now())
+
+  @@index([runId])
+  @@map("atlas_patterns")
+}
+
+model AtlasIndexRow {
+  id                 String               @id @default(cuid())
+  runId              String
+  run                AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  businessId         String
+  name               String
+  description        String               @db.Text
+  value              Float
+  patternBusinessIds Json                 @default("[]")
+  createdAt          DateTime             @default(now())
+
+  @@index([runId])
+  @@map("atlas_indices")
+}
+
+model AtlasReflectionPlanRow {
+  id            String               @id @default(cuid())
+  runId         String               @unique
+  run           AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  traceId       String
+  archetypeId   String
+  archetypeName String
+  tone          String
+  plan          Json
+  createdAt     DateTime             @default(now())
+
+  @@map("atlas_reflection_plans")
+}
+
+model AtlasReflectionRow {
+  id          String               @id @default(cuid())
+  runId       String               @unique
+  run         AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  traceId     String
+  reflection  Json
+  atlasRecord Json
+  createdAt   DateTime             @default(now())
+
+  @@map("atlas_reflections")
+}
+
+model AtlasExplainabilityRow {
+  id        String               @id @default(cuid())
+  runId     String               @unique
+  run       AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  traceId   String               @unique
+  steps     Json
+  createdAt DateTime             @default(now())
+
+  @@map("atlas_explainability")
+}
+
+model AtlasTrajectoryRow {
+  id                String               @id @default(cuid())
+  runId             String
+  run               AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  patternBusinessId String
+  watchArea         String               @db.Text
+  createdAt         DateTime             @default(now())
+
+  @@index([runId])
+  @@map("atlas_trajectory")
+}
+
+model AtlasGovernanceRow {
+  id         String               @id @default(cuid())
+  runId      String               @unique
+  run        AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  passed     Boolean
+  violations Json                 @default("[]")
+  createdAt  DateTime             @default(now())
+
+  @@map("atlas_governance")
+}
+
+model KnowledgeGraphRow {
+  id        String               @id @default(cuid())
+  runId     String               @unique
+  run       AtlasIntelligenceRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  context   Json
+  createdAt DateTime             @default(now())
+
+  @@map("knowledge_graph_runs")
+}
+
+// =====================================================================
+// 7. Steward workflow + audit
+// =====================================================================
+model StewardReview {
+  id            String      @id @default(cuid())
+  observationId String      @unique
+  observation   Observation @relation(fields: [observationId], references: [id], onDelete: Cascade)
+  stewardId     String
+  steward       User        @relation(fields: [stewardId], references: [id])
+  status        String // Approved | Flagged | Needs Info
+  clinicalNotes String?     @db.Text
+  flagReason    String?
+  reviewedAt    DateTime    @default(now())
+
+  @@map("steward_reviews")
+}
+
+enum ActionType {
+  CREATE
+  UPDATE
+  DELETE
+  MERGE
+}
+
+model AuditLog {
+  id          String     @id @default(cuid())
+  entityId    String     @default("")
+  entityType  String     @default("")
+  actionType  ActionType @default(CREATE)
+  dataBefore  Json?
+  dataAfter   Json?
+  userId      String?
+  user        User?      @relation(fields: [userId], references: [id])
+  timestamp   DateTime   @default(now())
+
+  @@map("audit_events")
+}
+
+// =====================================================================
+// 8. Chat (Aminata companion)
+// =====================================================================
+model ChatConversation {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  messages ChatMessage[]
+
+  @@index([userId])
+  @@map("chat_conversations")
+}
+
+model ChatMessage {
+  id             String           @id @default(cuid())
+  conversationId String
+  conversation   ChatConversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  role           String
+  content        String           @db.Text
+  audioUrl       String? // set only for voice messages (recorded input or a synthesized voice reply)
+  createdAt      DateTime         @default(now())
+
+  @@index([conversationId])
+  @@map("chat_messages")
+}

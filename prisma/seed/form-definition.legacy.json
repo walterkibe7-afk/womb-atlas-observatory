@@ -1,0 +1,5327 @@
+{
+  "flows": [
+    {
+      "key": "first_observation",
+      "name": "First Observation"
+    },
+    {
+      "key": "atlas_checkin",
+      "name": "Atlas Check-In"
+    }
+  ],
+  "screens": [
+    {
+      "screenId": "S00",
+      "flowKey": "first_observation",
+      "name": "Landing Chamber",
+      "section": "Landing",
+      "purpose": "Introduce Womb Atlas and begin a First Observation.",
+      "inputType": "Landing screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Enter Observatory",
+      "nextScreenRaw": "S01",
+      "order": 0,
+      "atlasDomain": "None",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S01",
+      "flowKey": "first_observation",
+      "name": "Consent",
+      "section": "Onboarding",
+      "purpose": "Obtain informed consent before the First Observation begins.",
+      "inputType": "Consent checkbox",
+      "renderKind": "consent",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S02",
+      "order": 10,
+      "atlasDomain": "Consent",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S02",
+      "flowKey": "first_observation",
+      "name": "How Atlas Works",
+      "section": "Onboarding",
+      "purpose": "Explain how observations are captured and transformed into an Atlas Record.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S03",
+      "order": 20,
+      "atlasDomain": "Consent",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S03",
+      "flowKey": "first_observation",
+      "name": "Quick Safety Check",
+      "section": "Safety",
+      "purpose": "Identify experiences that may require urgent medical attention.",
+      "inputType": "Multi-select safety flags",
+      "renderKind": "safety_check",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S04 if any safety flag; S05 if none",
+      "order": 30,
+      "atlasDomain": "Safety",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S04",
+      "flowKey": "first_observation",
+      "name": "Safety Alert",
+      "section": "Safety",
+      "purpose": "Provide guidance when urgent symptoms are identified.",
+      "inputType": "Safety deck",
+      "renderKind": "safety_alert",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S05",
+      "order": 40,
+      "atlasDomain": "Safety",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S05",
+      "flowKey": "first_observation",
+      "name": "Context Intro",
+      "section": "Context Chamber",
+      "purpose": "Introduce context section and why it matters.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S06",
+      "order": 50,
+      "atlasDomain": "Context",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S06",
+      "flowKey": "first_observation",
+      "name": "Age",
+      "section": "Context Chamber",
+      "purpose": "Capture participant age range.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S07",
+      "order": 60,
+      "atlasDomain": "Context",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S07",
+      "flowKey": "first_observation",
+      "name": "Reproductive State",
+      "section": "Context Chamber",
+      "purpose": "Identify current reproductive life stage.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S08",
+      "order": 70,
+      "atlasDomain": "Context",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S08",
+      "flowKey": "first_observation",
+      "name": "Hormonal Contraception",
+      "section": "Context Chamber",
+      "purpose": "Capture hormonal contraception status.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S09",
+      "order": 80,
+      "atlasDomain": "Hormonal",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S09",
+      "flowKey": "first_observation",
+      "name": "Demographic & Cultural Intro",
+      "section": "Demographic & Cultural Chamber",
+      "purpose": "Introduce cultural, geographic, and language context.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S10",
+      "order": 90,
+      "atlasDomain": "Context",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S10",
+      "flowKey": "first_observation",
+      "name": "Cultural Background",
+      "section": "Demographic & Cultural Chamber",
+      "purpose": "Capture cultural or ethnic identity.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S11",
+      "order": 100,
+      "atlasDomain": "Context",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S11",
+      "flowKey": "first_observation",
+      "name": "Current Country",
+      "section": "Demographic & Cultural Chamber",
+      "purpose": "Capture current country of residence.",
+      "inputType": "Searchable country selector",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S12",
+      "order": 110,
+      "atlasDomain": "Context",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S12",
+      "flowKey": "first_observation",
+      "name": "Birth Country",
+      "section": "Demographic & Cultural Chamber",
+      "purpose": "Understand migration and care context continuity.",
+      "inputType": "Searchable country selector",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S13",
+      "order": 120,
+      "atlasDomain": "Context",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S13",
+      "flowKey": "first_observation",
+      "name": "Preferred Language",
+      "section": "Demographic & Cultural Chamber",
+      "purpose": "Capture preferred language for health expression.",
+      "inputType": "Free text / language selector",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S14",
+      "order": 130,
+      "atlasDomain": "Narrative",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S14",
+      "flowKey": "first_observation",
+      "name": "Family Health History",
+      "section": "Demographic & Cultural Chamber",
+      "purpose": "Capture relevant family history.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S15",
+      "order": 140,
+      "atlasDomain": "Risk Context",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S15",
+      "flowKey": "first_observation",
+      "name": "Reproductive History Intro",
+      "section": "Reproductive History",
+      "purpose": "Introduce reproductive history questions.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S16",
+      "order": 150,
+      "atlasDomain": "Reproductive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S16",
+      "flowKey": "first_observation",
+      "name": "Reproductive Transition",
+      "section": "Reproductive History",
+      "purpose": "Prepare participant for reproductive history questions.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S17",
+      "order": 160,
+      "atlasDomain": "Reproductive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S17",
+      "flowKey": "first_observation",
+      "name": "Ever Pregnant",
+      "section": "Reproductive History",
+      "purpose": "Determine whether pregnancy history exists.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S18 if Yes; S19 if No/Prefer not",
+      "order": 170,
+      "atlasDomain": "Reproductive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S18",
+      "flowKey": "first_observation",
+      "name": "Pregnancy Count",
+      "section": "Reproductive History",
+      "purpose": "Capture number of pregnancies.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S19",
+      "order": 180,
+      "atlasDomain": "Reproductive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S19",
+      "flowKey": "first_observation",
+      "name": "Pregnancy Loss",
+      "section": "Reproductive History",
+      "purpose": "Capture pregnancy loss history.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S20",
+      "order": 190,
+      "atlasDomain": "Reproductive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S20",
+      "flowKey": "first_observation",
+      "name": "Trying To Conceive",
+      "section": "Reproductive History",
+      "purpose": "Understand fertility and conception context.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S21",
+      "order": 200,
+      "atlasDomain": "Reproductive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": {
+        "hideForReproductiveState": [
+          "I am pregnant"
+        ]
+      }
+    },
+    {
+      "screenId": "S21",
+      "flowKey": "first_observation",
+      "name": "Bleeding Transition",
+      "section": "Bleeding Patterns",
+      "purpose": "Introduce bleeding pattern and flow questions.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S22",
+      "order": 210,
+      "atlasDomain": "Bleeding",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S22",
+      "flowKey": "first_observation",
+      "name": "Product Change Frequency",
+      "section": "Bleeding Patterns",
+      "purpose": "Capture product saturation and changing frequency.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S23",
+      "order": 220,
+      "atlasDomain": "Bleeding",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S23",
+      "flowKey": "first_observation",
+      "name": "Bleeding Duration",
+      "section": "Bleeding Patterns",
+      "purpose": "Capture bleeding duration.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S24",
+      "order": 230,
+      "atlasDomain": "Bleeding",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S24",
+      "flowKey": "first_observation",
+      "name": "Clot Size",
+      "section": "Bleeding Patterns",
+      "purpose": "Capture clot size during period.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S25",
+      "order": 240,
+      "atlasDomain": "Bleeding",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S25",
+      "flowKey": "first_observation",
+      "name": "Interperiod Bleeding",
+      "section": "Bleeding Patterns",
+      "purpose": "Capture bleeding outside expected period.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S26",
+      "order": 250,
+      "atlasDomain": "Bleeding",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S26",
+      "flowKey": "first_observation",
+      "name": "Bleeding Progression",
+      "section": "Bleeding Patterns",
+      "purpose": "Understand whether bleeding has changed over time.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S27",
+      "order": 260,
+      "atlasDomain": "Bleeding",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S27",
+      "flowKey": "first_observation",
+      "name": "Bleeding Impact",
+      "section": "Bleeding Patterns",
+      "purpose": "Capture daily-life impact of bleeding.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S28",
+      "order": 270,
+      "atlasDomain": "Bleeding; Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S28",
+      "flowKey": "first_observation",
+      "name": "Pain Intro",
+      "section": "Pain & Discomfort",
+      "purpose": "Introduce pain, discomfort, and pressure questions.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S29",
+      "order": 280,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S29",
+      "flowKey": "first_observation",
+      "name": "Pain Overview",
+      "section": "Pain & Discomfort",
+      "purpose": "Introduce pain section.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S30",
+      "order": 290,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S30",
+      "flowKey": "first_observation",
+      "name": "Pain Pattern",
+      "section": "Pain & Discomfort",
+      "purpose": "Capture timing pattern for pain.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S31",
+      "order": 300,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S31",
+      "flowKey": "first_observation",
+      "name": "Pain Timing",
+      "section": "Pain & Discomfort",
+      "purpose": "Capture when pain typically occurs.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S32",
+      "order": 310,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S32",
+      "flowKey": "first_observation",
+      "name": "Pain Location",
+      "section": "Pain & Discomfort",
+      "purpose": "Capture pain location or pressure areas.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S33",
+      "order": 320,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S33",
+      "flowKey": "first_observation",
+      "name": "Pain Triggers",
+      "section": "Pain & Discomfort",
+      "purpose": "Capture common pain or discomfort triggers.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S34",
+      "order": 330,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S34",
+      "flowKey": "first_observation",
+      "name": "Pain Predictability",
+      "section": "Pain & Discomfort",
+      "purpose": "Assess whether pain is predictable.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S35",
+      "order": 340,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S35",
+      "flowKey": "first_observation",
+      "name": "Pain Severity",
+      "section": "Pain & Discomfort",
+      "purpose": "Capture how pain has changed over time.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S36",
+      "order": 350,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S36",
+      "flowKey": "first_observation",
+      "name": "Pelvic Symptoms",
+      "section": "Pain & Discomfort",
+      "purpose": "Capture pelvic, urinary, digestive, and abdominal symptoms.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S37",
+      "order": 360,
+      "atlasDomain": "Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S37",
+      "flowKey": "first_observation",
+      "name": "Body Changes",
+      "section": "Pain & Discomfort",
+      "purpose": "Capture body or appearance-related changes.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S38",
+      "order": 370,
+      "atlasDomain": "Hormonal; Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S38",
+      "flowKey": "first_observation",
+      "name": "Cycle Intro",
+      "section": "Cycles & Body Rhythms",
+      "purpose": "Introduce cycle pattern and body rhythm questions.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S39",
+      "order": 380,
+      "atlasDomain": "Cycle",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S39",
+      "flowKey": "first_observation",
+      "name": "Cycle Transition",
+      "section": "Cycles & Body Rhythms",
+      "purpose": "Transition into cycle and rhythm section.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S40",
+      "order": 390,
+      "atlasDomain": "Cycle",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S40",
+      "flowKey": "first_observation",
+      "name": "Cycle Predictability",
+      "section": "Cycles & Body Rhythms",
+      "purpose": "Capture cycle regularity.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S41",
+      "order": 400,
+      "atlasDomain": "Cycle",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S41",
+      "flowKey": "first_observation",
+      "name": "Skipped Periods",
+      "section": "Cycles & Body Rhythms",
+      "purpose": "Capture frequency of skipped periods.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S42",
+      "order": 410,
+      "atlasDomain": "Cycle",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S42",
+      "flowKey": "first_observation",
+      "name": "Hormonal Signs",
+      "section": "Cycles & Body Rhythms",
+      "purpose": "Capture hormonal signs and body changes.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S43",
+      "order": 420,
+      "atlasDomain": "Hormonal",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S43",
+      "flowKey": "first_observation",
+      "name": "Cycle Changes",
+      "section": "Cycles & Body Rhythms",
+      "purpose": "Understand whether cycles have changed over time.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S44",
+      "order": 430,
+      "atlasDomain": "Cycle",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S44",
+      "flowKey": "first_observation",
+      "name": "Symptoms Related To",
+      "section": "Cycles & Body Rhythms",
+      "purpose": "Understand whether symptoms appear related to menstrual cycle or ovulation.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S45",
+      "order": 440,
+      "atlasDomain": "Cycle",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S45",
+      "flowKey": "first_observation",
+      "name": "Daily Life Impact Intro",
+      "section": "Daily Life & Impact",
+      "purpose": "Introduce daily-life impact section.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S46",
+      "order": 450,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S46",
+      "flowKey": "first_observation",
+      "name": "Function Impact",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture ways symptoms affect function.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S47",
+      "order": 460,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S47",
+      "flowKey": "first_observation",
+      "name": "Missed Activities",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture missed school, work, caregiving, or daily activities.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S48",
+      "order": 470,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S48",
+      "flowKey": "first_observation",
+      "name": "Fatigue",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture tiredness and low-energy experiences.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S49",
+      "order": 480,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S49",
+      "flowKey": "first_observation",
+      "name": "Sleep",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture sleep disturbance due to symptoms.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S50",
+      "order": 490,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S50",
+      "flowKey": "first_observation",
+      "name": "Dizziness",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture dizziness, weakness, or faintness.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S51",
+      "order": 500,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S51",
+      "flowKey": "first_observation",
+      "name": "Disruption",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture overall life disruption level.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S52",
+      "order": 510,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S52",
+      "flowKey": "first_observation",
+      "name": "Life Areas",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture affected life areas.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S53",
+      "order": 520,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S53",
+      "flowKey": "first_observation",
+      "name": "Normalcy",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture whether symptoms feel normal or concerning.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S54",
+      "order": 530,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S54",
+      "flowKey": "first_observation",
+      "name": "Symptom Frequency",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture how long symptoms have been happening.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S55",
+      "order": 540,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S55",
+      "flowKey": "first_observation",
+      "name": "Symptom Predictability",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture whether symptoms are predictable.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S56",
+      "order": 550,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S56",
+      "flowKey": "first_observation",
+      "name": "Symptom Severity",
+      "section": "Daily Life & Impact",
+      "purpose": "Capture overall symptom level.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S57",
+      "order": 560,
+      "atlasDomain": "Daily Life",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S57",
+      "flowKey": "first_observation",
+      "name": "Care Transition",
+      "section": "Care & Support",
+      "purpose": "Introduce questions about seeking care, support, and answers.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S58",
+      "order": 570,
+      "atlasDomain": "Care Access",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S58",
+      "flowKey": "first_observation",
+      "name": "Spoken To Provider",
+      "section": "Care & Support",
+      "purpose": "Understand whether care has been sought.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S59 if Yes; S60 if No",
+      "order": 580,
+      "atlasDomain": "Care Access",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S59",
+      "flowKey": "first_observation",
+      "name": "Care Response",
+      "section": "Care & Support",
+      "purpose": "Understand experiences after seeking care.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S60",
+      "order": 590,
+      "atlasDomain": "Care Access",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S60",
+      "flowKey": "first_observation",
+      "name": "Care Dismissal",
+      "section": "Care & Support",
+      "purpose": "Capture dismissal, invalidation, or unresolved care experience.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S61",
+      "order": 600,
+      "atlasDomain": "Care Access",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S61",
+      "flowKey": "first_observation",
+      "name": "Access To Care",
+      "section": "Care & Support",
+      "purpose": "Capture perceived access to care and support.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S62",
+      "order": 610,
+      "atlasDomain": "Care Access",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S62",
+      "flowKey": "first_observation",
+      "name": "Care Transition to Narrative",
+      "section": "Care & Support",
+      "purpose": "Conclude structured care questions and introduce narrative sharing.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S63",
+      "order": 620,
+      "atlasDomain": "Narrative",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S63",
+      "flowKey": "first_observation",
+      "name": "Narrative Intro",
+      "section": "Narrative",
+      "purpose": "Introduce open narrative sharing.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S64",
+      "order": 630,
+      "atlasDomain": "Narrative",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S64",
+      "flowKey": "first_observation",
+      "name": "Narrative Chamber",
+      "section": "Narrative",
+      "purpose": "Capture open narrative responses across five prompts.",
+      "inputType": "Progressive narrative text/audio",
+      "renderKind": "narrative",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S65",
+      "order": 640,
+      "atlasDomain": "Narrative",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S65",
+      "flowKey": "first_observation",
+      "name": "Narrative Complete",
+      "section": "Narrative",
+      "purpose": "Conclude narrative collection and introduce optional sensitive topics.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S66",
+      "order": 650,
+      "atlasDomain": "Narrative",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S66",
+      "flowKey": "first_observation",
+      "name": "Sensitive Topics Intro",
+      "section": "Sensitive Topics",
+      "purpose": "Introduce optional sensitive topics.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S67",
+      "order": 660,
+      "atlasDomain": "Sensitive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S67",
+      "flowKey": "first_observation",
+      "name": "Pain During Sex",
+      "section": "Sensitive Topics",
+      "purpose": "Capture pain during sex if participant chooses to answer.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S68",
+      "order": 670,
+      "atlasDomain": "Sensitive; Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S68",
+      "flowKey": "first_observation",
+      "name": "Bowel Symptoms",
+      "section": "Sensitive Topics",
+      "purpose": "Capture bowel symptoms.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S69",
+      "order": 680,
+      "atlasDomain": "Sensitive; Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S69",
+      "flowKey": "first_observation",
+      "name": "Bladder Symptoms",
+      "section": "Sensitive Topics",
+      "purpose": "Capture bladder or urinary symptoms.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S70",
+      "order": 690,
+      "atlasDomain": "Sensitive; Pain",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S70",
+      "flowKey": "first_observation",
+      "name": "Emergency Symptoms",
+      "section": "Sensitive Topics",
+      "purpose": "Check symptoms that should be considered urgent.",
+      "inputType": "Multi-select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S71",
+      "order": 700,
+      "atlasDomain": "Safety",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S71",
+      "flowKey": "first_observation",
+      "name": "Sensitive Open Narrative",
+      "section": "Sensitive Topics",
+      "purpose": "Capture additional sensitive narrative if participant chooses.",
+      "inputType": "Text/audio",
+      "renderKind": "narrative",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S72",
+      "order": 710,
+      "atlasDomain": "Narrative; Sensitive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S72",
+      "flowKey": "first_observation",
+      "name": "Sensitive Completion",
+      "section": "Sensitive Topics",
+      "purpose": "Confirm completion of sensitive section.",
+      "inputType": "Video / information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S73",
+      "order": 720,
+      "atlasDomain": "Sensitive",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S73",
+      "flowKey": "first_observation",
+      "name": "Processing",
+      "section": "Processing",
+      "purpose": "Create transition while observation is prepared.",
+      "inputType": "Loading state",
+      "renderKind": "processing",
+      "primaryActionLabel": "Auto-advance",
+      "nextScreenRaw": "S74",
+      "order": 730,
+      "atlasDomain": "System",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S74",
+      "flowKey": "first_observation",
+      "name": "Review Archive",
+      "section": "Review",
+      "purpose": "Allow participant to review and edit responses before reflection summary.",
+      "inputType": "Review list",
+      "renderKind": "review",
+      "primaryActionLabel": "Create Reflection Summary",
+      "nextScreenRaw": "S75",
+      "order": 740,
+      "atlasDomain": "System",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S75",
+      "flowKey": "first_observation",
+      "name": "Prepare Reflection",
+      "section": "Review",
+      "purpose": "Confirm willingness to transform responses into a reflection.",
+      "inputType": "Confirmation",
+      "renderKind": "confirmation",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S76",
+      "order": 750,
+      "atlasDomain": "System",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S76",
+      "flowKey": "first_observation",
+      "name": "Processing Draft",
+      "section": "Reflection",
+      "purpose": "Generate non-diagnostic reflection summary.",
+      "inputType": "Loading state",
+      "renderKind": "processing",
+      "primaryActionLabel": "Auto-advance",
+      "nextScreenRaw": "S77A/S77B/S77 depending burden",
+      "order": 760,
+      "atlasDomain": "System",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S77",
+      "flowKey": "first_observation",
+      "name": "Reflection Summary",
+      "section": "Reflection",
+      "purpose": "Provide structured non-diagnostic reflection based on completed observation.",
+      "inputType": "Reflection screen",
+      "renderKind": "reflection",
+      "primaryActionLabel": "Save Atlas Record",
+      "nextScreenRaw": "S78",
+      "order": 770,
+      "atlasDomain": "Reflection",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S77A",
+      "flowKey": "first_observation",
+      "name": "Minimal Reflection",
+      "section": "Reflection",
+      "purpose": "Provide minimal reflection for low-burden observations.",
+      "inputType": "Reflection screen",
+      "renderKind": "reflection",
+      "primaryActionLabel": "Save Atlas Record",
+      "nextScreenRaw": "S78",
+      "order": 771,
+      "atlasDomain": "Reflection",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S77B",
+      "flowKey": "first_observation",
+      "name": "High-Burden Reflection",
+      "section": "Reflection",
+      "purpose": "Provide careful high-burden reflection for complex or heavier observations.",
+      "inputType": "Reflection screen",
+      "renderKind": "reflection",
+      "primaryActionLabel": "Save Atlas Record",
+      "nextScreenRaw": "S78",
+      "order": 772,
+      "atlasDomain": "Reflection",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S78",
+      "flowKey": "first_observation",
+      "name": "Atlas Record Saved",
+      "section": "Reflection",
+      "purpose": "Confirm reflection has been saved.",
+      "inputType": "Confirmation",
+      "renderKind": "confirmation",
+      "primaryActionLabel": "Continue your journey",
+      "nextScreenRaw": "S79",
+      "order": 780,
+      "atlasDomain": "System",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S79",
+      "flowKey": "first_observation",
+      "name": "Creating Observation Record",
+      "section": "Atlas Record",
+      "purpose": "Generate Atlas Record and observational outputs.",
+      "inputType": "Loading state",
+      "renderKind": "processing",
+      "primaryActionLabel": "Auto-advance",
+      "nextScreenRaw": "S80",
+      "order": 790,
+      "atlasDomain": "System",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S80",
+      "flowKey": "first_observation",
+      "name": "Constellation Record",
+      "section": "Atlas Record",
+      "purpose": "Provide visual overview of observed experience domains.",
+      "inputType": "Visualization",
+      "renderKind": "constellation",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S81",
+      "order": 800,
+      "atlasDomain": "Atlas Record",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S81",
+      "flowKey": "first_observation",
+      "name": "Observed Patterns",
+      "section": "Atlas Record",
+      "purpose": "Present key observed patterns from First Observation.",
+      "inputType": "Generated summary",
+      "renderKind": "observed_patterns",
+      "primaryActionLabel": "Continue to Atlas Record",
+      "nextScreenRaw": "S82",
+      "order": 810,
+      "atlasDomain": "Atlas Record",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S82",
+      "flowKey": "first_observation",
+      "name": "Atlas Record",
+      "section": "Atlas Record",
+      "purpose": "Present completed Atlas Record and options to save or download.",
+      "inputType": "Atlas Record view",
+      "renderKind": "atlas_record",
+      "primaryActionLabel": "Save Atlas Record / Download Record",
+      "nextScreenRaw": "My Observatory",
+      "order": 820,
+      "atlasDomain": "Atlas Record",
+      "mvpPhase": "MVP",
+      "status": "Locked",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S83",
+      "flowKey": "atlas_checkin",
+      "name": "Atlas Check-In Landing",
+      "section": "Atlas Check-In",
+      "purpose": "Invite returning participant to update their observation.",
+      "inputType": "Information screen",
+      "renderKind": "information",
+      "primaryActionLabel": "Begin Check-In",
+      "nextScreenRaw": "S84",
+      "order": 830,
+      "atlasDomain": "Check-In",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S84",
+      "flowKey": "atlas_checkin",
+      "name": "Check-In Reason",
+      "section": "Atlas Check-In",
+      "purpose": "Capture why participant is returning.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S85",
+      "order": 840,
+      "atlasDomain": "Check-In",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S85",
+      "flowKey": "atlas_checkin",
+      "name": "Symptom Change Check",
+      "section": "Atlas Check-In",
+      "purpose": "Capture whether symptoms changed since previous record.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S86",
+      "order": 850,
+      "atlasDomain": "Check-In",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S86",
+      "flowKey": "atlas_checkin",
+      "name": "Bleeding Change Check",
+      "section": "Atlas Check-In",
+      "purpose": "Capture bleeding changes since last record.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S87",
+      "order": 860,
+      "atlasDomain": "Bleeding",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S87",
+      "flowKey": "atlas_checkin",
+      "name": "Pain Change Check",
+      "section": "Atlas Check-In",
+      "purpose": "Capture pain changes since last record.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S88",
+      "order": 870,
+      "atlasDomain": "Pain",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S88",
+      "flowKey": "atlas_checkin",
+      "name": "Care Update",
+      "section": "Atlas Check-In",
+      "purpose": "Capture care-seeking or support changes.",
+      "inputType": "Single select",
+      "renderKind": "question",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S89",
+      "order": 880,
+      "atlasDomain": "Care Access",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S89",
+      "flowKey": "atlas_checkin",
+      "name": "New Narrative",
+      "section": "Atlas Check-In",
+      "purpose": "Capture short update in participant's own words.",
+      "inputType": "Text/audio",
+      "renderKind": "narrative",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S90",
+      "order": 890,
+      "atlasDomain": "Narrative",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S90",
+      "flowKey": "atlas_checkin",
+      "name": "Check-In Review",
+      "section": "Atlas Check-In",
+      "purpose": "Review updates before saving.",
+      "inputType": "Review list",
+      "renderKind": "review",
+      "primaryActionLabel": "Save Check-In",
+      "nextScreenRaw": "S91",
+      "order": 900,
+      "atlasDomain": "System",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S91",
+      "flowKey": "atlas_checkin",
+      "name": "Updated Atlas Record",
+      "section": "Atlas Check-In",
+      "purpose": "Show changes against prior Atlas Record.",
+      "inputType": "Comparison view",
+      "renderKind": "comparison",
+      "primaryActionLabel": "Continue",
+      "nextScreenRaw": "S92",
+      "order": 910,
+      "atlasDomain": "Atlas Record",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    },
+    {
+      "screenId": "S92",
+      "flowKey": "atlas_checkin",
+      "name": "Check-In Saved",
+      "section": "Atlas Check-In",
+      "purpose": "Confirm check-in is saved to participant record.",
+      "inputType": "Confirmation",
+      "renderKind": "confirmation",
+      "primaryActionLabel": "Return to Observatory",
+      "nextScreenRaw": "My Observatory",
+      "order": 920,
+      "atlasDomain": "System",
+      "mvpPhase": "Post-MVP",
+      "status": "Planned",
+      "visibilityRule": null
+    }
+  ],
+  "questions": [
+    {
+      "fieldId": "CONSENT_ACK",
+      "screenId": "S01",
+      "questionText": "I understand and want to continue",
+      "fieldType": "boolean",
+      "required": "Required",
+      "validation": "Must be true to proceed",
+      "notes": "Consent timestamp stored server-side",
+      "targetTable": "observation_consents",
+      "targetColumn": "consent_acknowledged",
+      "order": 0,
+      "options": []
+    },
+    {
+      "fieldId": "SAFETY_FLAGS",
+      "screenId": "S03",
+      "questionText": "Are you currently experiencing any of these?",
+      "fieldType": "multi_select",
+      "required": "Required",
+      "validation": "If any safety item except None selected route to S04",
+      "notes": "Non-diagnostic safety guidance only",
+      "targetTable": "observation_safety",
+      "targetColumn": "safety_flags",
+      "order": 1,
+      "options": [
+        {
+          "value": "Heavy bleeding",
+          "label": "Heavy bleeding",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Sudden severe abdominal pain",
+          "label": "Sudden severe abdominal pain",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Fainting/dizzy/pass out",
+          "label": "Fainting/dizzy/pass out",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Fever with pelvic pain",
+          "label": "Fever with pelvic pain",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Unusual discharge with strong odour and pain",
+          "label": "Unusual discharge with strong odour and pain",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Positive pregnancy test with pain/bleeding",
+          "label": "Positive pregnancy test with pain/bleeding",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "None",
+          "label": "None",
+          "order": 6,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "AGE_RANGE",
+      "screenId": "S06",
+      "questionText": "What is your age range?",
+      "fieldType": "single_select",
+      "required": "Required",
+      "validation": "One option only",
+      "notes": "Under 18 may trigger additional assent/consent workflow in future",
+      "targetTable": "participant_context",
+      "targetColumn": "age_range",
+      "order": 2,
+      "options": [
+        {
+          "value": "Under 18",
+          "label": "Under 18",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "18-24",
+          "label": "18-24",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "25-34",
+          "label": "25-34",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "35-44",
+          "label": "35-44",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "45-54",
+          "label": "45-54",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "55 or older",
+          "label": "55 or older",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 6,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "REPRODUCTIVE_STATE",
+      "screenId": "S07",
+      "questionText": "Which best describes your current life stage?",
+      "fieldType": "single_select",
+      "required": "Required",
+      "validation": "One option only",
+      "notes": "Used for adaptive routing",
+      "targetTable": "participant_context",
+      "targetColumn": "reproductive_state",
+      "order": 3,
+      "options": [
+        {
+          "value": "I have regular periods",
+          "label": "I have regular periods",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "I have irregular periods",
+          "label": "I have irregular periods",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "I am pregnant",
+          "label": "I am pregnant",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "I am postpartum",
+          "label": "I am postpartum",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "I am in perimenopause",
+          "label": "I am in perimenopause",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "I am postmenopause",
+          "label": "I am postmenopause",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "I am not sure",
+          "label": "I am not sure",
+          "order": 6,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "HORMONAL_CONTRACEPTION",
+      "screenId": "S08",
+      "questionText": "Are you currently using hormonal contraception?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": "Provides hormonal interpretation context",
+      "targetTable": "participant_context",
+      "targetColumn": "hormonal_contraception_status",
+      "order": 4,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "No",
+          "label": "No",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "I have used it in the past but not now",
+          "label": "I have used it in the past but not now",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "I am not sure",
+          "label": "I am not sure",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "CULTURAL_BACKGROUND",
+      "screenId": "S10",
+      "questionText": "Which cultural background(s) best describe you?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed",
+      "notes": "Never used to infer biology deterministically",
+      "targetTable": "participant_context",
+      "targetColumn": "cultural_background",
+      "order": 5,
+      "options": [
+        {
+          "value": "Black/African/African Diaspora",
+          "label": "Black/African/African Diaspora",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "East Asian",
+          "label": "East Asian",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "South Asian",
+          "label": "South Asian",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Southeast Asian",
+          "label": "Southeast Asian",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Middle Eastern/North African",
+          "label": "Middle Eastern/North African",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "First Nations/Inuit/Metis",
+          "label": "First Nations/Inuit/Metis",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "White/European",
+          "label": "White/European",
+          "order": 6,
+          "isExclusive": false
+        },
+        {
+          "value": "Latin American/Hispanic",
+          "label": "Latin American/Hispanic",
+          "order": 7,
+          "isExclusive": false
+        },
+        {
+          "value": "Caribbean",
+          "label": "Caribbean",
+          "order": 8,
+          "isExclusive": false
+        },
+        {
+          "value": "Pacific Islander",
+          "label": "Pacific Islander",
+          "order": 9,
+          "isExclusive": false
+        },
+        {
+          "value": "Mixed background",
+          "label": "Mixed background",
+          "order": 10,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 11,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "CURRENT_COUNTRY",
+      "screenId": "S11",
+      "questionText": "What is your current country of residence?",
+      "fieldType": "country",
+      "required": "Optional",
+      "validation": "Valid country code preferred",
+      "notes": "Country selector",
+      "targetTable": "participant_context",
+      "targetColumn": "current_country",
+      "order": 6,
+      "options": []
+    },
+    {
+      "fieldId": "BIRTH_COUNTRY",
+      "screenId": "S12",
+      "questionText": "In what country were you born?",
+      "fieldType": "country",
+      "required": "Optional",
+      "validation": "Valid country code or prefer_not_to_say",
+      "notes": "Migration/context continuity",
+      "targetTable": "participant_context",
+      "targetColumn": "birth_country",
+      "order": 7,
+      "options": []
+    },
+    {
+      "fieldId": "PREFERRED_LANGUAGE",
+      "screenId": "S13",
+      "questionText": "What language feels most natural when describing your health experiences and symptoms?",
+      "fieldType": "text",
+      "required": "Optional",
+      "validation": "Max 120 chars",
+      "notes": "Used for expression mapping and translation support",
+      "targetTable": "participant_context",
+      "targetColumn": "preferred_language",
+      "order": 8,
+      "options": []
+    },
+    {
+      "fieldId": "FAMILY_HISTORY",
+      "screenId": "S14",
+      "questionText": "Do close family members have a history of any of the following?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed; None exclusive",
+      "notes": "Observational context only",
+      "targetTable": "participant_context",
+      "targetColumn": "family_health_history",
+      "order": 9,
+      "options": [
+        {
+          "value": "Fibroids",
+          "label": "Fibroids",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Endometriosis",
+          "label": "Endometriosis",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "PCOS",
+          "label": "PCOS",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Heavy menstrual bleeding",
+          "label": "Heavy menstrual bleeding",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Infertility/difficulty conceiving",
+          "label": "Infertility/difficulty conceiving",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Recurrent pregnancy loss",
+          "label": "Recurrent pregnancy loss",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Early menopause",
+          "label": "Early menopause",
+          "order": 6,
+          "isExclusive": false
+        },
+        {
+          "value": "Cervical cancer",
+          "label": "Cervical cancer",
+          "order": 7,
+          "isExclusive": false
+        },
+        {
+          "value": "Ovarian cancer",
+          "label": "Ovarian cancer",
+          "order": 8,
+          "isExclusive": false
+        },
+        {
+          "value": "Uterine/endometrial cancer",
+          "label": "Uterine/endometrial cancer",
+          "order": 9,
+          "isExclusive": false
+        },
+        {
+          "value": "I am not sure",
+          "label": "I am not sure",
+          "order": 10,
+          "isExclusive": false
+        },
+        {
+          "value": "None of these",
+          "label": "None of these",
+          "order": 11,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "EVER_PREGNANT",
+      "screenId": "S17",
+      "questionText": "Have you ever been pregnant?",
+      "fieldType": "single_select",
+      "required": "Required",
+      "validation": "One option only",
+      "notes": "Routes pregnancy history questions",
+      "targetTable": "reproductive_history",
+      "targetColumn": "ever_pregnant",
+      "order": 10,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "No",
+          "label": "No",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PREGNANCY_COUNT",
+      "screenId": "S18",
+      "questionText": "How many pregnancies have you had?",
+      "fieldType": "single_select",
+      "required": "Conditional",
+      "validation": "Display only if EVER_PREGNANT=Yes",
+      "notes": null,
+      "targetTable": "reproductive_history",
+      "targetColumn": "pregnancy_count",
+      "order": 11,
+      "options": [
+        {
+          "value": "1",
+          "label": "1",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "2",
+          "label": "2",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "3",
+          "label": "3",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "4 or more",
+          "label": "4 or more",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 4,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PREGNANCY_LOSS",
+      "screenId": "S19",
+      "questionText": "Have you experienced pregnancy loss?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "reproductive_history",
+      "targetColumn": "pregnancy_loss_history",
+      "order": 12,
+      "options": [
+        {
+          "value": "No",
+          "label": "No",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes - once",
+          "label": "Yes - once",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes - more than once",
+          "label": "Yes - more than once",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "TRYING_TO_CONCEIVE",
+      "screenId": "S20",
+      "questionText": "Have you ever tried to become pregnant for 12 months or longer without becoming pregnant?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": "Fertility context",
+      "targetTable": "reproductive_history",
+      "targetColumn": "trying_to_conceive",
+      "order": 13,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "No",
+          "label": "No",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Not applicable",
+          "label": "Not applicable",
+          "order": 2,
+          "isExclusive": true
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PRODUCT_CHANGE_FREQ",
+      "screenId": "S22",
+      "questionText": "During your period, how often do you usually need to change product or manage bleeding?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": "Heavy bleeding signal source",
+      "targetTable": "bleeding_patterns",
+      "targetColumn": "product_change_frequency",
+      "order": 14,
+      "options": [
+        {
+          "value": "Every 4-6 hours or less",
+          "label": "Every 4-6 hours or less",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Every 2-4 hours",
+          "label": "Every 2-4 hours",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Every 1-2 hours",
+          "label": "Every 1-2 hours",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "More than once per hour or leaking through",
+          "label": "More than once per hour or leaking through",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Not applicable",
+          "label": "Not applicable",
+          "order": 4,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "BLEEDING_DURATION",
+      "screenId": "S23",
+      "questionText": "How many days does your bleeding usually last?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "bleeding_patterns",
+      "targetColumn": "bleeding_duration",
+      "order": 15,
+      "options": [
+        {
+          "value": "Less than 3 days",
+          "label": "Less than 3 days",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "3-5 days",
+          "label": "3-5 days",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "6-8 days",
+          "label": "6-8 days",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "More than 8 days",
+          "label": "More than 8 days",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "CLOT_SIZE",
+      "screenId": "S24",
+      "questionText": "Do you pass blood clots during your period?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "bleeding_patterns",
+      "targetColumn": "clot_size",
+      "order": 16,
+      "options": [
+        {
+          "value": "No, I do not notice clots",
+          "label": "No, I do not notice clots",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes - small",
+          "label": "Yes - small",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes - medium",
+          "label": "Yes - medium",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Large",
+          "label": "Large",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Not sure",
+          "label": "Not sure",
+          "order": 4,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "INTERPERIOD_BLEEDING",
+      "screenId": "S25",
+      "questionText": "Do you bleed at times other than your period?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "bleeding_patterns",
+      "targetColumn": "interperiod_bleeding",
+      "order": 17,
+      "options": [
+        {
+          "value": "Never",
+          "label": "Never",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Occasionally",
+          "label": "Occasionally",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Frequently",
+          "label": "Frequently",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "BLEEDING_PROGRESSION",
+      "screenId": "S26",
+      "questionText": "Over the past months or years, your bleeding has...",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "bleeding_patterns",
+      "targetColumn": "bleeding_progression",
+      "order": 18,
+      "options": [
+        {
+          "value": "Stayed about the same",
+          "label": "Stayed about the same",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Become heavier",
+          "label": "Become heavier",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Become lighter",
+          "label": "Become lighter",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Become more irregular",
+          "label": "Become more irregular",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Become more regular",
+          "label": "Become more regular",
+          "order": 4,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "BLEEDING_IMPACT",
+      "screenId": "S27",
+      "questionText": "Does your bleeding ever...",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed; None exclusive",
+      "notes": "Daily burden source",
+      "targetTable": "bleeding_patterns",
+      "targetColumn": "bleeding_impact",
+      "order": 19,
+      "options": [
+        {
+          "value": "Make you sit up at night",
+          "label": "Make you sit up at night",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Limit you from leaving the house",
+          "label": "Limit you from leaving the house",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Require planning activities around it",
+          "label": "Require planning activities around it",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "None of these",
+          "label": "None of these",
+          "order": 3,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "PAIN_PATTERN",
+      "screenId": "S30",
+      "questionText": "When do you experience pain or discomfort?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "pain_patterns",
+      "targetColumn": "pain_pattern",
+      "order": 20,
+      "options": [
+        {
+          "value": "Constant or most days",
+          "label": "Constant or most days",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Some days or off/on",
+          "label": "Some days or off/on",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Certain phases or activities",
+          "label": "Certain phases or activities",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Only now and then",
+          "label": "Only now and then",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PAIN_TIMING",
+      "screenId": "S31",
+      "questionText": "When does the pain typically occur?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed",
+      "notes": "Cycle-linked pain source",
+      "targetTable": "pain_patterns",
+      "targetColumn": "pain_timing",
+      "order": 21,
+      "options": [
+        {
+          "value": "During period",
+          "label": "During period",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Before/days leading to period",
+          "label": "Before/days leading to period",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "At different times throughout cycle",
+          "label": "At different times throughout cycle",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Randomly or unpredictably",
+          "label": "Randomly or unpredictably",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PAIN_LOCATION",
+      "screenId": "S32",
+      "questionText": "Where do you feel pain or discomfort?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed",
+      "notes": null,
+      "targetTable": "pain_patterns",
+      "targetColumn": "pain_location",
+      "order": 22,
+      "options": [
+        {
+          "value": "Pelvic area",
+          "label": "Pelvic area",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Lower abdomen or pelvis",
+          "label": "Lower abdomen or pelvis",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Lower back",
+          "label": "Lower back",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Legs",
+          "label": "Legs",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Upper abdomen",
+          "label": "Upper abdomen",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "During sex",
+          "label": "During sex",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Inside bowel movements",
+          "label": "Inside bowel movements",
+          "order": 6,
+          "isExclusive": false
+        },
+        {
+          "value": "During urination",
+          "label": "During urination",
+          "order": 7,
+          "isExclusive": false
+        },
+        {
+          "value": "Somewhere else",
+          "label": "Somewhere else",
+          "order": 8,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PAIN_TRIGGERS",
+      "screenId": "S33",
+      "questionText": "What tends to trigger or worsen pain?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed",
+      "notes": null,
+      "targetTable": "pain_patterns",
+      "targetColumn": "pain_triggers",
+      "order": 23,
+      "options": [
+        {
+          "value": "Sex",
+          "label": "Sex",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Bowel movements",
+          "label": "Bowel movements",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Urination",
+          "label": "Urination",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Exercise",
+          "label": "Exercise",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Period flow",
+          "label": "Period flow",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "No clear trigger",
+          "label": "No clear trigger",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 6,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PAIN_PREDICTABILITY",
+      "screenId": "S34",
+      "questionText": "How predictable is the timing of your pain or discomfort?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "pain_patterns",
+      "targetColumn": "pain_predictability",
+      "order": 24,
+      "options": [
+        {
+          "value": "Very predictable",
+          "label": "Very predictable",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Usually predictable",
+          "label": "Usually predictable",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Sometimes unpredictable",
+          "label": "Sometimes unpredictable",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Often unpredictable",
+          "label": "Often unpredictable",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Completely unpredictable",
+          "label": "Completely unpredictable",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Not sure",
+          "label": "Not sure",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 6,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PAIN_SEVERITY_CHANGE",
+      "screenId": "S35",
+      "questionText": "Over time, has your pain become worse or better?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "pain_patterns",
+      "targetColumn": "pain_severity_change",
+      "order": 25,
+      "options": [
+        {
+          "value": "Stayed the same",
+          "label": "Stayed the same",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Become gradually worse",
+          "label": "Become gradually worse",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Increased suddenly",
+          "label": "Increased suddenly",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Improved",
+          "label": "Improved",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "PELVIC_SYMPTOMS",
+      "screenId": "S36",
+      "questionText": "During your period or cycle, do you experience...",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed; None exclusive",
+      "notes": null,
+      "targetTable": "pain_patterns",
+      "targetColumn": "pelvic_symptoms",
+      "order": 26,
+      "options": [
+        {
+          "value": "Frequent urination",
+          "label": "Frequent urination",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Pelvic pressure/fullness",
+          "label": "Pelvic pressure/fullness",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Constipation",
+          "label": "Constipation",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Diarrhea",
+          "label": "Diarrhea",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Bloating",
+          "label": "Bloating",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Abdominal swelling",
+          "label": "Abdominal swelling",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Pain during bowel movements",
+          "label": "Pain during bowel movements",
+          "order": 6,
+          "isExclusive": false
+        },
+        {
+          "value": "Pain during urination",
+          "label": "Pain during urination",
+          "order": 7,
+          "isExclusive": false
+        },
+        {
+          "value": "Nausea",
+          "label": "Nausea",
+          "order": 8,
+          "isExclusive": false
+        },
+        {
+          "value": "Vomiting",
+          "label": "Vomiting",
+          "order": 9,
+          "isExclusive": false
+        },
+        {
+          "value": "None of these",
+          "label": "None of these",
+          "order": 10,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "BODY_CHANGES",
+      "screenId": "S37",
+      "questionText": "Have you noticed any of the following?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed; None exclusive",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "body_changes",
+      "order": 27,
+      "options": [
+        {
+          "value": "Abdominal enlargement",
+          "label": "Abdominal enlargement",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Feeling heaviness in pelvis",
+          "label": "Feeling heaviness in pelvis",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Increased bloating",
+          "label": "Increased bloating",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Clothing fitting differently around waist",
+          "label": "Clothing fitting differently around waist",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Appetite changes",
+          "label": "Appetite changes",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Pelvic fullness after eating",
+          "label": "Pelvic fullness after eating",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "None of these",
+          "label": "None of these",
+          "order": 6,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "CYCLE_PREDICTABILITY",
+      "screenId": "S40",
+      "questionText": "How predictable are your cycles?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "cycle_patterns",
+      "targetColumn": "cycle_predictability",
+      "order": 28,
+      "options": [
+        {
+          "value": "Very predictable",
+          "label": "Very predictable",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Somewhat irregular",
+          "label": "Somewhat irregular",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Very irregular",
+          "label": "Very irregular",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "I am not sure",
+          "label": "I am not sure",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "SKIPPED_PERIODS",
+      "screenId": "S41",
+      "questionText": "How often do you skip periods?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "cycle_patterns",
+      "targetColumn": "skipped_periods",
+      "order": 29,
+      "options": [
+        {
+          "value": "Never",
+          "label": "Never",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Occasionally",
+          "label": "Occasionally",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Frequently",
+          "label": "Frequently",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "HORMONAL_SIGNS",
+      "screenId": "S42",
+      "questionText": "Do you experience any of the following?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed; None exclusive",
+      "notes": null,
+      "targetTable": "cycle_patterns",
+      "targetColumn": "hormonal_signs",
+      "order": 30,
+      "options": [
+        {
+          "value": "Acne",
+          "label": "Acne",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Excess hair growth",
+          "label": "Excess hair growth",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Hair thinning on scalp",
+          "label": "Hair thinning on scalp",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Weight changes that feel unexplained",
+          "label": "Weight changes that feel unexplained",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Mood changes around your cycle",
+          "label": "Mood changes around your cycle",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Hot flashes",
+          "label": "Hot flashes",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Night sweats",
+          "label": "Night sweats",
+          "order": 6,
+          "isExclusive": false
+        },
+        {
+          "value": "Changes in appetite",
+          "label": "Changes in appetite",
+          "order": 7,
+          "isExclusive": false
+        },
+        {
+          "value": "None of these",
+          "label": "None of these",
+          "order": 8,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "CYCLE_CHANGES",
+      "screenId": "S43",
+      "questionText": "Have your cycles changed recently?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "cycle_patterns",
+      "targetColumn": "cycle_changes",
+      "order": 31,
+      "options": [
+        {
+          "value": "No",
+          "label": "No",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "They have become shorter",
+          "label": "They have become shorter",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "They have become longer",
+          "label": "They have become longer",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "They have become more irregular",
+          "label": "They have become more irregular",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "SYMPTOMS_RELATED_TO",
+      "screenId": "S44",
+      "questionText": "Do your symptoms seem related to...",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "cycle_patterns",
+      "targetColumn": "symptoms_related_to",
+      "order": 32,
+      "options": [
+        {
+          "value": "Menstrual cycle",
+          "label": "Menstrual cycle",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Ovulation",
+          "label": "Ovulation",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Both",
+          "label": "Both",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Neither",
+          "label": "Neither",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Not sure",
+          "label": "Not sure",
+          "order": 4,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "FUNCTION_IMPACT",
+      "screenId": "S46",
+      "questionText": "Do symptoms affect...",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed; None exclusive",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "function_impact",
+      "order": 33,
+      "options": [
+        {
+          "value": "School/work",
+          "label": "School/work",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Caregiving",
+          "label": "Caregiving",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Daily routines",
+          "label": "Daily routines",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Movement",
+          "label": "Movement",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Mood",
+          "label": "Mood",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Concentration",
+          "label": "Concentration",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Social plans",
+          "label": "Social plans",
+          "order": 6,
+          "isExclusive": false
+        },
+        {
+          "value": "None of these",
+          "label": "None of these",
+          "order": 7,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "MISSED_ACTIVITIES",
+      "screenId": "S47",
+      "questionText": "Do you miss school, work, or activities because of symptoms?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "missed_activities",
+      "order": 34,
+      "options": [
+        {
+          "value": "Never",
+          "label": "Never",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Occasionally",
+          "label": "Occasionally",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Every cycle",
+          "label": "Every cycle",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Multiple days each cycle",
+          "label": "Multiple days each cycle",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "FATIGUE_FREQ",
+      "screenId": "S48",
+      "questionText": "How often do you feel unusually tired?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "fatigue_frequency",
+      "order": 35,
+      "options": [
+        {
+          "value": "Rarely",
+          "label": "Rarely",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Sometimes",
+          "label": "Sometimes",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Frequently",
+          "label": "Frequently",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Constantly",
+          "label": "Constantly",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "SLEEP_DISRUPTION",
+      "screenId": "S49",
+      "questionText": "How often do symptoms affect your sleep?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "sleep_disruption",
+      "order": 36,
+      "options": [
+        {
+          "value": "Never",
+          "label": "Never",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Occasionally",
+          "label": "Occasionally",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Frequently",
+          "label": "Frequently",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Constantly",
+          "label": "Constantly",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "DIZZINESS_FREQ",
+      "screenId": "S50",
+      "questionText": "Do you feel dizzy, faint, or weak?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "dizziness_frequency",
+      "order": 37,
+      "options": [
+        {
+          "value": "No",
+          "label": "No",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Occasionally",
+          "label": "Occasionally",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Frequently",
+          "label": "Frequently",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "LIFE_DISRUPTION",
+      "screenId": "S51",
+      "questionText": "How much do symptoms disrupt your life?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "life_disruption",
+      "order": 38,
+      "options": [
+        {
+          "value": "Barely",
+          "label": "Barely",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Somewhat",
+          "label": "Somewhat",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Quite a lot",
+          "label": "Quite a lot",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Very much",
+          "label": "Very much",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "LIFE_AREAS",
+      "screenId": "S52",
+      "questionText": "What areas of life are affected?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "Multiple allowed; None exclusive",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "life_areas_affected",
+      "order": 39,
+      "options": [
+        {
+          "value": "Energy",
+          "label": "Energy",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Work/school",
+          "label": "Work/school",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Social activities",
+          "label": "Social activities",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Travel",
+          "label": "Travel",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Relationships/intimacy",
+          "label": "Relationships/intimacy",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Movement/physical activity",
+          "label": "Movement/physical activity",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "Sleep",
+          "label": "Sleep",
+          "order": 6,
+          "isExclusive": false
+        },
+        {
+          "value": "Mental focus/concentration",
+          "label": "Mental focus/concentration",
+          "order": 7,
+          "isExclusive": false
+        },
+        {
+          "value": "None of these",
+          "label": "None of these",
+          "order": 8,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "NORMALCY_PERCEPTION",
+      "screenId": "S53",
+      "questionText": "Does this feel normal to you?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "normalcy_perception",
+      "order": 40,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "No, it worries me",
+          "label": "No, it worries me",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Not often",
+          "label": "Not often",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "SYMPTOM_DURATION",
+      "screenId": "S54",
+      "questionText": "How long have you been experiencing these symptoms?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "symptom_duration",
+      "order": 41,
+      "options": [
+        {
+          "value": "Less than 3 months",
+          "label": "Less than 3 months",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "3-12 months",
+          "label": "3-12 months",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "1-2 years",
+          "label": "1-2 years",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "More than 2 years",
+          "label": "More than 2 years",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "SYMPTOM_PREDICTABILITY",
+      "screenId": "S55",
+      "questionText": "Overall, are your symptoms...",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "symptom_predictability",
+      "order": 42,
+      "options": [
+        {
+          "value": "Improving",
+          "label": "Improving",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Staying the same",
+          "label": "Staying the same",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Gradually worsening",
+          "label": "Gradually worsening",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Rapidly worsening",
+          "label": "Rapidly worsening",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "SYMPTOM_SEVERITY",
+      "screenId": "S56",
+      "questionText": "Do symptoms feel manageable or overwhelming?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "daily_life",
+      "targetColumn": "symptom_severity",
+      "order": 43,
+      "options": [
+        {
+          "value": "Barely",
+          "label": "Barely",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Somewhat",
+          "label": "Somewhat",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Quite a lot",
+          "label": "Quite a lot",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Severe",
+          "label": "Severe",
+          "order": 3,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "SPOKEN_TO_PROVIDER",
+      "screenId": "S58",
+      "questionText": "Have you spoken to a healthcare provider about these symptoms?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": "Routes S59/S60",
+      "targetTable": "care_access",
+      "targetColumn": "spoken_to_provider",
+      "order": 44,
+      "options": [
+        {
+          "value": "No",
+          "label": "No",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 1,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "CARE_RESPONSE",
+      "screenId": "S59",
+      "questionText": "What was that experience like?",
+      "fieldType": "multi_select",
+      "required": "Conditional",
+      "validation": "Display if SPOKEN_TO_PROVIDER=Yes",
+      "notes": null,
+      "targetTable": "care_access",
+      "targetColumn": "care_response",
+      "order": 45,
+      "options": [
+        {
+          "value": "I felt heard",
+          "label": "I felt heard",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "I was told my symptoms were normal",
+          "label": "I was told my symptoms were normal",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "I did not get clear answers",
+          "label": "I did not get clear answers",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "I am currently receiving treatment or support",
+          "label": "I am currently receiving treatment or support",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "I was referred to another provider",
+          "label": "I was referred to another provider",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "I am still waiting for answers",
+          "label": "I am still waiting for answers",
+          "order": 5,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "CARE_DISMISSAL",
+      "screenId": "S60",
+      "questionText": "Have you ever felt your symptoms were dismissed, ignored, or explained away?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "care_access",
+      "targetColumn": "care_dismissal",
+      "order": 46,
+      "options": [
+        {
+          "value": "No",
+          "label": "No",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Not sure",
+          "label": "Not sure",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "ACCESS_TO_CARE",
+      "screenId": "S61",
+      "questionText": "Do you currently feel you have access to care or support if you need it?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "care_access",
+      "targetColumn": "access_to_care",
+      "order": 47,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "No",
+          "label": "No",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "I am not sure",
+          "label": "I am not sure",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "NARRATIVE_PROMPTS",
+      "screenId": "S64",
+      "questionText": "Open narrative prompts 1-5",
+      "fieldType": "text_audio",
+      "required": "Optional",
+      "validation": "Capture each prompt status",
+      "notes": "Prompts defined in Narrative_Engine sheet",
+      "targetTable": "narratives",
+      "targetColumn": "narrative_payload",
+      "order": 48,
+      "options": []
+    },
+    {
+      "fieldId": "PAIN_DURING_SEX",
+      "screenId": "S67",
+      "questionText": "Do you experience pain during sex?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "sensitive_topics",
+      "targetColumn": "pain_during_sex",
+      "order": 49,
+      "options": [
+        {
+          "value": "No",
+          "label": "No",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "BOWEL_SYMPTOMS",
+      "screenId": "S68",
+      "questionText": "Have you noticed pain or discomfort during bowel movements?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "sensitive_topics",
+      "targetColumn": "bowel_symptoms",
+      "order": 50,
+      "options": [
+        {
+          "value": "No",
+          "label": "No",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "BLADDER_SYMPTOMS",
+      "screenId": "S69",
+      "questionText": "Have you noticed pain, urgency, or discomfort during urination?",
+      "fieldType": "single_select",
+      "required": "Optional",
+      "validation": "One option only",
+      "notes": null,
+      "targetTable": "sensitive_topics",
+      "targetColumn": "bladder_symptoms",
+      "order": 51,
+      "options": [
+        {
+          "value": "No",
+          "label": "No",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Yes",
+          "label": "Yes",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Prefer not to say",
+          "label": "Prefer not to say",
+          "order": 2,
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "fieldId": "URGENT_SYMPTOMS",
+      "screenId": "S70",
+      "questionText": "Do any of these feel important to note?",
+      "fieldType": "multi_select",
+      "required": "Optional",
+      "validation": "If urgent item selected add safety marker",
+      "notes": null,
+      "targetTable": "observation_safety",
+      "targetColumn": "urgent_symptom_flags",
+      "order": 52,
+      "options": [
+        {
+          "value": "Bleeding very heavily",
+          "label": "Bleeding very heavily",
+          "order": 0,
+          "isExclusive": false
+        },
+        {
+          "value": "Severe pain",
+          "label": "Severe pain",
+          "order": 1,
+          "isExclusive": false
+        },
+        {
+          "value": "Fainting or near-fainting",
+          "label": "Fainting or near-fainting",
+          "order": 2,
+          "isExclusive": false
+        },
+        {
+          "value": "Fever",
+          "label": "Fever",
+          "order": 3,
+          "isExclusive": false
+        },
+        {
+          "value": "Positive pregnancy test and pain/bleeding",
+          "label": "Positive pregnancy test and pain/bleeding",
+          "order": 4,
+          "isExclusive": false
+        },
+        {
+          "value": "Other",
+          "label": "Other",
+          "order": 5,
+          "isExclusive": false
+        },
+        {
+          "value": "None",
+          "label": "None",
+          "order": 6,
+          "isExclusive": true
+        }
+      ]
+    },
+    {
+      "fieldId": "SENSITIVE_NARRATIVE",
+      "screenId": "S71",
+      "questionText": "Tell us more if you would like.",
+      "fieldType": "text_audio",
+      "required": "Optional",
+      "validation": "Max 5000 chars; audio max per app setting",
+      "notes": null,
+      "targetTable": "narratives",
+      "targetColumn": "sensitive_narrative_payload",
+      "order": 53,
+      "options": []
+    },
+    {
+      "fieldId": "REFLECTION_CONSENT",
+      "screenId": "S75",
+      "questionText": "Ready to continue?",
+      "fieldType": "boolean",
+      "required": "Required",
+      "validation": "Must continue to generate reflection",
+      "notes": null,
+      "targetTable": "atlas_records",
+      "targetColumn": "reflection_consent",
+      "order": 54,
+      "options": []
+    },
+    {
+      "fieldId": "REFLECTION_SUMMARY",
+      "screenId": "S77",
+      "questionText": "Generated reflection summary",
+      "fieldType": "generated_json",
+      "required": "System",
+      "validation": "Generated from completed observation",
+      "notes": null,
+      "targetTable": "atlas_records",
+      "targetColumn": "reflection_summary",
+      "order": 55,
+      "options": []
+    },
+    {
+      "fieldId": "CONSTELLATION_SCORES",
+      "screenId": "S80",
+      "questionText": "Constellation Record domain visualization",
+      "fieldType": "generated_json",
+      "required": "System",
+      "validation": "Domain score 0-4 with evidence count",
+      "notes": null,
+      "targetTable": "atlas_records",
+      "targetColumn": "constellation_scores",
+      "order": 56,
+      "options": []
+    },
+    {
+      "fieldId": "OBSERVED_PATTERNS",
+      "screenId": "S81",
+      "questionText": "Observed Patterns",
+      "fieldType": "generated_json",
+      "required": "System",
+      "validation": "Generated only from user responses",
+      "notes": null,
+      "targetTable": "atlas_records",
+      "targetColumn": "observed_patterns",
+      "order": 57,
+      "options": []
+    },
+    {
+      "fieldId": "ATLAS_RECORD_FINAL",
+      "screenId": "S82",
+      "questionText": "Atlas Record final output",
+      "fieldType": "generated_json",
+      "required": "System",
+      "validation": "Must include non-diagnostic disclaimer",
+      "notes": null,
+      "targetTable": "atlas_records",
+      "targetColumn": "record_payload",
+      "order": 58,
+      "options": []
+    },
+    {
+      "fieldId": "CHECKIN_REASON",
+      "screenId": "S84",
+      "questionText": "What brings you back today?",
+      "fieldType": "single_select/text_audio",
+      "required": "Post-MVP",
+      "validation": "Valid response or skip where allowed",
+      "notes": "Check-In specification shell",
+      "targetTable": "atlas_checkins",
+      "targetColumn": "checkin_reason",
+      "order": 59,
+      "options": []
+    },
+    {
+      "fieldId": "CHECKIN_SYMPTOM_CHANGE",
+      "screenId": "S85",
+      "questionText": "Since your last Atlas Record, have symptoms changed?",
+      "fieldType": "single_select/text_audio",
+      "required": "Post-MVP",
+      "validation": "Valid response or skip where allowed",
+      "notes": "Check-In specification shell",
+      "targetTable": "atlas_checkins",
+      "targetColumn": "symptom_change_since_last",
+      "order": 60,
+      "options": []
+    },
+    {
+      "fieldId": "CHECKIN_BLEEDING_CHANGE",
+      "screenId": "S86",
+      "questionText": "Has bleeding changed?",
+      "fieldType": "single_select/text_audio",
+      "required": "Post-MVP",
+      "validation": "Valid response or skip where allowed",
+      "notes": "Check-In specification shell",
+      "targetTable": "atlas_checkins",
+      "targetColumn": "bleeding_change_since_last",
+      "order": 61,
+      "options": []
+    },
+    {
+      "fieldId": "CHECKIN_PAIN_CHANGE",
+      "screenId": "S87",
+      "questionText": "Has pain changed?",
+      "fieldType": "single_select/text_audio",
+      "required": "Post-MVP",
+      "validation": "Valid response or skip where allowed",
+      "notes": "Check-In specification shell",
+      "targetTable": "atlas_checkins",
+      "targetColumn": "pain_change_since_last",
+      "order": 62,
+      "options": []
+    },
+    {
+      "fieldId": "CHECKIN_CARE_UPDATE",
+      "screenId": "S88",
+      "questionText": "Has anything changed with care or support?",
+      "fieldType": "single_select/text_audio",
+      "required": "Post-MVP",
+      "validation": "Valid response or skip where allowed",
+      "notes": "Check-In specification shell",
+      "targetTable": "atlas_checkins",
+      "targetColumn": "care_update_since_last",
+      "order": 63,
+      "options": []
+    },
+    {
+      "fieldId": "CHECKIN_NARRATIVE",
+      "screenId": "S89",
+      "questionText": "What would you like to add in your own words?",
+      "fieldType": "single_select/text_audio",
+      "required": "Post-MVP",
+      "validation": "Valid response or skip where allowed",
+      "notes": "Check-In specification shell",
+      "targetTable": "atlas_checkins",
+      "targetColumn": "checkin_narrative",
+      "order": 64,
+      "options": []
+    }
+  ],
+  "narrativePrompts": [
+    {
+      "promptId": "NP01",
+      "screenId": "S64",
+      "promptText": "What has been happening with your body?",
+      "captureType": "Text/audio",
+      "order": 0
+    },
+    {
+      "promptId": "NP02",
+      "screenId": "S64",
+      "promptText": "What does it feel like?",
+      "captureType": "Text/audio",
+      "order": 1
+    },
+    {
+      "promptId": "NP03",
+      "screenId": "S64",
+      "promptText": "How has this affected your daily life?",
+      "captureType": "Text/audio",
+      "order": 2
+    },
+    {
+      "promptId": "NP04",
+      "screenId": "S64",
+      "promptText": "Has it changed over time?",
+      "captureType": "Text/audio",
+      "order": 3
+    },
+    {
+      "promptId": "NP05",
+      "screenId": "S64",
+      "promptText": "What worries or frustrates you most?",
+      "captureType": "Text/audio",
+      "order": 4
+    },
+    {
+      "promptId": "SNP01",
+      "screenId": "S71",
+      "promptText": "Tell us more, if you want.",
+      "captureType": "Text/audio",
+      "order": 5
+    }
+  ],
+  "routes": [
+    {
+      "fromScreenId": "S00",
+      "priority": 1,
+      "toScreenId": "S01",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S01",
+      "priority": 1,
+      "toScreenId": "S02",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S02",
+      "priority": 1,
+      "toScreenId": "S03",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S03",
+      "priority": 1,
+      "toScreenId": "S04",
+      "condition": {
+        "field": "SAFETY_FLAGS",
+        "op": "any_except",
+        "value": [
+          "None"
+        ]
+      },
+      "note": "Any urgent safety flag -> safety alert"
+    },
+    {
+      "fromScreenId": "S03",
+      "priority": 2,
+      "toScreenId": "S05",
+      "condition": null,
+      "note": "No flags -> context"
+    },
+    {
+      "fromScreenId": "S04",
+      "priority": 1,
+      "toScreenId": "S05",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S05",
+      "priority": 1,
+      "toScreenId": "S06",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S06",
+      "priority": 1,
+      "toScreenId": "S07",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S07",
+      "priority": 1,
+      "toScreenId": "S08",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S08",
+      "priority": 1,
+      "toScreenId": "S09",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S09",
+      "priority": 1,
+      "toScreenId": "S10",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S10",
+      "priority": 1,
+      "toScreenId": "S11",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S11",
+      "priority": 1,
+      "toScreenId": "S12",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S12",
+      "priority": 1,
+      "toScreenId": "S13",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S13",
+      "priority": 1,
+      "toScreenId": "S14",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S14",
+      "priority": 1,
+      "toScreenId": "S15",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S15",
+      "priority": 1,
+      "toScreenId": "S16",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S16",
+      "priority": 1,
+      "toScreenId": "S17",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S17",
+      "priority": 1,
+      "toScreenId": "S18",
+      "condition": {
+        "field": "EVER_PREGNANT",
+        "op": "eq",
+        "value": "Yes"
+      },
+      "note": "Pregnant before -> ask count"
+    },
+    {
+      "fromScreenId": "S17",
+      "priority": 2,
+      "toScreenId": "S19",
+      "condition": null,
+      "note": "Skip pregnancy count"
+    },
+    {
+      "fromScreenId": "S18",
+      "priority": 1,
+      "toScreenId": "S19",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S19",
+      "priority": 1,
+      "toScreenId": "S20",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S20",
+      "priority": 1,
+      "toScreenId": "S21",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S21",
+      "priority": 1,
+      "toScreenId": "S22",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S22",
+      "priority": 1,
+      "toScreenId": "S23",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S23",
+      "priority": 1,
+      "toScreenId": "S24",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S24",
+      "priority": 1,
+      "toScreenId": "S25",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S25",
+      "priority": 1,
+      "toScreenId": "S26",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S26",
+      "priority": 1,
+      "toScreenId": "S27",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S27",
+      "priority": 1,
+      "toScreenId": "S28",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S28",
+      "priority": 1,
+      "toScreenId": "S29",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S29",
+      "priority": 1,
+      "toScreenId": "S30",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S30",
+      "priority": 1,
+      "toScreenId": "S31",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S31",
+      "priority": 1,
+      "toScreenId": "S32",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S32",
+      "priority": 1,
+      "toScreenId": "S33",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S33",
+      "priority": 1,
+      "toScreenId": "S34",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S34",
+      "priority": 1,
+      "toScreenId": "S35",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S35",
+      "priority": 1,
+      "toScreenId": "S36",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S36",
+      "priority": 1,
+      "toScreenId": "S37",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S37",
+      "priority": 1,
+      "toScreenId": "S38",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S38",
+      "priority": 1,
+      "toScreenId": "S39",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S39",
+      "priority": 1,
+      "toScreenId": "S40",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S40",
+      "priority": 1,
+      "toScreenId": "S41",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S41",
+      "priority": 1,
+      "toScreenId": "S42",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S42",
+      "priority": 1,
+      "toScreenId": "S43",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S43",
+      "priority": 1,
+      "toScreenId": "S44",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S44",
+      "priority": 1,
+      "toScreenId": "S45",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S45",
+      "priority": 1,
+      "toScreenId": "S46",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S46",
+      "priority": 1,
+      "toScreenId": "S47",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S47",
+      "priority": 1,
+      "toScreenId": "S48",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S48",
+      "priority": 1,
+      "toScreenId": "S49",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S49",
+      "priority": 1,
+      "toScreenId": "S50",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S50",
+      "priority": 1,
+      "toScreenId": "S51",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S51",
+      "priority": 1,
+      "toScreenId": "S52",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S52",
+      "priority": 1,
+      "toScreenId": "S53",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S53",
+      "priority": 1,
+      "toScreenId": "S54",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S54",
+      "priority": 1,
+      "toScreenId": "S55",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S55",
+      "priority": 1,
+      "toScreenId": "S56",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S56",
+      "priority": 1,
+      "toScreenId": "S57",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S57",
+      "priority": 1,
+      "toScreenId": "S58",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S58",
+      "priority": 1,
+      "toScreenId": "S59",
+      "condition": {
+        "field": "SPOKEN_TO_PROVIDER",
+        "op": "eq",
+        "value": "Yes"
+      },
+      "note": "Spoke to provider -> care response"
+    },
+    {
+      "fromScreenId": "S58",
+      "priority": 2,
+      "toScreenId": "S60",
+      "condition": null,
+      "note": "Skip care response"
+    },
+    {
+      "fromScreenId": "S59",
+      "priority": 1,
+      "toScreenId": "S60",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S60",
+      "priority": 1,
+      "toScreenId": "S61",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S61",
+      "priority": 1,
+      "toScreenId": "S62",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S62",
+      "priority": 1,
+      "toScreenId": "S63",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S63",
+      "priority": 1,
+      "toScreenId": "S64",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S64",
+      "priority": 1,
+      "toScreenId": "S65",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S65",
+      "priority": 1,
+      "toScreenId": "S66",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S66",
+      "priority": 1,
+      "toScreenId": "S67",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S67",
+      "priority": 1,
+      "toScreenId": "S68",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S68",
+      "priority": 1,
+      "toScreenId": "S69",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S69",
+      "priority": 1,
+      "toScreenId": "S70",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S70",
+      "priority": 1,
+      "toScreenId": "S71",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S71",
+      "priority": 1,
+      "toScreenId": "S72",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S72",
+      "priority": 1,
+      "toScreenId": "S73",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S73",
+      "priority": 1,
+      "toScreenId": "S74",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S74",
+      "priority": 1,
+      "toScreenId": "S75",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S75",
+      "priority": 1,
+      "toScreenId": "S76",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S76",
+      "priority": 1,
+      "toScreenId": "S77B",
+      "condition": {
+        "burden": "High"
+      },
+      "note": "High burden reflection"
+    },
+    {
+      "fromScreenId": "S76",
+      "priority": 2,
+      "toScreenId": "S77A",
+      "condition": {
+        "burden": "Low"
+      },
+      "note": "Minimal reflection"
+    },
+    {
+      "fromScreenId": "S76",
+      "priority": 3,
+      "toScreenId": "S77",
+      "condition": null,
+      "note": "Standard reflection"
+    },
+    {
+      "fromScreenId": "S77",
+      "priority": 1,
+      "toScreenId": "S78",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S77A",
+      "priority": 1,
+      "toScreenId": "S78",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S77B",
+      "priority": 1,
+      "toScreenId": "S78",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S78",
+      "priority": 1,
+      "toScreenId": "S79",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S79",
+      "priority": 1,
+      "toScreenId": "S80",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S80",
+      "priority": 1,
+      "toScreenId": "S81",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S81",
+      "priority": 1,
+      "toScreenId": "S82",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S83",
+      "priority": 1,
+      "toScreenId": "S84",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S84",
+      "priority": 1,
+      "toScreenId": "S85",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S85",
+      "priority": 1,
+      "toScreenId": "S86",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S86",
+      "priority": 1,
+      "toScreenId": "S87",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S87",
+      "priority": 1,
+      "toScreenId": "S88",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S88",
+      "priority": 1,
+      "toScreenId": "S89",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S89",
+      "priority": 1,
+      "toScreenId": "S90",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S90",
+      "priority": 1,
+      "toScreenId": "S91",
+      "condition": null,
+      "note": "Linear"
+    },
+    {
+      "fromScreenId": "S91",
+      "priority": 1,
+      "toScreenId": "S92",
+      "condition": null,
+      "note": "Linear"
+    }
+  ],
+  "signals": [
+    {
+      "signalId": "SIG_BLD_001",
+      "name": "Heavy bleeding",
+      "domain": "Bleeding",
+      "sourceScreen": "S22",
+      "severity": "high",
+      "condition": {
+        "field": "PRODUCT_CHANGE_FREQ",
+        "op": "in",
+        "value": [
+          "More than once per hour or leaking through",
+          "Every 1-2 hours"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_BLD_002",
+      "name": "Prolonged bleeding",
+      "domain": "Bleeding",
+      "sourceScreen": "S23",
+      "severity": "moderate",
+      "condition": {
+        "field": "BLEEDING_DURATION",
+        "op": "eq",
+        "value": "More than 8 days"
+      }
+    },
+    {
+      "signalId": "SIG_BLD_003",
+      "name": "Large clots",
+      "domain": "Bleeding",
+      "sourceScreen": "S24",
+      "severity": "moderate",
+      "condition": {
+        "field": "CLOT_SIZE",
+        "op": "eq",
+        "value": "Large"
+      }
+    },
+    {
+      "signalId": "SIG_BLD_004",
+      "name": "Interperiod bleeding",
+      "domain": "Bleeding",
+      "sourceScreen": "S25",
+      "severity": "moderate",
+      "condition": {
+        "field": "INTERPERIOD_BLEEDING",
+        "op": "eq",
+        "value": "Frequently"
+      }
+    },
+    {
+      "signalId": "SIG_BLD_005",
+      "name": "Bleeding worsening",
+      "domain": "Bleeding",
+      "sourceScreen": "S26",
+      "severity": "moderate",
+      "condition": {
+        "field": "BLEEDING_PROGRESSION",
+        "op": "in",
+        "value": [
+          "Become heavier",
+          "Become more irregular"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_BLD_006",
+      "name": "Bleeding life restriction",
+      "domain": "Bleeding",
+      "sourceScreen": "S27",
+      "severity": "moderate",
+      "condition": {
+        "field": "BLEEDING_IMPACT",
+        "op": "any_except",
+        "value": [
+          "None of these"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_PAIN_001",
+      "name": "Persistent pain",
+      "domain": "Pain",
+      "sourceScreen": "S30",
+      "severity": "high",
+      "condition": {
+        "field": "PAIN_PATTERN",
+        "op": "eq",
+        "value": "Constant or most days"
+      }
+    },
+    {
+      "signalId": "SIG_PAIN_002",
+      "name": "Cycle-linked pain",
+      "domain": "Pain",
+      "sourceScreen": "S31",
+      "severity": "moderate",
+      "condition": {
+        "field": "PAIN_TIMING",
+        "op": "contains_any",
+        "value": [
+          "During period",
+          "Before/days leading to period"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_PAIN_003",
+      "name": "Pelvic pain distribution",
+      "domain": "Pain",
+      "sourceScreen": "S32",
+      "severity": "moderate",
+      "condition": {
+        "field": "PAIN_LOCATION",
+        "op": "contains_any",
+        "value": [
+          "Pelvic area",
+          "Lower abdomen or pelvis",
+          "Lower back",
+          "Legs"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_PAIN_004",
+      "name": "Activity-triggered pain",
+      "domain": "Pain",
+      "sourceScreen": "S33",
+      "severity": "moderate",
+      "condition": {
+        "field": "PAIN_TRIGGERS",
+        "op": "contains_any",
+        "value": [
+          "Sex",
+          "Bowel movements",
+          "Urination",
+          "Exercise"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_PAIN_005",
+      "name": "Unpredictable pain",
+      "domain": "Pain",
+      "sourceScreen": "S34",
+      "severity": "moderate",
+      "condition": {
+        "field": "PAIN_PREDICTABILITY",
+        "op": "in",
+        "value": [
+          "Often unpredictable",
+          "Completely unpredictable"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_PAIN_006",
+      "name": "Worsening pain",
+      "domain": "Pain",
+      "sourceScreen": "S35",
+      "severity": "high",
+      "condition": {
+        "field": "PAIN_SEVERITY_CHANGE",
+        "op": "in",
+        "value": [
+          "Become gradually worse",
+          "Increased suddenly"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_PAIN_007",
+      "name": "Pelvic symptom cluster",
+      "domain": "Pain",
+      "sourceScreen": "S36",
+      "severity": "moderate",
+      "condition": {
+        "field": "PELVIC_SYMPTOMS",
+        "op": "count_gte",
+        "value": 2,
+        "exclude": [
+          "None of these"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_HORM_001",
+      "name": "Irregular cycles",
+      "domain": "Cycle",
+      "sourceScreen": "S40",
+      "severity": "moderate",
+      "condition": {
+        "field": "CYCLE_PREDICTABILITY",
+        "op": "in",
+        "value": [
+          "Somewhat irregular",
+          "Very irregular"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_HORM_002",
+      "name": "Skipped periods",
+      "domain": "Cycle",
+      "sourceScreen": "S41",
+      "severity": "moderate",
+      "condition": {
+        "field": "SKIPPED_PERIODS",
+        "op": "in",
+        "value": [
+          "Occasionally",
+          "Frequently"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_HORM_003",
+      "name": "Hormonal signs",
+      "domain": "Hormonal",
+      "sourceScreen": "S42",
+      "severity": "moderate",
+      "condition": {
+        "field": "HORMONAL_SIGNS",
+        "op": "count_gte",
+        "value": 2,
+        "exclude": [
+          "None of these"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_HORM_004",
+      "name": "Cycle changed",
+      "domain": "Cycle",
+      "sourceScreen": "S43",
+      "severity": "moderate",
+      "condition": {
+        "field": "CYCLE_CHANGES",
+        "op": "in",
+        "value": [
+          "They have become shorter",
+          "They have become longer",
+          "They have become more irregular"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_HORM_005",
+      "name": "Ovulation relationship",
+      "domain": "Cycle",
+      "sourceScreen": "S44",
+      "severity": "low",
+      "condition": {
+        "field": "SYMPTOMS_RELATED_TO",
+        "op": "in",
+        "value": [
+          "Ovulation",
+          "Both"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_DLY_001",
+      "name": "Functional disruption",
+      "domain": "Daily Life",
+      "sourceScreen": "S46",
+      "severity": "moderate",
+      "condition": {
+        "field": "FUNCTION_IMPACT",
+        "op": "any_except",
+        "value": [
+          "None of these"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_DLY_002",
+      "name": "Missed activities",
+      "domain": "Daily Life",
+      "sourceScreen": "S47",
+      "severity": "high",
+      "condition": {
+        "field": "MISSED_ACTIVITIES",
+        "op": "in",
+        "value": [
+          "Every cycle",
+          "Multiple days each cycle"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_DLY_003",
+      "name": "Fatigue",
+      "domain": "Daily Life",
+      "sourceScreen": "S48",
+      "severity": "moderate",
+      "condition": {
+        "field": "FATIGUE_FREQ",
+        "op": "in",
+        "value": [
+          "Frequently",
+          "Constantly"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_DLY_004",
+      "name": "Sleep disruption",
+      "domain": "Daily Life",
+      "sourceScreen": "S49",
+      "severity": "moderate",
+      "condition": {
+        "field": "SLEEP_DISRUPTION",
+        "op": "in",
+        "value": [
+          "Frequently",
+          "Constantly"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_DLY_005",
+      "name": "Dizziness/weakness",
+      "domain": "Daily Life",
+      "sourceScreen": "S50",
+      "severity": "high",
+      "condition": {
+        "field": "DIZZINESS_FREQ",
+        "op": "eq",
+        "value": "Frequently"
+      }
+    },
+    {
+      "signalId": "SIG_DLY_006",
+      "name": "High life disruption",
+      "domain": "Daily Life",
+      "sourceScreen": "S51",
+      "severity": "high",
+      "condition": {
+        "field": "LIFE_DISRUPTION",
+        "op": "in",
+        "value": [
+          "Quite a lot",
+          "Very much"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_CARE_001",
+      "name": "Care not sought",
+      "domain": "Care Access",
+      "sourceScreen": "S58",
+      "severity": "low",
+      "condition": {
+        "field": "SPOKEN_TO_PROVIDER",
+        "op": "eq",
+        "value": "No"
+      }
+    },
+    {
+      "signalId": "SIG_CARE_002",
+      "name": "Unresolved care",
+      "domain": "Care Access",
+      "sourceScreen": "S59",
+      "severity": "moderate",
+      "condition": {
+        "field": "CARE_RESPONSE",
+        "op": "contains_any",
+        "value": [
+          "I did not get clear answers",
+          "I am still waiting for answers",
+          "I was told my symptoms were normal"
+        ]
+      }
+    },
+    {
+      "signalId": "SIG_CARE_003",
+      "name": "Dismissal",
+      "domain": "Care Access",
+      "sourceScreen": "S60",
+      "severity": "moderate",
+      "condition": {
+        "field": "CARE_DISMISSAL",
+        "op": "eq",
+        "value": "Yes"
+      }
+    },
+    {
+      "signalId": "SIG_CARE_004",
+      "name": "No care access",
+      "domain": "Care Access",
+      "sourceScreen": "S61",
+      "severity": "high",
+      "condition": {
+        "field": "ACCESS_TO_CARE",
+        "op": "eq",
+        "value": "No"
+      }
+    },
+    {
+      "signalId": "SIG_SEN_001",
+      "name": "Pain during sex",
+      "domain": "Sensitive",
+      "sourceScreen": "S67",
+      "severity": "moderate",
+      "condition": {
+        "field": "PAIN_DURING_SEX",
+        "op": "eq",
+        "value": "Yes"
+      }
+    },
+    {
+      "signalId": "SIG_SEN_002",
+      "name": "Bowel symptoms",
+      "domain": "Sensitive",
+      "sourceScreen": "S68",
+      "severity": "moderate",
+      "condition": {
+        "field": "BOWEL_SYMPTOMS",
+        "op": "eq",
+        "value": "Yes"
+      }
+    },
+    {
+      "signalId": "SIG_SEN_003",
+      "name": "Bladder symptoms",
+      "domain": "Sensitive",
+      "sourceScreen": "S69",
+      "severity": "moderate",
+      "condition": {
+        "field": "BLADDER_SYMPTOMS",
+        "op": "eq",
+        "value": "Yes"
+      }
+    },
+    {
+      "signalId": "SIG_SAFE_001",
+      "name": "Urgent symptom marker",
+      "domain": "Safety",
+      "sourceScreen": "S03",
+      "severity": "high",
+      "condition": {
+        "any": [
+          {
+            "field": "SAFETY_FLAGS",
+            "op": "any_except",
+            "value": [
+              "None"
+            ]
+          },
+          {
+            "field": "URGENT_SYMPTOMS",
+            "op": "any_except",
+            "value": [
+              "None"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "reflectionRules": [
+    {
+      "ruleId": "REF_001",
+      "condition": {
+        "burden": "Low"
+      },
+      "reflectionType": "Minimal",
+      "targetScreen": "S77A",
+      "templateCopy": "Your responses describe experiences that may be worth continuing to observe over time.",
+      "priority": 0
+    },
+    {
+      "ruleId": "REF_002",
+      "condition": {
+        "all": [
+          {
+            "signal": "SIG_BLD_001",
+            "op": "present"
+          },
+          {
+            "signal": "SIG_BLD_006",
+            "op": "present"
+          }
+        ]
+      },
+      "reflectionType": "Bleeding-focused",
+      "targetScreen": "S77",
+      "templateCopy": "Your responses suggest bleeding is an important part of this observation, especially how it affects planning, movement, rest, or daily routines.",
+      "priority": 1
+    },
+    {
+      "ruleId": "REF_003",
+      "condition": {
+        "all": [
+          {
+            "signal": "SIG_BLD_001",
+            "op": "present"
+          },
+          {
+            "signal": "SIG_DLY_005",
+            "op": "present"
+          }
+        ]
+      },
+      "reflectionType": "Safety-aware bleeding",
+      "targetScreen": "S77B",
+      "templateCopy": "Your responses describe bleeding together with weakness, dizziness, or faintness. This may be important to discuss with a healthcare provider, especially if it continues or worsens.",
+      "priority": 2
+    },
+    {
+      "ruleId": "REF_004",
+      "condition": {
+        "any": [
+          {
+            "signal": "SIG_PAIN_001",
+            "op": "present"
+          },
+          {
+            "signal": "SIG_PAIN_006",
+            "op": "present"
+          }
+        ]
+      },
+      "reflectionType": "Pain-focused",
+      "targetScreen": "S77",
+      "templateCopy": "Your responses suggest pain or pressure has become a meaningful pattern in your experience.",
+      "priority": 3
+    },
+    {
+      "ruleId": "REF_005",
+      "condition": {
+        "all": [
+          {
+            "signal": "SIG_PAIN_002",
+            "op": "present"
+          },
+          {
+            "signal": "SIG_HORM_001",
+            "op": "present"
+          }
+        ]
+      },
+      "reflectionType": "Cycle-pain pattern",
+      "targetScreen": "S77",
+      "templateCopy": "Your responses show symptoms that may be connected to cycle timing, ovulation, or changes in rhythm.",
+      "priority": 4
+    },
+    {
+      "ruleId": "REF_006",
+      "condition": {
+        "all": [
+          {
+            "signal": "SIG_HORM_003",
+            "op": "present"
+          },
+          {
+            "signal": "SIG_HORM_002",
+            "op": "present"
+          }
+        ]
+      },
+      "reflectionType": "Hormonal rhythm pattern",
+      "targetScreen": "S77",
+      "templateCopy": "Your responses describe changes in body rhythm and hormonal signs that may be useful to track together.",
+      "priority": 5
+    },
+    {
+      "ruleId": "REF_007",
+      "condition": {
+        "signal": "SIG_DLY_006",
+        "op": "present"
+      },
+      "reflectionType": "High-burden",
+      "targetScreen": "S77B",
+      "templateCopy": "Some of what you described may be affecting your daily life more than expected.",
+      "priority": 6
+    },
+    {
+      "ruleId": "REF_008",
+      "condition": {
+        "any": [
+          {
+            "signal": "SIG_CARE_003",
+            "op": "present"
+          },
+          {
+            "signal": "SIG_CARE_002",
+            "op": "present"
+          }
+        ]
+      },
+      "reflectionType": "Care access",
+      "targetScreen": "S77",
+      "templateCopy": "Your responses suggest that getting answers or feeling heard has been part of the experience.",
+      "priority": 7
+    },
+    {
+      "ruleId": "REF_009",
+      "condition": {
+        "any": [
+          {
+            "signal": "SIG_SEN_001",
+            "op": "present"
+          },
+          {
+            "signal": "SIG_SEN_002",
+            "op": "present"
+          },
+          {
+            "signal": "SIG_SEN_003",
+            "op": "present"
+          }
+        ]
+      },
+      "reflectionType": "Sensitive cluster",
+      "targetScreen": "S77",
+      "templateCopy": "Some experiences are more personal to describe. Your responses still help preserve patterns that may matter over time.",
+      "priority": 8
+    },
+    {
+      "ruleId": "REF_010",
+      "condition": {
+        "signal": "SIG_SAFE_001",
+        "op": "present"
+      },
+      "reflectionType": "Safety note",
+      "targetScreen": "S77B",
+      "templateCopy": "Some responses were marked as potentially urgent. Womb Atlas is not an emergency service; please seek local urgent or emergency care if symptoms feel severe or unsafe.",
+      "priority": 9
+    },
+    {
+      "ruleId": "REF_012",
+      "condition": {
+        "burden": "High"
+      },
+      "reflectionType": "Multi-domain",
+      "targetScreen": "S77B",
+      "templateCopy": "Your Atlas Record shows patterns across more than one domain, which may be useful to review over time or share with a provider if you choose.",
+      "priority": 10
+    }
+  ]
+}

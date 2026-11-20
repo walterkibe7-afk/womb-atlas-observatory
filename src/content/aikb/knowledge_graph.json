@@ -1,0 +1,1804 @@
+{
+  "edges": [
+    {
+      "fromId": "OBS-002",
+      "toId": "SIG-002",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-002",
+      "toId": "PAT-002",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-002",
+      "toId": "RFL-002",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-003",
+      "toId": "SIG-003",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-003",
+      "toId": "PAT-003",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-003",
+      "toId": "RFL-003",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-004",
+      "toId": "SIG-004",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-004",
+      "toId": "PAT-004",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-004",
+      "toId": "RFL-004",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-005",
+      "toId": "SIG-005",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-005",
+      "toId": "PAT-005",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-005",
+      "toId": "RFL-005",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-006",
+      "toId": "SIG-006",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-006",
+      "toId": "PAT-006",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-006",
+      "toId": "RFL-006",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-007",
+      "toId": "SIG-007",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-007",
+      "toId": "PAT-007",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-007",
+      "toId": "RFL-007",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-008",
+      "toId": "SIG-008",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-008",
+      "toId": "PAT-008",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-008",
+      "toId": "RFL-008",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-009",
+      "toId": "SIG-009",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-009",
+      "toId": "PAT-009",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-009",
+      "toId": "RFL-009",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-010",
+      "toId": "SIG-010",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-010",
+      "toId": "PAT-010",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-010",
+      "toId": "RFL-010",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-011",
+      "toId": "SIG-011",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-011",
+      "toId": "PAT-011",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-011",
+      "toId": "RFL-011",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-012",
+      "toId": "SIG-012",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-012",
+      "toId": "PAT-012",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-012",
+      "toId": "RFL-012",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-013",
+      "toId": "SIG-013",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-013",
+      "toId": "PAT-013",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-013",
+      "toId": "RFL-013",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-014",
+      "toId": "SIG-014",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-014",
+      "toId": "PAT-014",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-014",
+      "toId": "RFL-014",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-015",
+      "toId": "SIG-015",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-015",
+      "toId": "PAT-015",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-015",
+      "toId": "RFL-015",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-016",
+      "toId": "SIG-016",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-016",
+      "toId": "PAT-016",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-016",
+      "toId": "RFL-016",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-017",
+      "toId": "SIG-017",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-017",
+      "toId": "PAT-017",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-017",
+      "toId": "RFL-017",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-018",
+      "toId": "SIG-018",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-018",
+      "toId": "PAT-018",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-018",
+      "toId": "RFL-018",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-019",
+      "toId": "SIG-019",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-019",
+      "toId": "PAT-019",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-019",
+      "toId": "RFL-019",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-020",
+      "toId": "SIG-020",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-020",
+      "toId": "PAT-020",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-020",
+      "toId": "RFL-020",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-021",
+      "toId": "SIG-021",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-021",
+      "toId": "PAT-021",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-021",
+      "toId": "RFL-021",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-022",
+      "toId": "SIG-022",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-022",
+      "toId": "PAT-022",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-022",
+      "toId": "RFL-022",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-023",
+      "toId": "SIG-023",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-023",
+      "toId": "PAT-023",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-023",
+      "toId": "RFL-023",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-024",
+      "toId": "SIG-024",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-024",
+      "toId": "PAT-024",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-024",
+      "toId": "RFL-024",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-025",
+      "toId": "SIG-025",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-025",
+      "toId": "PAT-025",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-025",
+      "toId": "RFL-025",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-026",
+      "toId": "SIG-026",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-026",
+      "toId": "PAT-026",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-026",
+      "toId": "RFL-026",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-027",
+      "toId": "SIG-027",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-027",
+      "toId": "PAT-027",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-027",
+      "toId": "RFL-027",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-028",
+      "toId": "SIG-028",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-028",
+      "toId": "PAT-028",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-028",
+      "toId": "RFL-028",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-029",
+      "toId": "SIG-029",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-029",
+      "toId": "PAT-029",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-029",
+      "toId": "RFL-029",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-030",
+      "toId": "SIG-030",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-030",
+      "toId": "PAT-030",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-030",
+      "toId": "RFL-030",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-031",
+      "toId": "SIG-031",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-031",
+      "toId": "PAT-031",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-031",
+      "toId": "RFL-031",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-032",
+      "toId": "SIG-032",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-032",
+      "toId": "PAT-032",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-032",
+      "toId": "RFL-032",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-033",
+      "toId": "SIG-033",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-033",
+      "toId": "PAT-033",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-033",
+      "toId": "RFL-033",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-034",
+      "toId": "SIG-034",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-034",
+      "toId": "PAT-034",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-034",
+      "toId": "RFL-034",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-035",
+      "toId": "SIG-035",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-035",
+      "toId": "PAT-035",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-035",
+      "toId": "RFL-035",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-036",
+      "toId": "SIG-036",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-036",
+      "toId": "PAT-036",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-036",
+      "toId": "RFL-036",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-037",
+      "toId": "SIG-037",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-037",
+      "toId": "PAT-037",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-037",
+      "toId": "RFL-037",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-038",
+      "toId": "SIG-038",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-038",
+      "toId": "PAT-038",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-038",
+      "toId": "RFL-038",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-039",
+      "toId": "SIG-039",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-039",
+      "toId": "PAT-039",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-039",
+      "toId": "RFL-039",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-040",
+      "toId": "SIG-040",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-040",
+      "toId": "PAT-040",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-040",
+      "toId": "RFL-040",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-001",
+      "toId": "SIG-001",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-001",
+      "toId": "PAT-001",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-001",
+      "toId": "RFL-001",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-002",
+      "toId": "SIG-002",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-002",
+      "toId": "PAT-002",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-002",
+      "toId": "RFL-002",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-003",
+      "toId": "SIG-003",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-003",
+      "toId": "PAT-003",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-003",
+      "toId": "RFL-003",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-004",
+      "toId": "SIG-004",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-004",
+      "toId": "PAT-004",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-004",
+      "toId": "RFL-004",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-005",
+      "toId": "SIG-005",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-005",
+      "toId": "PAT-005",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-005",
+      "toId": "RFL-005",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-006",
+      "toId": "SIG-006",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-006",
+      "toId": "PAT-006",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-006",
+      "toId": "RFL-006",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-007",
+      "toId": "SIG-007",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-007",
+      "toId": "PAT-007",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-007",
+      "toId": "RFL-007",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-008",
+      "toId": "SIG-008",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-008",
+      "toId": "PAT-008",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-008",
+      "toId": "RFL-008",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-009",
+      "toId": "SIG-009",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-009",
+      "toId": "PAT-009",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-009",
+      "toId": "RFL-009",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-010",
+      "toId": "SIG-010",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-010",
+      "toId": "PAT-010",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-010",
+      "toId": "RFL-010",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-011",
+      "toId": "SIG-011",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-011",
+      "toId": "PAT-011",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-011",
+      "toId": "RFL-011",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-012",
+      "toId": "SIG-012",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-012",
+      "toId": "PAT-012",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-012",
+      "toId": "RFL-012",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-013",
+      "toId": "SIG-013",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-013",
+      "toId": "PAT-013",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-013",
+      "toId": "RFL-013",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-014",
+      "toId": "SIG-014",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-014",
+      "toId": "PAT-014",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-014",
+      "toId": "RFL-014",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-015",
+      "toId": "SIG-015",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-015",
+      "toId": "PAT-015",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-015",
+      "toId": "RFL-015",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-016",
+      "toId": "SIG-016",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-016",
+      "toId": "PAT-016",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-016",
+      "toId": "RFL-016",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-017",
+      "toId": "SIG-017",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-017",
+      "toId": "PAT-017",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-017",
+      "toId": "RFL-017",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-018",
+      "toId": "SIG-018",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-018",
+      "toId": "PAT-018",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-018",
+      "toId": "RFL-018",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-019",
+      "toId": "SIG-019",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-019",
+      "toId": "PAT-019",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-019",
+      "toId": "RFL-019",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-020",
+      "toId": "SIG-020",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-020",
+      "toId": "PAT-020",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-020",
+      "toId": "RFL-020",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-021",
+      "toId": "SIG-021",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-021",
+      "toId": "PAT-021",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-021",
+      "toId": "RFL-021",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-022",
+      "toId": "SIG-022",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-022",
+      "toId": "PAT-022",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-022",
+      "toId": "RFL-022",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-023",
+      "toId": "SIG-023",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-023",
+      "toId": "PAT-023",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-023",
+      "toId": "RFL-023",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-024",
+      "toId": "SIG-024",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-024",
+      "toId": "PAT-024",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-024",
+      "toId": "RFL-024",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-025",
+      "toId": "SIG-025",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-025",
+      "toId": "PAT-025",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-025",
+      "toId": "RFL-025",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-026",
+      "toId": "SIG-026",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-026",
+      "toId": "PAT-026",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-026",
+      "toId": "RFL-026",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-027",
+      "toId": "SIG-027",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-027",
+      "toId": "PAT-027",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-027",
+      "toId": "RFL-027",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-028",
+      "toId": "SIG-028",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-028",
+      "toId": "PAT-028",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-028",
+      "toId": "RFL-028",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-029",
+      "toId": "SIG-029",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-029",
+      "toId": "PAT-029",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-029",
+      "toId": "RFL-029",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-030",
+      "toId": "SIG-030",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-030",
+      "toId": "PAT-030",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-030",
+      "toId": "RFL-030",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-031",
+      "toId": "SIG-031",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-031",
+      "toId": "PAT-031",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-031",
+      "toId": "RFL-031",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-032",
+      "toId": "SIG-032",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-032",
+      "toId": "PAT-032",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-032",
+      "toId": "RFL-032",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-033",
+      "toId": "SIG-033",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-033",
+      "toId": "PAT-033",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-033",
+      "toId": "RFL-033",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-034",
+      "toId": "SIG-034",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-034",
+      "toId": "PAT-034",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-034",
+      "toId": "RFL-034",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-035",
+      "toId": "SIG-035",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-035",
+      "toId": "PAT-035",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-035",
+      "toId": "RFL-035",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-036",
+      "toId": "SIG-036",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-036",
+      "toId": "PAT-036",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-036",
+      "toId": "RFL-036",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-037",
+      "toId": "SIG-037",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-037",
+      "toId": "PAT-037",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-037",
+      "toId": "RFL-037",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-038",
+      "toId": "SIG-038",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-038",
+      "toId": "PAT-038",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-038",
+      "toId": "RFL-038",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-039",
+      "toId": "SIG-039",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-039",
+      "toId": "PAT-039",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-039",
+      "toId": "RFL-039",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-040",
+      "toId": "SIG-040",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-040",
+      "toId": "PAT-040",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-040",
+      "toId": "RFL-040",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-001",
+      "toId": "SIG-001",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-001",
+      "toId": "PAT-001",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-001",
+      "toId": "RFL-001",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-002",
+      "toId": "SIG-002",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-002",
+      "toId": "PAT-002",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-002",
+      "toId": "RFL-002",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-003",
+      "toId": "SIG-003",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-003",
+      "toId": "PAT-003",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-003",
+      "toId": "RFL-003",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-004",
+      "toId": "SIG-004",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-004",
+      "toId": "PAT-004",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-004",
+      "toId": "RFL-004",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-005",
+      "toId": "SIG-005",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-005",
+      "toId": "PAT-005",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-005",
+      "toId": "RFL-005",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-006",
+      "toId": "SIG-006",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-006",
+      "toId": "PAT-006",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-006",
+      "toId": "RFL-006",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-007",
+      "toId": "SIG-007",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-007",
+      "toId": "PAT-007",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-007",
+      "toId": "RFL-007",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-008",
+      "toId": "SIG-008",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-008",
+      "toId": "PAT-008",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-008",
+      "toId": "RFL-008",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-009",
+      "toId": "SIG-009",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-009",
+      "toId": "PAT-009",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-009",
+      "toId": "RFL-009",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-010",
+      "toId": "SIG-010",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-010",
+      "toId": "PAT-010",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-010",
+      "toId": "RFL-010",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-011",
+      "toId": "SIG-011",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-011",
+      "toId": "PAT-011",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-011",
+      "toId": "RFL-011",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-012",
+      "toId": "SIG-012",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-012",
+      "toId": "PAT-012",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-012",
+      "toId": "RFL-012",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-013",
+      "toId": "SIG-013",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-013",
+      "toId": "PAT-013",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-013",
+      "toId": "RFL-013",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-014",
+      "toId": "SIG-014",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-014",
+      "toId": "PAT-014",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-014",
+      "toId": "RFL-014",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-015",
+      "toId": "SIG-015",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-015",
+      "toId": "PAT-015",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-015",
+      "toId": "RFL-015",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-016",
+      "toId": "SIG-016",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-016",
+      "toId": "PAT-016",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-016",
+      "toId": "RFL-016",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-017",
+      "toId": "SIG-017",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-017",
+      "toId": "PAT-017",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-017",
+      "toId": "RFL-017",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-018",
+      "toId": "SIG-018",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-018",
+      "toId": "PAT-018",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-018",
+      "toId": "RFL-018",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-019",
+      "toId": "SIG-019",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-019",
+      "toId": "PAT-019",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-019",
+      "toId": "RFL-019",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-020",
+      "toId": "SIG-020",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-020",
+      "toId": "PAT-020",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-020",
+      "toId": "RFL-020",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-021",
+      "toId": "SIG-021",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-021",
+      "toId": "PAT-021",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-021",
+      "toId": "RFL-021",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-022",
+      "toId": "SIG-022",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-022",
+      "toId": "PAT-022",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-022",
+      "toId": "RFL-022",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-023",
+      "toId": "SIG-023",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-023",
+      "toId": "PAT-023",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-023",
+      "toId": "RFL-023",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-024",
+      "toId": "SIG-024",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-024",
+      "toId": "PAT-024",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-024",
+      "toId": "RFL-024",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-025",
+      "toId": "SIG-025",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-025",
+      "toId": "PAT-025",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-025",
+      "toId": "RFL-025",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-026",
+      "toId": "SIG-026",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-026",
+      "toId": "PAT-026",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-026",
+      "toId": "RFL-026",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-027",
+      "toId": "SIG-027",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-027",
+      "toId": "PAT-027",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-027",
+      "toId": "RFL-027",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-028",
+      "toId": "SIG-028",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-028",
+      "toId": "PAT-028",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-028",
+      "toId": "RFL-028",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-029",
+      "toId": "SIG-029",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-029",
+      "toId": "PAT-029",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-029",
+      "toId": "RFL-029",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-030",
+      "toId": "SIG-030",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-030",
+      "toId": "PAT-030",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-030",
+      "toId": "RFL-030",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-031",
+      "toId": "SIG-031",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-031",
+      "toId": "PAT-031",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-031",
+      "toId": "RFL-031",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-032",
+      "toId": "SIG-032",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-032",
+      "toId": "PAT-032",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-032",
+      "toId": "RFL-032",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-033",
+      "toId": "SIG-033",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-033",
+      "toId": "PAT-033",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-033",
+      "toId": "RFL-033",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-034",
+      "toId": "SIG-034",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-034",
+      "toId": "PAT-034",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-034",
+      "toId": "RFL-034",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-035",
+      "toId": "SIG-035",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-035",
+      "toId": "PAT-035",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-035",
+      "toId": "RFL-035",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-036",
+      "toId": "SIG-036",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-036",
+      "toId": "PAT-036",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-036",
+      "toId": "RFL-036",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-037",
+      "toId": "SIG-037",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-037",
+      "toId": "PAT-037",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-037",
+      "toId": "RFL-037",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-038",
+      "toId": "SIG-038",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-038",
+      "toId": "PAT-038",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-038",
+      "toId": "RFL-038",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-039",
+      "toId": "SIG-039",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-039",
+      "toId": "PAT-039",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-039",
+      "toId": "RFL-039",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-040",
+      "toId": "SIG-040",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-040",
+      "toId": "PAT-040",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-040",
+      "toId": "RFL-040",
+      "relationship": "SURFACES_IN"
+    },
+    {
+      "fromId": "OBS-001",
+      "toId": "SIG-001",
+      "relationship": "SUPPORTED_BY"
+    },
+    {
+      "fromId": "SIG-001",
+      "toId": "PAT-001",
+      "relationship": "LEADS_TO"
+    },
+    {
+      "fromId": "PAT-001",
+      "toId": "RFL-001",
+      "relationship": "SURFACES_IN"
+    }
+  ]
+}

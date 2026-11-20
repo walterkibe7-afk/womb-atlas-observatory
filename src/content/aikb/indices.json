@@ -1,0 +1,46 @@
+{
+  "definitions": [
+    {
+      "id": "IDX-001",
+      "name": "Bleeding Impact Index",
+      "description": "Observational index of bleeding-related burden across product use, duration, and daily impact.",
+      "patternIds": [
+        "PAT-001"
+      ]
+    },
+    {
+      "id": "IDX-002",
+      "name": "Pain Spread Index",
+      "description": "Observational index of pain timing, location, and functional spread.",
+      "patternIds": [
+        "PAT-002",
+        "PAT-003"
+      ]
+    },
+    {
+      "id": "IDX-003",
+      "name": "Rhythm Change Index",
+      "description": "Observational index of cycle and hormonal rhythm change.",
+      "patternIds": [
+        "PAT-004",
+        "PAT-007"
+      ]
+    },
+    {
+      "id": "IDX-004",
+      "name": "Life Impact Index",
+      "description": "Observational index of daily life reorganization.",
+      "patternIds": [
+        "PAT-005"
+      ]
+    },
+    {
+      "id": "IDX-005",
+      "name": "Care Experience Index",
+      "description": "Observational index of care access and friction.",
+      "patternIds": [
+        "PAT-006"
+      ]
+    }
+  ]
+}

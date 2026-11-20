@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "workbookSearchDir": "prisma/seed/aikb-specs",
+  "workbookExtensions": [".xlsx", ".xlsm"],
+  "sheets": {
+    "observations": {
+      "match": ["observation_registry", "0_observation", "observations"],
+      "requiredColumns": ["field_id", "section", "label"],
+      "columnAliases": {
+        "field_id": ["field_id", "fieldid", "field", "question_field_id"],
+        "section": ["section", "domain", "chamber"],
+        "label": ["label", "field_label", "question_label", "display_label"]
+      }
+    },
+    "signals": {
+      "match": ["signal_registry", "body_signal", "functional_signal", "care_signal", "narrative_signal", "1_", "2_", "3_", "4_"],
+      "requiredColumns": ["id", "observation_field_id", "signal_type", "label"],
+      "columnAliases": {
+        "id": ["id", "signal_id", "sig_id"],
+        "observation_field_id": ["observation_field_id", "field_id", "observation_field"],
+        "signal_type": ["signal_type", "type", "signal_category"],
+        "label": ["label", "signal_label", "name"]
+      }
+    },
+    "patterns": {
+      "match": ["pattern_registry", "7_pattern", "15_pattern", "patterns"],
+      "requiredColumns": ["id", "name", "domain", "meaning", "atlas_note", "watch_over_time"],
+      "columnAliases": {
+        "id": ["id", "pattern_id", "pat_id"],
+        "name": ["name", "pattern_name"],
+        "domain": ["domain", "pattern_domain"],
+        "field_ids": ["field_ids", "fields", "field_id_list"],
+        "narrative_cues": ["narrative_cues", "narrative_cue", "narrative_signals"],
+        "value_checks": ["value_checks", "detection_rules", "rules"],
+        "meaning": ["meaning", "plain_language_meaning"],
+        "atlas_note": ["atlas_note", "body_literacy_hook", "education_note"],
+        "watch_over_time": ["watch_over_time", "trajectory_watch", "watch"]
+      }
+    },
+    "archetypes": {
+      "match": ["archetype_registry", "20_archetype", "reflection_archetype", "arif"],
+      "requiredColumns": ["id", "name", "tone"],
+      "columnAliases": {
+        "id": ["id", "archetype_id", "arch_id"],
+        "name": ["name", "archetype_name"],
+        "tone": ["tone", "voice", "reflection_tone"],
+        "selection_signals": ["selection_signals", "signal_types", "selection_signal"]
+      }
+    },
+    "knowledgeGraph": {
+      "match": ["knowledge_graph", "9_knowledge", "kg"],
+      "requiredColumns": ["from_id", "to_id", "relationship"],
+      "columnAliases": {
+        "from_id": ["from_id", "from", "source_id"],
+        "to_id": ["to_id", "to", "target_id"],
+        "relationship": ["relationship", "relation", "edge_type"]
+      }
+    },
+    "indices": {
+      "match": ["indices", "11_indices", "atlas_indices"],
+      "requiredColumns": ["id", "name", "description"],
+      "columnAliases": {
+        "id": ["id", "index_id"],
+        "name": ["name", "index_name"],
+        "description": ["description", "summary"],
+        "pattern_ids": ["pattern_ids", "patterns", "pattern_id_list"]
+      }
+    },
+    "governance": {
+      "match": ["governance", "13_governance", "guardrails"],
+      "requiredColumns": ["id", "rule", "severity"],
+      "columnAliases": {
+        "id": ["id", "rule_id", "gov_id"],
+        "rule": ["rule", "policy", "guardrail"],
+        "severity": ["severity", "level"]
+      }
+    }
+  }
+}

@@ -1,0 +1,280 @@
+# Womb Atlas Observatory
+# Environment Setup Guide
+
+Last Updated: June 2026
+
+---
+
+## Purpose
+
+This guide enables a new engineer to fully set up the Womb Atlas Observatory development environment.
+
+---
+
+# Required Access
+
+Before beginning, confirm access to:
+
+- GitHub Repository
+- Figma Workspace
+- Google Cloud Platform Project
+- Cursor Workspace
+
+---
+
+# Repository
+
+Repository:
+
+womb-atlas-observatory
+
+Branch strategy:
+
+main = production source of truth
+
+Feature branches should be used for new work.
+
+---
+
+# Local Development Setup
+
+## Clone Repository
+
+git clone <repository-url>
+
+cd womb-atlas-observatory
+
+---
+
+## Install Dependencies
+
+npm install
+
+or
+
+pnpm install
+
+depending on package manager used in repository.
+
+---
+
+## Environment Variables
+
+Create:
+
+.env.local
+
+Populate with project credentials.
+
+# Environment Setup
+
+## Repository
+
+Clone:
+
+https://github.com/wombatlas/womb-atlas-observatory
+
+## Requirements
+
+* Node.js v24.16.0
+* npm v11.13.0
+* Docker Desktop
+* Git
+* Cursor
+
+## Local Setup
+
+npm install
+
+docker compose up -d postgres
+
+npm run db:migrate
+
+npm run db:seed
+
+npm run dev
+
+## Local URL
+
+http://localhost:3000
+
+## Authentication
+
+Google OAuth
+
+## Database
+
+PostgreSQL via Docker
+
+## Required Environment Variables
+
+See .env.example
+
+Production secrets are provided separately.
+
+
+---
+
+# Database
+
+Current database:
+
+PostgreSQL
+
+Environment:
+
+Google Cloud SQL
+
+Required:
+
+- Connection access
+- Migration access
+
+---
+
+# Storage
+
+Current storage:
+
+Google Cloud Storage
+
+Purpose:
+
+- Audio uploads
+- Atlas Records
+- Future participant files
+
+---
+
+# Authentication
+
+Current approach:
+
+Google OAuth
+
+Future:
+
+Role-based access control
+
+Roles:
+
+- Participant
+- Steward
+- Reviewer
+- Admin
+
+---
+
+# Design Assets
+
+Source of truth:
+
+Figma
+
+Important references:
+
+- First Observation
+- Atlas Record
+- Reflection Chamber
+- Steward Layer
+- Administration Layer
+- Seed Intelligence Layer
+
+---
+
+# Specifications
+
+Primary specifications are located in:
+
+/specifications
+
+Key files:
+
+- Womb Atlas Observatory MVP Build Specification
+- Master Screen Register
+- Atlas AI Stack Workbook
+
+---
+
+# AI Stack Source of Truth
+
+Current source:
+
+Womb_Atlas_Master_Screen_Register_v4_2_AI_Stack_Tabs.xlsx
+
+Key tabs:
+
+- Pattern Registry
+- Narrative Signal Registry
+- Meaning Registry
+- Body Literacy Library
+- Reflection Composition Engine
+
+Engineers should treat these tabs as the current Atlas Intelligence source of truth.
+
+---
+
+# Deployment
+
+Current hosting:
+
+Google Cloud Platform
+
+Primary services:
+
+- Cloud Run
+- Cloud Storage
+- Cloud SQL
+
+Deployment configuration documented separately.
+
+---
+
+# Coding Standards
+
+Requirements:
+
+- Strong typing
+- Modular services
+- Reusable architecture
+- No intelligence logic inside UI components
+
+Preferred pattern:
+
+UI
+↓
+Service Layer
+↓
+Atlas Intelligence Layer
+↓
+Database
+
+---
+
+# Current Priority
+
+Current focus is not visual redesign.
+
+Current focus is:
+
+Reflection Chamber Intelligence
+→ Atlas Intelligence Architecture
+→ Timeline
+→ Check-In
+→ Steward Layer
+
+---
+
+# First Task For New Engineers
+
+Read:
+
+1. BUILD_STATUS.md
+2. NEXT_PRIORITIES.md
+3. AI_STACK_IMPLEMENTATION.md
+4. Master Screen Register
+5. Atlas AI Stack Workbook
+
+Only after understanding these documents should development begin.
+
+---

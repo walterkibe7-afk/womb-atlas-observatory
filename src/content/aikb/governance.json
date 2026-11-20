@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "id": "GOV-001",
+      "rule": "Never diagnose",
+      "severity": "warn"
+    },
+    {
+      "id": "GOV-002",
+      "rule": "Use observational language",
+      "severity": "warn"
+    },
+    {
+      "id": "GOV-003",
+      "rule": "State uncertainty",
+      "severity": "warn"
+    },
+    {
+      "id": "GOV-004",
+      "rule": "Surface strengths",
+      "severity": "warn"
+    },
+    {
+      "id": "GOV-005",
+      "rule": "Recommend clinical discussion when appropriate",
+      "severity": "warn"
+    },
+    {
+      "id": "GOV-006",
+      "rule": "Provide explainability trace",
+      "severity": "warn"
+    }
+  ]
+}

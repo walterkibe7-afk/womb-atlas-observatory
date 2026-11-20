@@ -1,0 +1,74 @@
+{
+  "UI.back": {
+    "es": "Atrás",
+    "fr": "Retour",
+    "ur": "واپس",
+    "sw": "Rudi",
+    "luo": "Dok chien",
+    "kik": "Cooka thutha"
+  },
+  "UI.cancel": {
+    "es": "Cancelar",
+    "fr": "Annuler",
+    "ur": "منسوخ کریں",
+    "sw": "Ghairi",
+    "luo": "We",
+    "kik": "Tiga"
+  },
+  "UI.continue": {
+    "es": "Continuar",
+    "fr": "Continuer",
+    "ur": "جاری رکھیں",
+    "sw": "Endelea",
+    "luo": "Dhi nyime",
+    "kik": "Thiĩ na mbere"
+  },
+  "UI.finish": {
+    "es": "Finalizar",
+    "fr": "Terminer",
+    "ur": "مکمل کریں",
+    "sw": "Maliza",
+    "luo": "Tiek",
+    "kik": "Rĩkia"
+  },
+  "UI.saveAndContinue": {
+    "es": "Guardar y continuar",
+    "fr": "Enregistrer et continuer",
+    "ur": "محفوظ کریں اور جاری رکھیں",
+    "sw": "Hifadhi na uendelee",
+    "luo": "Kan kendo idhi nyime",
+    "kik": "Iga na ũthiĩ na mbere"
+  },
+  "UI.saveSelection": {
+    "es": "Guardar selección",
+    "fr": "Enregistrer la sélection",
+    "ur": "انتخاب محفوظ کریں",
+    "sw": "Hifadhi uteuzi",
+    "luo": "Kan yiero",
+    "kik": "Iga ũrĩa ũthuurĩte"
+  },
+  "UI.saving": {
+    "es": "Guardando…",
+    "fr": "Enregistrement…",
+    "ur": "محفوظ ہو رہا ہے…",
+    "sw": "Inahifadhi…",
+    "luo": "Kano…",
+    "kik": "Nĩ kũigwo…"
+  },
+  "UI.skipSection": {
+    "es": "Omitir esta sección",
+    "fr": "Passer cette section",
+    "ur": "یہ سیکشن چھوڑ دیں",
+    "sw": "Ruka sehemu hii",
+    "luo": "Kal sula ni",
+    "kik": "Buthĩra gĩcunjĩ gĩkĩ"
+  },
+  "UI.safetyCheckNotice": {
+    "es": "Esta es una verificación rápida de seguridad. Womb Atlas no es un servicio de emergencia y no proporciona un diagnóstico.",
+    "fr": "Il s'agit d'une vérification rapide de sécurité. Womb Atlas n'est pas un service d'urgence et ne fournit pas de diagnostic.",
+    "ur": "یہ ایک فوری حفاظتی چیک ہے۔ وومب اٹلس کوئی ایمرجنسی سروس نہیں ہے اور تشخیص فراہم نہیں کرتا۔",
+    "sw": "Huu ni ukaguzi wa haraka wa usalama. Womb Atlas si huduma ya dharura na haitambui magonjwa.",
+    "luo": "Ma en rang'o mapiyo mag arita. Womb Atlas ok en tich ma konyo e kinde mag masira kendo ok ng'ad tuoche.",
+    "kik": "Ũyũ nĩ ũrorani wa naihenya wa ũgitĩri. Womb Atlas ti wĩra wa hĩndĩ ya mĩtino na ndĩmenyaga mĩrimũ."
+  }
+}

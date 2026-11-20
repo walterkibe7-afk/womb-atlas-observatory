@@ -1,0 +1,3005 @@
+{
+  "_template.nonDiagnosticDisclaimer": {
+    "fr": "Ce dossier n'est pas un diagnostic. C'est un reflet de votre expérience vécue telle qu'observée."
+  },
+  "_template.narrativeLabel": {
+    "fr": "Récit"
+  },
+  "_template.sensitiveNarrativeLabel": {
+    "fr": "Récit sensible"
+  },
+  "_template.pdfPage": {
+    "fr": "Page"
+  },
+  "_template.pdfGeneratedByFooter": {
+    "fr": "Généré par Womb Atlas — à titre d'observation, pas de diagnostic"
+  },
+  "_template.pdfTimelineTitle": {
+    "fr": "Chronologie Atlas"
+  },
+  "_template.pdfEventSingular": {
+    "fr": "événement"
+  },
+  "_template.pdfEventPlural": {
+    "fr": "événements"
+  },
+  "_template.pdfGeneratedPrefix": {
+    "fr": "Généré"
+  },
+  "_template.pdfHealthJourney": {
+    "fr": "Parcours de Santé"
+  },
+  "_template.pdfNoTimelineEvents": {
+    "fr": "Aucun événement de chronologie pour l'instant — ceci se remplira une fois votre première observation terminée."
+  },
+  "_template.pdfSignalEvolutionOverTime": {
+    "fr": "Évolution des Signaux au Fil du Temps"
+  },
+  "_template.pdfSignalTrendsEmpty": {
+    "fr": "Les tendances de vos signaux apparaîtront ici une fois votre premier Dossier Atlas généré."
+  },
+  "_template.pdfDateColumn": {
+    "fr": "Date"
+  },
+  "_template.pdfCareJourney": {
+    "fr": "Parcours de Soins"
+  },
+  "_template.pdfCareJourneyEmpty": {
+    "fr": "Commence une fois que vous aurez terminé votre première observation."
+  },
+  "_template.pdfCurrentPhasePrefix": {
+    "fr": "Phase actuelle :"
+  },
+  "_template.pdfDone": {
+    "fr": "Terminé"
+  },
+  "_template.pdfPending": {
+    "fr": "En Attente"
+  },
+  "_template.pdfLifeStageJourney": {
+    "fr": "Parcours d'Étape de Vie"
+  },
+  "_template.pdfLifeStageEmpty": {
+    "fr": "Partagez votre contexte dans votre première observation pour voir cela ici."
+  },
+  "_template.pdfYouAreInYour": {
+    "fr": "Vous êtes dans votre"
+  },
+  "_template.burdenLevelLow": {
+    "fr": "Faible"
+  },
+  "_template.burdenLevelModerate": {
+    "fr": "Modérée"
+  },
+  "_template.burdenLevelHigh": {
+    "fr": "Élevée"
+  },
+  "_template.pdfRecordTitle": {
+    "fr": "Dossier Atlas"
+  },
+  "_template.pdfBurdenPrefix": {
+    "fr": "Charge :"
+  },
+  "_template.pdfObservationPortrait": {
+    "fr": "Portrait d'Observation"
+  },
+  "_template.pdfDominantPattern": {
+    "fr": "Schéma Dominant"
+  },
+  "_template.pdfSupportingPatterns": {
+    "fr": "Schémas de Soutien"
+  },
+  "_template.pdfAtlasArchetype": {
+    "fr": "Archétype Atlas"
+  },
+  "_template.pdfWhatArchetypeMeans": {
+    "fr": "Ce Que Cet Archétype Signifie"
+  },
+  "_template.pdfSignalLandscape": {
+    "fr": "Panorama des Signaux"
+  },
+  "_template.pdfSignalsObserved": {
+    "fr": "Signaux Observés"
+  },
+  "_template.pdfDomainColumn": {
+    "fr": "Domaine"
+  },
+  "_template.pdfSignalColumn": {
+    "fr": "Signal"
+  },
+  "_template.pdfSeverityColumn": {
+    "fr": "Sévérité"
+  },
+  "_template.pdfNarrativeThemes": {
+    "fr": "Thèmes Narratifs"
+  },
+  "_template.pdfExperienceLayers": {
+    "fr": "Couches d'Expérience"
+  },
+  "_template.pdfStrengthsObserved": {
+    "fr": "Points Forts Observés par Atlas"
+  },
+  "_template.pdfBodyLiteracy": {
+    "fr": "Connaissance du Corps"
+  },
+  "_template.pdfWhatAtlasWillWatch": {
+    "fr": "Ce Qu'Atlas Va Observer"
+  },
+  "_template.pdfReflectionCompass": {
+    "fr": "Boussole de Réflexion"
+  },
+  "_template.pdfStrongestTheme": {
+    "fr": "Thème le Plus Fort"
+  },
+  "_template.pdfEmergingTheme": {
+    "fr": "Thème Émergent"
+  },
+  "_template.pdfStrengthObserved": {
+    "fr": "Force Observée"
+  },
+  "_template.pdfRecordDisclaimerFallback": {
+    "fr": "Ce Dossier Atlas est d'observation et de réflexion. Ce n'est pas un diagnostic."
+  },
+  "_template.streakMonthSingular": {
+    "fr": "Mois"
+  },
+  "_template.streakMonthPlural": {
+    "fr": "Mois"
+  },
+  "_template.progressFirstObservationComplete": {
+    "fr": "Première observation terminée"
+  },
+  "_template.progressContinueFirstObservation": {
+    "fr": "Continuez votre première observation"
+  },
+  "_template.reflectionSummaryFallback": {
+    "fr": "Votre réflexion est un résumé de ce que vous avez partagé et de ce qui compte le plus pour vous."
+  },
+  "_template.timelineFirstObservationTitle": {
+    "fr": "Première Observation"
+  },
+  "_template.timelineFirstObservationDesc": {
+    "fr": "Votre observation de référence"
+  },
+  "_template.timelineObservationEditedTitle": {
+    "fr": "Observation Modifiée"
+  },
+  "_template.timelineObservationEditedDesc": {
+    "fr": "Votre première observation a été mise à jour"
+  },
+  "_template.timelineCheckinCompletedTitle": {
+    "fr": "Check-In Terminé"
+  },
+  "_template.timelineCheckinCompletedDesc": {
+    "fr": "Mises à jour ajoutées à votre chronologie"
+  },
+  "_template.timelineReflectionGeneratedTitle": {
+    "fr": "Réflexion Générée"
+  },
+  "_template.timelineKeyThemesIdentified": {
+    "fr": "thèmes clés identifiés"
+  },
+  "_template.timelineReflectionReady": {
+    "fr": "Votre réflexion est prête"
+  },
+  "_template.timelineRecordCreatedTitle": {
+    "fr": "Dossier Atlas Créé"
+  },
+  "_template.timelineRecordCreatedDesc": {
+    "fr": "Le dossier est prêt à être revu"
+  },
+  "_template.timelineNextCheckinTitle": {
+    "fr": "Prochain Check-In"
+  },
+  "_template.timelineReadyWheneverYouAre": {
+    "fr": "Prêt quand vous le serez"
+  },
+  "_template.timelineYouWillBeReminded": {
+    "fr": "Vous serez rappelée"
+  },
+  "_template.personalInsightStreakLead": {
+    "fr": "Votre signal de"
+  },
+  "_template.personalInsightStreakMid": {
+    "fr": "est apparu dans"
+  },
+  "_template.personalInsightStreakSuffix": {
+    "fr": "observations consécutives."
+  },
+  "_template.personalInsightEmptyFallback": {
+    "fr": "Votre premier Dossier Atlas est prêt — les perspectives s'approfondissent avec chaque check-in que vous ajoutez."
+  },
+  "_template.observatoryInsightGenericCompanion": {
+    "fr": "changements liés au fil du temps"
+  },
+  "_template.observatoryInsightLead": {
+    "fr": "Les participantes suivant des schémas similaires de"
+  },
+  "_template.observatoryInsightMid": {
+    "fr": "remarquent aussi souvent"
+  },
+  "_template.observatoryInsightComparingHelps": {
+    "fr": "Comparer votre dossier avec l'observatoire plus large aide à identifier ce qu'il faut continuer à observer."
+  },
+  "_template.observatoryInsightEmptyFallback": {
+    "fr": "Une fois que votre premier Dossier Atlas sera généré, vous verrez comment vos schémas se rapportent à l'observatoire plus large."
+  },
+  "domain_bleeding.companionPhrase": {
+    "fr": "fatigue et manque d'énergie"
+  },
+  "domain_pain.companionPhrase": {
+    "fr": "perturbation des projets quotidiens"
+  },
+  "domain_hormonal.companionPhrase": {
+    "fr": "changements du sommeil et de l'humeur"
+  },
+  "domain_cycle.companionPhrase": {
+    "fr": "changements dans la prévisibilité du cycle"
+  },
+  "domain_daily_life.companionPhrase": {
+    "fr": "perturbation du sommeil et manque d'énergie"
+  },
+  "domain_care_access.companionPhrase": {
+    "fr": "voir leurs préoccupations écartées"
+  },
+  "life_stage_adolescence.label": {
+    "fr": "Adolescence"
+  },
+  "life_stage_adolescence.description": {
+    "fr": "Atlas vous aide à comprendre comment vos expériences évoluent à travers cette étape et au-delà."
+  },
+  "life_stage_reproductive.label": {
+    "fr": "Années Reproductives"
+  },
+  "life_stage_reproductive.description": {
+    "fr": "Atlas vous aide à comprendre comment vos expériences évoluent à travers cette étape et au-delà."
+  },
+  "life_stage_pregnancy.label": {
+    "fr": "Grossesse"
+  },
+  "life_stage_pregnancy.description": {
+    "fr": "Atlas suit vos observations en tenant compte de votre grossesse."
+  },
+  "life_stage_postpartum.label": {
+    "fr": "Post-partum"
+  },
+  "life_stage_postpartum.description": {
+    "fr": "Atlas suit vos observations pendant votre rétablissement post-partum."
+  },
+  "life_stage_perimenopause.label": {
+    "fr": "Périménopause"
+  },
+  "life_stage_perimenopause.description": {
+    "fr": "Atlas vous aide à suivre l'évolution du rythme de votre corps pendant cette transition."
+  },
+  "life_stage_menopause.label": {
+    "fr": "Ménopause"
+  },
+  "life_stage_menopause.description": {
+    "fr": "Atlas vous aide à suivre vos schémas au-delà des menstruations."
+  },
+  "care_phase_observation.label": {
+    "fr": "Première Observation"
+  },
+  "care_phase_observation.description": {
+    "fr": "Commencez votre première observation pour débuter votre parcours Atlas."
+  },
+  "care_phase_care_outreach.label": {
+    "fr": "Démarche de Soins"
+  },
+  "care_phase_care_outreach.description": {
+    "fr": "Votre démarche de soins fait partie de votre dossier."
+  },
+  "care_phase_atlas_record.label": {
+    "fr": "Dossier Atlas"
+  },
+  "care_phase_atlas_record.description": {
+    "fr": "Votre Dossier Atlas de référence est prêt. Faites des check-ins au fil du temps pour suivre l'évolution."
+  },
+  "care_phase_check_ins.label": {
+    "fr": "Check-Ins en Cours"
+  },
+  "care_phase_check_ins.description": {
+    "fr": "Vos check-ins enrichissent votre panorama longitudinal."
+  },
+  "care_phase_monitoring.label": {
+    "fr": "Suivi Continu"
+  },
+  "care_phase_monitoring.description": {
+    "fr": "Vous êtes en suivi continu — Atlas continue de construire votre panorama avec chaque check-in."
+  },
+  "bleeding_burden.participantLabel": {
+    "fr": "Saignements abondants ou perturbateurs"
+  },
+  "bleeding_burden.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que les saignements pourraient nécessiter plus de préparation, d'énergie et d'attention dans la vie quotidienne."
+  },
+  "bleeding_burden.atlasNote": {
+    "fr": "Note d'Atlas : La charge liée aux saignements relève de l'observation — elle décrit une expérience vécue, pas un diagnostic."
+  },
+  "bleeding_burden.whyConnected": {
+    "fr": "Atlas a regroupé ces éléments car les réponses liées aux saignements peuvent relier la durée, la charge de caillots, les changements de protection et la préparation quotidienne."
+  },
+  "bleeding_burden.watchOverTime": {
+    "fr": "Si les saignements restent stables, deviennent plus abondants ou imprévisibles, ou continuent d'affecter l'énergie et la préparation."
+  },
+  "pain_distribution.participantLabel": {
+    "fr": "Schéma de douleur"
+  },
+  "pain_distribution.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que la douleur pourrait se propager selon le moment, le mouvement et la façon dont vous réagissez lorsqu'elle apparaît."
+  },
+  "pain_distribution.atlasNote": {
+    "fr": "Note d'Atlas : Les schémas de douleur sont observationnels, pas des étiquettes diagnostiques."
+  },
+  "pain_distribution.whyConnected": {
+    "fr": "Atlas a regroupé ces éléments car le moment, la localisation, la durée et la réponse à la douleur peuvent appartenir à un seul schéma vécu."
+  },
+  "pain_distribution.watchOverTime": {
+    "fr": "Si la douleur reste localisée, se propage à d'autres fonctions, ou devient plus facile à anticiper."
+  },
+  "hormonal_rhythm.participantLabel": {
+    "fr": "Rythme du cycle"
+  },
+  "hormonal_rhythm.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que le rythme du cycle et les signes hormonaux pourraient façonner l'expression de votre corps au fil du temps."
+  },
+  "hormonal_rhythm.atlasNote": {
+    "fr": "Note d'Atlas : Les observations sur le rythme ne constituent pas un diagnostic hormonal."
+  },
+  "hormonal_rhythm.whyConnected": {
+    "fr": "Atlas a regroupé ces éléments car la prévisibilité du cycle, les signes hormonaux et le moment des symptômes peuvent voyager ensemble."
+  },
+  "hormonal_rhythm.watchOverTime": {
+    "fr": "Si le rythme du cycle devient plus stable, plus changeant, ou plus clairement lié à d'autres signes corporels."
+  },
+  "pelvic_function.participantLabel": {
+    "fr": "Signaux pelviens et corporels"
+  },
+  "pelvic_function.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué des signaux pelviens ou de changements corporels qui pourraient être connectés plutôt qu'isolés."
+  },
+  "pelvic_function.atlasNote": {
+    "fr": "Note d'Atlas : Les signaux pelviens sont des regroupements observationnels, pas une seule condition."
+  },
+  "pelvic_function.whyConnected": {
+    "fr": "Atlas a regroupé ces éléments car la pression pelvienne et les signaux de changements corporels peuvent indiquer des systèmes pelviens connectés."
+  },
+  "pelvic_function.watchOverTime": {
+    "fr": "Si la pression reste occasionnelle, devient persistante, ou se connecte avec l'intestin, la vessie ou le mouvement."
+  },
+  "daily_function.participantLabel": {
+    "fr": "Impact sur la vie quotidienne"
+  },
+  "daily_function.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que les symptômes pourraient réorganiser l'école, le travail, le repos et les activités que vous pouvez maintenir."
+  },
+  "daily_function.atlasNote": {
+    "fr": "Note d'Atlas : L'impact est une preuve — il figure dans le dossier lorsque les symptômes changent la vie quotidienne."
+  },
+  "daily_function.whyConnected": {
+    "fr": "Atlas a regroupé ces éléments car les activités manquées, le sommeil perturbé et l'impact fonctionnel peuvent réorganiser la vie quotidienne."
+  },
+  "daily_function.watchOverTime": {
+    "fr": "Si les routines deviennent plus libres, plus restreintes, ou plus prévisibles à mesure que les symptômes changent."
+  },
+  "care_experience.participantLabel": {
+    "fr": "Votre parcours de soins"
+  },
+  "care_experience.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que votre parcours de soins — accès, réponse, et sentiment d'être entendue — fait partie de ce dossier."
+  },
+  "care_experience.atlasNote": {
+    "fr": "Note d'Atlas : L'expérience de soins façonne ce qu'une personne suit, retarde, ou cesse de mentionner."
+  },
+  "care_experience.whyConnected": {
+    "fr": "Atlas a regroupé ces éléments car ils décrivent comment vous avez navigué les soins parallèlement aux symptômes."
+  },
+  "care_experience.watchOverTime": {
+    "fr": "Si l'accès aux soins, la clarté, et le sentiment d'être entendue s'améliorent, stagnent, ou changent avec le temps."
+  },
+  "body_unpredictability.participantLabel": {
+    "fr": "Changements corporels difficiles à prévoir"
+  },
+  "body_unpredictability.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que ne pas savoir ce qui vient ensuite pourrait façonner votre façon de planifier et de vous préparer."
+  },
+  "body_unpredictability.atlasNote": {
+    "fr": "Note d'Atlas : Comprendre les schémas peut réduire le sentiment que les symptômes sont aléatoires."
+  },
+  "body_unpredictability.whyConnected": {
+    "fr": "Atlas a regroupé ces éléments car l'imprévisibilité peut façonner la planification, la confiance et la préparation quotidienne."
+  },
+  "body_unpredictability.watchOverTime": {
+    "fr": "Si l'imprévisibilité s'atténue, se déplace entre les domaines, ou devient plus facile à planifier."
+  },
+  "planning_around_symptoms.participantLabel": {
+    "fr": "Planifier en fonction de votre corps"
+  },
+  "planning_around_symptoms.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que vous pourriez organiser votre vie en fonction du moment où apparaissent les symptômes."
+  },
+  "planning_around_symptoms.atlasNote": {
+    "fr": "Note d'Atlas : La charge de planification est une expérience vécue, pas un trait de caractère."
+  },
+  "planning_around_symptoms.whyConnected": {
+    "fr": "Atlas a remarqué des exigences de planification apparaissant dans plusieurs observations."
+  },
+  "planning_around_symptoms.watchOverTime": {
+    "fr": "Si la charge de planification s'atténue ou devient plus prévisible."
+  },
+  "symptom_adaptation.participantLabel": {
+    "fr": "S'adapter aux symptômes"
+  },
+  "symptom_adaptation.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que vous pourriez adapter vos routines pour vivre avec des symptômes continus."
+  },
+  "symptom_adaptation.atlasNote": {
+    "fr": "Note d'Atlas : L'adaptation est une force et un signal de charge continue."
+  },
+  "symptom_adaptation.whyConnected": {
+    "fr": "Atlas a remarqué une adaptation des routines parallèlement à la persistance des symptômes."
+  },
+  "symptom_adaptation.watchOverTime": {
+    "fr": "Si les stratégies d'adaptation restent stables ou changent."
+  },
+  "diagnostic_uncertainty.participantLabel": {
+    "fr": "À la recherche de réponses"
+  },
+  "diagnostic_uncertainty.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que ne pas avoir de réponses claires pourrait faire partie de l'expérience."
+  },
+  "diagnostic_uncertainty.atlasNote": {
+    "fr": "Note d'Atlas : L'incertitude a du poids dans le dossier vécu."
+  },
+  "diagnostic_uncertainty.whyConnected": {
+    "fr": "Atlas a remarqué une incertitude quant à ce que fait le corps."
+  },
+  "diagnostic_uncertainty.watchOverTime": {
+    "fr": "Si la clarté augmente à travers les observations."
+  },
+  "care_navigation_complexity.participantLabel": {
+    "fr": "Naviguer dans les soins"
+  },
+  "care_navigation_complexity.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que naviguer dans les soins pourrait exiger un effort et une persévérance supplémentaires."
+  },
+  "care_navigation_complexity.atlasNote": {
+    "fr": "Note d'Atlas : Les frictions dans les soins peuvent façonner ce qui est suivi ou mentionné."
+  },
+  "care_navigation_complexity.whyConnected": {
+    "fr": "Atlas a remarqué des frictions dans la façon dont les soins ont été accessibles et reçus."
+  },
+  "care_navigation_complexity.watchOverTime": {
+    "fr": "Si la navigation devient plus claire ou reste complexe."
+  },
+  "life_reorganization.participantLabel": {
+    "fr": "Vivre en fonction de vos symptômes"
+  },
+  "life_reorganization.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que les symptômes pourraient réorganiser ensemble le travail, le repos, le mouvement et la vie quotidienne."
+  },
+  "life_reorganization.watchOverTime": {
+    "fr": "Si les routines deviennent plus libres, plus restreintes, ou plus prévisibles à mesure que les symptômes changent."
+  },
+  "life_reorganization.whyConnected": {
+    "fr": "Atlas a remarqué que plusieurs observations ont affecté la planification, les routines et la préparation plutôt que des symptômes isolés."
+  },
+  "life_reorganization.atlasNote": {
+    "fr": "Note d'Atlas : La réorganisation de la vie décrit un impact vécu, pas une étiquette pour un seul symptôme."
+  },
+  "adaptive_living.participantLabel": {
+    "fr": "Trouver des moyens de faire face"
+  },
+  "adaptive_living.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué que vous trouvez des moyens de vivre avec ce que fait votre corps."
+  },
+  "adaptive_living.watchOverTime": {
+    "fr": "Si les stratégies d'adaptation restent stables ou changent."
+  },
+  "adaptive_living.whyConnected": {
+    "fr": "Atlas a remarqué une adaptation et un impact quotidien allant de pair."
+  },
+  "adaptive_living.atlasNote": {
+    "fr": "Note d'Atlas : L'adaptation reflète la résilience au sein d'une charge continue."
+  },
+  "escalating_burden.participantLabel": {
+    "fr": "Symptômes qui s'accumulent avec le temps"
+  },
+  "escalating_burden.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué des signaux que les symptômes pourraient s'accumuler plutôt que rester stables."
+  },
+  "escalating_burden.watchOverTime": {
+    "fr": "Si la charge s'intensifie, se stabilise, ou s'atténue."
+  },
+  "escalating_burden.whyConnected": {
+    "fr": "Atlas a remarqué des trajectoires d'aggravation dans plusieurs domaines."
+  },
+  "escalating_burden.atlasNote": {
+    "fr": "Note d'Atlas : L'aggravation relève de l'observation — les observations futures apporteront des éclaircissements."
+  },
+  "delayed_recognition.participantLabel": {
+    "fr": "La reconnaissance a pris du temps"
+  },
+  "delayed_recognition.plainLanguageMeaning": {
+    "fr": "Atlas a remarqué qu'obtenir de la clarté a peut-être pris plus de temps que prévu."
+  },
+  "delayed_recognition.watchOverTime": {
+    "fr": "Si la reconnaissance et la clarté des soins s'améliorent."
+  },
+  "delayed_recognition.whyConnected": {
+    "fr": "Atlas a remarqué des frictions dans les soins parallèlement à l'incertitude."
+  },
+  "delayed_recognition.atlasNote": {
+    "fr": "Note d'Atlas : La reconnaissance tardive est courante et valide."
+  },
+  "_template.emergentAtlasNote": {
+    "fr": "Ce thème a émergé de la convergence de plusieurs observations — pas d'une seule réponse."
+  },
+  "_template.lightlyObserved": {
+    "fr": "a été légèrement observé dans ce premier dossier."
+  },
+  "Bleeding Burden.meaningName": {
+    "fr": "Les Saignements Au-Delà du Volume"
+  },
+  "Bleeding Burden.explanation": {
+    "fr": "Les saignements peuvent avoir de l'importance en raison de leur effet sur l'énergie, la préparation, le sommeil, le mouvement et les routines quotidiennes, pas seulement en raison de la quantité."
+  },
+  "Pain Distribution.meaningName": {
+    "fr": "Systèmes Pelviens Connectés"
+  },
+  "Pain Distribution.explanation": {
+    "fr": "La douleur peut ne pas être un événement isolé. Il peut être utile de remarquer les connexions entre le moment, le mouvement, l'intestin, la vessie et la fonction pelvienne."
+  },
+  "Pelvic Function.meaningName": {
+    "fr": "Systèmes Pelviens Connectés"
+  },
+  "Pelvic Function.explanation": {
+    "fr": "La pression ou la sensation de plénitude peuvent sembler distinctes de la vessie, de l'intestin, du mouvement ou des signaux de changements corporels jusqu'à ce qu'elles soient vues ensemble."
+  },
+  "Hormonal Rhythm.meaningName": {
+    "fr": "Changement de Rythme"
+  },
+  "Hormonal Rhythm.explanation": {
+    "fr": "Le rythme du cycle est plus que des dates. Les changements de moment peuvent apparaître avec la peau, les cheveux, l'énergie, l'humeur, ou des signaux de changements corporels."
+  },
+  "Daily Function.meaningName": {
+    "fr": "Impact sur la Vie Quotidienne"
+  },
+  "Daily Function.explanation": {
+    "fr": "Un schéma corporel devient plus important lorsqu'il commence à réorganiser la vie quotidienne, même si chaque symptôme individuel semble gérable."
+  },
+  "Life Reorganization.meaningName": {
+    "fr": "Réorganisation de la Vie"
+  },
+  "Life Reorganization.explanation": {
+    "fr": "Lorsque plusieurs observations convergent, les symptômes peuvent réorganiser ensemble le travail, le repos, le mouvement et la vie quotidienne."
+  },
+  "Care Experience.meaningName": {
+    "fr": "L'Expérience de Soins Comme Donnée"
+  },
+  "Care Experience.explanation": {
+    "fr": "Se sentir non entendue ou ne pas obtenir de réponses peut changer la durée pendant laquelle les symptômes restent non suivis, non traités, ou normalisés."
+  },
+  "Body Unpredictability.meaningName": {
+    "fr": "L'Incertitude Comme Charge"
+  },
+  "Body Unpredictability.explanation": {
+    "fr": "Ne pas savoir ce que votre corps fera ensuite peut devenir une partie de l'expérience. L'incertitude peut affecter la planification, la confiance dans le moment, et la recherche de soins."
+  },
+  "Bleeding Burden.literacyTitle": {
+    "fr": "Les saignements, c'est plus que le volume"
+  },
+  "Bleeding Burden.literacyNote": {
+    "fr": "Note d'Atlas : L'impact des saignements ne se limite pas à la quantité. Il inclut la récupération, les routines, le sommeil, les déplacements et le sentiment d'être préparée."
+  },
+  "Pain Distribution.literacyTitle": {
+    "fr": "Les symptômes pelviens peuvent se connecter"
+  },
+  "Pain Distribution.literacyNote": {
+    "fr": "Note d'Atlas : Cartographier où apparaît la douleur peut révéler si un schéma corporel reste localisé ou se propage à travers les routines et les fonctions."
+  },
+  "Pelvic Function.literacyTitle": {
+    "fr": "Les symptômes pelviens peuvent se connecter"
+  },
+  "Pelvic Function.literacyNote": {
+    "fr": "Note d'Atlas : Les symptômes de pression peuvent sembler sans rapport jusqu'à ce qu'ils soient vus comme un groupe englobant la vessie, l'intestin et le mouvement."
+  },
+  "Hormonal Rhythm.literacyTitle": {
+    "fr": "Le rythme, c'est plus que des dates"
+  },
+  "Hormonal Rhythm.literacyNote": {
+    "fr": "Note d'Atlas : Les changements de rythme peuvent se manifester par des changements de moment, de peau, de cheveux, d'énergie, d'humeur, ou de poids, pas seulement des règles manquées."
+  },
+  "Daily Function.literacyTitle": {
+    "fr": "L'impact est une preuve"
+  },
+  "Daily Function.literacyNote": {
+    "fr": "Note d'Atlas : L'impact fait partie du dossier lorsque les symptômes changent le sommeil, le travail, l'école, les soins, les relations, ou le mouvement."
+  },
+  "Life Reorganization.literacyTitle": {
+    "fr": "Vivre en fonction des symptômes"
+  },
+  "Life Reorganization.literacyNote": {
+    "fr": "Note d'Atlas : Lorsque plusieurs observations convergent, la vie quotidienne peut se réorganiser en fonction de ce que fait le corps."
+  },
+  "Care Experience.literacyTitle": {
+    "fr": "L'expérience de soins façonne le dossier"
+  },
+  "Care Experience.literacyNote": {
+    "fr": "Note d'Atlas : L'expérience de soins peut façonner ce qu'une personne suit, retarde, normalise, ou cesse de mentionner."
+  },
+  "Body Unpredictability.literacyTitle": {
+    "fr": "L'incertitude a du poids"
+  },
+  "Body Unpredictability.literacyNote": {
+    "fr": "Note d'Atlas : Comprendre les schémas peut réduire le sentiment que les symptômes sont aléatoires."
+  },
+  "Baseline.literacyTitle": {
+    "fr": "Une base de référence est puissante"
+  },
+  "Baseline.literacyNote": {
+    "fr": "Note d'Atlas : Une première observation n'a pas besoin de tout résoudre. Elle donne à votre futur soi quelque chose avec quoi comparer."
+  },
+  "_template.noMeaningfulPattern": {
+    "fr": "Ce premier Dossier Atlas crée un point de départ. Certains schémas peuvent devenir plus clairs à mesure que des observations futures sont ajoutées."
+  },
+  "_template.respectfulBaseline": {
+    "fr": "Atlas a créé une base de référence respectueuse à partir de ce que vous avez choisi de partager aujourd'hui."
+  },
+  "_template.closingAgency": {
+    "fr": "Vous pouvez enregistrer ce dossier, y revenir, ou l'utiliser pour expliquer votre expérience avec vos propres mots."
+  },
+  "_template.organizedAround": {
+    "fr": "Atlas a organisé cette première réflexion autour de"
+  },
+  "_template.relatedThread": {
+    "fr": "Un fil connexe,"
+  },
+  "_template.mayHelpExplain": {
+    "fr": "peut aider à expliquer comment ces expériences se connectent."
+  },
+  "_template.addsAnotherLayer": {
+    "fr": "ajoute une autre couche :"
+  },
+  "_template.staysClose": {
+    "fr": "Cette réflexion reste proche de ce qui a été observé aujourd'hui et laisse de la place pour une comparaison future."
+  },
+  "_template.keepWatching": {
+    "fr": "Atlas continuera d'observer comment ces expériences se connectent au fil du temps."
+  },
+  "_template.portraitLead": {
+    "fr": "Ce premier Dossier Atlas crée un portrait de référence des expériences observées autour de"
+  },
+  "_template.portraitOrganizedThrough": {
+    "fr": "organisé à travers"
+  },
+  "The Adapting Navigator.name": {
+    "fr": "La Navigatrice Adaptative"
+  },
+  "The Adapting Navigator.description": {
+    "fr": "Atlas voit quelqu'un réorganiser sa vie quotidienne tout en apprenant à naviguer à travers l'incertitude."
+  },
+  "The Adapting Navigator.whatThisMeans": {
+    "fr": "Cet archétype apparaît lorsque les expériences corporelles commencent à influencer la planification, la préparation et la routine. Le défi dominant n'est souvent pas un seul symptôme, mais la nécessité de s'adapter à l'incertitude."
+  },
+  "The Adapting Navigator.whyTemplate": {
+    "fr": "Atlas a choisi cet archétype car la réorganisation de la vie, l'incertitude corporelle et la charge de planification sont apparues ensemble dans ce dossier."
+  },
+  "The Adapting Navigator.logicSummary": {
+    "fr": "Ensemble, ces éléments suggèrent une expérience centrée sur l'adaptation et la préparation."
+  },
+  "The Persistent Seeker.name": {
+    "fr": "La Chercheuse Persévérante"
+  },
+  "The Persistent Seeker.description": {
+    "fr": "Atlas observe une persévérance dans la volonté de comprendre ce qui se passe et de trouver un soutien plus clair."
+  },
+  "The Persistent Seeker.whatThisMeans": {
+    "fr": "Cet archétype apparaît lorsque la recherche de clarté et de soutien devient elle-même une partie de l'expérience vécue."
+  },
+  "The Persistent Seeker.whyTemplate": {
+    "fr": "Atlas a choisi cet archétype car les frictions dans les soins et l'incertitude corporelle sont apparues aux côtés de questions continues sur ce qui se passe."
+  },
+  "The Persistent Seeker.logicSummary": {
+    "fr": "Ensemble, ces éléments suggèrent une expérience centrée sur la persévérance et la recherche de réponses plus claires."
+  },
+  "The Multi-System Experience.name": {
+    "fr": "L'Expérience Multi-Systémique"
+  },
+  "The Multi-System Experience.description": {
+    "fr": "Atlas observe des expériences qui peuvent se connecter à travers la douleur, le rythme, la pression et la fonction quotidienne."
+  },
+  "The Multi-System Experience.whatThisMeans": {
+    "fr": "Cet archétype apparaît lorsque les symptômes peuvent voyager à travers plus d'un système corporel ou routine à la fois."
+  },
+  "The Multi-System Experience.whyTemplate": {
+    "fr": "Atlas a choisi cet archétype car la propagation de la douleur, la pression pelvienne et les signaux de rythme hormonal sont apparus connectés dans ce dossier."
+  },
+  "The Multi-System Experience.logicSummary": {
+    "fr": "Ensemble, ces éléments suggèrent une expérience qui peut être ressentie à travers plusieurs systèmes corporels et routines."
+  },
+  "The Uncertain Body Experience.name": {
+    "fr": "L'Expérience du Corps Incertain"
+  },
+  "The Uncertain Body Experience.description": {
+    "fr": "Atlas observe l'imprévisibilité et les signaux corporels changeants comme une expérience vécue centrale."
+  },
+  "The Uncertain Body Experience.whatThisMeans": {
+    "fr": "Cet archétype apparaît lorsque ne pas savoir ce que le corps fera ensuite devient une partie de la charge."
+  },
+  "The Uncertain Body Experience.whyTemplate": {
+    "fr": "Atlas a choisi cet archétype car l'incertitude corporelle et le changement de rythme sont apparus comme les thèmes les plus forts dans ce dossier."
+  },
+  "The Uncertain Body Experience.logicSummary": {
+    "fr": "Ensemble, ces éléments suggèrent une expérience centrée sur l'imprévisibilité et les signaux corporels changeants."
+  },
+  "The Body Negotiator.name": {
+    "fr": "La Négociatrice Corporelle"
+  },
+  "The Body Negotiator.description": {
+    "fr": "Atlas observe une négociation continue entre les exigences du corps, l'énergie et ce que requiert la vie quotidienne."
+  },
+  "The Body Negotiator.whatThisMeans": {
+    "fr": "Cet archétype apparaît lorsque la charge corporelle et la capacité quotidienne doivent être négociées encore et encore."
+  },
+  "The Body Negotiator.whyTemplate": {
+    "fr": "Atlas a choisi cet archétype car la charge de saignements et la réorganisation de la vie sont apparues aux côtés d'une tension d'énergie et de routine."
+  },
+  "The Body Negotiator.logicSummary": {
+    "fr": "Ensemble, ces éléments suggèrent une expérience centrée sur la négociation de la capacité, de l'énergie et des exigences quotidiennes."
+  },
+  "The Quiet Burden.name": {
+    "fr": "La Charge Silencieuse"
+  },
+  "The Quiet Burden.description": {
+    "fr": "Atlas observe une charge constante qui peut être portée avec moins d'expression extérieure mais un impact quotidien réel."
+  },
+  "The Quiet Burden.whatThisMeans": {
+    "fr": "Cet archétype apparaît lorsque la charge est présente même lorsque le dossier ne se centre pas sur un thème dramatique unique."
+  },
+  "The Quiet Burden.whyTemplate": {
+    "fr": "Atlas a choisi cet archétype car les signaux de charge corporelle sont apparus de manière constante, même sans un thème narratif dominant unique."
+  },
+  "The Quiet Burden.logicSummary": {
+    "fr": "Ensemble, ces éléments suggèrent une charge plus silencieuse mais significative, qui mérite d'être observée avec le temps."
+  },
+  "Body Predictability Landscape.name": {
+    "fr": "Panorama de la Prévisibilité Corporelle"
+  },
+  "Body Predictability Landscape.description": {
+    "fr": "Un panorama façonné par le degré de prévisibilité ou de variabilité ressenti du moment corporel dans ce dossier."
+  },
+  "Bleeding Burden Landscape.name": {
+    "fr": "Panorama de la Charge de Saignements"
+  },
+  "Bleeding Burden Landscape.description": {
+    "fr": "Un panorama façonné par la façon dont les saignements peuvent affecter l'énergie, la préparation et la capacité quotidienne."
+  },
+  "Pain Landscape.name": {
+    "fr": "Panorama de la Douleur"
+  },
+  "Pain Landscape.description": {
+    "fr": "Un panorama façonné par la façon dont la douleur peut se propager à travers le mouvement, la fonction et la routine."
+  },
+  "Care Navigation Landscape.name": {
+    "fr": "Panorama de la Navigation des Soins"
+  },
+  "Care Navigation Landscape.description": {
+    "fr": "Un panorama façonné par l'accès, la clarté, et si les expériences de soins semblent solidaires."
+  },
+  "Life Adaptation Landscape.name": {
+    "fr": "Panorama de l'Adaptation à la Vie"
+  },
+  "Life Adaptation Landscape.description": {
+    "fr": "Un panorama façonné par la façon dont les symptômes réorganisent le travail, le repos, les relations et le mouvement."
+  },
+  "Planning Burden.name": {
+    "fr": "Charge de Planification"
+  },
+  "Planning Burden.description": {
+    "fr": "Le travail caché de planification autour de signaux corporels imprévisibles."
+  },
+  "Planning Burden.reflectionText": {
+    "fr": "Cette expérience peut exiger plus de planification anticipée qu'il ne semble juste ou durable."
+  },
+  "Life Constriction.name": {
+    "fr": "Rétrécissement de la Vie"
+  },
+  "Life Constriction.description": {
+    "fr": "Lorsque les routines, le mouvement, ou la vie sociale semblent plus restreints qu'auparavant."
+  },
+  "Life Constriction.reflectionText": {
+    "fr": "Cette expérience peut vous demander de remarquer ce qui est devenu plus difficile à préserver dans la vie quotidienne."
+  },
+  "Agency.name": {
+    "fr": "Autonomie d'Action"
+  },
+  "Agency.description": {
+    "fr": "Le sentiment vécu que vos choix restent ou non accessibles."
+  },
+  "Agency.reflectionText": {
+    "fr": "Cette expérience peut vous demander si vous vous sentez encore capable de diriger les routines, les soins et le repos."
+  },
+  "Adaptation Intelligence.name": {
+    "fr": "Intelligence d'Adaptation"
+  },
+  "Adaptation Intelligence.description": {
+    "fr": "Les façons dont vous avez appris à vous ajuster, à vous préparer, ou à récupérer."
+  },
+  "Adaptation Intelligence.reflectionText": {
+    "fr": "Cette expérience peut vous demander de reconnaître l'intelligence déjà présente dans votre façon de vous adapter."
+  },
+  "Body Predictability.name": {
+    "fr": "Prévisibilité Corporelle"
+  },
+  "Body Predictability.description": {
+    "fr": "À quel point votre corps se sent connaissable d'un jour à l'autre."
+  },
+  "Body Predictability.reflectionText": {
+    "fr": "Cette expérience peut demander de la patience pendant qu'Atlas apprend ce qui reste stable et ce qui change."
+  },
+  "Preparedness Burden.name": {
+    "fr": "Charge de Préparation"
+  },
+  "Preparedness Burden.description": {
+    "fr": "L'effort de rester prête pour des symptômes qui peuvent arriver sans avertissement."
+  },
+  "Preparedness Burden.reflectionText": {
+    "fr": "Cette expérience peut demander une reconnaissance de l'énergie dépensée à rester préparée."
+  },
+  "Health Labor.name": {
+    "fr": "Travail de Santé"
+  },
+  "Health Labor.description": {
+    "fr": "Le travail continu de suivi, d'explication, de recherche de soins, et de portage de l'histoire."
+  },
+  "Health Labor.reflectionText": {
+    "fr": "Cette expérience peut vous demander de nommer le travail impliqué dans le portage de cette histoire de santé."
+  },
+  "Bleeding Burden::Life Reorganization.description": {
+    "fr": "La charge de saignements et la réorganisation de la vie peuvent se connecter lorsque l'énergie, la préparation et les limites de routine voyagent ensemble."
+  },
+  "Pain-Spread::Life Reorganization.description": {
+    "fr": "La propagation de la douleur et la réorganisation de la vie peuvent se connecter lorsque l'inconfort change ce que le mouvement, le travail, ou le repos peuvent supporter."
+  },
+  "Body Uncertainty::Life Reorganization.description": {
+    "fr": "L'incertitude corporelle et la réorganisation de la vie peuvent se connecter lorsque ne pas savoir ce qui vient ensuite reconfigure la planification."
+  },
+  "Hormonal Rhythm::Body Uncertainty.description": {
+    "fr": "Le rythme hormonal et l'incertitude corporelle peuvent se connecter lorsque les changements de moment rendent le corps moins prévisible."
+  },
+  "Care Friction::Body Uncertainty.description": {
+    "fr": "Les frictions dans les soins et l'incertitude corporelle peuvent se connecter lorsque des questions sans réponse prolongent la recherche de clarté."
+  },
+  "Bleeding Burden::Body Uncertainty.description": {
+    "fr": "La charge de saignements et l'incertitude corporelle peuvent se connecter lorsque le flux, le moment et la préparation semblent plus difficiles à anticiper avec confiance."
+  },
+  "Pain-Spread::Pelvic Pressure.description": {
+    "fr": "La propagation de la douleur et la pression pelvienne peuvent se connecter lorsque l'inconfort apparaît à travers le mouvement, la pression et la fonction."
+  },
+  "Care Friction::Life Reorganization.description": {
+    "fr": "Les frictions dans les soins et la réorganisation de la vie peuvent se connecter lorsque l'accès ou la clarté changent la durée pendant laquelle les symptômes sont portés seule."
+  },
+  "Adaptation.name": {
+    "fr": "Adaptation"
+  },
+  "Adaptation.description": {
+    "fr": "Atlas a remarqué des façons dont vous ajustez vos routines pour maintenir la vie en mouvement."
+  },
+  "Adaptation.reflectionText": {
+    "fr": "Vous vous êtes adaptée, même lorsque les changements sont épuisants."
+  },
+  "Persistence.name": {
+    "fr": "Persévérance"
+  },
+  "Persistence.description": {
+    "fr": "Atlas a remarqué de la persévérance dans le fait de rester face à une expérience difficile."
+  },
+  "Persistence.reflectionText": {
+    "fr": "Vous avez continué à vous présenter à cette expérience, même lorsque les réponses tardaient à arriver."
+  },
+  "Awareness.name": {
+    "fr": "Conscience"
+  },
+  "Awareness.description": {
+    "fr": "Atlas a remarqué une attention minutieuse portée à ce que font votre corps et vos routines."
+  },
+  "Awareness.reflectionText": {
+    "fr": "Vous prêtez attention, et cette attention fait partie du dossier."
+  },
+  "Preparation.name": {
+    "fr": "Préparation"
+  },
+  "Preparation.description": {
+    "fr": "Atlas a remarqué le travail de rester prête pour ce que le corps pourrait faire ensuite."
+  },
+  "Preparation.reflectionText": {
+    "fr": "Vous vous êtes préparée de façons qui peuvent être invisibles pour les autres mais réelles pour vous."
+  },
+  "Resourcefulness.name": {
+    "fr": "Ingéniosité"
+  },
+  "Resourcefulness.description": {
+    "fr": "Atlas a remarqué des façons créatives de maintenir ensemble les routines, le repos, et les soins."
+  },
+  "Resourcefulness.reflectionText": {
+    "fr": "Vous avez fait preuve d'ingéniosité pour trouver des façons de maintenir une vie viable."
+  },
+  "Self-Advocacy.name": {
+    "fr": "Plaidoyer Personnel"
+  },
+  "Self-Advocacy.description": {
+    "fr": "Atlas a remarqué l'effort de rechercher clarté, soins, ou une réponse plus crédible."
+  },
+  "Self-Advocacy.reflectionText": {
+    "fr": "Vous avez plaidé pour que votre expérience soit vue et prise au sérieux."
+  },
+  "_template.baselineObservation": {
+    "fr": "Observation de référence"
+  },
+  "_template.strengthsCareful": {
+    "fr": "Vos réponses suggèrent une attention minutieuse portée à ce que font votre corps et vos routines."
+  },
+  "_template.strengthsLead": {
+    "fr": "Vos réponses suggèrent que vous avez déjà développé des façons de remarquer les changements"
+  },
+  "_template.strengthsPreparingAhead": {
+    "fr": ", de vous préparer à l'avance"
+  },
+  "_template.strengthsNavigatingUncertainty": {
+    "fr": ", et de naviguer dans l'incertitude"
+  },
+  "_template.bodyUnpredictability": {
+    "fr": "Imprévisibilité Corporelle"
+  },
+  "_template.awareness": {
+    "fr": "Conscience"
+  },
+  "_template.watchLandscapeSteadier": {
+    "fr": "Si les observations futures rendent ce panorama plus stable, plus clair, ou plus facile à comprendre."
+  },
+  "_template.watchTheme.Predictability": {
+    "fr": "Prévisibilité"
+  },
+  "_template.watchTheme.Care clarity": {
+    "fr": "Clarté des soins"
+  },
+  "_template.watchTheme.Pain spread": {
+    "fr": "Propagation de la douleur"
+  },
+  "_template.watchTheme.Bleeding burden": {
+    "fr": "Charge de saignements"
+  },
+  "_template.watchTheme.Pattern clarity": {
+    "fr": "Clarté du schéma"
+  },
+  "_template.connectionPhraseWithConnections": {
+    "fr": "la planification, l'énergie, la routine, et la prévisibilité"
+  },
+  "_template.connectionPhraseDefault": {
+    "fr": "les signaux corporels, les routines quotidiennes, et les expériences de soins"
+  },
+  "_template.openingInsightLine1": {
+    "fr": "Tout au long de cette première observation, Atlas a remarqué que le thème le plus fort n'est pas seulement les symptômes eux-mêmes, mais la quantité de préparation et d'ajustement qu'ils requièrent."
+  },
+  "_template.openingInsightLine2": {
+    "fr": "apparaissent connectés à travers"
+  },
+  "_template.openingInsightLine3": {
+    "fr": "Cela peut rendre l'expérience plus large que n'importe quel symptôme unique, car elle commence à façonner l'organisation de la vie quotidienne."
+  },
+  "_template.respectfulBaselineLeavesRoom": {
+    "fr": "Atlas a créé une base de référence respectueuse à partir de ce que vous avez choisi de partager aujourd'hui, laissant de la place pour une comparaison future."
+  },
+  "_template.addsAnotherLayerDayToDay": {
+    "fr": "peut ajouter une autre couche à la façon dont cette expérience est vécue au jour le jour."
+  },
+  "_template.startingPointFuture": {
+    "fr": "Ce premier dossier crée un point de départ pour les observations futures."
+  },
+  "_template.keepWatchingBodySignals": {
+    "fr": "Atlas continuera d'observer comment les signaux corporels, les routines quotidiennes, et les expériences de soins se connectent à mesure que d'autres observations sont ajoutées."
+  },
+  "_template.noticedAttentionAndCare": {
+    "fr": "Atlas a remarqué de l'attention et du soin dans la façon dont vous avez partagé cette expérience."
+  },
+  "_template.noticedAcrossObservations": {
+    "fr": "Atlas a remarqué ce schéma à travers plusieurs observations dans votre dossier."
+  },
+  "_template.storyNoBaseline": {
+    "fr": "Atlas a organisé ce que vous avez choisi de partager aujourd'hui en un portrait d'intelligence initial. Ceci relève de l'observation, pas du diagnostic. Les observations futures clarifieront ce qui reste stable et ce qui change."
+  },
+  "_template.storyNoticedThatLead": {
+    "fr": "Atlas a remarqué que"
+  },
+  "_template.storyNotOnlySymptoms": {
+    "fr": "ne sont pas seulement des symptômes dans ce dossier."
+  },
+  "_template.storyObservedLead": {
+    "fr": "Atlas a observé"
+  },
+  "_template.storyCentralThread": {
+    "fr": "comme un fil central dans ce premier dossier."
+  },
+  "_template.storyShapesAcrossLead": {
+    "fr": "Ils semblent façonner la planification, le sommeil, les routines, et le degré de prévisibilité de la vie quotidienne à travers"
+  },
+  "_template.storyShapesGeneric": {
+    "fr": "Ils semblent façonner la planification, les routines, et le degré de prévisibilité de la vie quotidienne."
+  },
+  "_template.storyTogetherSuggestLead": {
+    "fr": "Ensemble, les observations structurées peuvent suggérer"
+  },
+  "_template.storyObservationalDisclaimer": {
+    "fr": "Ce portrait relève de l'observation et est propre à la participante — pas diagnostique."
+  },
+  "_template.severalObservationsSameDirection": {
+    "fr": "Plusieurs observations ont pointé dans la même direction."
+  },
+  "_template.connectionAnd": {
+    "fr": "et"
+  },
+  "_template.connectionMayTravelTogether": {
+    "fr": "peuvent voyager ensemble dans la façon dont les symptômes, les routines, et les besoins de soins se manifestent dans la vie quotidienne."
+  },
+  "_template.narrativeAlsoShaped": {
+    "fr": "Votre récit a également façonné ce portrait."
+  },
+  "context.sectionLabel": {
+    "fr": "Contexte"
+  },
+  "bleeding.sectionLabel": {
+    "fr": "Saignements"
+  },
+  "pain.sectionLabel": {
+    "fr": "Douleur"
+  },
+  "hormonal.sectionLabel": {
+    "fr": "Hormonal / Cycle"
+  },
+  "daily_life.sectionLabel": {
+    "fr": "Vie Quotidienne"
+  },
+  "care.sectionLabel": {
+    "fr": "Expérience de Soins"
+  },
+  "narrative.sectionLabel": {
+    "fr": "Récit"
+  },
+  "sensitive.sectionLabel": {
+    "fr": "Sujets Sensibles"
+  },
+  "body.sectionLabel": {
+    "fr": "Corps"
+  },
+  "Bleeding Pattern.watchItemLabel": {
+    "fr": "Schéma de Saignements"
+  },
+  "Bleeding Pattern.watchCompareFallback": {
+    "fr": "Atlas comparera si le schéma de saignements reste stable, change, ou devient plus clair avec le temps."
+  },
+  "Daily Impact.watchItemLabel": {
+    "fr": "Impact Quotidien"
+  },
+  "Daily Impact.watchCompareFallback": {
+    "fr": "Atlas comparera si l'impact quotidien reste stable, change, ou devient plus clair avec le temps."
+  },
+  "Planning Burden.watchItemLabel": {
+    "fr": "Charge de Planification"
+  },
+  "Planning Burden.watchCompareFallback": {
+    "fr": "Atlas comparera si la charge de planification reste stable, change, ou devient plus claire avec le temps."
+  },
+  "Hormonal Rhythm.watchItemLabel": {
+    "fr": "Rythme Hormonal"
+  },
+  "Hormonal Rhythm.watchCompareFallback": {
+    "fr": "Atlas comparera si le rythme hormonal reste stable, change, ou devient plus clair avec le temps."
+  },
+  "Care Experience.watchItemLabel": {
+    "fr": "Expérience de Soins"
+  },
+  "Care Experience.watchCompareFallback": {
+    "fr": "Atlas comparera si l'expérience de soins reste stable, change, ou devient plus claire avec le temps."
+  },
+  "Body.watchGroupLabel": {
+    "fr": "Corps"
+  },
+  "Cycle.watchGroupLabel": {
+    "fr": "Cycle"
+  },
+  "Daily Life.watchGroupLabel": {
+    "fr": "Vie Quotidienne"
+  },
+  "Care.watchGroupLabel": {
+    "fr": "Soins"
+  },
+  "Product changes.evidenceTheme": {
+    "fr": "Changements de protection"
+  },
+  "Duration.evidenceTheme": {
+    "fr": "Durée"
+  },
+  "Clots.evidenceTheme": {
+    "fr": "Caillots"
+  },
+  "Interperiod bleeding.evidenceTheme": {
+    "fr": "Saignements intermenstruels"
+  },
+  "Heavier bleeding.evidenceTheme": {
+    "fr": "Saignements plus abondants"
+  },
+  "Lighter bleeding.evidenceTheme": {
+    "fr": "Saignements plus légers"
+  },
+  "Irregular bleeding.evidenceTheme": {
+    "fr": "Saignements irréguliers"
+  },
+  "Night disruption.evidenceTheme": {
+    "fr": "Perturbation nocturne"
+  },
+  "Energy management.evidenceTheme": {
+    "fr": "Gestion de l'énergie"
+  },
+  "Dizziness.evidenceTheme": {
+    "fr": "Vertiges"
+  },
+  "Pain response.evidenceTheme": {
+    "fr": "Réponse à la douleur"
+  },
+  "Pain timing.evidenceTheme": {
+    "fr": "Moment de la douleur"
+  },
+  "Whole-body pain.evidenceTheme": {
+    "fr": "Douleur corporelle généralisée"
+  },
+  "Pain spread.evidenceTheme": {
+    "fr": "Propagation de la douleur"
+  },
+  "Increasing severity.evidenceTheme": {
+    "fr": "Sévérité croissante"
+  },
+  "Pelvic symptoms.evidenceTheme": {
+    "fr": "Symptômes pelviens"
+  },
+  "Body changes.evidenceTheme": {
+    "fr": "Changements corporels"
+  },
+  "Pain triggers.evidenceTheme": {
+    "fr": "Déclencheurs de douleur"
+  },
+  "Irregular timing.evidenceTheme": {
+    "fr": "Moment irrégulier"
+  },
+  "Skipped periods.evidenceTheme": {
+    "fr": "Règles manquées"
+  },
+  "Hormonal signs.evidenceTheme": {
+    "fr": "Signes hormonaux"
+  },
+  "Cycle changes.evidenceTheme": {
+    "fr": "Changements de cycle"
+  },
+  "Cycle relation.evidenceTheme": {
+    "fr": "Relation au cycle"
+  },
+  "Missed activities.evidenceTheme": {
+    "fr": "Activités manquées"
+  },
+  "Sleep disruption.evidenceTheme": {
+    "fr": "Perturbation du sommeil"
+  },
+  "Planning burden.evidenceTheme": {
+    "fr": "Charge de planification"
+  },
+  "Life areas affected.evidenceTheme": {
+    "fr": "Domaines de vie affectés"
+  },
+  "Routine adaptation.evidenceTheme": {
+    "fr": "Adaptation de la routine"
+  },
+  "Worsening trajectory.evidenceTheme": {
+    "fr": "Trajectoire d'aggravation"
+  },
+  "Unpredictable timing.evidenceTheme": {
+    "fr": "Moment imprévisible"
+  },
+  "Care-seeking.evidenceTheme": {
+    "fr": "Recherche de soins"
+  },
+  "Care response.evidenceTheme": {
+    "fr": "Réponse des soins"
+  },
+  "Care dismissal.evidenceTheme": {
+    "fr": "Rejet des soins"
+  },
+  "Care access.evidenceTheme": {
+    "fr": "Accès aux soins"
+  },
+  "_template.noStrongPatternObserved": {
+    "fr": "— aucun schéma fort n'a été observé dans ce dossier."
+  },
+  "_template.narrativeAlsoSuggestsLead": {
+    "fr": "Votre récit suggère également"
+  },
+  "adaptation.participantLabel": {
+    "fr": "Trouver des moyens de faire face"
+  },
+  "adaptation.interpretationModifier": {
+    "fr": "l'adaptation semble faire partie de la façon dont vous naviguez cette expérience"
+  },
+  "persistence.participantLabel": {
+    "fr": "Continuer malgré la difficulté"
+  },
+  "persistence.interpretationModifier": {
+    "fr": "la persévérance peut faire partie de la façon dont vous portez cette expérience"
+  },
+  "uncertainty.participantLabel": {
+    "fr": "Ne pas savoir ce qui vient ensuite"
+  },
+  "uncertainty.interpretationModifier": {
+    "fr": "l'incertitude peut façonner le degré de prévisibilité de la vie quotidienne"
+  },
+  "body_unpredictability.interpretationModifier": {
+    "fr": "l'imprévisibilité corporelle peut faire partie du sens vécu de ces observations"
+  },
+  "planning_burden.participantLabel": {
+    "fr": "Planifier en fonction de votre corps"
+  },
+  "planning_burden.interpretationModifier": {
+    "fr": "la planification autour des symptômes peut réorganiser la vie quotidienne"
+  },
+  "feeling_unheard.participantLabel": {
+    "fr": "Difficulté à se sentir crue"
+  },
+  "feeling_unheard.interpretationModifier": {
+    "fr": "se sentir non entendue peut faire partie de votre expérience de soins"
+  },
+  "care_dismissal.participantLabel": {
+    "fr": "Des soins qui ont semblé désinvoltes"
+  },
+  "care_dismissal.interpretationModifier": {
+    "fr": "le rejet des soins peut influencer la façon dont cette expérience est comprise"
+  },
+  "diagnostic_uncertainty.interpretationModifier": {
+    "fr": "la recherche de clarté peut faire partie de cette expérience"
+  },
+  "frustration.participantLabel": {
+    "fr": "Frustration et épuisement"
+  },
+  "frustration.interpretationModifier": {
+    "fr": "la frustration et l'épuisement peuvent faire partie du poids émotionnel"
+  },
+  "isolation.participantLabel": {
+    "fr": "Se sentir seule avec cela"
+  },
+  "isolation.interpretationModifier": {
+    "fr": "l'isolement peut s'ajouter au poids ressenti de cette expérience"
+  },
+  "hope.participantLabel": {
+    "fr": "Espoir de clarté ou de soulagement"
+  },
+  "hope.interpretationModifier": {
+    "fr": "l'espoir peut être présent à côté de la difficulté"
+  },
+  "fear.participantLabel": {
+    "fr": "Inquiétude quant à ce qui vient ensuite"
+  },
+  "fear.interpretationModifier": {
+    "fr": "la peur ou l'inquiétude peuvent faire partie de la façon dont cette expérience est ressentie"
+  },
+  "self_doubt.participantLabel": {
+    "fr": "Remettre en question votre propre expérience"
+  },
+  "self_doubt.interpretationModifier": {
+    "fr": "le doute de soi peut rendre plus difficile la confiance en ce que montre votre corps"
+  },
+  "self_advocacy.participantLabel": {
+    "fr": "S'exprimer pour votre expérience"
+  },
+  "self_advocacy.interpretationModifier": {
+    "fr": "le plaidoyer personnel peut faire partie de la façon dont vous naviguez les soins"
+  },
+  "loss_of_normalcy.participantLabel": {
+    "fr": "La vie se sent différente d'avant"
+  },
+  "loss_of_normalcy.interpretationModifier": {
+    "fr": "la perte de normalité peut faire partie du sens vécu de ces symptômes"
+  },
+  "domain_bleeding.label": {
+    "fr": "Saignements"
+  },
+  "domain_pain.label": {
+    "fr": "Douleur"
+  },
+  "domain_hormonal.label": {
+    "fr": "Hormonal"
+  },
+  "domain_cycle.label": {
+    "fr": "Cycle"
+  },
+  "domain_daily_life.label": {
+    "fr": "Vie Quotidienne"
+  },
+  "domain_care_access.label": {
+    "fr": "Accès aux Soins"
+  },
+  "domain_narrative.label": {
+    "fr": "Vos Mots"
+  },
+  "evidence_baseline.label": {
+    "fr": "Référence"
+  },
+  "evidence_emerging.label": {
+    "fr": "Émergente"
+  },
+  "evidence_moderate.label": {
+    "fr": "Modérée"
+  },
+  "evidence_strong.label": {
+    "fr": "Forte"
+  },
+  "evidence_very_strong.label": {
+    "fr": "Très forte"
+  },
+  "_template.companionFallbackReply": {
+    "fr": "Désolée — cela ne m'est pas bien parvenu. Pourriez-vous m'en dire un peu plus sur ce que vous ressentez ?"
+  },
+  "_template.companionNoSignalsWelcome": {
+    "fr": "Bon retour. Votre dernier dossier ne comportait pas de signaux continus forts, alors restons simples — quelque chose de nouveau est-il apparu depuis ?"
+  },
+  "_template.voiceMessageTooLarge": {
+    "fr": "Le message vocal est trop volumineux (10 Mo maximum)."
+  },
+  "_template.couldNotMakeOutVoice": {
+    "fr": "Impossible de comprendre ce message vocal — veuillez réessayer ou taper à la place."
+  },
+  "_template.noPriorAtlasRecord": {
+    "fr": "Aucun Dossier Atlas préalable pour effectuer le check-in"
+  },
+  "_template.companionUnavailable": {
+    "fr": "L'accompagnatrice n'est pas disponible en ce moment."
+  },
+  "_template.checkinFailed": {
+    "fr": "Le check-in a échoué"
+  },
+  "_template.messageRequired": {
+    "fr": "Un message est requis"
+  },
+  "_template.conversationNotFound": {
+    "fr": "Conversation introuvable"
+  },
+  "bleeding.label": {
+    "fr": "Saignements"
+  },
+  "bleeding.domainPhrase": {
+    "fr": "expériences liées aux saignements"
+  },
+  "pain.label": {
+    "fr": "Douleur"
+  },
+  "pain.domainPhrase": {
+    "fr": "douleur et inconfort pelvien"
+  },
+  "hormonal.label": {
+    "fr": "Hormonal"
+  },
+  "hormonal.domainPhrase": {
+    "fr": "expériences hormonales et de rythme du cycle"
+  },
+  "cycle_disruption.label": {
+    "fr": "Perturbation du Cycle"
+  },
+  "cycle_disruption.domainPhrase": {
+    "fr": "perturbation et imprévisibilité du cycle"
+  },
+  "daily_life.label": {
+    "fr": "Vie Quotidienne"
+  },
+  "daily_life.domainPhrase": {
+    "fr": "impact sur la vie quotidienne"
+  },
+  "care_access.label": {
+    "fr": "Accès aux Soins"
+  },
+  "care_access.domainPhrase": {
+    "fr": "expériences liées aux soins"
+  },
+  "_template.listAnd": {
+    "fr": "et"
+  },
+  "_template.constellationNoObservationsLead": {
+    "fr": "Dans ce premier dossier, vous n'avez pas partagé d'observations spécifiques centrées sur"
+  },
+  "_template.constellationLightBaselineOnly": {
+    "fr": "Atlas note cela uniquement comme une zone de référence légère."
+  },
+  "_template.constellationLightBaselineLead": {
+    "fr": "Atlas a remarqué une base légère de"
+  },
+  "_template.constellationInRecordIncluding": {
+    "fr": "dans ce dossier, notamment"
+  },
+  "_template.constellationObservedLead": {
+    "fr": "Atlas a remarqué"
+  },
+  "_template.constellationOnlyLightBaseline": {
+    "fr": "Atlas n'a qu'une base légère dans ce domaine jusqu'à présent. À mesure que vous ajoutez d'autres observations, il peut devenir plus clair pourquoi ces expériences vont ensemble."
+  },
+  "_template.constellationGenericWhyConnected": {
+    "fr": "Atlas a regroupé ces observations car elles peuvent appartenir au même schéma vécu dans ce dossier."
+  },
+  "_template.constellationMultipleAnswersConverged": {
+    "fr": "Dans ce dossier, plusieurs réponses ont convergé autour du même fil. Ceci relève de l'observation, pas du diagnostic."
+  },
+  "_template.constellationObservationalNotDiagnostic": {
+    "fr": "Ceci relève de l'observation, pas du diagnostic."
+  },
+  "_template.constellationFutureObservationsMayClarify": {
+    "fr": "Les observations futures pourront clarifier comment"
+  },
+  "_template.constellationChangesStabilizesConnects": {
+    "fr": "change, se stabilise, ou se connecte à d'autres domaines de votre dossier."
+  },
+  "_template.constellationAtlasNoteStrong": {
+    "fr": "Ceci est une base précoce issue de votre première observation, pas un diagnostic ou une conclusion fixe. Le schéma peut se renforcer, changer, fusionner avec d'autres, ou devenir moins central à mesure que d'autres observations sont ajoutées."
+  },
+  "_template.constellationAtlasNoteEmerging": {
+    "fr": "Ceci est une base précoce issue de votre première observation, pas un diagnostic ou une conclusion fixe. Atlas observe ici une convergence émergente, mais le schéma peut encore se renforcer, changer, fusionner, ou s'estomper à mesure que d'autres observations sont ajoutées."
+  },
+  "_template.constellationAtlasNoteLight": {
+    "fr": "Ceci est une base précoce issue de votre première observation, pas un diagnostic ou une conclusion fixe. Les preuves ici sont encore légères, et ce schéma peut se renforcer, changer, fusionner avec d'autres, ou disparaître à mesure que d'autres observations sont ajoutées."
+  },
+  "bleeding_burden.constellationWatchOverTime": {
+    "fr": "Les observations futures pourront montrer si les saignements restent stables, deviennent plus abondants ou imprévisibles, ou continuent d'affecter l'énergie, le sommeil, et la préparation quotidienne."
+  },
+  "bleeding_burden.constellationWhyConnected": {
+    "fr": "Atlas a regroupé ces observations car les réponses liées aux saignements peuvent se connecter avec la durée, la charge de caillots, les changements de protection, et la façon dont les saignements affectent les routines ou l'énergie."
+  },
+  "pain_distribution.constellationWatchOverTime": {
+    "fr": "Les observations futures pourront montrer si la douleur reste dans une zone, se propage à travers des schémas pelviens, intestinaux, de vessie, ou de mouvement, ou devient plus facile à anticiper."
+  },
+  "pain_distribution.constellationWhyConnected": {
+    "fr": "Atlas a regroupé ces observations car le moment, la localisation, la durée de la douleur, et les réponses de fonction corporelle peuvent appartenir à la même expérience vécue plutôt qu'à des événements isolés."
+  },
+  "hormonal_rhythm.constellationWatchOverTime": {
+    "fr": "Les observations futures pourront montrer si le rythme du cycle devient plus stable, plus changeant, ou plus clairement lié à d'autres signes corporels."
+  },
+  "hormonal_rhythm.constellationWhyConnected": {
+    "fr": "Atlas a regroupé ces observations car la prévisibilité du cycle, les signes hormonaux, et le moment des symptômes peuvent décrire comment le rythme et les changements corporels voyagent ensemble."
+  },
+  "body_unpredictability.constellationWatchOverTime": {
+    "fr": "Les observations futures pourront montrer si l'imprévisibilité s'atténue, se déplace entre les domaines, ou devient plus facile à planifier."
+  },
+  "body_unpredictability.constellationWhyConnected": {
+    "fr": "Atlas a regroupé ces observations car les réponses sur l'imprévisibilité et le fait de ne pas savoir ce qui vient ensuite peuvent former une seule charge d'incertitude."
+  },
+  "daily_function.constellationWatchOverTime": {
+    "fr": "Les observations futures pourront montrer si les routines deviennent plus libres, plus restreintes, ou plus prévisibles à mesure que les symptômes changent."
+  },
+  "daily_function.constellationWhyConnected": {
+    "fr": "Atlas a regroupé ces observations car les activités manquées, le sommeil perturbé, les domaines de vie affectés, et l'impact fonctionnel peuvent montrer comment les symptômes réorganisent la vie quotidienne."
+  },
+  "care_experience.constellationWatchOverTime": {
+    "fr": "Les observations futures pourront montrer si l'accès aux soins change, si le diagnostic ou le traitement devient plus clair, si les obstacles persistent, ou si les expériences de soins deviennent moins centrales avec le temps."
+  },
+  "care_experience.constellationWhyConnected": {
+    "fr": "Atlas a regroupé ces observations car elles décrivent comment vous avez navigué les soins parallèlement aux symptômes et à la vie quotidienne."
+  },
+  "pelvic_function.constellationWatchOverTime": {
+    "fr": "Les observations futures pourront montrer si la pression reste occasionnelle, devient plus persistante, ou se connecte plus clairement avec des schémas intestinaux, de vessie, ou de mouvement."
+  },
+  "pelvic_function.constellationWhyConnected": {
+    "fr": "Atlas a regroupé ces observations car la pression pelvienne, les signaux de changements corporels, et les schémas de localisation peuvent indiquer des systèmes pelviens connectés plutôt qu'un symptôme isolé."
+  },
+  "preview_pain.label": {
+    "fr": "Douleur"
+  },
+  "preview_pain.sub": {
+    "fr": "Explorer les schémas de douleur"
+  },
+  "preview_hormonal.label": {
+    "fr": "Hormonal"
+  },
+  "preview_hormonal.sub": {
+    "fr": "Explorer les schémas hormonaux"
+  },
+  "preview_cycle.label": {
+    "fr": "Cycle"
+  },
+  "preview_cycle.sub": {
+    "fr": "Explorer les schémas de cycle"
+  },
+  "preview_daily_life.label": {
+    "fr": "Vie Quotidienne"
+  },
+  "preview_daily_life.sub": {
+    "fr": "Explorer les schémas de vie quotidienne"
+  },
+  "preview_care_access.label": {
+    "fr": "Parcours de Soins"
+  },
+  "preview_care_access.sub": {
+    "fr": "Explorer votre expérience de soins"
+  },
+  "preview_bleeding.label": {
+    "fr": "Saignements"
+  },
+  "preview_bleeding.sub": {
+    "fr": "Explorer les schémas de saignements"
+  },
+  "SIG-BOD-BLD-001.label": {
+    "fr": "Changement Fréquent de Protection"
+  },
+  "SIG-BOD-BLD-002.label": {
+    "fr": "Saturation Rapide de la Protection"
+  },
+  "SIG-BOD-BLD-003.label": {
+    "fr": "Flux Menstruel Abondant"
+  },
+  "SIG-BOD-BLD-004.label": {
+    "fr": "Durée Prolongée des Saignements"
+  },
+  "SIG-BOD-BLD-005.label": {
+    "fr": "Saignements Très Prolongés"
+  },
+  "SIG-BOD-BLD-006.label": {
+    "fr": "Durée Courte des Saignements"
+  },
+  "SIG-BOD-BLD-007.label": {
+    "fr": "Durée Variable des Saignements"
+  },
+  "SIG-BOD-BLD-008.label": {
+    "fr": "Passage de Gros Caillots"
+  },
+  "SIG-BOD-BLD-009.label": {
+    "fr": "Coagulation Fréquente"
+  },
+  "SIG-BOD-BLD-010.label": {
+    "fr": "Charge de Caillots avec Flux Abondant"
+  },
+  "SIG-BOD-BLD-011.label": {
+    "fr": "Saignements Intermenstruels"
+  },
+  "SIG-BOD-BLD-012.label": {
+    "fr": "Saignements Intermenstruels Imprévisibles"
+  },
+  "SIG-BOD-BLD-013.label": {
+    "fr": "Progression des Saignements"
+  },
+  "SIG-BOD-BLD-014.label": {
+    "fr": "Augmentation de la Charge de Saignements"
+  },
+  "SIG-BOD-BLD-015.label": {
+    "fr": "Diminution de la Charge de Saignements"
+  },
+  "SIG-BOD-BLD-016.label": {
+    "fr": "Schéma de Saignements Stable"
+  },
+  "SIG-BOD-BLD-017.label": {
+    "fr": "Perturbation des Activités par les Saignements"
+  },
+  "SIG-BOD-BLD-018.label": {
+    "fr": "Charge de Planification liée aux Saignements"
+  },
+  "SIG-BOD-BLD-019.label": {
+    "fr": "Préoccupation liée aux Fuites"
+  },
+  "SIG-BOD-BLD-020.label": {
+    "fr": "Charge Nocturne liée aux Saignements"
+  },
+  "SIG-BOD-BLD-021.label": {
+    "fr": "Épuisement d'Énergie lié aux Saignements"
+  },
+  "SIG-BOD-BLD-022.label": {
+    "fr": "Incertitude sur les Saignements"
+  },
+  "SIG-BOD-BLD-023.label": {
+    "fr": "Normalisation des Saignements"
+  },
+  "SIG-BOD-BLD-024.label": {
+    "fr": "Signal de Préoccupation liée aux Saignements"
+  },
+  "SIG-BOD-BLD-025.label": {
+    "fr": "Schéma de Saignements Post-Changement"
+  },
+  "SIG-BOD-BLD-026.label": {
+    "fr": "Signal de Saignements avec Contexte Familial"
+  },
+  "SIG-BOD-BLD-027.label": {
+    "fr": "Saignements avec Contexte de Fertilité"
+  },
+  "SIG-BOD-BLD-028.label": {
+    "fr": "Saignements Pendant une Transition Reproductive"
+  },
+  "SIG-BOD-BLD-029.label": {
+    "fr": "Complexité des Saignements"
+  },
+  "SIG-BOD-BLD-030.label": {
+    "fr": "Drapeau d'Escalade de Sécurité lié aux Saignements"
+  },
+  "SIG-BOD-PAIN-001.label": {
+    "fr": "Schéma de Douleur Cyclique"
+  },
+  "SIG-BOD-PAIN-002.label": {
+    "fr": "Schéma de Douleur Non Cyclique"
+  },
+  "SIG-BOD-PAIN-003.label": {
+    "fr": "Schéma de Douleur Mixte"
+  },
+  "SIG-BOD-PAIN-004.label": {
+    "fr": "Moment de la Douleur Menstruelle"
+  },
+  "SIG-BOD-PAIN-005.label": {
+    "fr": "Moment de la Douleur Prémenstruelle"
+  },
+  "SIG-BOD-PAIN-006.label": {
+    "fr": "Moment de la Douleur Lié à l'Ovulation"
+  },
+  "SIG-BOD-PAIN-007.label": {
+    "fr": "Moment de la Douleur Persistante"
+  },
+  "SIG-BOD-PAIN-008.label": {
+    "fr": "Douleur Imprévisible"
+  },
+  "SIG-BOD-PAIN-009.label": {
+    "fr": "Douleur Prévisible"
+  },
+  "SIG-BOD-PAIN-010.label": {
+    "fr": "Douleur Progressive"
+  },
+  "SIG-BOD-PAIN-011.label": {
+    "fr": "Douleur en Amélioration"
+  },
+  "SIG-BOD-PAIN-012.label": {
+    "fr": "Douleur Stable"
+  },
+  "SIG-BOD-PAIN-013.label": {
+    "fr": "Charge de Douleur Sévère"
+  },
+  "SIG-BOD-PAIN-014.label": {
+    "fr": "Charge de Douleur Légère"
+  },
+  "SIG-BOD-PAIN-015.label": {
+    "fr": "Localisation de la Douleur Pelvienne"
+  },
+  "SIG-BOD-PAIN-016.label": {
+    "fr": "Localisation de la Douleur Abdominale Basse"
+  },
+  "SIG-BOD-PAIN-017.label": {
+    "fr": "Association avec des Douleurs Dorsales"
+  },
+  "SIG-BOD-PAIN-018.label": {
+    "fr": "Douleur Irradiant vers la Jambe"
+  },
+  "SIG-BOD-PAIN-019.label": {
+    "fr": "Douleur Multi-Sites"
+  },
+  "SIG-BOD-PAIN-020.label": {
+    "fr": "Douleur Pelvienne-Corporelle Diffuse"
+  },
+  "SIG-BOD-PAIN-021.label": {
+    "fr": "Douleur Associée à un Déclencheur"
+  },
+  "SIG-BOD-PAIN-022.label": {
+    "fr": "Douleur Déclenchée par le Mouvement"
+  },
+  "SIG-BOD-PAIN-023.label": {
+    "fr": "Douleur Associée aux Rapports Sexuels"
+  },
+  "SIG-BOD-PAIN-024.label": {
+    "fr": "Douleur Associée à l'Intestin"
+  },
+  "SIG-BOD-PAIN-025.label": {
+    "fr": "Douleur Associée à la Vessie"
+  },
+  "SIG-BOD-PAIN-026.label": {
+    "fr": "Douleur avec Charge de Saignements"
+  },
+  "SIG-BOD-PAIN-027.label": {
+    "fr": "Perturbation Fonctionnelle liée à la Douleur"
+  },
+  "SIG-BOD-PAIN-028.label": {
+    "fr": "Vulnérabilité du Repos liée à la Douleur"
+  },
+  "SIG-BOD-PAIN-029.label": {
+    "fr": "Normalisation de la Douleur"
+  },
+  "SIG-BOD-PAIN-030.label": {
+    "fr": "Signal de Préoccupation liée à la Douleur"
+  },
+  "SIG-BOD-PAIN-031.label": {
+    "fr": "Charge liée à la Durée de la Douleur"
+  },
+  "SIG-BOD-PAIN-032.label": {
+    "fr": "Complexité de la Douleur"
+  },
+  "SIG-BOD-PAIN-033.label": {
+    "fr": "Drapeau d'Escalade de Sécurité lié à la Douleur"
+  },
+  "SIG-BOD-PAIN-034.label": {
+    "fr": "Douleur avec Contexte Reproductif"
+  },
+  "SIG-BOD-PAIN-035.label": {
+    "fr": "Douleur avec Contexte Hormonal"
+  },
+  "SIG-BOD-PEL-001.label": {
+    "fr": "Pression Pelvienne"
+  },
+  "SIG-BOD-PEL-002.label": {
+    "fr": "Sensation de Plénitude Pelvienne"
+  },
+  "SIG-BOD-PEL-003.label": {
+    "fr": "Signal de Ballonnement Abdominal"
+  },
+  "SIG-BOD-PEL-004.label": {
+    "fr": "Signal de Symptôme Digestif"
+  },
+  "SIG-BOD-PEL-005.label": {
+    "fr": "Urgence ou Gêne Intestinale"
+  },
+  "SIG-BOD-PEL-006.label": {
+    "fr": "Charge Liée à la Constipation"
+  },
+  "SIG-BOD-PEL-007.label": {
+    "fr": "Charge Liée à la Diarrhée"
+  },
+  "SIG-BOD-PEL-008.label": {
+    "fr": "Signal d'Urgence Urinaire"
+  },
+  "SIG-BOD-PEL-009.label": {
+    "fr": "Signal de Douleur Urinaire"
+  },
+  "SIG-BOD-PEL-010.label": {
+    "fr": "Signal de Mictions Fréquentes"
+  },
+  "SIG-BOD-PEL-011.label": {
+    "fr": "Ensemble de Symptômes Pelviens-Urinaires"
+  },
+  "SIG-BOD-PEL-012.label": {
+    "fr": "Ensemble de Symptômes Pelviens-Intestinaux"
+  },
+  "SIG-BOD-PEL-013.label": {
+    "fr": "Ensemble Pelvien Multi-Organes"
+  },
+  "SIG-BOD-PEL-014.label": {
+    "fr": "Pression avec Charge de Saignements"
+  },
+  "SIG-BOD-PEL-015.label": {
+    "fr": "Pression avec Charge de Douleur"
+  },
+  "SIG-BOD-PEL-016.label": {
+    "fr": "Progression des Symptômes Pelviens"
+  },
+  "SIG-BOD-PEL-017.label": {
+    "fr": "Persistance des Symptômes Pelviens"
+  },
+  "SIG-BOD-PEL-018.label": {
+    "fr": "Normalisation des Symptômes Pelviens"
+  },
+  "SIG-BOD-PEL-019.label": {
+    "fr": "Complexité des Symptômes Pelviens"
+  },
+  "SIG-BOD-PEL-020.label": {
+    "fr": "Drapeau d'Escalade de Sécurité Pelvienne"
+  },
+  "SIG-BOD-CYC-001.label": {
+    "fr": "Schéma de Cycle Régulier"
+  },
+  "SIG-BOD-CYC-002.label": {
+    "fr": "Schéma de Cycle Irrégulier"
+  },
+  "SIG-BOD-CYC-003.label": {
+    "fr": "Cycle Hautement Imprévisible"
+  },
+  "SIG-BOD-CYC-004.label": {
+    "fr": "Schéma de Règles Manquées"
+  },
+  "SIG-BOD-CYC-005.label": {
+    "fr": "Règles Manquées Fréquentes"
+  },
+  "SIG-BOD-CYC-006.label": {
+    "fr": "Variabilité de la Durée du Cycle"
+  },
+  "SIG-BOD-CYC-007.label": {
+    "fr": "Changement du Cycle au Fil du Temps"
+  },
+  "SIG-BOD-CYC-008.label": {
+    "fr": "Signal de Raccourcissement du Cycle"
+  },
+  "SIG-BOD-CYC-009.label": {
+    "fr": "Signal d'Allongement du Cycle"
+  },
+  "SIG-BOD-CYC-010.label": {
+    "fr": "Schéma de Symptômes Lié au Cycle"
+  },
+  "SIG-BOD-CYC-011.label": {
+    "fr": "Schéma de Symptômes Lié à l'Ovulation"
+  },
+  "SIG-BOD-CYC-012.label": {
+    "fr": "Schéma de Symptômes Non Lié au Cycle"
+  },
+  "SIG-BOD-CYC-013.label": {
+    "fr": "Incertitude sur le Cycle"
+  },
+  "SIG-BOD-CYC-014.label": {
+    "fr": "Charge du Cycle avec Saignements"
+  },
+  "SIG-BOD-CYC-015.label": {
+    "fr": "Charge du Cycle avec Douleur"
+  },
+  "SIG-BOD-CYC-016.label": {
+    "fr": "Charge du Cycle avec Signes Hormonaux"
+  },
+  "SIG-BOD-CYC-017.label": {
+    "fr": "Normalisation du Cycle"
+  },
+  "SIG-BOD-CYC-018.label": {
+    "fr": "Signal de Préoccupation liée au Cycle"
+  },
+  "SIG-BOD-CYC-019.label": {
+    "fr": "Signal de Cycle avec Contexte Reproductif"
+  },
+  "SIG-BOD-CYC-020.label": {
+    "fr": "Signal de Trajectoire du Cycle"
+  },
+  "SIG-BOD-HOR-001.label": {
+    "fr": "Signal de Contexte de Contraception Hormonale"
+  },
+  "SIG-BOD-HOR-002.label": {
+    "fr": "Signal d'Acné ou de Changement Cutané"
+  },
+  "SIG-BOD-HOR-003.label": {
+    "fr": "Signal de Changement de Croissance des Cheveux"
+  },
+  "SIG-BOD-HOR-004.label": {
+    "fr": "Signal de Perte ou d'Amincissement des Cheveux"
+  },
+  "SIG-BOD-HOR-005.label": {
+    "fr": "Signal de Changement de Poids"
+  },
+  "SIG-BOD-HOR-006.label": {
+    "fr": "Signal de Moment d'Humeur Hormonale"
+  },
+  "SIG-BOD-HOR-007.label": {
+    "fr": "Signal de Sensibilité des Seins"
+  },
+  "SIG-BOD-HOR-008.label": {
+    "fr": "Signal de Bouffée de Chaleur ou de Changement de Température"
+  },
+  "SIG-BOD-HOR-009.label": {
+    "fr": "Signal de Sueurs Nocturnes"
+  },
+  "SIG-BOD-HOR-010.label": {
+    "fr": "Ensemble de Symptômes Hormonaux"
+  },
+  "SIG-BOD-HOR-011.label": {
+    "fr": "Ensemble Hormonal-Cyclique"
+  },
+  "SIG-BOD-HOR-012.label": {
+    "fr": "Ensemble Hormonal-Douloureux"
+  },
+  "SIG-BOD-HOR-013.label": {
+    "fr": "Ensemble Hormonal-Saignements"
+  },
+  "SIG-BOD-HOR-014.label": {
+    "fr": "Progression des Changements Corporels Hormonaux"
+  },
+  "SIG-BOD-HOR-015.label": {
+    "fr": "Persistance des Symptômes Hormonaux"
+  },
+  "SIG-BOD-HOR-016.label": {
+    "fr": "Normalisation Hormonale"
+  },
+  "SIG-BOD-HOR-017.label": {
+    "fr": "Signal de Préoccupation Hormonale"
+  },
+  "SIG-BOD-HOR-018.label": {
+    "fr": "Contexte Hormonal d'Étape de Vie"
+  },
+  "SIG-BOD-HOR-019.label": {
+    "fr": "Signal Hormonal avec Contexte de Fertilité"
+  },
+  "SIG-BOD-HOR-020.label": {
+    "fr": "Complexité Hormonale"
+  },
+  "SIG-BOD-BODY-001.label": {
+    "fr": "Changement Corporel Visible"
+  },
+  "SIG-BOD-BODY-002.label": {
+    "fr": "Changement de Taille ou de Forme Abdominale"
+  },
+  "SIG-BOD-BODY-003.label": {
+    "fr": "Sensation de Gonflement Corporel"
+  },
+  "SIG-BOD-BODY-004.label": {
+    "fr": "Schéma de Fluctuation de Poids"
+  },
+  "SIG-BOD-BODY-005.label": {
+    "fr": "Lien entre l'Énergie et le Corps"
+  },
+  "SIG-BOD-BODY-006.label": {
+    "fr": "Signal Corporel de Vertiges ou de Faiblesse"
+  },
+  "SIG-BOD-BODY-007.label": {
+    "fr": "Signal d'Escalade d'Évanouissement"
+  },
+  "SIG-BOD-BODY-008.label": {
+    "fr": "Changement Corporel avec Charge de Saignements"
+  },
+  "SIG-BOD-BODY-009.label": {
+    "fr": "Changement Corporel avec Charge de Douleur"
+  },
+  "SIG-BOD-BODY-010.label": {
+    "fr": "Changement Corporel avec Perturbation du Cycle"
+  },
+  "SIG-BOD-BODY-011.label": {
+    "fr": "Changement Corporel avec Signes Hormonaux"
+  },
+  "SIG-BOD-BODY-012.label": {
+    "fr": "Progression du Changement Corporel"
+  },
+  "SIG-BOD-BODY-013.label": {
+    "fr": "Persistance du Changement Corporel"
+  },
+  "SIG-BOD-BODY-014.label": {
+    "fr": "Incertitude sur le Changement Corporel"
+  },
+  "SIG-BOD-BODY-015.label": {
+    "fr": "Préoccupation liée au Changement Corporel"
+  },
+  "SIG-BOD-BODY-016.label": {
+    "fr": "Normalisation du Changement Corporel"
+  },
+  "SIG-BOD-BODY-017.label": {
+    "fr": "Signal de Charge liée à l'Image Corporelle"
+  },
+  "SIG-BOD-BODY-018.label": {
+    "fr": "Signal de Lourdeur Physique"
+  },
+  "SIG-BOD-BODY-019.label": {
+    "fr": "Sensation Similaire à une Inflammation"
+  },
+  "SIG-BOD-BODY-020.label": {
+    "fr": "Ensemble de Symptômes Corporels"
+  },
+  "SIG-BOD-BODY-021.label": {
+    "fr": "Complexité de la Charge Somatique"
+  },
+  "SIG-BOD-BODY-022.label": {
+    "fr": "Changement Corporel en Étape de Vie Reproductive"
+  },
+  "SIG-BOD-BODY-023.label": {
+    "fr": "Contexte Corporel Post-Grossesse"
+  },
+  "SIG-BOD-BODY-024.label": {
+    "fr": "Drapeau d'Escalade de Sécurité Corporelle"
+  },
+  "SIG-BOD-BODY-025.label": {
+    "fr": "Intégration des Symptômes de Tout le Corps"
+  },
+  "SIG-FUNC-001.label": {
+    "fr": "Limitation d'Activité"
+  },
+  "SIG-FUNC-002.label": {
+    "fr": "Perturbation de la Routine"
+  },
+  "SIG-FUNC-003.label": {
+    "fr": "Interférence avec l'Autosoin"
+  },
+  "SIG-FUNC-004.label": {
+    "fr": "Interférence avec les Tâches Ménagères"
+  },
+  "SIG-FUNC-005.label": {
+    "fr": "Limitation des Courses"
+  },
+  "SIG-FUNC-006.label": {
+    "fr": "Limitation des Déplacements"
+  },
+  "SIG-FUNC-007.label": {
+    "fr": "Planification en Fonction des Symptômes"
+  },
+  "SIG-FUNC-008.label": {
+    "fr": "Réserve Fonctionnelle Réduite"
+  },
+  "SIG-FUNC-009.label": {
+    "fr": "Charge Fonctionnelle Élevée"
+  },
+  "SIG-FUNC-010.label": {
+    "fr": "Charge Fonctionnelle Faible"
+  },
+  "SIG-FUNC-011.label": {
+    "fr": "Charge Fonctionnelle Intermittente"
+  },
+  "SIG-FUNC-012.label": {
+    "fr": "Charge Fonctionnelle Persistante"
+  },
+  "SIG-FUNC-013.label": {
+    "fr": "Impact sur Plusieurs Domaines de Vie"
+  },
+  "SIG-FUNC-014.label": {
+    "fr": "Adaptation de la Vie Quotidienne"
+  },
+  "SIG-FUNC-015.label": {
+    "fr": "Incertitude Fonctionnelle"
+  },
+  "SIG-FUNC-016.label": {
+    "fr": "Évitement Fonctionnel"
+  },
+  "SIG-FUNC-017.label": {
+    "fr": "Retard de Récupération Fonctionnelle"
+  },
+  "SIG-FUNC-018.label": {
+    "fr": "Planification Guidée par les Symptômes"
+  },
+  "SIG-FUNC-019.label": {
+    "fr": "Faible Énergie"
+  },
+  "SIG-FUNC-020.label": {
+    "fr": "Fatigue Fréquente"
+  },
+  "SIG-FUNC-021.label": {
+    "fr": "Fatigue Constante"
+  },
+  "SIG-FUNC-022.label": {
+    "fr": "Fatigue Liée au Cycle"
+  },
+  "SIG-FUNC-023.label": {
+    "fr": "Épuisement Post-Symptôme"
+  },
+  "SIG-FUNC-024.label": {
+    "fr": "Épuisement Lié à l'Activité"
+  },
+  "SIG-FUNC-025.label": {
+    "fr": "Fatigue avec Faiblesse"
+  },
+  "SIG-FUNC-026.label": {
+    "fr": "Instabilité de l'Énergie"
+  },
+  "SIG-FUNC-027.label": {
+    "fr": "Endurance Réduite"
+  },
+  "SIG-FUNC-028.label": {
+    "fr": "Dépendance au Repos"
+  },
+  "SIG-FUNC-029.label": {
+    "fr": "Activités Manquées à Cause de la Fatigue"
+  },
+  "SIG-FUNC-030.label": {
+    "fr": "Escalade de la Charge de Fatigue"
+  },
+  "SIG-FUNC-031.label": {
+    "fr": "Normalisation de la Charge d'Énergie"
+  },
+  "SIG-FUNC-032.label": {
+    "fr": "Stratégie de Conservation d'Énergie"
+  },
+  "SIG-FUNC-033.label": {
+    "fr": "Perturbation du Sommeil"
+  },
+  "SIG-FUNC-034.label": {
+    "fr": "Perturbation Fréquente du Sommeil"
+  },
+  "SIG-FUNC-035.label": {
+    "fr": "Perturbation Constante du Sommeil"
+  },
+  "SIG-FUNC-036.label": {
+    "fr": "Interruption du Sommeil liée à la Douleur"
+  },
+  "SIG-FUNC-037.label": {
+    "fr": "Interruption du Sommeil liée aux Saignements"
+  },
+  "SIG-FUNC-038.label": {
+    "fr": "Mauvaise Récupération"
+  },
+  "SIG-FUNC-039.label": {
+    "fr": "Charge de Symptômes Nocturnes"
+  },
+  "SIG-FUNC-040.label": {
+    "fr": "Altération Diurne Liée au Sommeil"
+  },
+  "SIG-FUNC-041.label": {
+    "fr": "Déficit de Sommeil Réparateur"
+  },
+  "SIG-FUNC-042.label": {
+    "fr": "Adaptation du Sommeil"
+  },
+  "SIG-FUNC-043.label": {
+    "fr": "Interférence avec le Travail ou l'École"
+  },
+  "SIG-FUNC-044.label": {
+    "fr": "Travail ou École Manqués"
+  },
+  "SIG-FUNC-045.label": {
+    "fr": "Absence Répétée"
+  },
+  "SIG-FUNC-046.label": {
+    "fr": "Productivité Réduite"
+  },
+  "SIG-FUNC-047.label": {
+    "fr": "Difficulté de Concentration"
+  },
+  "SIG-FUNC-048.label": {
+    "fr": "Charge de Participation Académique"
+  },
+  "SIG-FUNC-049.label": {
+    "fr": "Charge de Participation au Travail"
+  },
+  "SIG-FUNC-050.label": {
+    "fr": "Risque de Fiabilité de l'Emploi du Temps"
+  },
+  "SIG-FUNC-051.label": {
+    "fr": "Retard dans l'Achèvement des Tâches"
+  },
+  "SIG-FUNC-052.label": {
+    "fr": "Contrainte Professionnelle ou Éducative"
+  },
+  "SIG-FUNC-053.label": {
+    "fr": "Charge de Divulgation"
+  },
+  "SIG-FUNC-054.label": {
+    "fr": "Stratégie d'Adaptation au Travail-École"
+  },
+  "SIG-FUNC-055.label": {
+    "fr": "Interférence avec l'Aide aux Autres"
+  },
+  "SIG-FUNC-056.label": {
+    "fr": "Tension liée à l'Aide aux Autres"
+  },
+  "SIG-FUNC-057.label": {
+    "fr": "Charge de Responsabilité Domestique"
+  },
+  "SIG-FUNC-058.label": {
+    "fr": "Surcharge de Rôles"
+  },
+  "SIG-FUNC-059.label": {
+    "fr": "Fiabilité Réduite dans les Rôles d'Aidante"
+  },
+  "SIG-FUNC-060.label": {
+    "fr": "Besoin de Soutien à la Maison"
+  },
+  "SIG-FUNC-061.label": {
+    "fr": "Culpabilité liée à l'Aide aux Autres"
+  },
+  "SIG-FUNC-062.label": {
+    "fr": "Rythme Domestique"
+  },
+  "SIG-FUNC-063.label": {
+    "fr": "Perturbation de la Routine Familiale"
+  },
+  "SIG-FUNC-064.label": {
+    "fr": "Charge Domestique Invisible"
+  },
+  "SIG-FUNC-065.label": {
+    "fr": "Limitation de Mouvement"
+  },
+  "SIG-FUNC-066.label": {
+    "fr": "Limitation d'Exercice"
+  },
+  "SIG-FUNC-067.label": {
+    "fr": "Difficulté à Marcher ou à Rester Debout"
+  },
+  "SIG-FUNC-068.label": {
+    "fr": "Évitement d'Activité"
+  },
+  "SIG-FUNC-069.label": {
+    "fr": "Imprévisibilité de la Mobilité"
+  },
+  "SIG-FUNC-070.label": {
+    "fr": "Réduction de la Capacité Physique"
+  },
+  "SIG-FUNC-071.label": {
+    "fr": "Charge Déclenchée par le Mouvement"
+  },
+  "SIG-FUNC-072.label": {
+    "fr": "Charge de Mobilité liée aux Déplacements"
+  },
+  "SIG-FUNC-073.label": {
+    "fr": "Stratégie de Mobilité Orientée vers le Repos"
+  },
+  "SIG-FUNC-074.label": {
+    "fr": "Risque de Mobilité lié aux Vertiges"
+  },
+  "SIG-FUNC-075.label": {
+    "fr": "Perte de Participation Physique"
+  },
+  "SIG-FUNC-076.label": {
+    "fr": "Retard de Récupération de la Mobilité"
+  },
+  "SIG-FUNC-077.label": {
+    "fr": "Interférence avec l'Activité Sociale"
+  },
+  "SIG-FUNC-078.label": {
+    "fr": "Retrait Social"
+  },
+  "SIG-FUNC-079.label": {
+    "fr": "Impact sur les Relations"
+  },
+  "SIG-FUNC-080.label": {
+    "fr": "Charge de Planification des Déplacements et de la Vie Sociale"
+  },
+  "SIG-FUNC-081.label": {
+    "fr": "Plans Annulés"
+  },
+  "SIG-FUNC-082.label": {
+    "fr": "Anxiété de Participation"
+  },
+  "SIG-FUNC-083.label": {
+    "fr": "Risque d'Isolement"
+  },
+  "SIG-FUNC-084.label": {
+    "fr": "Charge de Participation à l'Intimité"
+  },
+  "SIG-FUNC-085.label": {
+    "fr": "Limitation de Participation Communautaire"
+  },
+  "SIG-FUNC-086.label": {
+    "fr": "Épuisement de l'Énergie Sociale"
+  },
+  "SIG-FUNC-087.label": {
+    "fr": "Gestion de la Stigmatisation"
+  },
+  "SIG-FUNC-088.label": {
+    "fr": "Stratégie d'Adaptation Sociale"
+  },
+  "SIG-FUNC-089.label": {
+    "fr": "Impact sur l'Humeur"
+  },
+  "SIG-FUNC-090.label": {
+    "fr": "Inquiétude liée aux Symptômes"
+  },
+  "SIG-FUNC-091.label": {
+    "fr": "Frustration Fonctionnelle"
+  },
+  "SIG-FUNC-092.label": {
+    "fr": "Normalisation de la Charge"
+  },
+  "SIG-FUNC-093.label": {
+    "fr": "Perte de Confiance dans le Corps"
+  },
+  "SIG-FUNC-094.label": {
+    "fr": "Charge d'Incertitude"
+  },
+  "SIG-FUNC-095.label": {
+    "fr": "Détresse liée à la Perturbation"
+  },
+  "SIG-FUNC-096.label": {
+    "fr": "Doute de Soi sur les Symptômes"
+  },
+  "SIG-FUNC-097.label": {
+    "fr": "Résilience par l'Adaptation"
+  },
+  "SIG-FUNC-098.label": {
+    "fr": "Fatigue Émotionnelle"
+  },
+  "SIG-FUNC-099.label": {
+    "fr": "Préservation de l'Autonomie d'Action"
+  },
+  "SIG-FUNC-100.label": {
+    "fr": "Disposition à Chercher de l'Aide"
+  },
+  "SIG-CARE-ACC-001.label": {
+    "fr": "Recherche Initiale de Soins"
+  },
+  "SIG-CARE-ACC-002.label": {
+    "fr": "Aucun Soin Recherché"
+  },
+  "SIG-CARE-ACC-003.label": {
+    "fr": "Recherche de Soins Retardée"
+  },
+  "SIG-CARE-ACC-004.label": {
+    "fr": "Évitement des Soins"
+  },
+  "SIG-CARE-ACC-005.label": {
+    "fr": "Confiance dans l'Accès aux Soins"
+  },
+  "SIG-CARE-ACC-006.label": {
+    "fr": "Accès Limité aux Soins"
+  },
+  "SIG-CARE-ACC-007.label": {
+    "fr": "Accès Incertain aux Soins"
+  },
+  "SIG-CARE-ACC-008.label": {
+    "fr": "Barrière d'Accès Géographique"
+  },
+  "SIG-CARE-ACC-009.label": {
+    "fr": "Barrière d'Accès Financière"
+  },
+  "SIG-CARE-ACC-010.label": {
+    "fr": "Barrière de Disponibilité des Rendez-vous"
+  },
+  "SIG-CARE-ACC-011.label": {
+    "fr": "Barrière d'Accès au Transport"
+  },
+  "SIG-CARE-ACC-012.label": {
+    "fr": "Barrière d'Assurance ou de Couverture"
+  },
+  "SIG-CARE-ACC-013.label": {
+    "fr": "Barrière d'Accès aux Spécialistes"
+  },
+  "SIG-CARE-ACC-014.label": {
+    "fr": "Recours aux Soins Primaires"
+  },
+  "SIG-CARE-ACC-015.label": {
+    "fr": "Recours aux Soins d'Urgence"
+  },
+  "SIG-CARE-ACC-016.label": {
+    "fr": "Recours aux Soins Numériques"
+  },
+  "SIG-CARE-ACC-017.label": {
+    "fr": "Recours aux Soins Informels"
+  },
+  "SIG-CARE-ACC-018.label": {
+    "fr": "Amélioration de l'Accès"
+  },
+  "SIG-CARE-ACC-019.label": {
+    "fr": "Détérioration de l'Accès"
+  },
+  "SIG-CARE-ACC-020.label": {
+    "fr": "Stabilité de l'Accès"
+  },
+  "SIG-CARE-NAV-001.label": {
+    "fr": "Parcours de Soins Clair"
+  },
+  "SIG-CARE-NAV-002.label": {
+    "fr": "Parcours de Soins Peu Clair"
+  },
+  "SIG-CARE-NAV-003.label": {
+    "fr": "Orientation Reçue"
+  },
+  "SIG-CARE-NAV-004.label": {
+    "fr": "Orientation Non Reçue"
+  },
+  "SIG-CARE-NAV-005.label": {
+    "fr": "Retard d'Orientation"
+  },
+  "SIG-CARE-NAV-006.label": {
+    "fr": "Navigation entre Plusieurs Prestataires"
+  },
+  "SIG-CARE-NAV-007.label": {
+    "fr": "Fragmentation des Soins"
+  },
+  "SIG-CARE-NAV-008.label": {
+    "fr": "Continuité des Soins"
+  },
+  "SIG-CARE-NAV-009.label": {
+    "fr": "Besoin de Coordination des Soins"
+  },
+  "SIG-CARE-NAV-010.label": {
+    "fr": "Charge de Navigation Diagnostique"
+  },
+  "SIG-CARE-NAV-011.label": {
+    "fr": "Parcours de Tests Initié"
+  },
+  "SIG-CARE-NAV-012.label": {
+    "fr": "Absence de Parcours de Tests"
+  },
+  "SIG-CARE-NAV-013.label": {
+    "fr": "Suivi Planifié"
+  },
+  "SIG-CARE-NAV-014.label": {
+    "fr": "Lacune de Suivi"
+  },
+  "SIG-CARE-NAV-015.label": {
+    "fr": "Recherche d'un Deuxième Avis"
+  },
+  "SIG-CARE-NAV-016.label": {
+    "fr": "Besoin de Compréhension du Système"
+  },
+  "SIG-CARE-NAV-017.label": {
+    "fr": "Navigation de Plaidoyer"
+  },
+  "SIG-CARE-NAV-018.label": {
+    "fr": "Clôture du Cycle de Soins"
+  },
+  "SIG-CARE-VAL-001.label": {
+    "fr": "Se Sentir Entendue"
+  },
+  "SIG-CARE-VAL-002.label": {
+    "fr": "Se Sentir Crue"
+  },
+  "SIG-CARE-VAL-003.label": {
+    "fr": "Symptômes Normalisés"
+  },
+  "SIG-CARE-VAL-004.label": {
+    "fr": "Symptômes Minimisés"
+  },
+  "SIG-CARE-VAL-005.label": {
+    "fr": "Rejet des Soins"
+  },
+  "SIG-CARE-VAL-006.label": {
+    "fr": "Rejet Répété des Soins"
+  },
+  "SIG-CARE-VAL-007.label": {
+    "fr": "Validation Émotionnelle"
+  },
+  "SIG-CARE-VAL-008.label": {
+    "fr": "Validation Clinique"
+  },
+  "SIG-CARE-VAL-009.label": {
+    "fr": "Validation Diagnostique"
+  },
+  "SIG-CARE-VAL-010.label": {
+    "fr": "Validation par les Tests"
+  },
+  "SIG-CARE-VAL-011.label": {
+    "fr": "Validation par le Traitement"
+  },
+  "SIG-CARE-VAL-012.label": {
+    "fr": "Aucune Réponse Claire"
+  },
+  "SIG-CARE-VAL-013.label": {
+    "fr": "Avis Cliniques Contradictoires"
+  },
+  "SIG-CARE-VAL-014.label": {
+    "fr": "Renforcement de la Confiance"
+  },
+  "SIG-CARE-VAL-015.label": {
+    "fr": "Érosion de la Confiance"
+  },
+  "SIG-CARE-VAL-016.label": {
+    "fr": "Doute de Soi Après les Soins"
+  },
+  "SIG-CARE-VAL-017.label": {
+    "fr": "Curiosité du Prestataire"
+  },
+  "SIG-CARE-VAL-018.label": {
+    "fr": "Clôture du Prestataire Sans Résolution"
+  },
+  "SIG-CARE-OUT-001.label": {
+    "fr": "Diagnostic Reçu"
+  },
+  "SIG-CARE-OUT-002.label": {
+    "fr": "Pas Encore de Diagnostic"
+  },
+  "SIG-CARE-OUT-003.label": {
+    "fr": "Explication Partielle Reçue"
+  },
+  "SIG-CARE-OUT-004.label": {
+    "fr": "Traitement Proposé"
+  },
+  "SIG-CARE-OUT-005.label": {
+    "fr": "Gestion par Médicament Uniquement"
+  },
+  "SIG-CARE-OUT-006.label": {
+    "fr": "Examens Prescrits"
+  },
+  "SIG-CARE-OUT-007.label": {
+    "fr": "Aucun Examen Proposé"
+  },
+  "SIG-CARE-OUT-008.label": {
+    "fr": "Plan de Gestion des Symptômes"
+  },
+  "SIG-CARE-OUT-009.label": {
+    "fr": "Résultat de Soins Non Résolu"
+  },
+  "SIG-CARE-OUT-010.label": {
+    "fr": "Amélioration du Résultat des Soins"
+  },
+  "SIG-CARE-OUT-011.label": {
+    "fr": "Résultat des Soins Inchangé"
+  },
+  "SIG-CARE-OUT-012.label": {
+    "fr": "Aggravation du Résultat des Soins"
+  },
+  "SIG-CARE-OUT-013.label": {
+    "fr": "Charge du Traitement"
+  },
+  "SIG-CARE-OUT-014.label": {
+    "fr": "Préoccupation liée aux Effets Secondaires du Traitement"
+  },
+  "SIG-CARE-OUT-015.label": {
+    "fr": "Difficulté d'Observance du Traitement"
+  },
+  "SIG-CARE-OUT-016.label": {
+    "fr": "Satisfaction des Soins"
+  },
+  "SIG-CARE-OUT-017.label": {
+    "fr": "Insatisfaction des Soins"
+  },
+  "SIG-CARE-SELF-001.label": {
+    "fr": "Autosurveillance"
+  },
+  "SIG-CARE-SELF-002.label": {
+    "fr": "Planification des Symptômes"
+  },
+  "SIG-CARE-SELF-003.label": {
+    "fr": "Préparation de Produits"
+  },
+  "SIG-CARE-SELF-004.label": {
+    "fr": "Stratégie d'Adaptation à la Douleur"
+  },
+  "SIG-CARE-SELF-005.label": {
+    "fr": "Stratégie de Repos et de Récupération"
+  },
+  "SIG-CARE-SELF-006.label": {
+    "fr": "Ajustement du Régime ou du Mode de Vie"
+  },
+  "SIG-CARE-SELF-007.label": {
+    "fr": "Modification de l'Exercice"
+  },
+  "SIG-CARE-SELF-008.label": {
+    "fr": "Adaptation au Travail ou à l'École"
+  },
+  "SIG-CARE-SELF-009.label": {
+    "fr": "Adaptation dans l'Aide aux Autres"
+  },
+  "SIG-CARE-SELF-010.label": {
+    "fr": "Plaidoyer Personnel"
+  },
+  "SIG-CARE-SELF-011.label": {
+    "fr": "Préparation de Questions"
+  },
+  "SIG-CARE-SELF-012.label": {
+    "fr": "Documentation Préparée"
+  },
+  "SIG-CARE-SELF-013.label": {
+    "fr": "Recherche de Soutien entre Pairs"
+  },
+  "SIG-CARE-SELF-014.label": {
+    "fr": "Recherche de Soutien Familial"
+  },
+  "SIG-CARE-SELF-015.label": {
+    "fr": "Recherche de Soutien Communautaire"
+  },
+  "SIG-CARE-SELF-016.label": {
+    "fr": "Recherche d'Informations en Ligne"
+  },
+  "SIG-CARE-SELF-017.label": {
+    "fr": "Confiance en l'Autogestion"
+  },
+  "SIG-CARE-SELF-018.label": {
+    "fr": "Surcharge de l'Autogestion"
+  },
+  "SIG-CARE-EMO-001.label": {
+    "fr": "Anxiété liée aux Soins"
+  },
+  "SIG-CARE-EMO-002.label": {
+    "fr": "Frustration liée aux Soins"
+  },
+  "SIG-CARE-EMO-003.label": {
+    "fr": "Fatigue liée aux Soins"
+  },
+  "SIG-CARE-EMO-004.label": {
+    "fr": "Espoir lié aux Soins"
+  },
+  "SIG-CARE-EMO-005.label": {
+    "fr": "Soulagement lié aux Soins"
+  },
+  "SIG-CARE-EMO-006.label": {
+    "fr": "Honte liée aux Soins"
+  },
+  "SIG-CARE-EMO-007.label": {
+    "fr": "Peur liée aux Soins"
+  },
+  "SIG-CARE-EMO-008.label": {
+    "fr": "Colère liée aux Soins"
+  },
+  "SIG-CARE-EMO-009.label": {
+    "fr": "Isolement lié aux Soins"
+  },
+  "SIG-CARE-EMO-010.label": {
+    "fr": "Incertitude liée aux Soins"
+  },
+  "SIG-CARE-EMO-011.label": {
+    "fr": "Épuisement lié aux Soins"
+  },
+  "SIG-CARE-EMO-012.label": {
+    "fr": "Méfiance envers le Système Médical"
+  },
+  "SIG-CARE-EMO-013.label": {
+    "fr": "Confiance envers le Système Médical"
+  },
+  "SIG-CARE-EMO-014.label": {
+    "fr": "Sécurité Émotionnelle dans les Soins"
+  },
+  "SIG-CARE-EMO-015.label": {
+    "fr": "Insécurité Émotionnelle dans les Soins"
+  },
+  "SIG-CARE-EMO-016.label": {
+    "fr": "Résignation aux Symptômes"
+  },
+  "SIG-CARE-EMO-017.label": {
+    "fr": "Disposition à Chercher des Soins"
+  },
+  "SIG-CARE-EMO-018.label": {
+    "fr": "Motivation Protectrice liée aux Soins"
+  },
+  "SIG-CARE-EMO-019.label": {
+    "fr": "Préoccupation liée à l'Autonomie Reproductive"
+  },
+  "SIG-NAR-EXP-001.label": {
+    "fr": "Langage de Santé Préféré"
+  },
+  "SIG-NAR-EXP-002.label": {
+    "fr": "Expression des Symptômes en Langage Simple"
+  },
+  "SIG-NAR-EXP-003.label": {
+    "fr": "Langage Métaphorique des Symptômes"
+  },
+  "SIG-NAR-EXP-004.label": {
+    "fr": "Vocabulaire Incertain des Symptômes"
+  },
+  "SIG-NAR-EXP-005.label": {
+    "fr": "Expression Culturellement Ancrée"
+  },
+  "SIG-NAR-EXP-006.label": {
+    "fr": "Description Incarnée"
+  },
+  "SIG-NAR-EXP-007.label": {
+    "fr": "Langage d'Intensité"
+  },
+  "SIG-NAR-EXP-008.label": {
+    "fr": "Langage Comparatif"
+  },
+  "SIG-NAR-EXP-009.label": {
+    "fr": "Langage Minimisant"
+  },
+  "SIG-NAR-EXP-010.label": {
+    "fr": "Langage d'Escalade"
+  },
+  "SIG-NAR-EXP-011.label": {
+    "fr": "Changement de Langue"
+  },
+  "SIG-NAR-EXP-012.label": {
+    "fr": "Besoin de Traduction"
+  },
+  "SIG-NAR-EXP-013.label": {
+    "fr": "Silence ou Rétention"
+  },
+  "SIG-NAR-EXP-014.label": {
+    "fr": "Expression Fragmentée"
+  },
+  "SIG-NAR-EXP-015.label": {
+    "fr": "Expression Narrative Détaillée"
+  },
+  "SIG-NAR-EXP-016.label": {
+    "fr": "Connaissance Corporelle à la Première Personne"
+  },
+  "SIG-NAR-EXP-017.label": {
+    "fr": "Faible Vocabulaire Médical"
+  },
+  "SIG-NAR-SYM-001.label": {
+    "fr": "Histoire d'Apparition des Symptômes"
+  },
+  "SIG-NAR-SYM-002.label": {
+    "fr": "Histoire de Reconnaissance de Schéma"
+  },
+  "SIG-NAR-SYM-003.label": {
+    "fr": "Histoire de Propagation des Symptômes"
+  },
+  "SIG-NAR-SYM-004.label": {
+    "fr": "Accent sur l'Histoire des Saignements"
+  },
+  "SIG-NAR-SYM-005.label": {
+    "fr": "Accent sur l'Histoire de la Douleur"
+  },
+  "SIG-NAR-SYM-006.label": {
+    "fr": "Histoire de Perturbation du Cycle"
+  },
+  "SIG-NAR-SYM-007.label": {
+    "fr": "Histoire de Changement Corporel"
+  },
+  "SIG-NAR-SYM-008.label": {
+    "fr": "Accent sur l'Histoire de la Fatigue"
+  },
+  "SIG-NAR-SYM-009.label": {
+    "fr": "Histoire de Perturbation Quotidienne"
+  },
+  "SIG-NAR-SYM-010.label": {
+    "fr": "Histoire d'Imprévisibilité des Symptômes"
+  },
+  "SIG-NAR-SYM-011.label": {
+    "fr": "Histoire de Sévérité des Symptômes"
+  },
+  "SIG-NAR-SYM-012.label": {
+    "fr": "Histoire de Normalisation des Symptômes"
+  },
+  "SIG-NAR-SYM-013.label": {
+    "fr": "Histoire de Préoccupation liée aux Symptômes"
+  },
+  "SIG-NAR-SYM-014.label": {
+    "fr": "Histoire de Constellation Multi-Symptômes"
+  },
+  "SIG-NAR-SYM-015.label": {
+    "fr": "Histoire de Symptôme Caché"
+  },
+  "SIG-NAR-SYM-016.label": {
+    "fr": "Histoire de Symptôme Récurrent"
+  },
+  "SIG-NAR-SYM-017.label": {
+    "fr": "Histoire de Franchissement de Seuil"
+  },
+  "SIG-NAR-MEA-001.label": {
+    "fr": "Recherche de Sens"
+  },
+  "SIG-NAR-MEA-002.label": {
+    "fr": "Auto-Interprétation"
+  },
+  "SIG-NAR-MEA-003.label": {
+    "fr": "Incertitude sur la Cause"
+  },
+  "SIG-NAR-MEA-004.label": {
+    "fr": "Préoccupation pour l'Avenir"
+  },
+  "SIG-NAR-MEA-005.label": {
+    "fr": "Signification Reproductive"
+  },
+  "SIG-NAR-MEA-006.label": {
+    "fr": "Signification liée à la Préoccupation de Fertilité"
+  },
+  "SIG-NAR-MEA-007.label": {
+    "fr": "Signification liée à l'Impact sur l'Identité"
+  },
+  "SIG-NAR-MEA-008.label": {
+    "fr": "Raisonnement Normal Versus Non Normal"
+  },
+  "SIG-NAR-MEA-009.label": {
+    "fr": "Comparaison avec d'Autres"
+  },
+  "SIG-NAR-MEA-010.label": {
+    "fr": "Signification liée aux Antécédents Familiaux"
+  },
+  "SIG-NAR-MEA-011.label": {
+    "fr": "Cadre de Signification Culturelle"
+  },
+  "SIG-NAR-MEA-012.label": {
+    "fr": "Signification Spirituelle ou Religieuse"
+  },
+  "SIG-NAR-MEA-013.label": {
+    "fr": "Conscience du Risque"
+  },
+  "SIG-NAR-MEA-014.label": {
+    "fr": "Reconnaissance d'une Lacune de Connaissance"
+  },
+  "SIG-NAR-MEA-015.label": {
+    "fr": "Récit de Doute de Soi"
+  },
+  "SIG-NAR-MEA-016.label": {
+    "fr": "Récit de Recherche de Validation"
+  },
+  "SIG-NAR-MEA-017.label": {
+    "fr": "Besoin de Réponses"
+  },
+  "SIG-NAR-EMO-001.label": {
+    "fr": "Récit de Frustration"
+  },
+  "SIG-NAR-EMO-002.label": {
+    "fr": "Récit de Peur"
+  },
+  "SIG-NAR-EMO-003.label": {
+    "fr": "Récit d'Anxiété"
+  },
+  "SIG-NAR-EMO-004.label": {
+    "fr": "Récit de Soulagement"
+  },
+  "SIG-NAR-EMO-005.label": {
+    "fr": "Récit d'Épuisement"
+  },
+  "SIG-NAR-EMO-006.label": {
+    "fr": "Récit d'Isolement"
+  },
+  "SIG-NAR-EMO-007.label": {
+    "fr": "Récit de Honte"
+  },
+  "SIG-NAR-EMO-008.label": {
+    "fr": "Récit d'Embarras"
+  },
+  "SIG-NAR-EMO-009.label": {
+    "fr": "Récit de Colère"
+  },
+  "SIG-NAR-EMO-010.label": {
+    "fr": "Récit de Deuil"
+  },
+  "SIG-NAR-EMO-011.label": {
+    "fr": "Récit d'Espoir"
+  },
+  "SIG-NAR-EMO-012.label": {
+    "fr": "Récit de Résignation"
+  },
+  "SIG-NAR-EMO-013.label": {
+    "fr": "Récit d'Accablement"
+  },
+  "SIG-NAR-EMO-014.label": {
+    "fr": "Récit d'Hypervigilance"
+  },
+  "SIG-NAR-EMO-015.label": {
+    "fr": "Engourdissement Émotionnel"
+  },
+  "SIG-NAR-EMO-016.label": {
+    "fr": "Ambivalence Émotionnelle"
+  },
+  "SIG-NAR-EMO-017.label": {
+    "fr": "Récit de Confiance"
+  },
+  "SIG-NAR-CAR-001.label": {
+    "fr": "Récit de Recherche de Soins"
+  },
+  "SIG-NAR-CAR-002.label": {
+    "fr": "Récit de Soins Retardés"
+  },
+  "SIG-NAR-CAR-003.label": {
+    "fr": "Récit de Rejet par le Prestataire"
+  },
+  "SIG-NAR-CAR-004.label": {
+    "fr": "Récit de Se Sentir Entendue"
+  },
+  "SIG-NAR-CAR-005.label": {
+    "fr": "Récit de Se Sentir Non Entendue"
+  },
+  "SIG-NAR-CAR-006.label": {
+    "fr": "Récit de Soins par Médicament Uniquement"
+  },
+  "SIG-NAR-CAR-007.label": {
+    "fr": "Récit de Tests ou d'Investigation"
+  },
+  "SIG-NAR-CAR-008.label": {
+    "fr": "Récit de Navigation d'Orientation"
+  },
+  "SIG-NAR-CAR-009.label": {
+    "fr": "Récit d'Incertitude Diagnostique"
+  },
+  "SIG-NAR-CAR-010.label": {
+    "fr": "Récit de Barrière d'Accès aux Soins"
+  },
+  "SIG-NAR-CAR-011.label": {
+    "fr": "Récit de Continuité des Soins"
+  },
+  "SIG-NAR-CAR-012.label": {
+    "fr": "Plaidoyer Personnel dans les Soins"
+  },
+  "SIG-NAR-CAR-013.label": {
+    "fr": "Récit de Confiance envers le Prestataire"
+  },
+  "SIG-NAR-CAR-014.label": {
+    "fr": "Récit d'Érosion de la Confiance"
+  },
+  "SIG-NAR-CAR-015.label": {
+    "fr": "Récit de Soins Alternatifs"
+  },
+  "SIG-NAR-CAR-016.label": {
+    "fr": "Récit d'Évitement des Soins"
+  },
+  "SIG-NAR-CAR-017.label": {
+    "fr": "Récit du Résultat des Soins"
+  },
+  "SIG-NAR-SEN-001.label": {
+    "fr": "Récit de Divulgation de Douleur Sexuelle"
+  },
+  "SIG-NAR-SEN-002.label": {
+    "fr": "Récit de Divulgation de Symptômes Intestinaux"
+  },
+  "SIG-NAR-SEN-003.label": {
+    "fr": "Récit de Divulgation de Symptômes Vésicaux"
+  },
+  "SIG-NAR-SEN-004.label": {
+    "fr": "Récit d'Impact sur l'Intimité"
+  },
+  "SIG-NAR-SEN-005.label": {
+    "fr": "Récit de Préoccupation liée à la Vie Privée"
+  },
+  "SIG-NAR-SEN-006.label": {
+    "fr": "Besoin de Divulgation Sensible au Traumatisme"
+  },
+  "SIG-NAR-SEN-007.label": {
+    "fr": "Divulgation Contrainte par la Stigmatisation"
+  },
+  "SIG-NAR-SEN-008.label": {
+    "fr": "Évitement des Symptômes Sensibles"
+  },
+  "SIG-NAR-SEN-009.label": {
+    "fr": "Normalisation des Symptômes Sensibles"
+  },
+  "SIG-NAR-SEN-010.label": {
+    "fr": "Récit d'Établissement de Limites"
+  },
+  "SIG-NAR-SEN-011.label": {
+    "fr": "Récit de Préoccupation liée à la Sécurité"
+  },
+  "SIG-NAR-SEN-012.label": {
+    "fr": "Besoin de Confidentialité"
+  },
+  "SIG-NAR-SEN-013.label": {
+    "fr": "Récit de Vulnérabilité Corporelle"
+  },
+  "SIG-NAR-SEN-014.label": {
+    "fr": "Expression Sensible au Consentement"
+  },
+  "SIG-NAR-SEN-015.label": {
+    "fr": "Récit de Recherche de Soins Sensibles"
+  },
+  "SIG-NAR-TRA-001.label": {
+    "fr": "Histoire d'Aggravation des Symptômes"
+  },
+  "SIG-NAR-TRA-002.label": {
+    "fr": "Histoire d'Amélioration des Symptômes"
+  },
+  "SIG-NAR-TRA-003.label": {
+    "fr": "Histoire de Symptômes Fluctuants"
+  },
+  "SIG-NAR-TRA-004.label": {
+    "fr": "Histoire de Longue Durée"
+  },
+  "SIG-NAR-TRA-005.label": {
+    "fr": "Histoire de Changement Récent"
+  },
+  "SIG-NAR-TRA-006.label": {
+    "fr": "Histoire de Transition d'Étape de Vie"
+  },
+  "SIG-NAR-TRA-007.label": {
+    "fr": "Histoire de Mise à Jour des Soins"
+  },
+  "SIG-NAR-TRA-008.label": {
+    "fr": "Mise à Jour d'un Nouveau Symptôme"
+  },
+  "SIG-NAR-TRA-009.label": {
+    "fr": "Mise à Jour d'un Symptôme Résolu"
+  },
+  "SIG-NAR-TRA-010.label": {
+    "fr": "Histoire de Charge Persistante"
+  },
+  "SIG-NAR-TRA-011.label": {
+    "fr": "Histoire de Stabilisation du Schéma"
+  },
+  "SIG-NAR-TRA-012.label": {
+    "fr": "Réflexion de Check-In"
+  },
+  "SIG-NAR-TRA-013.label": {
+    "fr": "Comparaison Avant-Après"
+  },
+  "SIG-NAR-TRA-014.label": {
+    "fr": "Histoire de Point Tournant"
+  },
+  "SIG-NAR-TRA-015.label": {
+    "fr": "Histoire de Charge Accumulée"
+  },
+  "SIG-NAR-TRA-016.label": {
+    "fr": "Besoin de Suivi Futur"
+  },
+  "SIG-NAR-AGS-001.label": {
+    "fr": "Récit de Plaidoyer Personnel"
+  },
+  "SIG-NAR-AGS-002.label": {
+    "fr": "Récit de Stratégie d'Adaptation"
+  },
+  "SIG-NAR-AGS-003.label": {
+    "fr": "Récit d'Autogestion"
+  },
+  "SIG-NAR-AGS-004.label": {
+    "fr": "Récit de Soutien entre Pairs"
+  },
+  "SIG-NAR-AGS-005.label": {
+    "fr": "Récit de Soutien Familial"
+  },
+  "SIG-NAR-AGS-006.label": {
+    "fr": "Récit de Soutien du Partenaire"
+  },
+  "SIG-NAR-AGS-007.label": {
+    "fr": "Récit de Soutien Communautaire"
+  },
+  "SIG-NAR-AGS-008.label": {
+    "fr": "Récit de Recherche d'Informations"
+  },
+  "SIG-NAR-AGS-009.label": {
+    "fr": "Récit de Préparation"
+  },
+  "SIG-NAR-AGS-010.label": {
+    "fr": "Récit de Limites et de Repos"
+  },
+  "SIG-NAR-AGS-011.label": {
+    "fr": "Récit d'Ingéniosité"
+  },
+  "SIG-NAR-AGS-012.label": {
+    "fr": "Disposition à Chercher de l'Aide"
+  },
+  "SIG-NAR-AGS-013.label": {
+    "fr": "Récit de Planification des Soins"
+  },
+  "SIG-NAR-AGS-014.label": {
+    "fr": "Récit de Résilience"
+  },
+  "SIG-NAR-AGS-015.label": {
+    "fr": "Reconnaissance de la Force"
+  }
+}

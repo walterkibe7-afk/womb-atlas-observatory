@@ -1,0 +1,1804 @@
+{
+  "entries": [
+    {
+      "id": "PAT-001",
+      "name": "Heavy Bleeding Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around heavy bleeding burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-002",
+      "name": "Prolonged Bleeding Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around prolonged bleeding burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-003",
+      "name": "Clot-Associated Bleeding Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around clot-associated bleeding burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-004",
+      "name": "Unpredictable Bleeding Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around unpredictable bleeding burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-005",
+      "name": "Bleeding-Related Disruption",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bleeding-related disruption, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-006",
+      "name": "Bleeding With Energy Depletion",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bleeding with energy depletion, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-007",
+      "name": "Bleeding With Care Delay",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bleeding with care delay, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-008",
+      "name": "Bleeding Progression Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bleeding progression pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-009",
+      "name": "Bleeding Normalization Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bleeding normalization pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-010",
+      "name": "Bleeding Crisis Threshold",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Menstrual Bleeding",
+        "Prolonged Bleeding",
+        "Clot Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bleeding crisis threshold, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-011",
+      "name": "Cycle-Linked Pain Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around cycle-linked pain burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-012",
+      "name": "Persistent Pelvic Pain Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around persistent pelvic pain burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-013",
+      "name": "Diffuse Pain Spread Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around diffuse pain spread pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-014",
+      "name": "Triggered Pain Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around triggered pain pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-015",
+      "name": "Pain With Functional Limitation",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pain with functional limitation, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-016",
+      "name": "Pain With Sleep Disruption",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pain with sleep disruption, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-017",
+      "name": "Pain With Care Dismissal",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pain with care dismissal, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-018",
+      "name": "Pain Escalation Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pain escalation pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-019",
+      "name": "Pain Predictability Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pain predictability burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-020",
+      "name": "Pain Normalization Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Cycle-Linked Pain",
+        "Pelvic Pain",
+        "Pain Spread"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pain normalization pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-021",
+      "name": "Cycle Instability Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around cycle instability pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-022",
+      "name": "Skipped Period Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around skipped period pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-023",
+      "name": "Irregular Cycle Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around irregular cycle burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-024",
+      "name": "Cycle-Linked Symptom Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around cycle-linked symptom pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-025",
+      "name": "Hormonal Manifestation Cluster",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around hormonal manifestation cluster, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-026",
+      "name": "Hormonal-Cycle Uncertainty",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around hormonal-cycle uncertainty, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-027",
+      "name": "Ovulation-Linked Symptom Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around ovulation-linked symptom pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-028",
+      "name": "Cycle Change Over Time",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around cycle change over time, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-029",
+      "name": "Hormonal Change With Body Impact",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around hormonal change with body impact, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-030",
+      "name": "Cycle Predictability Loss",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Irregular Cycles",
+        "Skipped Periods",
+        "Hormonal Signs"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around cycle predictability loss, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-031",
+      "name": "Pelvic Pressure Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pelvic pressure pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-032",
+      "name": "Bowel-Pelvic Symptom Cluster",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bowel-pelvic symptom cluster, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-033",
+      "name": "Bladder-Pelvic Symptom Cluster",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bladder-pelvic symptom cluster, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-034",
+      "name": "Abdominal Distension Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around abdominal distension pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-035",
+      "name": "Multi-Organ Pelvic Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around multi-organ pelvic burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-036",
+      "name": "Sensitive Symptom Disclosure Pattern",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around sensitive symptom disclosure pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-037",
+      "name": "Pelvic Symptom With Care Hesitation",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pelvic symptom with care hesitation, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-038",
+      "name": "Pelvic Symptom Progression",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pelvic symptom progression, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-039",
+      "name": "Pelvic Symptom Functional Burden",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pelvic symptom functional burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-040",
+      "name": "Pelvic Symptom Uncertainty",
+      "domain": "Body",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Pelvic Pressure",
+        "Bowel Symptoms",
+        "Bladder Symptoms"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pelvic symptom uncertainty, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-041",
+      "name": "Daily Function Disruption",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around daily function disruption, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-042",
+      "name": "Missed Activities Pattern",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around missed activities pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-043",
+      "name": "Fatigue-Function Burden",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around fatigue-function burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-044",
+      "name": "Sleep-Recovery Disruption",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around sleep-recovery disruption, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-045",
+      "name": "Work/School Participation Burden",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around work/school participation burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-046",
+      "name": "Caregiving Disruption",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around caregiving disruption, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-047",
+      "name": "Household Task Limitation",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around household task limitation, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-048",
+      "name": "Physical Activity Restriction",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around physical activity restriction, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-049",
+      "name": "Social Participation Withdrawal",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around social participation withdrawal, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-050",
+      "name": "Functional Predictability Burden",
+      "domain": "Function",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Functional Impact",
+        "Missed Activities",
+        "Fatigue"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around functional predictability burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-051",
+      "name": "Care Access Barrier Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care access barrier pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-052",
+      "name": "Delayed Care-Seeking Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around delayed care-seeking pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-053",
+      "name": "Care Navigation Friction",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care navigation friction, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-054",
+      "name": "Referral Gap Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around referral gap pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-055",
+      "name": "Testing/Investigation Gap",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around testing/investigation gap, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-056",
+      "name": "Medication-Only Management Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around medication-only management pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-057",
+      "name": "Unresolved Care Journey",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around unresolved care journey, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-058",
+      "name": "Repeated Consultation Without Answers",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around repeated consultation without answers, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-059",
+      "name": "Fragmented Care Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around fragmented care pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-060",
+      "name": "Specialist Access Friction",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Sought",
+        "Access Barrier",
+        "Care Navigation Friction"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around specialist access friction, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-061",
+      "name": "Care Dismissal Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care dismissal pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-062",
+      "name": "Symptom Normalization by Provider",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around symptom normalization by provider, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-063",
+      "name": "Felt Heard Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around felt heard pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-064",
+      "name": "Felt Unbelieved Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around felt unbelieved pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-065",
+      "name": "Validation Deficit Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around validation deficit pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-066",
+      "name": "Diagnostic Uncertainty Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around diagnostic uncertainty pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-067",
+      "name": "Trust Erosion Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around trust erosion pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-068",
+      "name": "Trust Reinforcement Pattern",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around trust reinforcement pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-069",
+      "name": "Self-Doubt After Care",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around self-doubt after care, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-070",
+      "name": "Care-Related Emotional Burden",
+      "domain": "Care",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Care Dismissal",
+        "Symptom Normalization",
+        "Felt Heard"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care-related emotional burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-071",
+      "name": "Uncertainty Narrative Pattern",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around uncertainty narrative pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-072",
+      "name": "Fear and Concern Narrative",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around fear and concern narrative, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-073",
+      "name": "Normalization Narrative Pattern",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around normalization narrative pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-074",
+      "name": "Identity Disruption Narrative",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around identity disruption narrative, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-075",
+      "name": "Hidden Burden Narrative",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around hidden burden narrative, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-076",
+      "name": "Language Gap Pattern",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around language gap pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-077",
+      "name": "Cultural Meaning-Making Pattern",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around cultural meaning-making pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-078",
+      "name": "Care Story Dominance",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care story dominance, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-079",
+      "name": "Body Story Dominance",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around body story dominance, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-080",
+      "name": "Functional Story Dominance",
+      "domain": "Narrative",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Uncertainty Narrative",
+        "Fear Narrative",
+        "Hidden Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around functional story dominance, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-081",
+      "name": "Self-Advocacy Strength Pattern",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around self-advocacy strength pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-082",
+      "name": "Support Network Buffer",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around support network buffer, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-083",
+      "name": "Knowledge-Seeking Pattern",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around knowledge-seeking pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-084",
+      "name": "Symptom Tracking Strength",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around symptom tracking strength, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-085",
+      "name": "Care Preparation Strength",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care preparation strength, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-086",
+      "name": "Boundary-Setting Pattern",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around boundary-setting pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-087",
+      "name": "Coping Strategy Pattern",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around coping strategy pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-088",
+      "name": "Resilience Under Burden",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around resilience under burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-089",
+      "name": "Help-Seeking Readiness",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around help-seeking readiness, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-090",
+      "name": "Community Support Pattern",
+      "domain": "Protective",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Self-Advocacy",
+        "Support Network",
+        "Knowledge Seeking"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around community support pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-091",
+      "name": "Progressive Symptom Burden",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around progressive symptom burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-092",
+      "name": "Stable High Burden Pattern",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around stable high burden pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-093",
+      "name": "Stable Low Burden Pattern",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around stable low burden pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-094",
+      "name": "Volatile Symptom Pattern",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around volatile symptom pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-095",
+      "name": "Improving Symptom Pattern",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around improving symptom pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-096",
+      "name": "Worsening Functional Burden",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around worsening functional burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-097",
+      "name": "Improving Functional Capacity",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around improving functional capacity, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-098",
+      "name": "Care Trajectory Improvement",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care trajectory improvement, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-099",
+      "name": "Care Trajectory Deterioration",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care trajectory deterioration, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-100",
+      "name": "Narrative Burden Intensification",
+      "domain": "Trajectory",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Worsening Symptoms",
+        "Stable Burden",
+        "Improvement"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around narrative burden intensification, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-101",
+      "name": "Body-Function-Care Constellation",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around body-function-care constellation, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-102",
+      "name": "Bleeding-Pain-Function Constellation",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around bleeding-pain-function constellation, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-103",
+      "name": "Hormonal-Cycle-Emotion Constellation",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around hormonal-cycle-emotion constellation, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-104",
+      "name": "Pelvic-Care-Validation Constellation",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around pelvic-care-validation constellation, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-105",
+      "name": "High Burden With Low Support",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around high burden with low support, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-106",
+      "name": "High Burden With High Advocacy",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around high burden with high advocacy, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-107",
+      "name": "Symptoms Without Care Pathway",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around symptoms without care pathway, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-108",
+      "name": "Care Engagement Despite Dismissal",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care engagement despite dismissal, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-109",
+      "name": "Functional Burden With Protective Strength",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around functional burden with protective strength, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-110",
+      "name": "Complex Multi-Domain Burden",
+      "domain": "Cross-Domain",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Heavy Bleeding",
+        "Pain Burden",
+        "Functional Burden"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around complex multi-domain burden, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-111",
+      "name": "Potential Diagnostic Delay Pattern",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around potential diagnostic delay pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-112",
+      "name": "Potential Under-Recognition Pattern",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around potential under-recognition pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-113",
+      "name": "Care Inequity Signal Pattern",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around care inequity signal pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-114",
+      "name": "Language-Calibrated Burden Pattern",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around language-calibrated burden pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-115",
+      "name": "Migration/Care Continuity Pattern",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around migration/care continuity pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-116",
+      "name": "Adolescent Care Friction Pattern",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around adolescent care friction pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-117",
+      "name": "Cross-Country Care Access Pattern",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around cross-country care access pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-118",
+      "name": "Community Observation Cluster",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around community observation cluster, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-119",
+      "name": "High Research Priority Burden Cluster",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around high research priority burden cluster, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    },
+    {
+      "id": "PAT-120",
+      "name": "Low Evidence Emerging Pattern",
+      "domain": "Research",
+      "fieldIds": [],
+      "narrativeCues": [
+        "Diagnostic Delay Concern",
+        "Under-Recognition",
+        "Care Inequity"
+      ],
+      "valueChecks": [],
+      "meaning": "Your observations may be showing a pattern around low evidence emerging pattern, meaning several parts of your experience may be connected.",
+      "atlasNote": "Use as a synthesis label when multiple supporting signals appear together; do not use as a diagnostic conclusion.",
+      "watchOverTime": "Track for persistence, escalation, improvement, recurrence, or resolution across check-ins."
+    }
+  ]
+}

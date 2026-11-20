@@ -1,0 +1,2950 @@
+{
+  "mappings": [
+    {
+      "id": "SIG-BOD-BLD-001",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Frequent Product Change"
+    },
+    {
+      "id": "SIG-BOD-BLD-002",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Rapid Product Saturation"
+    },
+    {
+      "id": "SIG-BOD-BLD-003",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Heavy Menstrual Flow"
+    },
+    {
+      "id": "SIG-BOD-BLD-004",
+      "observationFieldId": "bleeding_duration",
+      "signalType": "bleeding_characteristics",
+      "label": "Prolonged Bleeding Duration"
+    },
+    {
+      "id": "SIG-BOD-BLD-005",
+      "observationFieldId": "bleeding_duration",
+      "signalType": "bleeding_characteristics",
+      "label": "Very Prolonged Bleeding"
+    },
+    {
+      "id": "SIG-BOD-BLD-006",
+      "observationFieldId": "bleeding_duration",
+      "signalType": "bleeding_characteristics",
+      "label": "Short Bleeding Duration"
+    },
+    {
+      "id": "SIG-BOD-BLD-007",
+      "observationFieldId": "bleeding_duration",
+      "signalType": "bleeding_characteristics",
+      "label": "Variable Bleeding Duration"
+    },
+    {
+      "id": "SIG-BOD-BLD-008",
+      "observationFieldId": "clot_size",
+      "signalType": "bleeding_characteristics",
+      "label": "Large Clot Passage"
+    },
+    {
+      "id": "SIG-BOD-BLD-009",
+      "observationFieldId": "clot_size",
+      "signalType": "bleeding_characteristics",
+      "label": "Frequent Clotting"
+    },
+    {
+      "id": "SIG-BOD-BLD-010",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Clot Burden With Heavy Flow"
+    },
+    {
+      "id": "SIG-BOD-BLD-011",
+      "observationFieldId": "interperiod_bleeding",
+      "signalType": "bleeding_characteristics",
+      "label": "Interperiod Bleeding"
+    },
+    {
+      "id": "SIG-BOD-BLD-012",
+      "observationFieldId": "interperiod_bleeding",
+      "signalType": "bleeding_characteristics",
+      "label": "Unpredictable Interperiod Bleeding"
+    },
+    {
+      "id": "SIG-BOD-BLD-013",
+      "observationFieldId": "bleeding_progression",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding Progression"
+    },
+    {
+      "id": "SIG-BOD-BLD-014",
+      "observationFieldId": "bleeding_progression",
+      "signalType": "bleeding_characteristics",
+      "label": "Increasing Bleeding Burden"
+    },
+    {
+      "id": "SIG-BOD-BLD-015",
+      "observationFieldId": "bleeding_progression",
+      "signalType": "bleeding_characteristics",
+      "label": "Decreasing Bleeding Burden"
+    },
+    {
+      "id": "SIG-BOD-BLD-016",
+      "observationFieldId": "bleeding_progression",
+      "signalType": "bleeding_characteristics",
+      "label": "Stable Bleeding Pattern"
+    },
+    {
+      "id": "SIG-BOD-BLD-017",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding-Related Activity Disruption"
+    },
+    {
+      "id": "SIG-BOD-BLD-018",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding-Related Planning Burden"
+    },
+    {
+      "id": "SIG-BOD-BLD-019",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding-Related Leakage Concern"
+    },
+    {
+      "id": "SIG-BOD-BLD-020",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding-Related Night Burden"
+    },
+    {
+      "id": "SIG-BOD-BLD-021",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding-Related Energy Strain"
+    },
+    {
+      "id": "SIG-BOD-BLD-022",
+      "observationFieldId": "interperiod_bleeding",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding Uncertainty"
+    },
+    {
+      "id": "SIG-BOD-BLD-023",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding Normalization"
+    },
+    {
+      "id": "SIG-BOD-BLD-024",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding Concern Signal"
+    },
+    {
+      "id": "SIG-BOD-BLD-025",
+      "observationFieldId": "reproductive_state",
+      "signalType": "bleeding_characteristics",
+      "label": "Post-Change Bleeding Pattern"
+    },
+    {
+      "id": "SIG-BOD-BLD-026",
+      "observationFieldId": "family_history",
+      "signalType": "bleeding_characteristics",
+      "label": "Family-Context Bleeding Signal"
+    },
+    {
+      "id": "SIG-BOD-BLD-027",
+      "observationFieldId": "trying_to_conceive",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding With Fertility Context"
+    },
+    {
+      "id": "SIG-BOD-BLD-028",
+      "observationFieldId": "reproductive_state",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding During Reproductive Transition"
+    },
+    {
+      "id": "SIG-BOD-BLD-029",
+      "observationFieldId": "product_change_freq",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding Complexity"
+    },
+    {
+      "id": "SIG-BOD-BLD-030",
+      "observationFieldId": "safety_flags",
+      "signalType": "bleeding_characteristics",
+      "label": "Bleeding Safety Escalation Flag"
+    },
+    {
+      "id": "SIG-BOD-PAIN-001",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Cyclical Pain Pattern"
+    },
+    {
+      "id": "SIG-BOD-PAIN-002",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Non-Cyclical Pain Pattern"
+    },
+    {
+      "id": "SIG-BOD-PAIN-003",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Mixed Pain Pattern"
+    },
+    {
+      "id": "SIG-BOD-PAIN-004",
+      "observationFieldId": "pain_timing",
+      "signalType": "pain_characteristics",
+      "label": "Menstrual Pain Timing"
+    },
+    {
+      "id": "SIG-BOD-PAIN-005",
+      "observationFieldId": "pain_timing",
+      "signalType": "pain_characteristics",
+      "label": "Pre-Menstrual Pain Timing"
+    },
+    {
+      "id": "SIG-BOD-PAIN-006",
+      "observationFieldId": "pain_timing",
+      "signalType": "pain_characteristics",
+      "label": "Ovulation-Linked Pain Timing"
+    },
+    {
+      "id": "SIG-BOD-PAIN-007",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Persistent Pain Timing"
+    },
+    {
+      "id": "SIG-BOD-PAIN-008",
+      "observationFieldId": "pain_predictability",
+      "signalType": "pain_characteristics",
+      "label": "Unpredictable Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-009",
+      "observationFieldId": "pain_predictability",
+      "signalType": "pain_characteristics",
+      "label": "Predictable Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-010",
+      "observationFieldId": "pain_severity_change",
+      "signalType": "pain_characteristics",
+      "label": "Progressive Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-011",
+      "observationFieldId": "pain_severity_change",
+      "signalType": "pain_characteristics",
+      "label": "Improving Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-012",
+      "observationFieldId": "pain_severity_change",
+      "signalType": "pain_characteristics",
+      "label": "Stable Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-013",
+      "observationFieldId": "pain_severity_change",
+      "signalType": "pain_characteristics",
+      "label": "Severe Pain Burden"
+    },
+    {
+      "id": "SIG-BOD-PAIN-014",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Mild Pain Burden"
+    },
+    {
+      "id": "SIG-BOD-PAIN-015",
+      "observationFieldId": "pain_location",
+      "signalType": "pain_characteristics",
+      "label": "Pelvic Pain Location"
+    },
+    {
+      "id": "SIG-BOD-PAIN-016",
+      "observationFieldId": "pain_location",
+      "signalType": "pain_characteristics",
+      "label": "Lower Abdominal Pain Location"
+    },
+    {
+      "id": "SIG-BOD-PAIN-017",
+      "observationFieldId": "pain_location",
+      "signalType": "pain_characteristics",
+      "label": "Back Pain Association"
+    },
+    {
+      "id": "SIG-BOD-PAIN-018",
+      "observationFieldId": "pain_location",
+      "signalType": "pain_characteristics",
+      "label": "Leg-Radiating Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-019",
+      "observationFieldId": "pain_location",
+      "signalType": "pain_characteristics",
+      "label": "Multi-Site Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-020",
+      "observationFieldId": "pain_location",
+      "signalType": "pain_characteristics",
+      "label": "Diffuse Pelvic-Body Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-021",
+      "observationFieldId": "pain_triggers",
+      "signalType": "pain_characteristics",
+      "label": "Trigger-Associated Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-022",
+      "observationFieldId": "pain_triggers",
+      "signalType": "pain_characteristics",
+      "label": "Movement-Triggered Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-023",
+      "observationFieldId": "pain_during_sex",
+      "signalType": "pain_characteristics",
+      "label": "Sex-Associated Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-024",
+      "observationFieldId": "bowel_symptoms",
+      "signalType": "pain_characteristics",
+      "label": "Bowel-Associated Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-025",
+      "observationFieldId": "bladder_symptoms",
+      "signalType": "pain_characteristics",
+      "label": "Bladder-Associated Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-026",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Pain With Bleeding Burden"
+    },
+    {
+      "id": "SIG-BOD-PAIN-027",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Pain-Related Functional Disruption"
+    },
+    {
+      "id": "SIG-BOD-PAIN-028",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Pain-Related Rest Vulnerability"
+    },
+    {
+      "id": "SIG-BOD-PAIN-029",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Pain Normalization"
+    },
+    {
+      "id": "SIG-BOD-PAIN-030",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Pain Concern Signal"
+    },
+    {
+      "id": "SIG-BOD-PAIN-031",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Pain Duration Burden"
+    },
+    {
+      "id": "SIG-BOD-PAIN-032",
+      "observationFieldId": "pain_pattern",
+      "signalType": "pain_characteristics",
+      "label": "Pain Complexity"
+    },
+    {
+      "id": "SIG-BOD-PAIN-033",
+      "observationFieldId": "safety_flags",
+      "signalType": "pain_characteristics",
+      "label": "Pain Safety Escalation Flag"
+    },
+    {
+      "id": "SIG-BOD-PAIN-034",
+      "observationFieldId": "ever_pregnant",
+      "signalType": "pain_characteristics",
+      "label": "Reproductive-Context Pain"
+    },
+    {
+      "id": "SIG-BOD-PAIN-035",
+      "observationFieldId": "hormonal_contraception",
+      "signalType": "pain_characteristics",
+      "label": "Hormone-Context Pain"
+    },
+    {
+      "id": "SIG-BOD-PEL-001",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic Pressure"
+    },
+    {
+      "id": "SIG-BOD-PEL-002",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic Fullness"
+    },
+    {
+      "id": "SIG-BOD-PEL-003",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Abdominal Bloating Signal"
+    },
+    {
+      "id": "SIG-BOD-PEL-004",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Digestive Symptom Signal"
+    },
+    {
+      "id": "SIG-BOD-PEL-005",
+      "observationFieldId": "bowel_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Bowel Urgency or Discomfort"
+    },
+    {
+      "id": "SIG-BOD-PEL-006",
+      "observationFieldId": "bowel_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Constipation-Linked Burden"
+    },
+    {
+      "id": "SIG-BOD-PEL-007",
+      "observationFieldId": "bowel_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Diarrhea-Linked Burden"
+    },
+    {
+      "id": "SIG-BOD-PEL-008",
+      "observationFieldId": "bladder_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Bladder Urgency Signal"
+    },
+    {
+      "id": "SIG-BOD-PEL-009",
+      "observationFieldId": "bladder_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Painful Urination Signal"
+    },
+    {
+      "id": "SIG-BOD-PEL-010",
+      "observationFieldId": "bladder_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Frequent Urination Signal"
+    },
+    {
+      "id": "SIG-BOD-PEL-011",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic-Urinary Symptom Cluster"
+    },
+    {
+      "id": "SIG-BOD-PEL-012",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic-Bowel Symptom Cluster"
+    },
+    {
+      "id": "SIG-BOD-PEL-013",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic Multi-Organ Cluster"
+    },
+    {
+      "id": "SIG-BOD-PEL-014",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pressure With Bleeding Burden"
+    },
+    {
+      "id": "SIG-BOD-PEL-015",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pressure With Pain Burden"
+    },
+    {
+      "id": "SIG-BOD-PEL-016",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic Symptom Progression"
+    },
+    {
+      "id": "SIG-BOD-PEL-017",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic Symptom Persistence"
+    },
+    {
+      "id": "SIG-BOD-PEL-018",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic Symptom Normalization"
+    },
+    {
+      "id": "SIG-BOD-PEL-019",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic Symptom Complexity"
+    },
+    {
+      "id": "SIG-BOD-PEL-020",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "pelvic_organ_symptoms",
+      "label": "Pelvic Safety Escalation Flag"
+    },
+    {
+      "id": "SIG-BOD-CYC-001",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Regular Cycle Pattern"
+    },
+    {
+      "id": "SIG-BOD-CYC-002",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Irregular Cycle Pattern"
+    },
+    {
+      "id": "SIG-BOD-CYC-003",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Highly Unpredictable Cycle"
+    },
+    {
+      "id": "SIG-BOD-CYC-004",
+      "observationFieldId": "skipped_periods",
+      "signalType": "cycle_characteristics",
+      "label": "Skipped Period Pattern"
+    },
+    {
+      "id": "SIG-BOD-CYC-005",
+      "observationFieldId": "skipped_periods",
+      "signalType": "cycle_characteristics",
+      "label": "Frequent Skipped Periods"
+    },
+    {
+      "id": "SIG-BOD-CYC-006",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Length Variability"
+    },
+    {
+      "id": "SIG-BOD-CYC-007",
+      "observationFieldId": "cycle_changes",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Change Over Time"
+    },
+    {
+      "id": "SIG-BOD-CYC-008",
+      "observationFieldId": "cycle_changes",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Shortening Signal"
+    },
+    {
+      "id": "SIG-BOD-CYC-009",
+      "observationFieldId": "cycle_changes",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Lengthening Signal"
+    },
+    {
+      "id": "SIG-BOD-CYC-010",
+      "observationFieldId": "symptoms_related_to",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle-Linked Symptom Pattern"
+    },
+    {
+      "id": "SIG-BOD-CYC-011",
+      "observationFieldId": "symptoms_related_to",
+      "signalType": "cycle_characteristics",
+      "label": "Ovulation-Linked Symptom Pattern"
+    },
+    {
+      "id": "SIG-BOD-CYC-012",
+      "observationFieldId": "symptoms_related_to",
+      "signalType": "cycle_characteristics",
+      "label": "Non-Cycle-Linked Symptom Pattern"
+    },
+    {
+      "id": "SIG-BOD-CYC-013",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Uncertainty"
+    },
+    {
+      "id": "SIG-BOD-CYC-014",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Burden With Bleeding"
+    },
+    {
+      "id": "SIG-BOD-CYC-015",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Burden With Pain"
+    },
+    {
+      "id": "SIG-BOD-CYC-016",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Burden With Hormonal Signs"
+    },
+    {
+      "id": "SIG-BOD-CYC-017",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Normalization"
+    },
+    {
+      "id": "SIG-BOD-CYC-018",
+      "observationFieldId": "cycle_predictability",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Concern Signal"
+    },
+    {
+      "id": "SIG-BOD-CYC-019",
+      "observationFieldId": "trying_to_conceive",
+      "signalType": "cycle_characteristics",
+      "label": "Reproductive-Context Cycle Signal"
+    },
+    {
+      "id": "SIG-BOD-CYC-020",
+      "observationFieldId": "cycle_changes",
+      "signalType": "cycle_characteristics",
+      "label": "Cycle Trajectory Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-001",
+      "observationFieldId": "hormonal_contraception",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal Contraception Context Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-002",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Acne or Skin Change Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-003",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hair Growth Change Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-004",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hair Loss or Thinning Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-005",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Weight Change Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-006",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Mood-Hormonal Timing Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-007",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Breast Tenderness Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-008",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hot Flash or Temperature Shift Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-009",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Night Sweat Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-010",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal Symptom Cluster"
+    },
+    {
+      "id": "SIG-BOD-HOR-011",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal-Cycle Cluster"
+    },
+    {
+      "id": "SIG-BOD-HOR-012",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal-Pain Cluster"
+    },
+    {
+      "id": "SIG-BOD-HOR-013",
+      "observationFieldId": "hormonal_contraception",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal-Bleeding Cluster"
+    },
+    {
+      "id": "SIG-BOD-HOR-014",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal Body Change Progression"
+    },
+    {
+      "id": "SIG-BOD-HOR-015",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal Symptom Persistence"
+    },
+    {
+      "id": "SIG-BOD-HOR-016",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal Normalization"
+    },
+    {
+      "id": "SIG-BOD-HOR-017",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal Concern Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-018",
+      "observationFieldId": "reproductive_state",
+      "signalType": "hormonal_manifestations",
+      "label": "Life-Stage Hormonal Context"
+    },
+    {
+      "id": "SIG-BOD-HOR-019",
+      "observationFieldId": "trying_to_conceive",
+      "signalType": "hormonal_manifestations",
+      "label": "Fertility-Context Hormonal Signal"
+    },
+    {
+      "id": "SIG-BOD-HOR-020",
+      "observationFieldId": "hormonal_signs",
+      "signalType": "hormonal_manifestations",
+      "label": "Hormonal Complexity"
+    },
+    {
+      "id": "SIG-BOD-BODY-001",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Visible Body Change"
+    },
+    {
+      "id": "SIG-BOD-BODY-002",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Abdominal Size or Shape Change"
+    },
+    {
+      "id": "SIG-BOD-BODY-003",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Swelling Sensation"
+    },
+    {
+      "id": "SIG-BOD-BODY-004",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Weight Fluctuation Pattern"
+    },
+    {
+      "id": "SIG-BOD-BODY-005",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Energy-Body Link"
+    },
+    {
+      "id": "SIG-BOD-BODY-006",
+      "observationFieldId": "dizziness_freq",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Dizziness or Weakness Body Signal"
+    },
+    {
+      "id": "SIG-BOD-BODY-007",
+      "observationFieldId": "dizziness_freq",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Faintness Escalation Signal"
+    },
+    {
+      "id": "SIG-BOD-BODY-008",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change With Bleeding Burden"
+    },
+    {
+      "id": "SIG-BOD-BODY-009",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change With Pain Burden"
+    },
+    {
+      "id": "SIG-BOD-BODY-010",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change With Cycle Disruption"
+    },
+    {
+      "id": "SIG-BOD-BODY-011",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change With Hormonal Signs"
+    },
+    {
+      "id": "SIG-BOD-BODY-012",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change Progression"
+    },
+    {
+      "id": "SIG-BOD-BODY-013",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change Persistence"
+    },
+    {
+      "id": "SIG-BOD-BODY-014",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change Uncertainty"
+    },
+    {
+      "id": "SIG-BOD-BODY-015",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change Concern"
+    },
+    {
+      "id": "SIG-BOD-BODY-016",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Change Normalization"
+    },
+    {
+      "id": "SIG-BOD-BODY-017",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Image Burden Signal"
+    },
+    {
+      "id": "SIG-BOD-BODY-018",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Physical Heaviness Signal"
+    },
+    {
+      "id": "SIG-BOD-BODY-019",
+      "observationFieldId": "pelvic_symptoms",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Inflammation-Like Sensation"
+    },
+    {
+      "id": "SIG-BOD-BODY-020",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Symptom Cluster"
+    },
+    {
+      "id": "SIG-BOD-BODY-021",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Somatic Burden Complexity"
+    },
+    {
+      "id": "SIG-BOD-BODY-022",
+      "observationFieldId": "reproductive_state",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Reproductive Life-Stage Body Change"
+    },
+    {
+      "id": "SIG-BOD-BODY-023",
+      "observationFieldId": "ever_pregnant",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Post-Pregnancy Body Context"
+    },
+    {
+      "id": "SIG-BOD-BODY-024",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Body Safety Escalation Flag"
+    },
+    {
+      "id": "SIG-BOD-BODY-025",
+      "observationFieldId": "body_changes",
+      "signalType": "body_changes_physical_manifestations",
+      "label": "Whole-Body Symptom Integration"
+    },
+    {
+      "id": "SIG-FUNC-001",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Activity Limitation"
+    },
+    {
+      "id": "SIG-FUNC-002",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Routine Disruption"
+    },
+    {
+      "id": "SIG-FUNC-003",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Self-Care Interference"
+    },
+    {
+      "id": "SIG-FUNC-004",
+      "observationFieldId": "function_impact",
+      "signalType": "daily_function",
+      "label": "Household Task Interference"
+    },
+    {
+      "id": "SIG-FUNC-005",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Errand Limitation"
+    },
+    {
+      "id": "SIG-FUNC-006",
+      "observationFieldId": "function_impact",
+      "signalType": "daily_function",
+      "label": "Travel Limitation"
+    },
+    {
+      "id": "SIG-FUNC-007",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Planning Around Symptoms"
+    },
+    {
+      "id": "SIG-FUNC-008",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Reduced Functional Reserve"
+    },
+    {
+      "id": "SIG-FUNC-009",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "High Functional Burden"
+    },
+    {
+      "id": "SIG-FUNC-010",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Low Functional Burden"
+    },
+    {
+      "id": "SIG-FUNC-011",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Intermittent Functional Burden"
+    },
+    {
+      "id": "SIG-FUNC-012",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Persistent Functional Burden"
+    },
+    {
+      "id": "SIG-FUNC-013",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Multi-Area Life Impact"
+    },
+    {
+      "id": "SIG-FUNC-014",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Daily Life Adaptation"
+    },
+    {
+      "id": "SIG-FUNC-015",
+      "observationFieldId": "life_disruption",
+      "signalType": "daily_function",
+      "label": "Functional Uncertainty"
+    },
+    {
+      "id": "SIG-FUNC-016",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Functional Avoidance"
+    },
+    {
+      "id": "SIG-FUNC-017",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Functional Recovery Delay"
+    },
+    {
+      "id": "SIG-FUNC-018",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "daily_function",
+      "label": "Symptom-Led Scheduling"
+    },
+    {
+      "id": "SIG-FUNC-019",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Low Energy"
+    },
+    {
+      "id": "SIG-FUNC-020",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Frequent Fatigue"
+    },
+    {
+      "id": "SIG-FUNC-021",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Constant Fatigue"
+    },
+    {
+      "id": "SIG-FUNC-022",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Cycle-Linked Fatigue"
+    },
+    {
+      "id": "SIG-FUNC-023",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Post-Symptom Exhaustion"
+    },
+    {
+      "id": "SIG-FUNC-024",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Activity-Related Exhaustion"
+    },
+    {
+      "id": "SIG-FUNC-025",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Fatigue With Weakness"
+    },
+    {
+      "id": "SIG-FUNC-026",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Energy Instability"
+    },
+    {
+      "id": "SIG-FUNC-027",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Reduced Stamina"
+    },
+    {
+      "id": "SIG-FUNC-028",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Rest Dependency"
+    },
+    {
+      "id": "SIG-FUNC-029",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Fatigue-Driven Missed Activities"
+    },
+    {
+      "id": "SIG-FUNC-030",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Fatigue Burden Escalation"
+    },
+    {
+      "id": "SIG-FUNC-031",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Energy Burden Normalization"
+    },
+    {
+      "id": "SIG-FUNC-032",
+      "observationFieldId": "fatigue_freq",
+      "signalType": "fatigue_energy",
+      "label": "Energy Conservation Strategy"
+    },
+    {
+      "id": "SIG-FUNC-033",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Sleep Disruption"
+    },
+    {
+      "id": "SIG-FUNC-034",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Frequent Sleep Disruption"
+    },
+    {
+      "id": "SIG-FUNC-035",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Constant Sleep Disruption"
+    },
+    {
+      "id": "SIG-FUNC-036",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Pain-Related Sleep Interruption"
+    },
+    {
+      "id": "SIG-FUNC-037",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Bleeding-Related Sleep Interruption"
+    },
+    {
+      "id": "SIG-FUNC-038",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Poor Recovery"
+    },
+    {
+      "id": "SIG-FUNC-039",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Nighttime Symptom Burden"
+    },
+    {
+      "id": "SIG-FUNC-040",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Sleep-Linked Daytime Impairment"
+    },
+    {
+      "id": "SIG-FUNC-041",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Restorative Sleep Deficit"
+    },
+    {
+      "id": "SIG-FUNC-042",
+      "observationFieldId": "sleep_disruption",
+      "signalType": "sleep_recovery",
+      "label": "Sleep Adaptation"
+    },
+    {
+      "id": "SIG-FUNC-043",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Work or School Interference"
+    },
+    {
+      "id": "SIG-FUNC-044",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Missed Work or School"
+    },
+    {
+      "id": "SIG-FUNC-045",
+      "observationFieldId": "missed_activities",
+      "signalType": "work_school_impact",
+      "label": "Repeated Absence"
+    },
+    {
+      "id": "SIG-FUNC-046",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Reduced Productivity"
+    },
+    {
+      "id": "SIG-FUNC-047",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Concentration Difficulty"
+    },
+    {
+      "id": "SIG-FUNC-048",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Academic Participation Burden"
+    },
+    {
+      "id": "SIG-FUNC-049",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Workplace Participation Burden"
+    },
+    {
+      "id": "SIG-FUNC-050",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Schedule Reliability Risk"
+    },
+    {
+      "id": "SIG-FUNC-051",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Task Completion Delay"
+    },
+    {
+      "id": "SIG-FUNC-052",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Career or Education Constraint"
+    },
+    {
+      "id": "SIG-FUNC-053",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Disclosure Burden"
+    },
+    {
+      "id": "SIG-FUNC-054",
+      "observationFieldId": "function_impact",
+      "signalType": "work_school_impact",
+      "label": "Work-School Coping Strategy"
+    },
+    {
+      "id": "SIG-FUNC-055",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Caregiving Interference"
+    },
+    {
+      "id": "SIG-FUNC-056",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Caregiving Strain"
+    },
+    {
+      "id": "SIG-FUNC-057",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Household Responsibility Burden"
+    },
+    {
+      "id": "SIG-FUNC-058",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Role Overload"
+    },
+    {
+      "id": "SIG-FUNC-059",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Reduced Reliability in Care Roles"
+    },
+    {
+      "id": "SIG-FUNC-060",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Support Need at Home"
+    },
+    {
+      "id": "SIG-FUNC-061",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Caregiving Guilt"
+    },
+    {
+      "id": "SIG-FUNC-062",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Domestic Pacing"
+    },
+    {
+      "id": "SIG-FUNC-063",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Family Routine Disruption"
+    },
+    {
+      "id": "SIG-FUNC-064",
+      "observationFieldId": "function_impact",
+      "signalType": "caregiving_household",
+      "label": "Invisible Household Burden"
+    },
+    {
+      "id": "SIG-FUNC-065",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Movement Limitation"
+    },
+    {
+      "id": "SIG-FUNC-066",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Exercise Limitation"
+    },
+    {
+      "id": "SIG-FUNC-067",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Walking or Standing Difficulty"
+    },
+    {
+      "id": "SIG-FUNC-068",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Activity Avoidance"
+    },
+    {
+      "id": "SIG-FUNC-069",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Mobility Unpredictability"
+    },
+    {
+      "id": "SIG-FUNC-070",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Physical Capacity Reduction"
+    },
+    {
+      "id": "SIG-FUNC-071",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Movement-Triggered Burden"
+    },
+    {
+      "id": "SIG-FUNC-072",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Travel Mobility Burden"
+    },
+    {
+      "id": "SIG-FUNC-073",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Rest-Oriented Mobility Strategy"
+    },
+    {
+      "id": "SIG-FUNC-074",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Dizziness-Related Mobility Risk"
+    },
+    {
+      "id": "SIG-FUNC-075",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Physical Participation Loss"
+    },
+    {
+      "id": "SIG-FUNC-076",
+      "observationFieldId": "function_impact",
+      "signalType": "physical_activity_mobility",
+      "label": "Mobility Recovery Lag"
+    },
+    {
+      "id": "SIG-FUNC-077",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Social Activity Interference"
+    },
+    {
+      "id": "SIG-FUNC-078",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Social Withdrawal"
+    },
+    {
+      "id": "SIG-FUNC-079",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Relationship Impact"
+    },
+    {
+      "id": "SIG-FUNC-080",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Travel and Social Planning Burden"
+    },
+    {
+      "id": "SIG-FUNC-081",
+      "observationFieldId": "missed_activities",
+      "signalType": "social_participation",
+      "label": "Cancelled Plans"
+    },
+    {
+      "id": "SIG-FUNC-082",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Participation Anxiety"
+    },
+    {
+      "id": "SIG-FUNC-083",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Isolation Risk"
+    },
+    {
+      "id": "SIG-FUNC-084",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Intimacy Participation Burden"
+    },
+    {
+      "id": "SIG-FUNC-085",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Community Participation Limitation"
+    },
+    {
+      "id": "SIG-FUNC-086",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Social Energy Depletion"
+    },
+    {
+      "id": "SIG-FUNC-087",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Stigma Management"
+    },
+    {
+      "id": "SIG-FUNC-088",
+      "observationFieldId": "function_impact",
+      "signalType": "social_participation",
+      "label": "Social Coping Strategy"
+    },
+    {
+      "id": "SIG-FUNC-089",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Mood Impact"
+    },
+    {
+      "id": "SIG-FUNC-090",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Symptom Worry"
+    },
+    {
+      "id": "SIG-FUNC-091",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Functional Frustration"
+    },
+    {
+      "id": "SIG-FUNC-092",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Burden Normalization"
+    },
+    {
+      "id": "SIG-FUNC-093",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Loss of Confidence in Body"
+    },
+    {
+      "id": "SIG-FUNC-094",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Uncertainty Burden"
+    },
+    {
+      "id": "SIG-FUNC-095",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Distress From Disruption"
+    },
+    {
+      "id": "SIG-FUNC-096",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Self-Doubt About Symptoms"
+    },
+    {
+      "id": "SIG-FUNC-097",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Resilience Through Adaptation"
+    },
+    {
+      "id": "SIG-FUNC-098",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Emotional Fatigue"
+    },
+    {
+      "id": "SIG-FUNC-099",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Agency Preservation"
+    },
+    {
+      "id": "SIG-FUNC-100",
+      "observationFieldId": "normalcy_perception",
+      "signalType": "emotional_function",
+      "label": "Help-Seeking Readiness"
+    },
+    {
+      "id": "SIG-CARE-ACC-001",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Initial Care Seeking"
+    },
+    {
+      "id": "SIG-CARE-ACC-002",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "No Care Sought"
+    },
+    {
+      "id": "SIG-CARE-ACC-003",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Delayed Care Seeking"
+    },
+    {
+      "id": "SIG-CARE-ACC-004",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Care Avoidance"
+    },
+    {
+      "id": "SIG-CARE-ACC-005",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Care Access Confidence"
+    },
+    {
+      "id": "SIG-CARE-ACC-006",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Limited Care Access"
+    },
+    {
+      "id": "SIG-CARE-ACC-007",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Uncertain Care Access"
+    },
+    {
+      "id": "SIG-CARE-ACC-008",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Geographic Access Barrier"
+    },
+    {
+      "id": "SIG-CARE-ACC-009",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Financial Access Barrier"
+    },
+    {
+      "id": "SIG-CARE-ACC-010",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Appointment Availability Barrier"
+    },
+    {
+      "id": "SIG-CARE-ACC-011",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Transportation Access Barrier"
+    },
+    {
+      "id": "SIG-CARE-ACC-012",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Insurance or Coverage Barrier"
+    },
+    {
+      "id": "SIG-CARE-ACC-013",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Specialist Access Barrier"
+    },
+    {
+      "id": "SIG-CARE-ACC-014",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Primary Care Reliance"
+    },
+    {
+      "id": "SIG-CARE-ACC-015",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Emergency Care Reliance"
+    },
+    {
+      "id": "SIG-CARE-ACC-016",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Digital Care Reliance"
+    },
+    {
+      "id": "SIG-CARE-ACC-017",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Informal Care Reliance"
+    },
+    {
+      "id": "SIG-CARE-ACC-018",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Access Improvement"
+    },
+    {
+      "id": "SIG-CARE-ACC-019",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Access Deterioration"
+    },
+    {
+      "id": "SIG-CARE-ACC-020",
+      "observationFieldId": "spoken_to_provider",
+      "signalType": "care_access",
+      "label": "Access Stability"
+    },
+    {
+      "id": "SIG-CARE-NAV-001",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Clear Care Pathway"
+    },
+    {
+      "id": "SIG-CARE-NAV-002",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Unclear Care Pathway"
+    },
+    {
+      "id": "SIG-CARE-NAV-003",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Referral Received"
+    },
+    {
+      "id": "SIG-CARE-NAV-004",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Referral Not Received"
+    },
+    {
+      "id": "SIG-CARE-NAV-005",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Referral Delay"
+    },
+    {
+      "id": "SIG-CARE-NAV-006",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Multiple Provider Navigation"
+    },
+    {
+      "id": "SIG-CARE-NAV-007",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Care Fragmentation"
+    },
+    {
+      "id": "SIG-CARE-NAV-008",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Care Continuity"
+    },
+    {
+      "id": "SIG-CARE-NAV-009",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Care Coordination Need"
+    },
+    {
+      "id": "SIG-CARE-NAV-010",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Diagnostic Navigation Burden"
+    },
+    {
+      "id": "SIG-CARE-NAV-011",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Testing Pathway Initiated"
+    },
+    {
+      "id": "SIG-CARE-NAV-012",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Testing Pathway Absent"
+    },
+    {
+      "id": "SIG-CARE-NAV-013",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Follow-Up Planned"
+    },
+    {
+      "id": "SIG-CARE-NAV-014",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Follow-Up Gap"
+    },
+    {
+      "id": "SIG-CARE-NAV-015",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Second Opinion Seeking"
+    },
+    {
+      "id": "SIG-CARE-NAV-016",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "System Literacy Need"
+    },
+    {
+      "id": "SIG-CARE-NAV-017",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Advocacy Navigation"
+    },
+    {
+      "id": "SIG-CARE-NAV-018",
+      "observationFieldId": "care_response",
+      "signalType": "care_navigation",
+      "label": "Care Loop Closure"
+    },
+    {
+      "id": "SIG-CARE-VAL-001",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Felt Heard"
+    },
+    {
+      "id": "SIG-CARE-VAL-002",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Felt Believed"
+    },
+    {
+      "id": "SIG-CARE-VAL-003",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Symptoms Normalized"
+    },
+    {
+      "id": "SIG-CARE-VAL-004",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Symptoms Minimized"
+    },
+    {
+      "id": "SIG-CARE-VAL-005",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Care Dismissal"
+    },
+    {
+      "id": "SIG-CARE-VAL-006",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Repeated Care Dismissal"
+    },
+    {
+      "id": "SIG-CARE-VAL-007",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Emotional Validation"
+    },
+    {
+      "id": "SIG-CARE-VAL-008",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Clinical Validation"
+    },
+    {
+      "id": "SIG-CARE-VAL-009",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Diagnostic Validation"
+    },
+    {
+      "id": "SIG-CARE-VAL-010",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Validation Through Testing"
+    },
+    {
+      "id": "SIG-CARE-VAL-011",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Validation Through Treatment"
+    },
+    {
+      "id": "SIG-CARE-VAL-012",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "No Clear Answers"
+    },
+    {
+      "id": "SIG-CARE-VAL-013",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Conflicting Clinical Opinions"
+    },
+    {
+      "id": "SIG-CARE-VAL-014",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Trust Reinforcement"
+    },
+    {
+      "id": "SIG-CARE-VAL-015",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Trust Erosion"
+    },
+    {
+      "id": "SIG-CARE-VAL-016",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Self-Doubt After Care"
+    },
+    {
+      "id": "SIG-CARE-VAL-017",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Provider Curiosity"
+    },
+    {
+      "id": "SIG-CARE-VAL-018",
+      "observationFieldId": "care_response",
+      "signalType": "validation",
+      "label": "Provider Closure Without Resolution"
+    },
+    {
+      "id": "SIG-CARE-OUT-001",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Diagnosis Received"
+    },
+    {
+      "id": "SIG-CARE-OUT-002",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "No Diagnosis Yet"
+    },
+    {
+      "id": "SIG-CARE-OUT-003",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Partial Explanation Received"
+    },
+    {
+      "id": "SIG-CARE-OUT-004",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Treatment Offered"
+    },
+    {
+      "id": "SIG-CARE-OUT-005",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Medication-Only Management"
+    },
+    {
+      "id": "SIG-CARE-OUT-006",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Investigations Ordered"
+    },
+    {
+      "id": "SIG-CARE-OUT-007",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "No Investigation Offered"
+    },
+    {
+      "id": "SIG-CARE-OUT-008",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Symptom Management Plan"
+    },
+    {
+      "id": "SIG-CARE-OUT-009",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Unresolved Care Outcome"
+    },
+    {
+      "id": "SIG-CARE-OUT-010",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Care Outcome Improvement"
+    },
+    {
+      "id": "SIG-CARE-OUT-011",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Care Outcome No Change"
+    },
+    {
+      "id": "SIG-CARE-OUT-012",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Care Outcome Worsening"
+    },
+    {
+      "id": "SIG-CARE-OUT-013",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Treatment Burden"
+    },
+    {
+      "id": "SIG-CARE-OUT-014",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Treatment Side-Effect Concern"
+    },
+    {
+      "id": "SIG-CARE-OUT-015",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Treatment Adherence Challenge"
+    },
+    {
+      "id": "SIG-CARE-OUT-016",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Care Satisfaction"
+    },
+    {
+      "id": "SIG-CARE-OUT-017",
+      "observationFieldId": "care_response",
+      "signalType": "care_outcomes",
+      "label": "Care Dissatisfaction"
+    },
+    {
+      "id": "SIG-CARE-SELF-001",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Self-Tracking"
+    },
+    {
+      "id": "SIG-CARE-SELF-002",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Symptom Planning"
+    },
+    {
+      "id": "SIG-CARE-SELF-003",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Product Preparedness"
+    },
+    {
+      "id": "SIG-CARE-SELF-004",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Pain Coping Strategy"
+    },
+    {
+      "id": "SIG-CARE-SELF-005",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Rest and Recovery Strategy"
+    },
+    {
+      "id": "SIG-CARE-SELF-006",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Diet or Lifestyle Adjustment"
+    },
+    {
+      "id": "SIG-CARE-SELF-007",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Exercise Modification"
+    },
+    {
+      "id": "SIG-CARE-SELF-008",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Work or School Adaptation"
+    },
+    {
+      "id": "SIG-CARE-SELF-009",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Caregiving Adaptation"
+    },
+    {
+      "id": "SIG-CARE-SELF-010",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Self-Advocacy"
+    },
+    {
+      "id": "SIG-CARE-SELF-011",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Question Preparation"
+    },
+    {
+      "id": "SIG-CARE-SELF-012",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Documentation Prepared"
+    },
+    {
+      "id": "SIG-CARE-SELF-013",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Peer Support Seeking"
+    },
+    {
+      "id": "SIG-CARE-SELF-014",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Family Support Seeking"
+    },
+    {
+      "id": "SIG-CARE-SELF-015",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Community Support Seeking"
+    },
+    {
+      "id": "SIG-CARE-SELF-016",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Online Information Seeking"
+    },
+    {
+      "id": "SIG-CARE-SELF-017",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Self-Management Confidence"
+    },
+    {
+      "id": "SIG-CARE-SELF-018",
+      "observationFieldId": "bleeding_impact",
+      "signalType": "self_management",
+      "label": "Self-Management Overload"
+    },
+    {
+      "id": "SIG-CARE-EMO-001",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Anxiety"
+    },
+    {
+      "id": "SIG-CARE-EMO-002",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Frustration"
+    },
+    {
+      "id": "SIG-CARE-EMO-003",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Fatigue"
+    },
+    {
+      "id": "SIG-CARE-EMO-004",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Hope"
+    },
+    {
+      "id": "SIG-CARE-EMO-005",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Relief"
+    },
+    {
+      "id": "SIG-CARE-EMO-006",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Shame"
+    },
+    {
+      "id": "SIG-CARE-EMO-007",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Fear"
+    },
+    {
+      "id": "SIG-CARE-EMO-008",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Anger"
+    },
+    {
+      "id": "SIG-CARE-EMO-009",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Isolation"
+    },
+    {
+      "id": "SIG-CARE-EMO-010",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Uncertainty"
+    },
+    {
+      "id": "SIG-CARE-EMO-011",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Care Exhaustion"
+    },
+    {
+      "id": "SIG-CARE-EMO-012",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Medical System Distrust"
+    },
+    {
+      "id": "SIG-CARE-EMO-013",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Medical System Trust"
+    },
+    {
+      "id": "SIG-CARE-EMO-014",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Emotional Safety in Care"
+    },
+    {
+      "id": "SIG-CARE-EMO-015",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Emotional Unsafety in Care"
+    },
+    {
+      "id": "SIG-CARE-EMO-016",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Resignation to Symptoms"
+    },
+    {
+      "id": "SIG-CARE-EMO-017",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Readiness to Seek Care"
+    },
+    {
+      "id": "SIG-CARE-EMO-018",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Protective Care Motivation"
+    },
+    {
+      "id": "SIG-CARE-EMO-019",
+      "observationFieldId": "care_response",
+      "signalType": "care_emotion",
+      "label": "Reproductive Autonomy Concern"
+    },
+    {
+      "id": "SIG-NAR-EXP-001",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Preferred Health Language"
+    },
+    {
+      "id": "SIG-NAR-EXP-002",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Plain-Language Symptom Expression"
+    },
+    {
+      "id": "SIG-NAR-EXP-003",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Metaphoric Symptom Language"
+    },
+    {
+      "id": "SIG-NAR-EXP-004",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Uncertain Symptom Vocabulary"
+    },
+    {
+      "id": "SIG-NAR-EXP-005",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Culturally Anchored Expression"
+    },
+    {
+      "id": "SIG-NAR-EXP-006",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Embodied Description"
+    },
+    {
+      "id": "SIG-NAR-EXP-007",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Intensity Language"
+    },
+    {
+      "id": "SIG-NAR-EXP-008",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Comparative Language"
+    },
+    {
+      "id": "SIG-NAR-EXP-009",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Minimizing Language"
+    },
+    {
+      "id": "SIG-NAR-EXP-010",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Escalation Language"
+    },
+    {
+      "id": "SIG-NAR-EXP-011",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Language Switching"
+    },
+    {
+      "id": "SIG-NAR-EXP-012",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Translation Need"
+    },
+    {
+      "id": "SIG-NAR-EXP-013",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Silence or Withholding"
+    },
+    {
+      "id": "SIG-NAR-EXP-014",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Fragmented Expression"
+    },
+    {
+      "id": "SIG-NAR-EXP-015",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Detailed Narrative Expression"
+    },
+    {
+      "id": "SIG-NAR-EXP-016",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "First-Person Body Knowledge"
+    },
+    {
+      "id": "SIG-NAR-EXP-017",
+      "observationFieldId": "preferred_language",
+      "signalType": "expression_language",
+      "label": "Low Medical Vocabulary"
+    },
+    {
+      "id": "SIG-NAR-SYM-001",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Symptom Onset Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-002",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Pattern Recognition Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-003",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Symptom Spread Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-004",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Bleeding Story Emphasis"
+    },
+    {
+      "id": "SIG-NAR-SYM-005",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Pain Story Emphasis"
+    },
+    {
+      "id": "SIG-NAR-SYM-006",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Cycle Disruption Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-007",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Body Change Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-008",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Fatigue Story Emphasis"
+    },
+    {
+      "id": "SIG-NAR-SYM-009",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Daily Disruption Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-010",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Symptom Unpredictability Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-011",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Symptom Severity Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-012",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Symptom Normalization Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-013",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Symptom Concern Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-014",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Multi-Symptom Constellation Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-015",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Hidden Symptom Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-016",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Recurring Symptom Story"
+    },
+    {
+      "id": "SIG-NAR-SYM-017",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "symptom_story",
+      "label": "Threshold-Crossing Story"
+    },
+    {
+      "id": "SIG-NAR-MEA-001",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Meaning Search"
+    },
+    {
+      "id": "SIG-NAR-MEA-002",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Self-Interpretation"
+    },
+    {
+      "id": "SIG-NAR-MEA-003",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Uncertainty About Cause"
+    },
+    {
+      "id": "SIG-NAR-MEA-004",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Concern About Future"
+    },
+    {
+      "id": "SIG-NAR-MEA-005",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Reproductive Meaning"
+    },
+    {
+      "id": "SIG-NAR-MEA-006",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Fertility Concern Meaning"
+    },
+    {
+      "id": "SIG-NAR-MEA-007",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Identity Impact Meaning"
+    },
+    {
+      "id": "SIG-NAR-MEA-008",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Normal Versus Not Normal Reasoning"
+    },
+    {
+      "id": "SIG-NAR-MEA-009",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Comparison To Others"
+    },
+    {
+      "id": "SIG-NAR-MEA-010",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Family History Meaning"
+    },
+    {
+      "id": "SIG-NAR-MEA-011",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Cultural Meaning Frame"
+    },
+    {
+      "id": "SIG-NAR-MEA-012",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Spiritual or Faith Meaning"
+    },
+    {
+      "id": "SIG-NAR-MEA-013",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Risk Awareness"
+    },
+    {
+      "id": "SIG-NAR-MEA-014",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Knowledge Gap Recognition"
+    },
+    {
+      "id": "SIG-NAR-MEA-015",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Self-Doubt Narrative"
+    },
+    {
+      "id": "SIG-NAR-MEA-016",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Validation-Seeking Narrative"
+    },
+    {
+      "id": "SIG-NAR-MEA-017",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "meaning_making",
+      "label": "Need for Answers"
+    },
+    {
+      "id": "SIG-NAR-EMO-001",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Frustration Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-002",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Fear Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-003",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Anxiety Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-004",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Relief Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-005",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Exhaustion Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-006",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Isolation Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-007",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Shame Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-008",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Embarrassment Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-009",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Anger Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-010",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Grief Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-011",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Hope Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-012",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Resignation Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-013",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Overwhelm Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-014",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Hypervigilance Narrative"
+    },
+    {
+      "id": "SIG-NAR-EMO-015",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Emotional Numbness"
+    },
+    {
+      "id": "SIG-NAR-EMO-016",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Emotional Ambivalence"
+    },
+    {
+      "id": "SIG-NAR-EMO-017",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "emotional_narrative",
+      "label": "Confidence Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-001",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Care-Seeking Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-002",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Delayed Care Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-003",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Provider Dismissal Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-004",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Felt Heard Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-005",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Felt Unheard Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-006",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Medication-Only Care Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-007",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Testing or Investigation Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-008",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Referral Navigation Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-009",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Diagnostic Uncertainty Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-010",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Care Access Barrier Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-011",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Care Continuity Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-012",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Self-Advocacy in Care"
+    },
+    {
+      "id": "SIG-NAR-CAR-013",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Trust in Provider Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-014",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Trust Erosion Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-015",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Alternative Care Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-016",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Care Avoidance Narrative"
+    },
+    {
+      "id": "SIG-NAR-CAR-017",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "care_narrative",
+      "label": "Care Outcome Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-001",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Sexual Pain Disclosure Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-002",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Bowel Symptom Disclosure Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-003",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Bladder Symptom Disclosure Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-004",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Intimacy Impact Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-005",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Privacy Concern Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-006",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Trauma-Aware Disclosure Need"
+    },
+    {
+      "id": "SIG-NAR-SEN-007",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Stigma-Constrained Disclosure"
+    },
+    {
+      "id": "SIG-NAR-SEN-008",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Sensitive Symptom Avoidance"
+    },
+    {
+      "id": "SIG-NAR-SEN-009",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Sensitive Symptom Normalization"
+    },
+    {
+      "id": "SIG-NAR-SEN-010",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Boundary-Setting Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-011",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Safety Concern Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-012",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Confidentiality Need"
+    },
+    {
+      "id": "SIG-NAR-SEN-013",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Body Vulnerability Narrative"
+    },
+    {
+      "id": "SIG-NAR-SEN-014",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Consent-Aware Expression"
+    },
+    {
+      "id": "SIG-NAR-SEN-015",
+      "observationFieldId": "sensitive_narrative",
+      "signalType": "sensitive_narrative",
+      "label": "Sensitive Care-Seeking Narrative"
+    },
+    {
+      "id": "SIG-NAR-TRA-001",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Symptoms Getting Worse Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-002",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Symptoms Getting Better Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-003",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Symptoms Fluctuating Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-004",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Long Duration Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-005",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Recent Change Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-006",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Life Stage Transition Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-007",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Care Update Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-008",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "New Symptom Update"
+    },
+    {
+      "id": "SIG-NAR-TRA-009",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Resolved Symptom Update"
+    },
+    {
+      "id": "SIG-NAR-TRA-010",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Persistent Burden Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-011",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Pattern Stabilization Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-012",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Check-In Reflection"
+    },
+    {
+      "id": "SIG-NAR-TRA-013",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Before-and-After Comparison"
+    },
+    {
+      "id": "SIG-NAR-TRA-014",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Turning Point Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-015",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Accumulated Burden Story"
+    },
+    {
+      "id": "SIG-NAR-TRA-016",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "trajectory_narrative",
+      "label": "Future Monitoring Need"
+    },
+    {
+      "id": "SIG-NAR-AGS-001",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Self-Advocacy Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-002",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Coping Strategy Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-003",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Self-Management Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-004",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Peer Support Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-005",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Family Support Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-006",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Partner Support Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-007",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Community Support Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-008",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Information-Seeking Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-009",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Preparedness Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-010",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Boundary and Rest Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-011",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Resourcefulness Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-012",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Help-Seeking Readiness"
+    },
+    {
+      "id": "SIG-NAR-AGS-013",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Care Planning Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-014",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Resilience Narrative"
+    },
+    {
+      "id": "SIG-NAR-AGS-015",
+      "observationFieldId": "narrative_prompts",
+      "signalType": "agency_support",
+      "label": "Strength Recognition"
+    }
+  ]
+}

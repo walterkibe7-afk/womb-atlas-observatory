@@ -1,0 +1,35 @@
+{
+  "UI.cardInYourRecord": {
+    "english": "What Atlas read in your record",
+    "missing": [
+      "es",
+      "fr",
+      "sw",
+      "ur",
+      "luo",
+      "kik"
+    ]
+  },
+  "UI.proseAiAssisted": {
+    "english": "AI-assisted wording · observational, not a diagnosis",
+    "missing": [
+      "es",
+      "fr",
+      "sw",
+      "ur",
+      "luo",
+      "kik"
+    ]
+  },
+  "UI.proseDeterministic": {
+    "english": "Written from your answers · observational, not a diagnosis",
+    "missing": [
+      "es",
+      "fr",
+      "sw",
+      "ur",
+      "luo",
+      "kik"
+    ]
+  }
+}

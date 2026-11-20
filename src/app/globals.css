@@ -1,0 +1,594 @@
+@import "tailwindcss";
+
+/* ───────────────────────────────────────────────────────────────────────────
+   THEME ARCHITECTURE
+
+   1. @theme below declares the *semantic* tokens (--color-surface, --color-fg,
+      --color-brand-gold …). Every component — including the shared primitives
+      in src/components/ui — styles itself with these and nothing else.
+      Never hardcode a hex value in a component.
+
+   2. Each portal owns a *palette*: a block of raw brand colours namespaced by
+      portal (--color-steward-*). A `.theme-<portal>` class re-points the
+      semantic tokens at that palette, so the same primitives render in each
+      portal's colours. The steward layout wears `.theme-steward`; participant
+      and admin keep the defaults.
+
+   To retheme a portal, edit its palette + its .theme-* block. Nothing else.
+   ─────────────────────────────────────────────────────────────────────────── */
+@theme {
+  /* ── Semantic tokens: defaults (participant / admin portals) ──────────── */
+
+  /* Surfaces & structure */
+  --color-background: #0b0609;         /* page base */
+  --color-surface: #180d14;            /* solid card fill (gradients below) */
+  --color-surface-hover: #241620;      /* hovered / selected rows, neutral chips */
+  --color-surface-inset: #160c12;      /* inner panels inside a card */
+  --color-border: #35212c;             /* card borders */
+  --color-border-subtle: #2c1a24;      /* inner / hairline borders */
+  --color-border-strong: #3a2130;      /* raised (plum) card borders */
+  --color-border-active: #4a2338;      /* selected nav row / queue row */
+  --color-border-brand: #6b4a2e;       /* gold ring around logo / footer marks */
+
+  /* Brand accents */
+  --color-brand-gold: #cda253;         /* primary accent — headings, icons */
+  --color-brand-purple: #c06ad0;       /* magenta accent — markers, sparklines */
+  --color-brand-purple-light: #d38fdf; /* NEW badges, bright accent text */
+  --color-brand-purple-dark: #1c0f16;  /* deep plum backing */
+  --color-brand-orange: #d99a45;       /* amber — "Medium" severity, warnings */
+  --color-brand-green: #7fbf8c;        /* green — "Low" severity, positive trends */
+  --color-brand-blue: #6d97d6;         /* blue — care/access signals */
+  --color-danger: #e15a6d;             /* red — "High" severity, destructive */
+  --color-link: #cf93dc;               /* inline "view all →" links */
+
+  /* Accent surfaces & the text that sits on them */
+  --color-accent-soft: #3a1f2e;        /* Badge (new / accent) background */
+  --color-accent-strong: #5a2846;      /* primary CTA icon tile */
+  --color-cta-border: #6b3352;         /* primary CTA border */
+  --color-on-accent: #f0d5e2;          /* text on --color-accent-strong */
+  --color-on-gold: #1a0f10;            /* text on --color-brand-gold */
+  --color-on-avatar: #e9c9d6;          /* monogram on the avatar gradient */
+  --color-logo: #f3e7d6;               /* "WOMB ATLAS" wordmark */
+  --color-logo-sub: #9a7f5f;           /* "OBSERVATORY" subtitle */
+  --color-grid: #241620;               /* chart gridlines */
+
+  /* Chart series (line charts, legends). Assigned in fixed order — never cycled;
+     a 5th series folds into "Other" rather than inventing a hue. */
+  --color-chart-1: #c06ad0;
+  --color-chart-2: #cda253;
+  --color-chart-3: #e0a9c4;
+  --color-chart-4: #b0603a;
+
+  /* Sequential ramp (magnitude — one hue, light → dark). Drives choropleth /
+     coverage scales; --color-scale-none is the "no data" neutral, outside the ramp. */
+  --color-scale-1: #f0c48a;
+  --color-scale-2: #dda05c;
+  --color-scale-3: #bd7940;
+  --color-scale-4: #91542f;
+  --color-scale-none: #4a3040;
+
+  /* Text scale (lightest → faintest). The short aliases generate clean
+     utilities (text-fg / text-muted / text-subtle / text-faint); the
+     --color-text-* names are kept for existing var() references. */
+  --color-fg: #f3ecec;
+  --color-muted: #b598a4;
+  --color-subtle: #8a7180;
+  --color-faint: #7c6672;
+  --color-text-primary: #f3ecec;
+  --color-text-secondary: #b598a4;
+
+  /* Radii */
+  --radius-card: 14px;
+  --radius-panel: 10px;
+
+  /* Type families (wired to next/font vars set on <body>). Participant portal
+     overrides all three inside `.theme-participant` below (Fraunces/Manrope/
+     JetBrains Mono, mobile-app parity) — every other portal keeps these. */
+  --font-sans: var(--font-instrument), system-ui, sans-serif;
+  --font-serif: var(--font-spectral), Georgia, serif;
+  --font-mono: var(--font-geist-mono), monospace;
+
+  /* ── Steward portal palette (raw brand colours) ───────────────────────────
+     Also usable directly as utilities: text-steward-primary, bg-steward-card…
+     Applied to the semantic tokens by `.theme-steward` further down. */
+  --color-steward-page: #0a050a;            /* page background */
+  --color-steward-card: #140d11;            /* card background */
+  --color-steward-card-raised: #1a1016;     /* top of the card gradient */
+  --color-steward-card-hover: #241620;
+  --color-steward-card-inset: #110a0f;
+  --color-steward-primary: #a56e33;         /* bronze — headings, icons, accents */
+  --color-steward-primary-soft: #c08a4a;
+  --color-steward-secondary: #fffed3;       /* cream — body text, numerals */
+  --color-steward-accent: #c06ad0;          /* magenta — markers, NEW badges */
+  --color-steward-accent-light: #d7a0e2;
+  --color-steward-line: #33212b;            /* card borders */
+  --color-steward-line-subtle: #281820;
+  --color-steward-high: #e0555f;            /* severity: High */
+  --color-steward-medium: #e0a458;          /* severity: Medium */
+  --color-steward-low: #7fbf8c;             /* severity: Low */
+  --color-steward-info: #6d97d6;
+
+  /* ── Participant portal palette ────────────────────────────────────────────
+     Fixed 7-colour brand palette (Ink/Aubergine/Plum/Copper/Gold/Mauve/Sand) —
+     every participant-portal colour, including alpha-blended variants of these
+     same seven, derives from this block. Applied to the semantic tokens by
+     `.theme-participant` further down. */
+  --color-participant-ink: #0b0709;      /* ground / void */
+  --color-participant-aubergine: #3a1a2c; /* primary stone */
+  --color-participant-plum: #4a2438;      /* atmospheric depth */
+  --color-participant-copper: #b07f58;    /* architectural accent */
+  --color-participant-gold: #c89a52;      /* signal / glow */
+  --color-participant-mauve: #a28798;     /* quiet body voice */
+  --color-participant-sand: #d8c9b5;      /* archival paper */
+
+  /* Light "form control" tones — mobile-app parity (wao-cream/wao-paper/the
+     hardcoded checked-fill), used only for observation-flow inputs (option
+     cards, text fields, narrative textarea). Everything else about those
+     controls (text, border, accent) reuses Ink/Plum/Sand/Copper above; these
+     three are the only colours in the participant portal outside the 7-swatch
+     palette, scoped deliberately to match the mobile app's light-card-on-dark
+     -stage form language exactly. */
+  --color-participant-form-cream: #f7f2ec;    /* single-select / boolean card bg */
+  --color-participant-form-paper: #f3eee7;    /* multi-select card + text input bg */
+  --color-participant-form-selected: #f1e8dc; /* checked-state fill */
+
+  --color-participant-page: var(--color-participant-ink);
+  /* Card surfaces lean on Ink, not raw Aubergine/Plum — at full strength those
+     two read as pink/magenta against the rest of the (mostly Ink/Copper/Gold)
+     UI rather than a neutral dark surface. */
+  --color-participant-card: color-mix(in srgb, var(--color-participant-aubergine) 20%, var(--color-participant-ink) 80%);
+  --color-participant-card-raised: color-mix(in srgb, var(--color-participant-plum) 20%, var(--color-participant-ink) 80%); /* top of the card gradient */
+  --color-participant-card-hover: color-mix(in srgb, var(--color-participant-plum) 20%, var(--color-participant-ink) 80%);
+  --color-participant-card-inset: var(--color-participant-ink);      /* inner bubbles inside a card */
+  --color-participant-line: color-mix(in srgb, var(--color-participant-copper) 35%, transparent); /* card borders */
+  --color-participant-line-subtle: color-mix(in srgb, var(--color-participant-copper) 18%, transparent); /* sidebar divider, hairlines */
+  --color-participant-primary: var(--color-participant-gold);        /* headings, icons, accents */
+  --color-participant-secondary: var(--color-participant-sand);      /* headings, numerals, body text */
+  --color-participant-accent: var(--color-participant-mauve);        /* constellation figure, markers */
+  --color-participant-accent-light: var(--color-participant-mauve);  /* BETA badge text */
+  --color-participant-high: var(--color-participant-aubergine);      /* severity: High */
+  --color-participant-medium: var(--color-participant-copper);       /* severity: Moderate / warning trend */
+  --color-participant-low: var(--color-participant-gold);            /* severity: Low / improving trend */
+  --color-participant-info: var(--color-participant-mauve);
+  /* ── Analyst portal palette (Atlas Intelligence) ──────────────────────────
+     The canonical gold-on-plum look from the Figma. Also usable directly as
+     utilities: text-analyst-primary, bg-analyst-card… Mapped onto the semantic
+     tokens by `.theme-analyst` further down. */
+  --color-analyst-page: #0a0509;            /* page background */
+  --color-analyst-card: #150c13;            /* card background */
+  --color-analyst-card-raised: #1c0f18;     /* top of the card gradient */
+  --color-analyst-card-hover: #241620;      /* hovered nav / chips */
+  --color-analyst-card-inset: #120a10;      /* inner panels inside a card */
+  --color-analyst-primary: #d2a24d;         /* rich gold — headings, icons */
+  --color-analyst-primary-soft: #e0b96a;
+  --color-analyst-secondary: #f4ecdf;       /* warm cream — body text, numerals */
+  --color-analyst-accent: #c06ad0;          /* magenta — NEW badges, nodes */
+  --color-analyst-accent-light: #d7a0e2;
+  --color-analyst-line: #33212b;            /* card borders */
+  --color-analyst-line-subtle: #281820;
+  --color-analyst-coral: #e0868f;           /* stat deltas (▲ vs last 7 days) */
+  --color-analyst-amber: #e0975a;           /* trajectory: Increasing */
+  --color-analyst-green: #7fbf8c;           /* trajectory: Decreasing */
+  --color-analyst-info: #6d97d6;
+
+  /* ── Admin portal palette (Observatory Administration) ────────────────────
+     Amber-on-black with a rose counter-accent: the amber carries labels, icons
+     and numerals; the rose carries every *series* mark (donut segments, ring
+     arcs, sparklines) so data reads apart from chrome. Mapped onto the semantic
+     tokens by `.theme-admin` further down. */
+  --color-admin-page: #08050a;              /* page background — near-black */
+  --color-admin-card: #150d13;              /* card background */
+  --color-admin-card-raised: #1d121a;       /* top of the card gradient */
+  --color-admin-card-hover: #241620;        /* hovered nav / chips */
+  --color-admin-card-inset: #110a10;        /* inner panels inside a card */
+  --color-admin-primary: #e09a52;           /* amber — headings, icons, numerals */
+  --color-admin-primary-soft: #edb573;
+  --color-admin-secondary: #f5e3d2;         /* warm cream — body text */
+  --color-admin-accent: #c76a95;            /* rose — donut/ring/sparkline series */
+  --color-admin-accent-light: #e0a0bf;
+  --color-admin-line: #3a2130;              /* card borders */
+  --color-admin-line-subtle: #2a1722;
+  --color-admin-high: #e0555f;              /* severity: High / negative delta */
+  --color-admin-medium: #e0a458;            /* severity: Moderate */
+  --color-admin-low: #7fbf8c;               /* severity: Low */
+  --color-admin-info: #6d97d6;
+}
+
+:root {
+  --background: var(--color-background);
+  --foreground: var(--color-text-primary);
+
+  /* Gradients (not expressible as @theme colours; referenced via the helper
+     classes below, or arbitrary values like bg-[image:var(--gradient-surface)]). */
+  --gradient-page: radial-gradient(120% 90% at 50% 0%, #160b12 0%, #0b0609 60%);
+  --gradient-surface: linear-gradient(180deg, #1f1019, #170c12);
+  --gradient-surface-plum: linear-gradient(180deg, #281325, #190d14);
+  --gradient-nav-active: linear-gradient(90deg, #2f1626, #1c0f16);
+  --gradient-avatar: linear-gradient(135deg, #4a2a3a, #2a1620);
+  --gradient-cta: linear-gradient(135deg, #3a1a2e, #241120);
+  --gradient-logo: radial-gradient(circle at 40% 35%, #2a1620, #120a10);
+}
+
+/* ─── Steward portal theme ──────────────────────────────────────────────────
+   Re-points the semantic tokens at the steward palette. Everything inside the
+   (steward) route group inherits these; other portals are untouched. */
+.theme-steward {
+  --color-background: var(--color-steward-page);
+  --color-surface: var(--color-steward-card);
+  --color-surface-hover: var(--color-steward-card-hover);
+  --color-surface-inset: var(--color-steward-card-inset);
+  --color-border: var(--color-steward-line);
+  --color-border-subtle: var(--color-steward-line-subtle);
+  --color-border-strong: #3a2130;
+  --color-border-active: #4a2338;
+  --color-border-brand: #6b4a2e;
+
+  --color-brand-gold: var(--color-steward-primary);
+  --color-brand-purple: var(--color-steward-accent);
+  --color-brand-purple-light: var(--color-steward-accent-light);
+  --color-brand-purple-dark: #1a0d14;
+  --color-brand-orange: var(--color-steward-medium);
+  --color-brand-green: var(--color-steward-low);
+  --color-brand-blue: var(--color-steward-info);
+  --color-danger: var(--color-steward-high);
+  --color-link: #cf93dc;
+
+  --color-accent-soft: #381e2c;
+  --color-accent-strong: #5a2846;
+  --color-cta-border: #6b3352;
+  --color-on-accent: #f0d5e2;
+  --color-on-gold: #140d11;
+  --color-on-avatar: #e9c9d6;
+  --color-logo: var(--color-steward-secondary);
+  --color-logo-sub: var(--color-steward-primary);
+  --color-grid: #241620;
+
+  --color-chart-1: var(--color-steward-accent);
+  --color-chart-2: var(--color-steward-primary-soft);
+  --color-chart-3: #e0a9c4;
+
+  /* Cream-forward text ramp, cooling into warm tan as it recedes. */
+  --color-fg: var(--color-steward-secondary);
+  --color-muted: #b5a189;
+  --color-subtle: #8d7767;
+  --color-faint: #6f5c50;
+  --color-text-primary: var(--color-steward-secondary);
+  --color-text-secondary: #b5a189;
+
+  --background: var(--color-steward-page);
+  --foreground: var(--color-steward-secondary);
+
+  --gradient-page: radial-gradient(120% 90% at 50% 0%, #150a11 0%, #0a050a 60%);
+  --gradient-surface: linear-gradient(180deg, var(--color-steward-card-raised), var(--color-steward-card));
+  --gradient-surface-plum: linear-gradient(180deg, #23101f, #160c13);
+  --gradient-nav-active: linear-gradient(90deg, #2d1524, #1a0e15);
+  --gradient-avatar: linear-gradient(135deg, #4a2a3a, #2a1620);
+  --gradient-cta: linear-gradient(135deg, #3a1a2e, #241120);
+  --gradient-logo: radial-gradient(circle at 40% 35%, #2a1620, #120a10);
+}
+
+/* ─── Participant portal theme ──────────────────────────────────────────────
+   Re-points the semantic tokens at the participant palette. Everything inside
+   the (participant) route group inherits these; steward and admin are untouched. */
+.theme-participant {
+  /* Type system (mobile-app parity): Fraunces for screen titles/headings,
+     Manrope for body/helper text, JetBrains Mono for meta/progress labels
+     (step counters, eyebrow captions, record IDs). Re-declares font-family on
+     the themed root (see the participant layout's `font-sans` class) since
+     inherited font-family freezes to <body>'s computed value otherwise — a
+     custom-property override alone wouldn't reach descendants that don't
+     redeclare font-family themselves. */
+  --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+
+  --color-background: var(--color-participant-page);
+  --color-surface: var(--color-participant-card);
+  --color-surface-hover: var(--color-participant-card-hover);
+  --color-surface-inset: var(--color-participant-card-inset);
+  --color-border: var(--color-participant-line);
+  --color-border-subtle: var(--color-participant-line-subtle);
+  --color-border-strong: color-mix(in srgb, var(--color-participant-copper) 55%, transparent);
+  --color-border-active: color-mix(in srgb, var(--color-participant-gold) 45%, transparent);
+  --color-border-brand: var(--color-participant-copper);
+
+  --color-brand-gold: var(--color-participant-primary);
+  --color-brand-purple: var(--color-participant-accent);
+  --color-brand-purple-light: var(--color-participant-accent-light);
+  --color-brand-purple-dark: var(--color-participant-aubergine);
+  --color-brand-orange: var(--color-participant-medium);
+  --color-brand-green: var(--color-participant-low);
+  --color-brand-blue: var(--color-participant-info);
+  --color-danger: var(--color-participant-high);
+  --color-link: var(--color-participant-mauve);
+
+  --color-accent-soft: color-mix(in srgb, var(--color-participant-mauve) 15%, transparent);
+  --color-accent-strong: color-mix(in srgb, var(--color-participant-mauve) 35%, transparent);
+  --color-cta-border: color-mix(in srgb, var(--color-participant-gold) 50%, transparent);
+  --color-on-accent: var(--color-participant-sand);
+  --color-on-gold: var(--color-participant-ink);
+  --color-on-avatar: var(--color-participant-sand);
+  --color-logo: var(--color-participant-gold);
+  --color-logo-sub: var(--color-participant-copper);
+  --color-grid: color-mix(in srgb, var(--color-participant-aubergine) 50%, transparent);
+
+  --color-chart-1: var(--color-participant-mauve);
+  --color-chart-2: var(--color-participant-gold);
+  --color-chart-3: var(--color-participant-copper);
+
+  --color-fg: var(--color-participant-secondary);
+  --color-muted: color-mix(in srgb, var(--color-participant-sand) 75%, transparent);
+  --color-subtle: color-mix(in srgb, var(--color-participant-sand) 55%, transparent);
+  --color-faint: color-mix(in srgb, var(--color-participant-sand) 40%, transparent);
+  --color-text-primary: var(--color-participant-secondary);
+  --color-text-secondary: color-mix(in srgb, var(--color-participant-sand) 75%, transparent);
+
+  --background: var(--color-participant-page);
+  --foreground: var(--color-participant-secondary);
+
+  /* Layered gradient (mobile-app parity, see .wao-observatory-bg in the
+     participant app), rebuilt from just Ink + Plum — a soft Plum glow near
+     the top fading down into flat Ink. */
+  --gradient-page:
+    radial-gradient(
+      circle at 50% 24%,
+      color-mix(in srgb, var(--color-participant-plum) 45%, transparent) 0%,
+      color-mix(in srgb, var(--color-participant-plum) 20%, transparent) 45%,
+      transparent 74%
+    ),
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-participant-plum) 20%, var(--color-participant-ink) 80%) 0%,
+      color-mix(in srgb, var(--color-participant-plum) 10%, var(--color-participant-ink) 90%) 49%,
+      var(--color-participant-ink) 100%
+    );
+  --gradient-surface: linear-gradient(180deg, var(--color-participant-card-raised), var(--color-participant-card));
+  --gradient-surface-plum: linear-gradient(160deg, color-mix(in srgb, var(--color-participant-plum) 20%, var(--color-participant-ink) 80%), var(--color-participant-card));
+  --gradient-nav-active: linear-gradient(90deg, var(--color-participant-card-raised), var(--color-participant-card));
+  --gradient-avatar: linear-gradient(135deg, var(--color-participant-plum), var(--color-participant-aubergine));
+  --gradient-cta: linear-gradient(135deg, var(--color-participant-plum), var(--color-participant-aubergine));
+  --gradient-logo: radial-gradient(circle at 50% 40%, var(--color-participant-aubergine), var(--color-participant-ink));
+}
+
+/* ─── Analyst portal theme (Atlas Intelligence) ─────────────────────────────
+   Re-points the semantic tokens at the analyst palette. Everything inside the
+   (analyst) route group inherits these; other portals are untouched. */
+.theme-analyst {
+  --color-background: var(--color-analyst-page);
+  --color-surface: var(--color-analyst-card);
+  --color-surface-hover: var(--color-analyst-card-hover);
+  --color-surface-inset: var(--color-analyst-card-inset);
+  --color-border: var(--color-analyst-line);
+  --color-border-subtle: var(--color-analyst-line-subtle);
+  --color-border-strong: #3a2130;
+  --color-border-active: #4a2338;
+  --color-border-brand: #6b4a2e;
+
+  --color-brand-gold: var(--color-analyst-primary);
+  --color-brand-purple: var(--color-analyst-accent);
+  --color-brand-purple-light: var(--color-analyst-accent-light);
+  --color-brand-purple-dark: #1c0f16;
+  --color-brand-orange: var(--color-analyst-amber);
+  --color-brand-green: var(--color-analyst-green);
+  --color-brand-blue: var(--color-analyst-info);
+  --color-danger: var(--color-analyst-coral);
+  --color-link: #cf93dc;
+
+  --color-accent-soft: #3a1f2e;
+  --color-accent-strong: #5a2846;
+  --color-cta-border: #6b3352;
+  --color-on-accent: #f0d5e2;
+  --color-on-gold: #180f0e;
+  --color-on-avatar: #180f0e;
+  --color-logo: var(--color-analyst-primary);
+  --color-logo-sub: var(--color-analyst-primary);
+  --color-grid: #241620;
+
+  --color-chart-1: var(--color-analyst-accent);
+  --color-chart-2: var(--color-analyst-primary);
+  --color-chart-3: #e0a9c4;
+
+  /* Warm cream-forward text ramp. */
+  --color-fg: var(--color-analyst-secondary);
+  --color-muted: #b9a48f;
+  --color-subtle: #8d7767;
+  --color-faint: #6f5c50;
+  --color-text-primary: var(--color-analyst-secondary);
+  --color-text-secondary: #b9a48f;
+
+  --background: var(--color-analyst-page);
+  --foreground: var(--color-analyst-secondary);
+
+  --gradient-page: radial-gradient(120% 90% at 50% 0%, #1a0d16 0%, #0a0509 62%);
+  --gradient-surface: linear-gradient(180deg, var(--color-analyst-card-raised), var(--color-analyst-card));
+  --gradient-surface-plum: linear-gradient(180deg, #23101f, #160c13);
+  --gradient-nav-active: linear-gradient(90deg, #2d1524, #1a0e15);
+  --gradient-avatar: linear-gradient(135deg, #e0b96a, #c77f2e);
+  --gradient-cta: linear-gradient(135deg, #3a1a2e, #241120);
+  --gradient-logo: radial-gradient(circle at 40% 35%, #2a1620, #120a10);
+}
+
+/* ─── Admin portal theme (Observatory Administration) ───────────────────────
+   Re-points the semantic tokens at the admin palette. Everything inside the
+   (admin) route group inherits these; other portals are untouched. */
+.theme-admin {
+  --color-background: var(--color-admin-page);
+  --color-surface: var(--color-admin-card);
+  --color-surface-hover: var(--color-admin-card-hover);
+  --color-surface-inset: var(--color-admin-card-inset);
+  --color-border: var(--color-admin-line);
+  --color-border-subtle: var(--color-admin-line-subtle);
+  --color-border-strong: #4d2536;
+  --color-border-active: #4a2442;
+  --color-border-brand: #6a3a2f;
+
+  --color-brand-gold: var(--color-admin-primary);
+  --color-brand-purple: var(--color-admin-accent);
+  --color-brand-purple-light: var(--color-admin-accent-light);
+  --color-brand-purple-dark: #1c0f16;
+  --color-brand-orange: var(--color-admin-medium);
+  --color-brand-green: var(--color-admin-low);
+  --color-brand-blue: var(--color-admin-info);
+  --color-danger: var(--color-admin-high);
+  --color-link: var(--color-admin-primary);
+
+  --color-accent-soft: #3f2539;
+  --color-accent-strong: #5a2846;
+  --color-cta-border: #653041;
+  --color-on-accent: #f7d5c1;
+  --color-on-gold: #180f0e;
+  --color-on-avatar: #e6c4ac;
+  --color-logo: var(--color-admin-primary);
+  --color-logo-sub: var(--color-admin-primary);
+  --color-grid: #2f1a29;
+
+  /* Series marks: rose leads, amber second — so data never collides with the
+     amber chrome (labels, icons) that surrounds it. Validated for CVD + contrast
+     against --color-admin-card. */
+  --color-chart-1: var(--color-admin-accent);
+  --color-chart-2: #c1832f;
+  --color-chart-3: #9d6fc7;
+  --color-chart-4: #b0603a;
+
+  /* Warm cream-forward text ramp. */
+  --color-fg: var(--color-admin-secondary);
+  --color-muted: #c2a08c;
+  --color-subtle: #a17b67;
+  --color-faint: #8b6957;
+  --color-text-primary: var(--color-admin-secondary);
+  --color-text-secondary: #c2a08c;
+
+  --background: var(--color-admin-page);
+  --foreground: var(--color-admin-secondary);
+
+  --gradient-page: radial-gradient(120% 90% at 50% 0%, #170c14 0%, #08050a 62%);
+  --gradient-surface: linear-gradient(180deg, var(--color-admin-card-raised), var(--color-admin-card));
+  --gradient-surface-plum: linear-gradient(180deg, #241320, #170c13);
+  --gradient-nav-active: linear-gradient(90deg, #3a1f37, #2a1629);
+  --gradient-avatar: linear-gradient(135deg, #4a2a3a, #2a1620);
+  --gradient-cta: linear-gradient(90deg, #3e1d2e, #2a1625);
+  --gradient-logo: radial-gradient(circle at 35% 35%, #3a1f1a, #140d15);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* ─── Reusable surface helpers ──────────────────────────────────────────────
+   Applied by the <Card>/<SectionCard> primitives; usable directly too. */
+.bg-page-radial { background: var(--gradient-page); }
+.bg-surface-card { background: var(--gradient-surface); }
+.bg-surface-plum { background: var(--gradient-surface-plum); }
+.bg-nav-active { background: var(--gradient-nav-active); }
+.bg-avatar { background: var(--gradient-avatar); }
+.bg-cta { background: var(--gradient-cta); }
+.bg-logo { background: var(--gradient-logo); }
+
+/* ─── Themed scrollbars (site-wide) ─────────────────────────────────── */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--color-brand-gold) 45%, transparent) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, var(--color-brand-gold) 45%, transparent);
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  transition: background-color 0.15s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-brand-gold);
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* ─── Living Constellation (dashboard teaser) ───────────────────────────
+   The orbit rings are near-circular, so rotating a *solid* ring reads as no
+   motion at all. Everything visible here therefore relies on asymmetry (dashed
+   rings, a radar sweep arc, comet dots riding the rim) or on opacity/scale. */
+@keyframes constellation-spin {
+  from { rotate: 0deg; }
+  to { rotate: 360deg; }
+}
+
+/* Comet dot rides the rim: the wrapper is the orbit box, the dot sits at its
+   top edge, so spinning the wrapper walks the dot around the ellipse. */
+@keyframes constellation-comet {
+  from { rotate: 0deg; }
+  to { rotate: 360deg; }
+}
+
+@keyframes constellation-node-glow {
+  0%, 100% {
+    scale: 1;
+    box-shadow: 0 0 3px 0 color-mix(in srgb, var(--color-brand-gold) 15%, transparent);
+  }
+  50% {
+    scale: 1.05;
+    box-shadow: 0 0 12px 2px color-mix(in srgb, var(--color-brand-gold) 35%, transparent);
+  }
+}
+
+@keyframes constellation-ping {
+  0% { scale: 0.9; opacity: 0.35; }
+  70%, 100% { scale: 1.7; opacity: 0; }
+}
+
+@keyframes constellation-core-pulse {
+  0%, 100% { opacity: 0.18; scale: 0.85; }
+  50% { opacity: 0.5; scale: 1.15; }
+}
+
+@keyframes constellation-twinkle {
+  0%, 100% { opacity: 0.12; scale: 0.7; }
+  50% { opacity: 1; scale: 1.35; }
+}
+
+@keyframes constellation-chip-in {
+  from { opacity: 0; scale: 0.4; }
+  60% { opacity: 1; scale: 1.12; }
+  to { opacity: 1; scale: 1; }
+}
+
+.animate-constellation-spin { animation: constellation-spin 24s linear infinite; }
+.animate-constellation-spin-reverse { animation: constellation-spin 18s linear infinite reverse; }
+.animate-constellation-comet { animation: constellation-comet 11s linear infinite; }
+.animate-constellation-comet-reverse { animation: constellation-comet 15s linear infinite reverse; }
+.animate-constellation-glow { animation: constellation-node-glow 3.4s ease-in-out infinite; }
+.animate-constellation-ping { animation: constellation-ping 3.4s cubic-bezier(0, 0, 0.2, 1) infinite; }
+.animate-constellation-twinkle { animation: constellation-twinkle 3s ease-in-out infinite; }
+.animate-constellation-core { animation: constellation-core-pulse 5s ease-in-out infinite; }
+/* `backwards` (not `both`) so the pop-in only governs the delay + play window —
+   once it finishes, control reverts to the normal cascade so the Tailwind
+   hover:scale utility (a separate `scale` property, not `transform`) still
+   works afterward instead of being pinned by a finished animation. */
+.animate-constellation-chip-in { animation: constellation-chip-in 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) backwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-constellation-spin,
+  .animate-constellation-spin-reverse,
+  .animate-constellation-comet,
+  .animate-constellation-comet-reverse,
+  .animate-constellation-glow,
+  .animate-constellation-ping,
+  .animate-constellation-twinkle,
+  .animate-constellation-core,
+  .animate-constellation-chip-in {
+    animation: none !important;
+  }
+}

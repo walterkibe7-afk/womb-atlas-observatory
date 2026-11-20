@@ -1,0 +1,3005 @@
+{
+  "_template.nonDiagnosticDisclaimer": {
+    "kik": "Rikodi ĩno ti ũmenyi wa mũrimũ. Nĩ ũcũrania wa ũhoro ũrĩa wonete ta ũguo wonirwo."
+  },
+  "_template.narrativeLabel": {
+    "kik": "Rũgano"
+  },
+  "_template.sensitiveNarrativeLabel": {
+    "kik": "Rũgano rwa Hitho"
+  },
+  "_template.pdfPage": {
+    "kik": "Ĩthaũrũrũ"
+  },
+  "_template.pdfGeneratedByFooter": {
+    "kik": "Yathondeketwo nĩ Womb Atlas — ya kũrora, ti ya kũmenya mũrimũ"
+  },
+  "_template.pdfTimelineTitle": {
+    "kik": "Atlas Timeline"
+  },
+  "_template.pdfEventSingular": {
+    "kik": "ũndũ"
+  },
+  "_template.pdfEventPlural": {
+    "kik": "maũndũ"
+  },
+  "_template.pdfGeneratedPrefix": {
+    "kik": "Yathondeketwo"
+  },
+  "_template.pdfHealthJourney": {
+    "kik": "Rũgendo rwa Ũgima"
+  },
+  "_template.pdfNoTimelineEvents": {
+    "kik": "Gũtirĩ maũndũ ma timeline o na rĩmwe — maya makoneka rĩrĩa kũrora kwaku kwa mbere gũgaarĩkia."
+  },
+  "_template.pdfSignalEvolutionOverTime": {
+    "kik": "Gũcenjia kwa Ĩmenyithia Ihinda-inĩ"
+  },
+  "_template.pdfSignalTrendsEmpty": {
+    "kik": "Mĩhianĩre ya ĩmenyithia yaku ĩkoneka haha rĩrĩa Rikodi yaku ya mbere ya Atlas ĩgaathondekwo."
+  },
+  "_template.pdfDateColumn": {
+    "kik": "Mũthenya"
+  },
+  "_template.pdfCareJourney": {
+    "kik": "Rũgendo rwa Ũteithio"
+  },
+  "_template.pdfCareJourneyEmpty": {
+    "kik": "Ĩambagĩrĩria rĩrĩa ũkarĩkia kũrora kwaku kwa mbere."
+  },
+  "_template.pdfCurrentPhasePrefix": {
+    "kik": "Ihinda rĩa rĩu:"
+  },
+  "_template.pdfDone": {
+    "kik": "Nĩ Kũrĩkĩtio"
+  },
+  "_template.pdfPending": {
+    "kik": "Nĩ Kwetereire"
+  },
+  "_template.pdfLifeStageJourney": {
+    "kik": "Rũgendo rwa Mĩthemba ya Ũtũũro"
+  },
+  "_template.pdfLifeStageEmpty": {
+    "kik": "Onania ũhoro waku thĩinĩ wa kũrora kwaku kwa mbere nĩguo ũndũ ũyũ wonagwo haha."
+  },
+  "_template.pdfYouAreInYour": {
+    "kik": "Ũrĩ"
+  },
+  "_template.burdenLevelLow": {
+    "kik": "Mũnini"
+  },
+  "_template.burdenLevelModerate": {
+    "kik": "Wa Katĩ"
+  },
+  "_template.burdenLevelHigh": {
+    "kik": "Mũnene"
+  },
+  "_template.pdfRecordTitle": {
+    "kik": "Rikodi ya Atlas"
+  },
+  "_template.pdfBurdenPrefix": {
+    "kik": "Mũrigo:"
+  },
+  "_template.pdfObservationPortrait": {
+    "kik": "Mũhianĩre wa Kũrora Gwaku"
+  },
+  "_template.pdfDominantPattern": {
+    "kik": "Mũhianĩre Mũnene"
+  },
+  "_template.pdfSupportingPatterns": {
+    "kik": "Mĩhianĩre Ĩteithagia"
+  },
+  "_template.pdfAtlasArchetype": {
+    "kik": "Mũhianĩre wa Atlas"
+  },
+  "_template.pdfWhatArchetypeMeans": {
+    "kik": "Kĩrĩa Mũhianĩre Ũyũ Ũgũtũũra"
+  },
+  "_template.pdfSignalLandscape": {
+    "kik": "Ũhoro Wothe wa Ĩmenyithia"
+  },
+  "_template.pdfSignalsObserved": {
+    "kik": "Ĩmenyithia Iria Yonirwo"
+  },
+  "_template.pdfDomainColumn": {
+    "kik": "Mũthemba"
+  },
+  "_template.pdfSignalColumn": {
+    "kik": "Ĩmenyithia"
+  },
+  "_template.pdfSeverityColumn": {
+    "kik": "Hinya"
+  },
+  "_template.pdfNarrativeThemes": {
+    "kik": "Ndeto Nene cia Rũgano"
+  },
+  "_template.pdfExperienceLayers": {
+    "kik": "Ũrĩa Maũndũ Maku Mahangĩtwo"
+  },
+  "_template.pdfStrengthsObserved": {
+    "kik": "Maũndũ Mega Marĩa Atlas Yonire"
+  },
+  "_template.pdfBodyLiteracy": {
+    "kik": "Ũmenyo wa Mwĩrĩ"
+  },
+  "_template.pdfWhatAtlasWillWatch": {
+    "kik": "Kĩrĩa Atlas Ĩgũthiĩ na Mbere Kũrora"
+  },
+  "_template.pdfReflectionCompass": {
+    "kik": "Njĩra ya Ũcũrania"
+  },
+  "_template.pdfStrongestTheme": {
+    "kik": "Ndeto Nene Makĩria"
+  },
+  "_template.pdfEmergingTheme": {
+    "kik": "Ndeto Njerũ Ĩrarĩ Kuoneka"
+  },
+  "_template.pdfStrengthObserved": {
+    "kik": "Hinya Ũrĩa Wonirwo"
+  },
+  "_template.pdfRecordDisclaimerFallback": {
+    "kik": "Rikodi ĩno ya Atlas nĩ ya kũrora na ya kũcũrania. Ti ũmenyi wa mũrimũ."
+  },
+  "_template.streakMonthSingular": {
+    "kik": "Mweri"
+  },
+  "_template.streakMonthPlural": {
+    "kik": "Mĩeri"
+  },
+  "_template.progressFirstObservationComplete": {
+    "kik": "Kũrora kwa mbere nĩ kũrĩkĩtie"
+  },
+  "_template.progressContinueFirstObservation": {
+    "kik": "Thiĩ na mbere na kũrora kwaku kwa mbere"
+  },
+  "_template.reflectionSummaryFallback": {
+    "kik": "Ũcũrania waku nĩ maũndũ marũmanĩrĩirwo ma ũrĩa waheanire na maũndũ marĩa ma bata kũrĩ we."
+  },
+  "_template.timelineFirstObservationTitle": {
+    "kik": "Kũrora kwa Mbere"
+  },
+  "_template.timelineFirstObservationDesc": {
+    "kik": "Kũrora gwaku gwa kĩambĩrĩria"
+  },
+  "_template.timelineObservationEditedTitle": {
+    "kik": "Kũrora Kwahindũrwo"
+  },
+  "_template.timelineObservationEditedDesc": {
+    "kik": "Kũrora gwaku kwa mbere nĩ kwahindũrirwo"
+  },
+  "_template.timelineCheckinCompletedTitle": {
+    "kik": "Check-In Nĩ Yarĩkirie"
+  },
+  "_template.timelineCheckinCompletedDesc": {
+    "kik": "Maũndũ mongererirwo timeline-inĩ yaku"
+  },
+  "_template.timelineReflectionGeneratedTitle": {
+    "kik": "Ũcũrania Nĩ Wathondeketwo"
+  },
+  "_template.timelineKeyThemesIdentified": {
+    "kik": "ndeto nene ciamenyekire"
+  },
+  "_template.timelineReflectionReady": {
+    "kik": "Ũcũrania waku nĩ mwagĩrĩru"
+  },
+  "_template.timelineRecordCreatedTitle": {
+    "kik": "Rikodi ya Atlas Nĩ Yathondeketwo"
+  },
+  "_template.timelineRecordCreatedDesc": {
+    "kik": "Rikodi nĩ mwagĩrĩru wa kũrorwo"
+  },
+  "_template.timelineNextCheckinTitle": {
+    "kik": "Check-In Ĩrĩa Ĩkuoka"
+  },
+  "_template.timelineReadyWheneverYouAre": {
+    "kik": "Ũrĩ mwagĩrĩru rĩrĩa rĩothe ũgwĩtĩkĩra"
+  },
+  "_template.timelineYouWillBeReminded": {
+    "kik": "Nĩũgũririkanio"
+  },
+  "_template.personalInsightStreakLead": {
+    "kik": "Yaku"
+  },
+  "_template.personalInsightStreakMid": {
+    "kik": "ĩmenyithia nĩ yoneka thĩinĩ wa"
+  },
+  "_template.personalInsightStreakSuffix": {
+    "kik": "kũrora kũrũmanĩrĩirwo."
+  },
+  "_template.personalInsightEmptyFallback": {
+    "kik": "Rikodi yaku ya mbere ya Atlas nĩ mwagĩrĩru — ũmenyo nĩ ũrongagĩrĩra na Check-In o yothe ũngĩongerera."
+  },
+  "_template.observatoryInsightGenericCompanion": {
+    "kik": "maũndũ mangĩ macenjagia ihinda rĩothe"
+  },
+  "_template.observatoryInsightLead": {
+    "kik": "Arũmĩrĩri arĩa marũmĩrĩire mĩhianĩre ĩhaana ta"
+  },
+  "_template.observatoryInsightMid": {
+    "kik": "mĩhianĩre no ĩmenyithanagia o na"
+  },
+  "_template.observatoryInsightComparingHelps": {
+    "kik": "Kũgerania rikodi yaku na observatori ĩrĩa nene nĩgũteithagia gũkũũrana kĩrĩa kĩagĩrĩirwo nĩ kũrũmĩrĩrwo."
+  },
+  "_template.observatoryInsightEmptyFallback": {
+    "kik": "Rĩrĩa Rikodi yaku ya mbere ya Atlas ĩgaathondekwo, nĩũkuona ũrĩa mĩhianĩre yaku ĩnyitanĩte na observatori ĩrĩa nene."
+  },
+  "domain_bleeding.companionPhrase": {
+    "kik": "kũnoga na kwaga hinya"
+  },
+  "domain_pain.companionPhrase": {
+    "kik": "gũtharĩkĩrwo kwa mathugumo ma o mũthenya"
+  },
+  "domain_hormonal.companionPhrase": {
+    "kik": "mũcenjanio wa toro na meciria"
+  },
+  "domain_cycle.companionPhrase": {
+    "kik": "mũcenjanio wa kũmenya ihinda rĩa mweri"
+  },
+  "domain_daily_life.companionPhrase": {
+    "kik": "gũtharĩkĩrwo kwa toro na kũnoga"
+  },
+  "domain_care_access.companionPhrase": {
+    "kik": "kũregwo kwa mathĩna maku"
+  },
+  "life_stage_adolescence.label": {
+    "kik": "Ũnini"
+  },
+  "life_stage_adolescence.description": {
+    "kik": "Atlas nĩĩgũgũteithia gũtaũkĩrwo nĩ ũrĩa maũndũ maku megũthiĩ ihinda rĩĩrĩ na thutha waarĩo."
+  },
+  "life_stage_reproductive.label": {
+    "kik": "Mĩaka ya Gũciara"
+  },
+  "life_stage_reproductive.description": {
+    "kik": "Atlas nĩĩgũgũteithia gũtaũkĩrwo nĩ ũrĩa maũndũ maku megũthiĩ ihinda rĩĩrĩ na thutha waarĩo."
+  },
+  "life_stage_pregnancy.label": {
+    "kik": "Nda"
+  },
+  "life_stage_pregnancy.description": {
+    "kik": "Atlas nĩĩrarũmĩrĩria kũrora gwaku ĩrĩ na nda yaku meciria-inĩ."
+  },
+  "life_stage_postpartum.label": {
+    "kik": "Thutha wa Gũciara"
+  },
+  "life_stage_postpartum.description": {
+    "kik": "Atlas nĩĩrarũmĩrĩria kũrora gwaku ihinda-inĩ rĩaku rĩa gũcooka hinya thutha wa gũciara."
+  },
+  "life_stage_perimenopause.label": {
+    "kik": "Ihinda Rĩgũkuhĩrĩria Kũhũthĩa Mweri"
+  },
+  "life_stage_perimenopause.description": {
+    "kik": "Atlas nĩĩgũgũteithia kũrũmĩrĩria ũrĩa mũtũkĩro wa mwĩrĩ waku ũgũcenjia ihinda-inĩ rĩĩrĩ rĩa mũcenjanio."
+  },
+  "life_stage_menopause.label": {
+    "kik": "Kũhũthĩra Mweri"
+  },
+  "life_stage_menopause.description": {
+    "kik": "Atlas nĩĩgũgũteithia kũrũmĩrĩria mĩhianĩre yaku thutha wa kũhũthĩra mweri."
+  },
+  "care_phase_observation.label": {
+    "kik": "Kũrora kwa Mbere"
+  },
+  "care_phase_observation.description": {
+    "kik": "Ambĩrĩria kũrora kwaku kwa mbere nĩguo wambĩrĩrie rũgendo rwaku na Atlas."
+  },
+  "care_phase_care_outreach.label": {
+    "kik": "Kũmanya Ũteithio"
+  },
+  "care_phase_care_outreach.description": {
+    "kik": "Kũmanya ũteithio waku nĩ gĩcunjĩ kĩa rikodi yaku."
+  },
+  "care_phase_atlas_record.label": {
+    "kik": "Rikodi ya Atlas"
+  },
+  "care_phase_atlas_record.description": {
+    "kik": "Rikodi yaku ya kĩambĩrĩria ya Atlas nĩ mwagĩrĩru. Ĩka Check-In ihinda rĩothe nĩguo ũrũmĩrĩrie ũrĩa maũndũ megũcenjia."
+  },
+  "care_phase_check_ins.label": {
+    "kik": "Check-Ins Iria Igũthiĩ na Mbere"
+  },
+  "care_phase_check_ins.description": {
+    "kik": "Check-Ins ciaku nĩcio ciongagĩrĩra mũhianĩre mũnene wa rikodi yaku."
+  },
+  "care_phase_monitoring.label": {
+    "kik": "Kũrũmĩrĩria Kũrathiĩ na Mbere"
+  },
+  "care_phase_monitoring.description": {
+    "kik": "Ũrĩ kũrũmĩrĩria-inĩ kũrathiĩ na mbere — Atlas nĩĩrongagĩrĩra gũthondeka rikodi yaku na Check-In o yothe."
+  },
+  "bleeding_burden.participantLabel": {
+    "kik": "Ũraita thakame mũnene kana ũtharĩkanagia"
+  },
+  "bleeding_burden.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire ũhoro wa gũita thakame ũngĩenda gũthondekwo, hinya, na kũmenyerera thĩinĩ wa ũtũũro wa o mũthenya."
+  },
+  "bleeding_burden.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Mũrigo wa gũita thakame nĩ wa kũrora — ũtaaragia ũhoro ũrĩa wonete, ti ũmenyi wa mũrimũ."
+  },
+  "bleeding_burden.whyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie maũndũ maya tondũ macokio megũkonyanĩrĩra gũita thakame no manyitane na ihinda, mĩrigo, gũcenjania indo cia kũrigitira, na gũthondeka o mũthenya."
+  },
+  "bleeding_burden.watchOverTime": {
+    "kik": "Angĩkorwo gũita thakame gũgũtũũra o ũguo, gũgũthiĩ na mbere kana gũtarĩ ta ũguo hau mbere, kana gũgũthiĩ na mbere gũtharĩkĩrwo kwa hinya na gũthondeka."
+  },
+  "pain_distribution.participantLabel": {
+    "kik": "Mũhianĩre wa Mũrimũ"
+  },
+  "pain_distribution.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire ũhoro wa mũrimũ no ũgĩe wa gũthiĩ ihinda-inĩ, kũguthũka, na ũrĩa ũcokagia rĩrĩa wonekaga."
+  },
+  "pain_distribution.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Mĩhianĩre ya mũrimũ nĩ ya kũrora, ti rĩĩtwa rĩa kũmenya mũrimũ."
+  },
+  "pain_distribution.whyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie maũndũ maya tondũ ihinda rĩa mũrimũ, kũrĩa wonekaga, ũrĩa ũraiga, na ũrĩa ũcokagia no ikorwo ĩrĩ mũhianĩre ũmwe."
+  },
+  "pain_distribution.watchOverTime": {
+    "kik": "Angĩkorwo mũrimũ ũgũtũũra handũ hamwe, ũkĩgatha kũrĩ mawĩra mangĩ, kana ũkĩrehe ũhoteku wa kũmenya mbere."
+  },
+  "hormonal_rhythm.participantLabel": {
+    "kik": "Mũhianĩre wa Mweri"
+  },
+  "hormonal_rhythm.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire ũhoro wa mũhianĩre wa mweri na ranyisi cia hormone no ikorwo igĩthondeka ũrĩa mwĩrĩ waku ũgĩoneka ihinda rĩothe."
+  },
+  "hormonal_rhythm.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Kũrora mũhianĩre ti ũmenyi wa mũrimũ wa hormone."
+  },
+  "hormonal_rhythm.whyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie maũndũ maya tondũ kũmenya mbere kwa mweri, ranyisi cia hormone, na ihinda rĩa mĩrimũ no ikorwo ithiiaga hamwe."
+  },
+  "hormonal_rhythm.watchOverTime": {
+    "kik": "Angĩkorwo mũhianĩre wa mweri ũgũthiĩ na mbere kũrũgama, ũkĩcenjia makĩria, kana ũkĩnyitanĩra na ranyisi ingĩ cia mwĩrĩ."
+  },
+  "pelvic_function.participantLabel": {
+    "kik": "Ĩmenyithia cia Nda na Mwĩrĩ"
+  },
+  "pelvic_function.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire ĩmenyithia cia nda kana cia mũcenjanio wa mwĩrĩ ingĩkorwo ihũganĩte, ti o ĩmwe yiki."
+  },
+  "pelvic_function.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Ĩmenyithia cia nda nĩ mĩthemba ya kũrora ĩrĩa ĩhũganĩte, ti mũrimũ ũmwe."
+  },
+  "pelvic_function.whyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie maũndũ maya tondũ gũtũrũhwo nĩ nda na ĩmenyithia cia mũcenjanio wa mwĩrĩ no ionanie mĩtaratara ĩhũganĩte ya nda."
+  },
+  "pelvic_function.watchOverTime": {
+    "kik": "Angĩkorwo gũtũrũhwo gũgũtũũra kũrĩ ihinda rĩmwerĩ, gũgĩthiĩ na mbere gũtũũra, kana gũkĩnyitanĩra na iye, thuno, kana kũguthũka."
+  },
+  "daily_function.participantLabel": {
+    "kik": "Ũrĩa Kũhutania na Ũtũũro wa o Mũthenya"
+  },
+  "daily_function.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire ũhoro wa mĩrimũ ĩngĩenda gũthondeka cukulu, wĩra, kũhurũka, na maũndũ marĩa ũngĩhota gũthiĩ na mbere nao."
+  },
+  "daily_function.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Kũhutania nĩ ũira — gũtoonyaga rikodi-inĩ rĩrĩa mĩrimũ ĩgacenjia ũtũũro wa o mũthenya."
+  },
+  "daily_function.whyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie maũndũ maya tondũ mawĩra mokire kũhingwo, toro gũtharĩkĩrwo, na kũhutania no icenjie mũthondekere wa ũtũũro wa o mũthenya."
+  },
+  "daily_function.watchOverTime": {
+    "kik": "Angĩkorwo mĩtaratara ĩgũthiĩ na mbere kwĩyathanĩrwo, kana kuohanĩrio makĩria, kana kũmenyeka mbere makĩria ũrĩa mĩrimũ ĩgũcenjia."
+  },
+  "care_experience.participantLabel": {
+    "kik": "Rũgendo Rwaku rwa Ũteithio"
+  },
+  "care_experience.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire ũhoro wa rũgendo rwaku rwa ũteithio — kũhota kũrĩgĩtwo, macokio, na kwiguo ũthikĩrĩirio — nĩ gĩcunjĩ kĩa rikodi ĩno."
+  },
+  "care_experience.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Rũgendo rwa ũteithio nĩ rũthondekaga kĩrĩa mũndũ arũmĩrĩirie, atigagĩrĩria, kana atigĩte kuuga."
+  },
+  "care_experience.whyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie maũndũ maya tondũ nĩmataaragia ũrĩa ũthiĩte na mbere na ũteithio hamwe na mĩrimũ."
+  },
+  "care_experience.watchOverTime": {
+    "kik": "Angĩkorwo kũhota kũrĩgĩtwo, ũhoro, na kwiguo ũthikĩrĩirio kũgũthiĩ na mbere, gũkĩrũgama, kana gũkĩcenjia ihinda-inĩ."
+  },
+  "body_unpredictability.participantLabel": {
+    "kik": "Mũcenjanio wa Mwĩrĩ Ũrĩa Ũtarĩ Mũhũthũ Kũmenya Mbere"
+  },
+  "body_unpredictability.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire atĩ kwaga kũmenya kĩrĩa gĩgũũka nĩgũthondekaga ũrĩa ũrathugunda na ũkĩĩhaarĩria."
+  },
+  "body_unpredictability.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Gũtaũkĩrwo nĩ mĩhianĩre nĩ kũhotithagia kũnyihia kwĩigua atĩ mĩrimũ nĩ ya o ro ũguo."
+  },
+  "body_unpredictability.whyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie maũndũ maya tondũ kwaga kũmenya mbere no gũthondeke ũthugundi, wĩtĩkio, na kwĩhaarĩria kwa o mũthenya."
+  },
+  "body_unpredictability.watchOverTime": {
+    "kik": "Angĩkorwo kwaga kũmenya mbere kũgũthirĩrĩria, gũkĩgarũrũka thĩinĩ wa mĩthemba, kana gũkorwo kũhũthũ gũthugunda."
+  },
+  "planning_around_symptoms.participantLabel": {
+    "kik": "Gũthugunda Ũkĩmenyerera Mwĩrĩ Waku"
+  },
+  "planning_around_symptoms.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire wahota gũkorwo ũgĩthondeka ũtũũro waku kũringana na ihinda rĩrĩa mĩrimũ ĩrĩ."
+  },
+  "planning_around_symptoms.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Mũrigo wa gũthugunda nĩ ũhoro ũrĩa wonete, ti ũndũ wa ngoro yaku."
+  },
+  "planning_around_symptoms.whyConnected": {
+    "kik": "Atlas nĩyonire mabata ma gũthugunda mekoneka thĩinĩ wa kũrora kũingĩ."
+  },
+  "planning_around_symptoms.watchOverTime": {
+    "kik": "Angĩkorwo mũrigo wa gũthugunda ũgũthirĩrĩria kana gũkorwo mũhũthũ kũmenya mbere."
+  },
+  "symptom_adaptation.participantLabel": {
+    "kik": "Kwĩgerekania na Mĩrimũ"
+  },
+  "symptom_adaptation.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire wahota gũkorwo ũgĩthondeka mĩtaratara yaku nĩguo ũtũũre na mĩrimũ ĩrathiĩ na mbere."
+  },
+  "symptom_adaptation.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Kwĩgerekania nĩ hinya na ĩmenyithia ya mũrigo ũrathiĩ na mbere."
+  },
+  "symptom_adaptation.whyConnected": {
+    "kik": "Atlas nĩyonire kwĩgerekania kwa mĩtaratara hamwe na mĩrimũ ĩgũthirĩrĩria."
+  },
+  "symptom_adaptation.watchOverTime": {
+    "kik": "Angĩkorwo njĩra cia kwĩgerekania ikũrũgama kana ikĩgarũrũka."
+  },
+  "diagnostic_uncertainty.participantLabel": {
+    "kik": "Gũcaria Macokio"
+  },
+  "diagnostic_uncertainty.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire atĩ kwaga macokio marũngĩrĩru no gũkorwo gĩcunjĩ kĩa ũhoro ũrĩa wonete."
+  },
+  "diagnostic_uncertainty.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Kwaga kũmenya nĩ na mũrigo thĩinĩ wa rikodi ya ũhoro ũrĩa wonete."
+  },
+  "diagnostic_uncertainty.whyConnected": {
+    "kik": "Atlas nĩyonire kwaga kũmenya ũhoro wa kĩrĩa mwĩrĩ waku ũreka."
+  },
+  "diagnostic_uncertainty.watchOverTime": {
+    "kik": "Angĩkorwo ũhoro ũgũthiĩ na mbere kũnoga thĩinĩ wa kũrora kũngĩ."
+  },
+  "care_navigation_complexity.participantLabel": {
+    "kik": "Gũthiĩ Njĩra-inĩ cia Ũteithio"
+  },
+  "care_navigation_complexity.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire atĩ gũthiĩ njĩra-inĩ cia ũteithio no gwĩte wĩra mũingĩ na kũrũmĩrĩria."
+  },
+  "care_navigation_complexity.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Thĩna wa ũteithio no ũthondeke kĩrĩa mũndũ arũmĩrĩirie kana oigĩte."
+  },
+  "care_navigation_complexity.whyConnected": {
+    "kik": "Atlas nĩyonire thĩna thĩinĩ wa ũrĩa ũteithio wagĩtĩkĩrĩkire na warĩkĩtio."
+  },
+  "care_navigation_complexity.watchOverTime": {
+    "kik": "Angĩkorwo njĩra ya ũteithio ĩgũthirĩrĩria kana ĩgũtũũra ĩrĩ nyingĩ."
+  },
+  "life_reorganization.participantLabel": {
+    "kik": "Gũtũũra Ũkĩmenyerera Mĩrimũ Yaku"
+  },
+  "life_reorganization.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire atĩ mĩrimũ no ĩthondeke wĩra, kũhurũka, kũguthũka, na ũtũũro wa o mũthenya hamwe."
+  },
+  "life_reorganization.watchOverTime": {
+    "kik": "Angĩkorwo mĩtaratara ĩgũthiĩ na mbere kwĩyathanĩrwo, kana kuohanĩrio makĩria, kana kũmenyeka mbere makĩria ũrĩa mĩrimũ ĩgũcenjia."
+  },
+  "life_reorganization.whyConnected": {
+    "kik": "Atlas nĩyonire atĩ kũrora kũingĩ nĩ kwahutanirie na gũthugunda, mĩtaratara, na kwĩhaarĩria, ti mĩrimũ o ĩmwe yiki."
+  },
+  "life_reorganization.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Gũthondeka ũtũũro nĩ gũtaaragia kĩrĩa gĩkuhutanĩirie, ti rĩĩtwa rĩa mũrimũ ũmwe."
+  },
+  "adaptive_living.participantLabel": {
+    "kik": "Gũcaria Njĩra cia Kwĩgerekania"
+  },
+  "adaptive_living.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire ũgĩcaria njĩra cia gũtũũra na kĩrĩa mwĩrĩ waku ũreka."
+  },
+  "adaptive_living.watchOverTime": {
+    "kik": "Angĩkorwo njĩra cia kwĩgerekania ikũrũgama kana ikĩgarũrũka."
+  },
+  "adaptive_living.whyConnected": {
+    "kik": "Atlas nĩyonire kwĩgerekania na kũhutania hamwe."
+  },
+  "adaptive_living.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Kwĩgerekania nĩ kuonania hinya thĩinĩ wa mũrigo ũrathiĩ na mbere."
+  },
+  "escalating_burden.participantLabel": {
+    "kik": "Mĩrimũ Ĩrathiĩ Ĩkĩongereka"
+  },
+  "escalating_burden.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire ĩmenyithia ta mĩrimũ no ĩkorwo ĩgũongereka, ti ĩgũtũũra o ta ũguo."
+  },
+  "escalating_burden.watchOverTime": {
+    "kik": "Angĩkorwo mũrigo ũgũongereka, ũgĩtũũra, kana ũgĩthirĩrĩria."
+  },
+  "escalating_burden.whyConnected": {
+    "kik": "Atlas nĩyonire njĩra ya kũnora thĩna thĩinĩ wa mĩthemba mĩingĩ."
+  },
+  "escalating_burden.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Kũnora nĩ kwa kũrora — kũrora kũngĩ nĩgũkoonania makĩria."
+  },
+  "delayed_recognition.participantLabel": {
+    "kik": "Kũmenyeka Kwĩnyita Ihinda"
+  },
+  "delayed_recognition.plainLanguageMeaning": {
+    "kik": "Atlas nĩyonire atĩ kũrĩgĩrĩrio ũhoro no kwĩnyite ihinda kũrĩ ũrĩa wetereire."
+  },
+  "delayed_recognition.watchOverTime": {
+    "kik": "Angĩkorwo kũmenyeka na ũhoro wa ũteithio ũgũnora."
+  },
+  "delayed_recognition.whyConnected": {
+    "kik": "Atlas nĩyonire thĩna wa ũteithio hamwe na kwaga kũmenya."
+  },
+  "delayed_recognition.atlasNote": {
+    "kik": "Ũhoro wa Atlas: Kũmenyeka kwĩnyita ihinda nĩ kwa kawaida na nĩ kwa ma."
+  },
+  "_template.emergentAtlasNote": {
+    "kik": "Ndeto ĩno yoimire ũrĩa kũrora kũingĩ kwahutanĩirie hamwe — ti kuuma macokio o mamwe."
+  },
+  "_template.lightlyObserved": {
+    "kik": "yonirwo kanini thĩinĩ wa rikodi ĩno ya mbere."
+  },
+  "Bleeding Burden.meaningName": {
+    "kik": "Gũita Thakame Gũkĩria Ũingĩ"
+  },
+  "Bleeding Burden.explanation": {
+    "kik": "Gũita thakame no gũkorwo na bata tondũ wa ũrĩa gũthondekaga hinya, kwĩhaarĩria, toro, kũguthũka, na mĩtaratara ya o mũthenya, ti ũingĩ waguo wiki."
+  },
+  "Pain Distribution.meaningName": {
+    "kik": "Mĩtaratara ya Nda Ĩhũganĩte"
+  },
+  "Pain Distribution.explanation": {
+    "kik": "Mũrimũ no ndũkorwo ũrĩ ũndũ ũmwe wiki. No kũgunĩke kũmenya ihinda, kũguthũka, iye, thuno, na kũnyitana kwa mawĩra ma nda."
+  },
+  "Pelvic Function.meaningName": {
+    "kik": "Mĩtaratara ya Nda Ĩhũganĩte"
+  },
+  "Pelvic Function.explanation": {
+    "kik": "Gũtũrũhwo kana gũiyũrwo no kuone ta gũtahũganĩte na thuno, iye, kũguthũka, kana ĩmenyithia cia mũcenjanio wa mwĩrĩ nginya rĩrĩa cioneka hamwe."
+  },
+  "Hormonal Rhythm.meaningName": {
+    "kik": "Gũcenjia kwa Mũhianĩre"
+  },
+  "Hormonal Rhythm.explanation": {
+    "kik": "Mũhianĩre wa mweri nĩ makĩria ma matukũ. Mũcenjanio wa ihinda no woneke hamwe na gĩkonde, njuĩrĩ, hinya, meciria, kana ĩmenyithia cia mũcenjanio wa mwĩrĩ."
+  },
+  "Daily Function.meaningName": {
+    "kik": "Ũrĩa Kũhutania na Ũtũũro wa o Mũthenya"
+  },
+  "Daily Function.explanation": {
+    "kik": "Mũhianĩre wa mwĩrĩ ũkoragwo na bata makĩria rĩrĩa wambĩrĩirie gũthondeka ũtũũro wa o mũthenya, o na kũngĩoneka ta mũrimũ o mũmwe no ũhote kũrũmĩrĩrwo."
+  },
+  "Life Reorganization.meaningName": {
+    "kik": "Gũthondeka Ũtũũro"
+  },
+  "Life Reorganization.explanation": {
+    "kik": "Rĩrĩa kũrora kũingĩ gwahutaníirie, mĩrimũ no ĩthondeke wĩra, kũhurũka, kũguthũka, na ũtũũro wa o mũthenya hamwe."
+  },
+  "Care Experience.meaningName": {
+    "kik": "Rũgendo rwa Ũteithio ta Ũira"
+  },
+  "Care Experience.explanation": {
+    "kik": "Kwĩigua atĩ ndũthikĩrĩirio kana kwaga macokio no gũcenjie ihinda rĩrĩa mĩrimũ ĩtiganĩirio, ĩtarĩ ya kũrigitwo, kana yakuo ta ya kawaida."
+  },
+  "Body Unpredictability.meaningName": {
+    "kik": "Kwaga Kũmenya Mbere ta Mũrigo"
+  },
+  "Body Unpredictability.explanation": {
+    "kik": "Kwaga kũmenya kĩrĩa mwĩrĩ waku ũkeeka thutha no gũkorwo gĩcunjĩ kĩa ũhoro ũrĩa wonete. Kwaga kũmenya no gũthondeke ũthugundi, wĩtĩkio wa ihinda, na gũcaria ũteithio."
+  },
+  "Bleeding Burden.literacyTitle": {
+    "kik": "Gũita Thakame Nĩ Makĩria ma Ũingĩ"
+  },
+  "Bleeding Burden.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Gũthondeka kwa gũita thakame ti ũingĩ wiki. Nĩkuongagĩrĩra gũcoka hinya, mĩtaratara, toro, wendo, na kwĩigua wĩhaarĩirie."
+  },
+  "Pain Distribution.literacyTitle": {
+    "kik": "Ĩmenyithia cia Nda No Cinyitane"
+  },
+  "Pain Distribution.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Gũtaarĩria kũrĩa mũrimũ woneka no kuonanie kana mũhianĩre wa mwĩrĩ ũrĩ handũ hamwe kana ũragatha kũrĩ mĩtaratara na mawĩra."
+  },
+  "Pelvic Function.literacyTitle": {
+    "kik": "Ĩmenyithia cia Nda No Cinyitane"
+  },
+  "Pelvic Function.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Ĩmenyithia cia gũtũrũhwo no cioneke itanahũganĩte nginya rĩrĩa cioneka ta kĩrĩndĩ kĩmwe hamwe na thuno, iye, na kũguthũka."
+  },
+  "Hormonal Rhythm.literacyTitle": {
+    "kik": "Mũhianĩre Nĩ Makĩria ma Matukũ"
+  },
+  "Hormonal Rhythm.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Mũcenjanio wa mũhianĩre no woneke ta ihinda, gĩkonde, njuĩrĩ, hinya, meciria, kana mũcenjanio wa ũritu, ti mweri o ũrĩa ũtoonekaga wiki."
+  },
+  "Daily Function.literacyTitle": {
+    "kik": "Kũhutania Nĩ Ũira"
+  },
+  "Daily Function.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Kũhutania nĩ gĩcunjĩ kĩa rikodi rĩrĩa mĩrimũ ĩgacenjia toro, wĩra, cukulu, ũteithio, ũrata, kana kũguthũka."
+  },
+  "Life Reorganization.literacyTitle": {
+    "kik": "Gũtũũra Ũkĩmenyerera Mĩrimũ"
+  },
+  "Life Reorganization.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Rĩrĩa kũrora kũingĩ gwahutaníirie, ũtũũro wa o mũthenya no ũthondekwo kũringana na kĩrĩa mwĩrĩ ũreka."
+  },
+  "Care Experience.literacyTitle": {
+    "kik": "Rũgendo rwa Ũteithio Nĩ Rũthondekaga Rikodi"
+  },
+  "Care Experience.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Rũgendo rwa ũteithio no rũthondeke kĩrĩa mũndũ arũmĩrĩirie, atigagĩrĩria, oigaga ta kawaida, kana atigĩte kuuga."
+  },
+  "Body Unpredictability.literacyTitle": {
+    "kik": "Kwaga Kũmenya Nĩ na Mũrigo"
+  },
+  "Body Unpredictability.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Gũtaũkĩrwo nĩ mĩhianĩre nĩ kũhotithagia kũnyihia kwĩigua atĩ mĩrimũ nĩ ya o ro ũguo."
+  },
+  "Baseline.literacyTitle": {
+    "kik": "Kĩambĩrĩria Nĩ Kĩrĩ na Hinya"
+  },
+  "Baseline.literacyNote": {
+    "kik": "Ũhoro wa Atlas: Kũrora kwa mbere gũtiagĩrĩirwo nĩ kũhingia maũndũ mothe. Nĩkũheaga we wa thutha ũndũ wa kũgerania nao."
+  },
+  "_template.noMeaningfulPattern": {
+    "kik": "Rikodi ĩno ya mbere ya Atlas nĩĩthondekaga handũ ha kwambĩrĩria. Mĩhianĩre ĩmwe no ĩgĩe ĩrũngĩrĩru makĩria rĩrĩa kũrora kũngĩ gũkongererwo."
+  },
+  "_template.respectfulBaseline": {
+    "kik": "Atlas nĩyathondekire kĩambĩrĩria kĩa gĩtĩo kuuma kũrĩ kĩrĩa waathuurire kuonania ũmũthĩ."
+  },
+  "_template.closingAgency": {
+    "kik": "No ũige rikodi ĩno, ũcooke kũrĩ yo, kana ũmĩhũthĩre kũtaarĩria ũhoro waku na ciugo ciaku mwene."
+  },
+  "_template.organizedAround": {
+    "kik": "Atlas nĩyathondekire ũcũrania waku wa mbere kũringana na"
+  },
+  "_template.relatedThread": {
+    "kik": "Ndeto ĩhũganĩte,"
+  },
+  "_template.mayHelpExplain": {
+    "kik": "no ĩteithie gũtaarĩria ũrĩa maũndũ maya manyitanĩte."
+  },
+  "_template.addsAnotherLayer": {
+    "kik": "nĩĩongagĩrĩra gĩcunjĩ kĩngĩ:"
+  },
+  "_template.staysClose": {
+    "kik": "Ũcũrania ũyũ nĩũikaraga hakuhĩ na kĩrĩa kĩonirwo ũmũthĩ na ũgatiga handũ ha kũgerania na thutha."
+  },
+  "_template.keepWatching": {
+    "kik": "Atlas nĩĩgũthiĩ na mbere kũrora ũrĩa maũndũ maya manyitanĩte ihinda rĩothe."
+  },
+  "_template.portraitLead": {
+    "kik": "Rikodi ĩno ya mbere ya Atlas nĩĩthondekaga mũhianĩre wa kĩambĩrĩria wa maũndũ marĩa monirwo makonainie na"
+  },
+  "_template.portraitOrganizedThrough": {
+    "kik": "mathondekĩtwo na"
+  },
+  "The Adapting Navigator.name": {
+    "kik": "Mũtongoria Ũrĩa Wĩgerekanagia"
+  },
+  "The Adapting Navigator.description": {
+    "kik": "Atlas nĩyonaga mũndũ ũrathondeka ũtũũro wake wa o mũthenya akĩĩruta gũthiĩ na mbere na kwaga kũmenya."
+  },
+  "The Adapting Navigator.whatThisMeans": {
+    "kik": "Mũhianĩre ũyũ woneka rĩrĩa maũndũ ma mwĩrĩ mambĩrĩirie kũhutia ũthugundi, kwĩhaarĩria, na mĩtaratara. Thĩna mũnene ti mũrimũ ũmwe, no nĩ mabata ma kwĩgerekania na kwaga kũmenya."
+  },
+  "The Adapting Navigator.whyTemplate": {
+    "kik": "Atlas nĩyathuurire mũhianĩre ũyũ tondũ gũthondeka ũtũũro, kwaga kũmenya mwĩrĩ, na mũrigo wa gũthugunda ciarĩ hamwe thĩinĩ wa rikodi ĩno."
+  },
+  "The Adapting Navigator.logicSummary": {
+    "kik": "Hamwe, maũndũ maya monanagia ũhoro ũrĩ na hinya harĩ kwĩgerekania na kwĩhaarĩria."
+  },
+  "The Persistent Seeker.name": {
+    "kik": "Mũcarĩrĩria Ũrĩa Ũtigaga"
+  },
+  "The Persistent Seeker.description": {
+    "kik": "Atlas nĩyonaga kũrũmĩrĩria thĩinĩ wa kũgeria gũtaũkĩrwo nĩ ũrĩa kũrahana na gũcaria ũteithio mũrũngĩrĩru."
+  },
+  "The Persistent Seeker.whatThisMeans": {
+    "kik": "Mũhianĩre ũyũ woneka rĩrĩa gũcaria ũrũngĩrĩru na ũteithio gũgatuĩka gĩcunjĩ kĩa ũhoro ũyũ wonete."
+  },
+  "The Persistent Seeker.whyTemplate": {
+    "kik": "Atlas nĩyathuurire mũhianĩre ũyũ tondũ thĩna wa ũteithio na kwaga kũmenya mwĩrĩ ciarĩ hamwe na ciũria itathiraga cia ũrĩa kũrahana."
+  },
+  "The Persistent Seeker.logicSummary": {
+    "kik": "Hamwe, maũndũ maya monanagia ũhoro ũrĩ na hinya harĩ kũrũmĩrĩria na gũcaria macokio marũngĩrĩru."
+  },
+  "The Multi-System Experience.name": {
+    "kik": "Ũhoro Ũhutanagia Mĩtaratara Mĩingĩ"
+  },
+  "The Multi-System Experience.description": {
+    "kik": "Atlas nĩyonaga maũndũ mangĩhũganana harĩ mũrimũ, mũhianĩre, gũtũrũhwo, na kũhutania na ũtũũro wa o mũthenya."
+  },
+  "The Multi-System Experience.whatThisMeans": {
+    "kik": "Mũhianĩre ũyũ woneka rĩrĩa mĩrimũ ĩngĩkorwo ĩgũthiĩ mĩtaratara-inĩ makĩria ya ĩmwe ya mwĩrĩ kana ya ũtũũro rĩmwerĩ."
+  },
+  "The Multi-System Experience.whyTemplate": {
+    "kik": "Atlas nĩyathuurire mũhianĩre ũyũ tondũ kũgatha kwa mũrimũ, gũtũrũhwo nĩ nda, na ĩmenyithia cia mũhianĩre wa mweri ciarĩ ihũganĩte thĩinĩ wa rikodi ĩno."
+  },
+  "The Multi-System Experience.logicSummary": {
+    "kik": "Hamwe, maũndũ maya monanagia ũhoro ũngĩiguithio thĩinĩ wa mĩtaratara mĩingĩ ya mwĩrĩ na ũtũũro."
+  },
+  "The Uncertain Body Experience.name": {
+    "kik": "Ũhoro wa Mwĩrĩ Ũtarĩ Mũhũthũ Kũmenya"
+  },
+  "The Uncertain Body Experience.description": {
+    "kik": "Atlas nĩyonaga kwaga kũmenya mbere na ĩmenyithia cia mwĩrĩ ikĩgarũrũka ta ũhoro mũnene wonete."
+  },
+  "The Uncertain Body Experience.whatThisMeans": {
+    "kik": "Mũhianĩre ũyũ woneka rĩrĩa kwaga kũmenya kĩrĩa mwĩrĩ ũkeeka thutha gũgatuĩka gĩcunjĩ kĩa mũrigo."
+  },
+  "The Uncertain Body Experience.whyTemplate": {
+    "kik": "Atlas nĩyathuurire mũhianĩre ũyũ tondũ kwaga kũmenya mwĩrĩ na mũcenjanio wa mũhianĩre ciarĩ ndeto nene makĩria thĩinĩ wa rikodi ĩno."
+  },
+  "The Uncertain Body Experience.logicSummary": {
+    "kik": "Hamwe, maũndũ maya monanagia ũhoro ũrĩ na hinya harĩ kwaga kũmenya mbere na ĩmenyithia cia mwĩrĩ igũcenjia."
+  },
+  "The Body Negotiator.name": {
+    "kik": "Mũrũgamĩrĩri wa Mwĩrĩ"
+  },
+  "The Body Negotiator.description": {
+    "kik": "Atlas nĩyonaga kũrũgama gũtũũraga gatagatĩ-inĩ ka mabata ma mwĩrĩ, hinya, na kĩrĩa ũtũũro wa o mũthenya ũbataraga."
+  },
+  "The Body Negotiator.whatThisMeans": {
+    "kik": "Mũhianĩre ũyũ woneka rĩrĩa mũrigo wa mwĩrĩ na ũhoti wa ũtũũro ibataraga kũrũgamio ihinda o ihinda."
+  },
+  "The Body Negotiator.whyTemplate": {
+    "kik": "Atlas nĩyathuurire mũhianĩre ũyũ tondũ mũrigo wa gũita thakame na gũthondeka ũtũũro ciarĩ hamwe na hinya na thĩna wa mĩtaratara."
+  },
+  "The Body Negotiator.logicSummary": {
+    "kik": "Hamwe, maũndũ maya monanagia ũhoro ũrĩ na hinya harĩ kũrũgamia ũhoti, hinya, na mabata ma o mũthenya."
+  },
+  "The Quiet Burden.name": {
+    "kik": "Mũrigo wa Hitho"
+  },
+  "The Quiet Burden.description": {
+    "kik": "Atlas nĩyonaga mũrigo ũrathirĩrĩria ũngĩkorwo ũtonania na ũingĩ, no ũrĩ na bata mũnene wa o mũthenya."
+  },
+  "The Quiet Burden.whatThisMeans": {
+    "kik": "Mũhianĩre ũyũ woneka rĩrĩa mũrigo ũrĩ ho o na rikodi ĩtekũrũgamĩrĩra ndeto ĩmwe nene."
+  },
+  "The Quiet Burden.whyTemplate": {
+    "kik": "Atlas nĩyathuurire mũhianĩre ũyũ tondũ ĩmenyithia cia mũrigo wa mwĩrĩ ciarĩ ho ihinda rĩothe, o na gũtarĩ na ndeto ĩmwe nene ya rũgano."
+  },
+  "The Quiet Burden.logicSummary": {
+    "kik": "Hamwe, maũndũ maya monanagia mũrigo wa hitho no wa bata wagĩrĩirwo nĩ kũrũmĩrĩrwo ihinda rĩothe."
+  },
+  "Body Predictability Landscape.name": {
+    "kik": "Ũhoro Wothe wa Kũmenya Mwĩrĩ Mbere"
+  },
+  "Body Predictability Landscape.description": {
+    "kik": "Ũhoro mũthondeketwo nĩ ũrĩa ihinda rĩa mwĩrĩ rĩiguũagwo kana rĩagarũrũkaga thĩinĩ wa rikodi ĩno."
+  },
+  "Bleeding Burden Landscape.name": {
+    "kik": "Ũhoro Wothe wa Mũrigo wa Gũita Thakame"
+  },
+  "Bleeding Burden Landscape.description": {
+    "kik": "Ũhoro mũthondeketwo nĩ ũrĩa gũita thakame kũngĩhutia hinya, kwĩhaarĩria, na ũhoti wa o mũthenya."
+  },
+  "Pain Landscape.name": {
+    "kik": "Ũhoro Wothe wa Mũrimũ"
+  },
+  "Pain Landscape.description": {
+    "kik": "Ũhoro mũthondeketwo nĩ ũrĩa mũrimũ ũngĩgatha thĩinĩ wa kũguthũka, wĩra, na mĩtaratara."
+  },
+  "Care Navigation Landscape.name": {
+    "kik": "Ũhoro Wothe wa Njĩra cia Ũteithio"
+  },
+  "Care Navigation Landscape.description": {
+    "kik": "Ũhoro mũthondeketwo nĩ kũhota kũrĩgĩtwo, ũrũngĩrĩru, na kana maũndũ ma ũteithio maiguithagia."
+  },
+  "Life Adaptation Landscape.name": {
+    "kik": "Ũhoro Wothe wa Kwĩgerekania na Ũtũũro"
+  },
+  "Life Adaptation Landscape.description": {
+    "kik": "Ũhoro mũthondeketwo nĩ ũrĩa mĩrimũ ĩgacenjia wĩra, kũhurũka, ũrata, na kũguthũka."
+  },
+  "Planning Burden.name": {
+    "kik": "Mũrigo wa Gũthugunda"
+  },
+  "Planning Burden.description": {
+    "kik": "Wĩra mũhithe wa gũthugunda kũringana na ĩmenyithia cia mwĩrĩ itarĩ mũhũthũ kũmenya mbere."
+  },
+  "Planning Burden.reflectionText": {
+    "kik": "Ũhoro ũyũ no ũbatarie gũthugunda makĩria kũrĩ ũrĩa ũngĩoneka ũrĩ wa kĩhooto kana wagĩrĩire."
+  },
+  "Life Constriction.name": {
+    "kik": "Ũtũũro Ũgũthinjwo"
+  },
+  "Life Constriction.description": {
+    "kik": "Rĩrĩa mĩtaratara, kũguthũka, kana ũtũũro wa mũingĩ ũiguithagia ũrĩ mũnini gũkĩra mbere."
+  },
+  "Life Constriction.reflectionText": {
+    "kik": "Ũhoro ũyũ no ũkũũrie wone kĩrĩa gĩtuĩkĩte kĩrũmu makĩria gũkĩnyita thĩinĩ wa ũtũũro wa o mũthenya."
+  },
+  "Agency.name": {
+    "kik": "Ũhoti wa Gũthuura"
+  },
+  "Agency.description": {
+    "kik": "Kũigua ũrĩ na ũhoro angĩkorwo ũthuurano waku no ũhote kũhinga."
+  },
+  "Agency.reflectionText": {
+    "kik": "Ũhoro ũyũ no ũkũũrie angĩkorwo ũrĩ ũraigua no ũtongorie mĩtaratara, ũteithio, na kũhurũka."
+  },
+  "Adaptation Intelligence.name": {
+    "kik": "Ũũgĩ wa Kwĩgerekania"
+  },
+  "Adaptation Intelligence.description": {
+    "kik": "Njĩra iria wĩrutĩte gũcenjia, kwĩhaarĩria, kana gũcoka hinya."
+  },
+  "Adaptation Intelligence.reflectionText": {
+    "kik": "Ũhoro ũyũ no ũkũũrie ũmenye ũũgĩ ũrĩ ho thĩinĩ wa ũrĩa wĩgerekanagia."
+  },
+  "Body Predictability.name": {
+    "kik": "Kũmenya Mwĩrĩ Mbere"
+  },
+  "Body Predictability.description": {
+    "kik": "Ũrĩa ũũĩ mwĩrĩ waku kuuma mũthenya ũmwe nginya ũrĩa ũngĩ."
+  },
+  "Body Predictability.reflectionText": {
+    "kik": "Ũhoro ũyũ no ũbatarie kũgirĩrĩria Atlas ĩgĩĩruta kĩrĩa gĩtũũraga na kĩrĩa gĩcenjagia."
+  },
+  "Preparedness Burden.name": {
+    "kik": "Mũrigo wa Kwĩhaarĩria"
+  },
+  "Preparedness Burden.description": {
+    "kik": "Wĩra wa gũtũũra wĩhaarĩirie mĩrimũ ĩngĩũka hatarĩ ũmenyithia."
+  },
+  "Preparedness Burden.reflectionText": {
+    "kik": "Ũhoro ũyũ no ũbatarie kũmenyeka kwa hinya ũrĩa ũhũthagĩra gũtũũra wĩhaarĩirie."
+  },
+  "Health Labor.name": {
+    "kik": "Wĩra wa Ũgima"
+  },
+  "Health Labor.description": {
+    "kik": "Wĩra ũrathiĩ na mbere wa kũrũmĩrĩria, kũtaarĩria, gũcaria ũteithio, na gũkuua rũgano."
+  },
+  "Health Labor.reflectionText": {
+    "kik": "Ũhoro ũyũ no ũkũũrie wĩte rĩĩtwa wĩra ũrĩa ũrĩ thĩinĩ wa gũkuua rũgano rũrũ rwa ũgima waku."
+  },
+  "Bleeding Burden::Life Reorganization.description": {
+    "kik": "Mũrigo wa gũita thakame na gũthondeka ũtũũro no inyitane rĩrĩa hinya, kwĩhaarĩria, na mĩpaka ya mĩtaratara ĩthiiaga hamwe."
+  },
+  "Pain-Spread::Life Reorganization.description": {
+    "kik": "Kũgatha kwa mũrimũ na gũthondeka ũtũũro no inyitane rĩrĩa gũthĩnĩrĩka kũgacenjia kĩrĩa kũguthũka, wĩra, kana kũhurũka kũngĩnyita."
+  },
+  "Body Uncertainty::Life Reorganization.description": {
+    "kik": "Kwaga kũmenya mwĩrĩ na gũthondeka ũtũũro no inyitane rĩrĩa kwaga kũmenya kĩrĩa gĩgũũka kũgacenjia ũthugundi."
+  },
+  "Hormonal Rhythm::Body Uncertainty.description": {
+    "kik": "Mũhianĩre wa mweri na kwaga kũmenya mwĩrĩ no inyitane rĩrĩa mũcenjanio wa ihinda ũgatũma mwĩrĩ waku wĩiguithie ũtarĩ mũhũthũ kũmenya mbere."
+  },
+  "Care Friction::Body Uncertainty.description": {
+    "kik": "Thĩna wa ũteithio na kwaga kũmenya mwĩrĩ no inyitane rĩrĩa ciũria itarĩ na macokio ciongagĩrĩra gũcaria ũrũngĩrĩru."
+  },
+  "Bleeding Burden::Body Uncertainty.description": {
+    "kik": "Mũrigo wa gũita thakame na kwaga kũmenya mwĩrĩ no inyitane rĩrĩa gũita thakame, ihinda, na kwĩhaarĩria kũratuĩka ũndũ mũritũ kwĩtĩkia."
+  },
+  "Pain-Spread::Pelvic Pressure.description": {
+    "kik": "Kũgatha kwa mũrimũ na gũtũrũhwo nĩ nda no inyitane rĩrĩa mũrimũ woneka thĩinĩ wa kũguthũka, gũtũrũhwo, na mawĩra."
+  },
+  "Care Friction::Life Reorganization.description": {
+    "kik": "Thĩna wa ũteithio na gũthondeka ũtũũro no inyitane rĩrĩa kũhota kũrĩgĩtwo kana ũrũngĩrĩru ĩgacenjia ihinda rĩrĩa mĩrimũ ĩkuuagwo mũndũ wiki."
+  },
+  "Adaptation.name": {
+    "kik": "Kwĩgerekania"
+  },
+  "Adaptation.description": {
+    "kik": "Atlas nĩyonire njĩra iria ũthondekaga mĩtaratara yaku nĩguo ũtũũro wa o mũthenya ũthiĩ na mbere."
+  },
+  "Adaptation.reflectionText": {
+    "kik": "Nĩũrĩ ũgĩĩgerekania, o na gũtuĩka mũcenjanio ũcio nĩ mũnogu."
+  },
+  "Persistence.name": {
+    "kik": "Kũrũmĩrĩria"
+  },
+  "Persistence.description": {
+    "kik": "Atlas nĩyonire kũrũmĩrĩria thĩinĩ wa ũhoro ũrathĩnia."
+  },
+  "Persistence.reflectionText": {
+    "kik": "Nĩũrĩ ũgĩthiĩ na mbere na ũhoro ũyũ, o na gũtuĩka macokio nĩmokire mahinda."
+  },
+  "Awareness.name": {
+    "kik": "Kũmenyerera"
+  },
+  "Awareness.description": {
+    "kik": "Atlas nĩyonire kũmenyerera na hinya kĩrĩa mwĩrĩ waku na mĩtaratara yaku ĩreka."
+  },
+  "Awareness.reflectionText": {
+    "kik": "Nĩwĩgĩte ngoro, na ũguo nĩ gĩcunjĩ kĩa rikodi ĩno."
+  },
+  "Preparation.name": {
+    "kik": "Kwĩhaarĩria"
+  },
+  "Preparation.description": {
+    "kik": "Atlas nĩyonire wĩra wa gũtũũra wĩhaarĩirie kĩrĩa mwĩrĩ ũngĩeka thutha."
+  },
+  "Preparation.reflectionText": {
+    "kik": "Nĩũrĩ ũgĩĩhaarĩria na njĩra ingĩoneka itagĩrĩirwo nĩ arĩa angĩ, no irĩ cia ma harĩwe."
+  },
+  "Resourcefulness.name": {
+    "kik": "Ũũgĩ wa Kuona Njĩra"
+  },
+  "Resourcefulness.description": {
+    "kik": "Atlas nĩyonire njĩra cia ũũgĩ cia gũkuua mĩtaratara, kũhurũka, na ũteithio hamwe."
+  },
+  "Resourcefulness.reflectionText": {
+    "kik": "Nĩũrĩ na ũũgĩ wa kuona njĩra cia gũtũma ũtũũro ũthiĩ na mbere."
+  },
+  "Self-Advocacy.name": {
+    "kik": "Kwĩyarĩrĩria"
+  },
+  "Self-Advocacy.description": {
+    "kik": "Atlas nĩyonire kĩgeria gĩa gũcaria ũrũngĩrĩru, ũteithio, kana macokio ma kwĩtĩkĩrĩka makĩria."
+  },
+  "Self-Advocacy.reflectionText": {
+    "kik": "Nĩũrĩ ũgĩĩyarĩrĩria nĩguo ũhoro waku wone na wĩtĩkĩrwo na kĩyo."
+  },
+  "_template.baselineObservation": {
+    "kik": "Kũrora kwa Kĩambĩrĩria"
+  },
+  "_template.strengthsCareful": {
+    "kik": "Macokio maku monanagia kũmenyerera na hinya kĩrĩa mwĩrĩ waku na mĩtaratara yaku ĩreka."
+  },
+  "_template.strengthsLead": {
+    "kik": "Macokio maku monanagia nĩwĩgĩte njĩra cia kũmenya mũcenjanio"
+  },
+  "_template.strengthsPreparingAhead": {
+    "kik": ", kwĩhaarĩria mbere"
+  },
+  "_template.strengthsNavigatingUncertainty": {
+    "kik": ", na gũthiĩ na mbere na kwaga kũmenya"
+  },
+  "_template.bodyUnpredictability": {
+    "kik": "Mwĩrĩ Ũtarĩ Mũhũthũ Kũmenya Mbere"
+  },
+  "_template.awareness": {
+    "kik": "Kũmenyerera"
+  },
+  "_template.watchLandscapeSteadier": {
+    "kik": "Angĩkorwo kũrora kũngĩ gũgatũma ũhoro ũyũ ũrũgame makĩria, ũkorwo mũrũngĩrĩru makĩria, kana ũhũthũ gũtaũkĩrwo makĩria."
+  },
+  "_template.watchTheme.Predictability": {
+    "kik": "Kũmenya Mbere"
+  },
+  "_template.watchTheme.Care clarity": {
+    "kik": "Ũrũngĩrĩru wa Ũteithio"
+  },
+  "_template.watchTheme.Pain spread": {
+    "kik": "Kũgatha kwa Mũrimũ"
+  },
+  "_template.watchTheme.Bleeding burden": {
+    "kik": "Mũrigo wa Gũita Thakame"
+  },
+  "_template.watchTheme.Pattern clarity": {
+    "kik": "Ũrũngĩrĩru wa Mũhianĩre"
+  },
+  "_template.connectionPhraseWithConnections": {
+    "kik": "gũthugunda, hinya, mĩtaratara, na kũmenya mbere"
+  },
+  "_template.connectionPhraseDefault": {
+    "kik": "ĩmenyithia cia mwĩrĩ, mĩtaratara ya o mũthenya, na maũndũ ma ũteithio"
+  },
+  "_template.openingInsightLine1": {
+    "kik": "Thĩinĩ wa kũrora kwaku gwa mbere, Atlas nĩyonire atĩ ndeto nene makĩria ti mĩrimũ yiki, no nĩ ũingĩ wa kwĩhaarĩria na gũcenjia kũbataranĩte nayo."
+  },
+  "_template.openingInsightLine2": {
+    "kik": "yonekaga ĩhũganĩte na"
+  },
+  "_template.openingInsightLine3": {
+    "kik": "Ũndũ ũyũ no ũtũme ũhoro ũyũ wone ũrĩ mũnene gũkĩra mũrimũ o ũmwe tondũ nĩwambagĩrĩria gũthondeka ũrĩa ũtũũro wa o mũthenya ũchanwo."
+  },
+  "_template.respectfulBaselineLeavesRoom": {
+    "kik": "Atlas nĩyathondekire kĩambĩrĩria kĩa gĩtĩo kuuma kũrĩ kĩrĩa waathuurire kuonania ũmũthĩ, ĩgatiga handũ ha kũgerania na thutha."
+  },
+  "_template.addsAnotherLayerDayToDay": {
+    "kik": "no ĩongerere gĩcunjĩ kĩngĩ kũrĩ ũrĩa ũhoro ũyũ ũiguagwo mũthenya o mũthenya."
+  },
+  "_template.startingPointFuture": {
+    "kik": "Rikodi ĩno ya mbere nĩĩthondekaga handũ ha kwambĩrĩria harĩ kũrora kũrĩa gũgũũka."
+  },
+  "_template.keepWatchingBodySignals": {
+    "kik": "Atlas nĩĩgũthiĩ na mbere kũrora ũrĩa ĩmenyithia cia mwĩrĩ, mĩtaratara ya o mũthenya, na maũndũ ma ũteithio manyitanaga rĩrĩa kũrora kũngĩ gũkongererwo."
+  },
+  "_template.noticedAttentionAndCare": {
+    "kik": "Atlas nĩyonire kũmenyerera na wendo thĩinĩ wa ũrĩa waheanire ũhoro ũyũ."
+  },
+  "_template.noticedAcrossObservations": {
+    "kik": "Atlas nĩyonire mũhianĩre ũyũ thĩinĩ wa kũrora kũingĩ kwa rikodi yaku."
+  },
+  "_template.storyNoBaseline": {
+    "kik": "Atlas nĩyathondekire kĩrĩa waathuurire kuonania ũmũthĩ gĩgatuĩka mũhianĩre wa kĩambĩrĩria wa ũũgĩ. Ũyũ nĩ wa kũrora, ti wa kũmenya mũrimũ. Kũrora kũngĩ nĩgũkoonania kĩrĩa gĩtũũraga na kĩrĩa gĩcenjagia."
+  },
+  "_template.storyNoticedThatLead": {
+    "kik": "Atlas nĩyonire atĩ"
+  },
+  "_template.storyNotOnlySymptoms": {
+    "kik": "ti mĩrimũ yiki thĩinĩ wa rikodi ĩno."
+  },
+  "_template.storyObservedLead": {
+    "kik": "Atlas nĩyonire"
+  },
+  "_template.storyCentralThread": {
+    "kik": "ta ndeto nene thĩinĩ wa rikodi ĩno ya mbere."
+  },
+  "_template.storyShapesAcrossLead": {
+    "kik": "Nĩyonekaga ĩgĩthondeka ũthugundi, toro, mĩtaratara, na ũrĩa ũtũũro wa o mũthenya ũiguithagia thĩinĩ wa"
+  },
+  "_template.storyShapesGeneric": {
+    "kik": "Nĩyonekaga ĩgĩthondeka ũthugundi, mĩtaratara, na ũrĩa ũtũũro wa o mũthenya ũiguithagia."
+  },
+  "_template.storyTogetherSuggestLead": {
+    "kik": "Hamwe, kũrora kũrĩa kwathondeketwo no kuonanie"
+  },
+  "_template.storyObservationalDisclaimer": {
+    "kik": "Mũhianĩre ũyũ nĩ wa kũrora na wa mũrũmĩrĩri ũyũ mwene — ti wa kũmenya mũrimũ."
+  },
+  "_template.severalObservationsSameDirection": {
+    "kik": "Kũrora kũingĩ nĩ kuonanirie njĩra ĩmwe."
+  },
+  "_template.connectionAnd": {
+    "kik": "na"
+  },
+  "_template.connectionMayTravelTogether": {
+    "kik": "no ithiiage hamwe ũrĩa mĩrimũ, mĩtaratara, na mabata ma ũteithio moonekaga thĩinĩ wa ũtũũro wa o mũthenya."
+  },
+  "_template.narrativeAlsoShaped": {
+    "kik": "Rũgano rwaku o na rwo nĩ rwathondekire mũhianĩre ũyũ."
+  },
+  "context.sectionLabel": {
+    "kik": "Ũhoro wa Ũtũũro"
+  },
+  "bleeding.sectionLabel": {
+    "kik": "Gũita Thakame"
+  },
+  "pain.sectionLabel": {
+    "kik": "Mũrimũ"
+  },
+  "hormonal.sectionLabel": {
+    "kik": "Mweri / Mũhianĩre"
+  },
+  "daily_life.sectionLabel": {
+    "kik": "Ũtũũro wa o Mũthenya"
+  },
+  "care.sectionLabel": {
+    "kik": "Rũgendo rwa Ũteithio"
+  },
+  "narrative.sectionLabel": {
+    "kik": "Rũgano"
+  },
+  "sensitive.sectionLabel": {
+    "kik": "Ndeto cia Hitho"
+  },
+  "body.sectionLabel": {
+    "kik": "Mwĩrĩ"
+  },
+  "Bleeding Pattern.watchItemLabel": {
+    "kik": "Mũhianĩre wa Gũita Thakame"
+  },
+  "Bleeding Pattern.watchCompareFallback": {
+    "kik": "Atlas nĩĩkũgerania kana mũhianĩre wa gũita thakame ũgũtũũra ũrũgamĩte, ũkĩgarũrũka, kana ũgĩkorwo mũrũngĩrĩru makĩria ihinda-inĩ."
+  },
+  "Daily Impact.watchItemLabel": {
+    "kik": "Kũhutania na Ũtũũro wa o Mũthenya"
+  },
+  "Daily Impact.watchCompareFallback": {
+    "kik": "Atlas nĩĩkũgerania kana kũhutania na ũtũũro wa o mũthenya kũgũtũũra kũrũgamĩte, gũkĩgarũrũka, kana gũgĩkorwo mũrũngĩrĩru makĩria ihinda-inĩ."
+  },
+  "Planning Burden.watchItemLabel": {
+    "kik": "Mũrigo wa Gũthugunda"
+  },
+  "Planning Burden.watchCompareFallback": {
+    "kik": "Atlas nĩĩkũgerania kana mũrigo wa gũthugunda ũgũtũũra ũrũgamĩte, ũkĩgarũrũka, kana ũgĩkorwo mũrũngĩrĩru makĩria ihinda-inĩ."
+  },
+  "Hormonal Rhythm.watchItemLabel": {
+    "kik": "Mũhianĩre wa Mweri"
+  },
+  "Hormonal Rhythm.watchCompareFallback": {
+    "kik": "Atlas nĩĩkũgerania kana mũhianĩre wa mweri ũgũtũũra ũrũgamĩte, ũkĩgarũrũka, kana ũgĩkorwo mũrũngĩrĩru makĩria ihinda-inĩ."
+  },
+  "Care Experience.watchItemLabel": {
+    "kik": "Rũgendo rwa Ũteithio"
+  },
+  "Care Experience.watchCompareFallback": {
+    "kik": "Atlas nĩĩkũgerania kana rũgendo rwa ũteithio rũgũtũũra rũrũgamĩte, rũkĩgarũrũka, kana rũgĩkorwo mũrũngĩrĩru makĩria ihinda-inĩ."
+  },
+  "Body.watchGroupLabel": {
+    "kik": "Mwĩrĩ"
+  },
+  "Cycle.watchGroupLabel": {
+    "kik": "Mweri"
+  },
+  "Daily Life.watchGroupLabel": {
+    "kik": "Ũtũũro wa o Mũthenya"
+  },
+  "Care.watchGroupLabel": {
+    "kik": "Ũteithio"
+  },
+  "Product changes.evidenceTheme": {
+    "kik": "Gũcenjania Indo cia Kũrigitira"
+  },
+  "Duration.evidenceTheme": {
+    "kik": "Ihinda"
+  },
+  "Clots.evidenceTheme": {
+    "kik": "Mĩrigo"
+  },
+  "Interperiod bleeding.evidenceTheme": {
+    "kik": "Gũita Thakame Gatagatĩ-inĩ ka Mweri"
+  },
+  "Heavier bleeding.evidenceTheme": {
+    "kik": "Gũita Thakame Kũingĩ Makĩria"
+  },
+  "Lighter bleeding.evidenceTheme": {
+    "kik": "Gũita Thakame Kũnini Makĩria"
+  },
+  "Irregular bleeding.evidenceTheme": {
+    "kik": "Gũita Thakame Gũtarĩ na Mũhianĩre"
+  },
+  "Night disruption.evidenceTheme": {
+    "kik": "Gũtharĩkĩrwo Ũtukũ"
+  },
+  "Energy management.evidenceTheme": {
+    "kik": "Kũrũgamia Hinya"
+  },
+  "Dizziness.evidenceTheme": {
+    "kik": "Kũgũrũrũkwo"
+  },
+  "Pain response.evidenceTheme": {
+    "kik": "Ũrĩa Ũcokagia ne Mũrimũ"
+  },
+  "Pain timing.evidenceTheme": {
+    "kik": "Ihinda rĩa Mũrimũ"
+  },
+  "Whole-body pain.evidenceTheme": {
+    "kik": "Mũrimũ Mwĩrĩ Wothe"
+  },
+  "Pain spread.evidenceTheme": {
+    "kik": "Kũgatha kwa Mũrimũ"
+  },
+  "Increasing severity.evidenceTheme": {
+    "kik": "Kũnora kwa Hinya"
+  },
+  "Pelvic symptoms.evidenceTheme": {
+    "kik": "Ĩmenyithia cia Nda"
+  },
+  "Body changes.evidenceTheme": {
+    "kik": "Mũcenjanio wa Mwĩrĩ"
+  },
+  "Pain triggers.evidenceTheme": {
+    "kik": "Maũndũ Machochoraga Mũrimũ"
+  },
+  "Irregular timing.evidenceTheme": {
+    "kik": "Ihinda Rĩtarĩ na Mũhianĩre"
+  },
+  "Skipped periods.evidenceTheme": {
+    "kik": "Mweri Mũthiũrũrũkĩrio"
+  },
+  "Hormonal signs.evidenceTheme": {
+    "kik": "Ĩmenyithia cia Hormone"
+  },
+  "Cycle changes.evidenceTheme": {
+    "kik": "Mũcenjanio wa Mweri"
+  },
+  "Cycle relation.evidenceTheme": {
+    "kik": "Ũnyitani na Mweri"
+  },
+  "Missed activities.evidenceTheme": {
+    "kik": "Mawĩra Mokire Kũhingwo"
+  },
+  "Sleep disruption.evidenceTheme": {
+    "kik": "Gũtharĩkĩrwo kwa Toro"
+  },
+  "Planning burden.evidenceTheme": {
+    "kik": "Mũrigo wa Gũthugunda"
+  },
+  "Life areas affected.evidenceTheme": {
+    "kik": "Kũndũ kwa Ũtũũro Kũhutĩtio"
+  },
+  "Routine adaptation.evidenceTheme": {
+    "kik": "Kwĩgerekania na Mĩtaratara"
+  },
+  "Worsening trajectory.evidenceTheme": {
+    "kik": "Njĩra ya Gũthiĩ Ũũru"
+  },
+  "Unpredictable timing.evidenceTheme": {
+    "kik": "Ihinda Rĩtarĩ Mũhũthũ Kũmenya Mbere"
+  },
+  "Care-seeking.evidenceTheme": {
+    "kik": "Gũcaria Ũteithio"
+  },
+  "Care response.evidenceTheme": {
+    "kik": "Macokio ma Ũteithio"
+  },
+  "Care dismissal.evidenceTheme": {
+    "kik": "Ũteithio Ũregetwo"
+  },
+  "Care access.evidenceTheme": {
+    "kik": "Kũhota Kũrĩgĩtwo"
+  },
+  "_template.noStrongPatternObserved": {
+    "kik": "— gũtirĩ mũhianĩre wa hinya wonirwo thĩinĩ wa rikodi ĩno."
+  },
+  "_template.narrativeAlsoSuggestsLead": {
+    "kik": "Rũgano rwaku o na rwo nĩ ruonanagia"
+  },
+  "adaptation.participantLabel": {
+    "kik": "Gũcaria Njĩra cia Kwĩgerekania"
+  },
+  "adaptation.interpretationModifier": {
+    "kik": "kwĩgerekania kuoneka ta gĩcunjĩ kĩa ũrĩa ũthiiaga na ũhoro ũyũ"
+  },
+  "persistence.participantLabel": {
+    "kik": "Kũrũmĩrĩria O na Gũtuĩka Nĩ Ũhoro Mũritũ"
+  },
+  "persistence.interpretationModifier": {
+    "kik": "kũrũmĩrĩria no gũtuĩke gĩcunjĩ kĩa ũrĩa ũkuuaga ũhoro ũyũ"
+  },
+  "uncertainty.participantLabel": {
+    "kik": "Kwaga Kũmenya Kĩrĩa Gĩgũũka"
+  },
+  "uncertainty.interpretationModifier": {
+    "kik": "kwaga kũmenya no gũthondeke ũrĩa ũtũũro wa o mũthenya ũiguithagia atĩ nĩũũĩ mbere"
+  },
+  "body_unpredictability.interpretationModifier": {
+    "kik": "kwaga kũmenya mwĩrĩ no gũtuĩke gĩcunjĩ kĩa ũhoro ũrĩ wa ma wa kũrora ũku"
+  },
+  "planning_burden.participantLabel": {
+    "kik": "Gũthugunda Ũkĩmenyerera Mwĩrĩ Waku"
+  },
+  "planning_burden.interpretationModifier": {
+    "kik": "gũthugunda kũringana na mĩrimũ no gũtuĩke gũgũthondeka ũtũũro wa o mũthenya"
+  },
+  "feeling_unheard.participantLabel": {
+    "kik": "Thĩna wa Kwĩigua Ũtathikĩrĩirio"
+  },
+  "feeling_unheard.interpretationModifier": {
+    "kik": "kwĩigua ũtathikĩrĩirio no gũtuĩke gĩcunjĩ kĩa rũgendo rwaku rwa ũteithio"
+  },
+  "care_dismissal.participantLabel": {
+    "kik": "Ũteithio Ũrĩa Wagĩrĩirwo Nĩ Kũregwo"
+  },
+  "care_dismissal.interpretationModifier": {
+    "kik": "ũteithio ũregetwo no ũhutie ũrĩa ũiguithagia ũhoro ũyũ"
+  },
+  "diagnostic_uncertainty.interpretationModifier": {
+    "kik": "gũcaria ũrũngĩrĩru no gũtuĩke gĩcunjĩ kĩa ũhoro ũyũ"
+  },
+  "frustration.participantLabel": {
+    "kik": "Ũrakaru na Kũnoga"
+  },
+  "frustration.interpretationModifier": {
+    "kik": "ũrakaru na kũnoga no gũtuĩke gĩcunjĩ kĩa mũrigo wa ngoro"
+  },
+  "isolation.participantLabel": {
+    "kik": "Kwĩigua Wĩ Wiki"
+  },
+  "isolation.interpretationModifier": {
+    "kik": "kwĩigua ũrĩ wiki no gwĩkĩre mũrigo kũrĩ ũhoro ũyũ"
+  },
+  "hope.participantLabel": {
+    "kik": "Kĩĩrĩgĩrĩro kĩa Ũrũngĩrĩru kana Kũhoorerio"
+  },
+  "hope.interpretationModifier": {
+    "kik": "kĩĩrĩgĩrĩro no gĩkorwo hamwe na thĩna"
+  },
+  "fear.participantLabel": {
+    "kik": "Wĩtangĩko wa Kĩrĩa Gĩgũũka"
+  },
+  "fear.interpretationModifier": {
+    "kik": "guoya kana wĩtangĩko no gũtuĩke gĩcunjĩ kĩa ũrĩa ũhoro ũyũ ũiguithagia"
+  },
+  "self_doubt.participantLabel": {
+    "kik": "Kwĩyũria Ũhoro Waku"
+  },
+  "self_doubt.interpretationModifier": {
+    "kik": "kwĩyũria no gũtũme kũrĩ hinya gwĩtĩkia kĩrĩa mwĩrĩ waku ũkuonania"
+  },
+  "self_advocacy.participantLabel": {
+    "kik": "Kwaria Nĩ Ũndũ wa Ũhoro Waku"
+  },
+  "self_advocacy.interpretationModifier": {
+    "kik": "kwĩyarĩrĩria no gũtuĩke gĩcunjĩ kĩa ũrĩa ũthiiaga na ũteithio"
+  },
+  "loss_of_normalcy.participantLabel": {
+    "kik": "Ũtũũro Ũiguithagia Ũrĩ Mũgeni Kũrĩ Mbere"
+  },
+  "loss_of_normalcy.interpretationModifier": {
+    "kik": "kũũrwo nĩ ũtũũro wa mbere no gũtuĩke gĩcunjĩ kĩa ũhoro wa ma wa mĩrimũ ĩno"
+  },
+  "domain_bleeding.label": {
+    "kik": "Gũita Thakame"
+  },
+  "domain_pain.label": {
+    "kik": "Mũrimũ"
+  },
+  "domain_hormonal.label": {
+    "kik": "Hormone"
+  },
+  "domain_cycle.label": {
+    "kik": "Mweri"
+  },
+  "domain_daily_life.label": {
+    "kik": "Ũtũũro wa o Mũthenya"
+  },
+  "domain_care_access.label": {
+    "kik": "Kũhota Kũrĩgĩtwo"
+  },
+  "domain_narrative.label": {
+    "kik": "Ciugo Ciaku"
+  },
+  "evidence_baseline.label": {
+    "kik": "Ya Kĩambĩrĩria"
+  },
+  "evidence_emerging.label": {
+    "kik": "Ĩrarĩ Kuoneka"
+  },
+  "evidence_moderate.label": {
+    "kik": "Ya Katĩ"
+  },
+  "evidence_strong.label": {
+    "kik": "Ĩrĩ na Hinya"
+  },
+  "evidence_very_strong.label": {
+    "kik": "Ĩrĩ na Hinya Mũno"
+  },
+  "_template.companionFallbackReply": {
+    "kik": "Ndĩ mũcaayo — ũndũ ũcio ndũrandirika wega. Ũngĩnjĩra makĩria ũrĩa ũraiguaga?"
+  },
+  "_template.companionNoSignalsWelcome": {
+    "kik": "Wamũkĩrwo ũgacoka. Rikodi yaku ya mũthia ndĩarĩ na ĩmenyithia cia hinya ciarathiĩ na mbere, nĩ ũguo-rĩ nĩtwambĩrĩrie na ũhũthũ — nĩ harĩ ũndũ mwerũ ũrĩa wagĩrĩte kuuma hĩndĩ ĩyo?"
+  },
+  "_template.voiceMessageTooLarge": {
+    "kik": "Ndũmĩrĩri ya mũgambo nĩ nene mũno (10MB nĩyo ya mbere)."
+  },
+  "_template.couldNotMakeOutVoice": {
+    "kik": "Ndũngĩahotire kũigua ndũmĩrĩri ĩyo ya mũgambo wega — ta ũgerie rĩngĩ kana wandĩke handũ ha ũguo."
+  },
+  "_template.noPriorAtlasRecord": {
+    "kik": "Gũtirĩ Rikodi ya Atlas ya mbere ya Check-In"
+  },
+  "_template.companionUnavailable": {
+    "kik": "Mũteithia ndarĩ ho rĩu."
+  },
+  "_template.checkinFailed": {
+    "kik": "Check-In ndĩangĩahotire gũthiĩ na mbere"
+  },
+  "_template.messageRequired": {
+    "kik": "Ndũmĩrĩri nĩ ya bata"
+  },
+  "_template.conversationNotFound": {
+    "kik": "Mĩario ndĩrĩ kuoneka"
+  },
+  "bleeding.label": {
+    "kik": "Gũita Thakame"
+  },
+  "bleeding.domainPhrase": {
+    "kik": "maũndũ makonainie na gũita thakame"
+  },
+  "pain.label": {
+    "kik": "Mũrimũ"
+  },
+  "pain.domainPhrase": {
+    "kik": "mũrimũ na gũtũrũhwo nĩ nda"
+  },
+  "hormonal.label": {
+    "kik": "Hormone"
+  },
+  "hormonal.domainPhrase": {
+    "kik": "maũndũ makonainie na hormone na mũhianĩre wa mweri"
+  },
+  "cycle_disruption.label": {
+    "kik": "Gũtharĩkĩrwo kwa Mweri"
+  },
+  "cycle_disruption.domainPhrase": {
+    "kik": "gũtharĩkĩrwo kwa mweri na kwaga kũmenya mbere"
+  },
+  "daily_life.label": {
+    "kik": "Ũtũũro wa o Mũthenya"
+  },
+  "daily_life.domainPhrase": {
+    "kik": "kũhutania na ũtũũro wa o mũthenya"
+  },
+  "care_access.label": {
+    "kik": "Kũhota Kũrĩgĩtwo"
+  },
+  "care_access.domainPhrase": {
+    "kik": "maũndũ makonainie na ũteithio"
+  },
+  "_template.listAnd": {
+    "kik": "na"
+  },
+  "_template.constellationNoObservationsLead": {
+    "kik": "Thĩinĩ wa rikodi ĩno ya mbere, ndwaonanirie ũhoro mũrũngĩrĩru wa"
+  },
+  "_template.constellationLightBaselineOnly": {
+    "kik": "Atlas nĩĩkĩrĩ na ũyũ ta gĩcunjĩ gĩa kĩambĩrĩria kĩnini kiiki."
+  },
+  "_template.constellationLightBaselineLead": {
+    "kik": "Atlas nĩyonire kĩambĩrĩria kĩnini kĩa"
+  },
+  "_template.constellationInRecordIncluding": {
+    "kik": "thĩinĩ wa rikodi ĩno, hamwe na"
+  },
+  "_template.constellationObservedLead": {
+    "kik": "Atlas nĩyonire"
+  },
+  "_template.constellationOnlyLightBaseline": {
+    "kik": "Atlas nĩĩkĩrĩ na kĩambĩrĩria kĩnini kiiki nginya rĩu thĩinĩ wa ũhoro ũyũ. Ũkĩongerera kũrora kũngĩ, no gũkorwo kũrũngĩrĩru makĩria nĩkĩ maũndũ maya manyitanĩte."
+  },
+  "_template.constellationGenericWhyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie kũrora ũku tondũ no gũtuĩke kĩa mũhianĩre ũmwe thĩinĩ wa rikodi ĩno."
+  },
+  "_template.constellationMultipleAnswersConverged": {
+    "kik": "Thĩinĩ wa rikodi ĩno, macokio maingĩ nĩmahutanĩirie ndeto ĩmwe. Ũyũ nĩ wa kũrora, ti wa kũmenya mũrimũ."
+  },
+  "_template.constellationObservationalNotDiagnostic": {
+    "kik": "Ũyũ nĩ wa kũrora, ti wa kũmenya mũrimũ."
+  },
+  "_template.constellationFutureObservationsMayClarify": {
+    "kik": "Kũrora kũrĩa gũgũũka no kuonanie ũrĩa"
+  },
+  "_template.constellationChangesStabilizesConnects": {
+    "kik": "kũgacenjia, kũgĩrũgama, kana kũnyitana na kũndũ kũngĩ kwa rikodi yaku."
+  },
+  "_template.constellationAtlasNoteStrong": {
+    "kik": "Ũyũ nĩ kĩambĩrĩria kĩa mbere kuuma kũrĩ kũrora gwaku kwa mbere, ti ũmenyi wa mũrimũ kana ũhoro mũrũgamĩte biũ. Mũhianĩre ũyũ no wongerere hinya, wagarũrũke, wanyitane na ĩngĩ, kana ũnyihe rĩrĩa kũrora kũngĩ gũkongererwo."
+  },
+  "_template.constellationAtlasNoteEmerging": {
+    "kik": "Ũyũ nĩ kĩambĩrĩria kĩa mbere kuuma kũrĩ kũrora gwaku kwa mbere, ti ũmenyi wa mũrimũ kana ũhoro mũrũgamĩte biũ. Atlas nĩyonaga ũhũganania ũrarĩ kuoneka haha, no mũhianĩre ũyũ no wongerere hinya, wagarũrũke, wanyitane, kana wathire rĩrĩa kũrora kũngĩ gũkongererwo."
+  },
+  "_template.constellationAtlasNoteLight": {
+    "kik": "Ũyũ nĩ kĩambĩrĩria kĩa mbere kuuma kũrĩ kũrora gwaku kwa mbere, ti ũmenyi wa mũrimũ kana ũhoro mũrũgamĩte biũ. Ũira ũrĩ haha o na rĩu nĩ mũnini, na mũhianĩre ũyũ no wongerere hinya, wagarũrũke, wanyitane na ĩngĩ, kana wathire rĩrĩa kũrora kũngĩ gũkongererwo."
+  },
+  "bleeding_burden.constellationWatchOverTime": {
+    "kik": "Kũrora kũrĩa gũgũũka no kuonanie kana gũita thakame gũgũtũũra kũrũgamĩte, gũgĩthiĩ na mbere kũingĩha kana kũaga kũmenywo mbere, kana gũgĩthiĩ na mbere gũtharĩkĩrĩra hinya, toro, na kwĩhaarĩria."
+  },
+  "bleeding_burden.constellationWhyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie kũrora ũku tondũ macokio makonainie na gũita thakame no manyitane na ihinda, mĩrigo, gũcenjania indo cia kũrigitira, na ũrĩa gũita thakame kũhutagia mĩtaratara kana hinya."
+  },
+  "pain_distribution.constellationWatchOverTime": {
+    "kik": "Kũrora kũrĩa gũgũũka no kuonanie kana mũrimũ ũgũtũũra handũ hamwe, ũkĩgatha thĩinĩ wa nda, thuno, kana kũguthũka, kana ũkĩrehe ũhoteku wa kũmenya mbere."
+  },
+  "pain_distribution.constellationWhyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie kũrora ũku tondũ ihinda rĩa mũrimũ, kũrĩa wonekaga, ũrĩa ũraiga, na macokio ma mawĩra ma mwĩrĩ no ikorwo irĩ ũhoro ũmwe, ti maũndũ matarĩ hamwe."
+  },
+  "hormonal_rhythm.constellationWatchOverTime": {
+    "kik": "Kũrora kũrĩa gũgũũka no kuonanie kana mũhianĩre wa mweri ũgũthiĩ na mbere kũrũgama, ũkĩcenjia makĩria, kana ũkĩnyitanĩra na ranyisi ingĩ cia mwĩrĩ."
+  },
+  "hormonal_rhythm.constellationWhyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie kũrora ũku tondũ kũmenya mbere kwa mweri, ĩmenyithia cia hormone, na ihinda rĩa mĩrimũ no itaarĩrie ũrĩa mũhianĩre na mũcenjanio wa mwĩrĩ ciathiiaga hamwe."
+  },
+  "body_unpredictability.constellationWatchOverTime": {
+    "kik": "Kũrora kũrĩa gũgũũka no kuonanie kana kwaga kũmenya mbere kũgũthirĩrĩria, gũkĩgarũrũka thĩinĩ wa mĩthemba, kana gũkorwo kũhũthũ gũthugunda."
+  },
+  "body_unpredictability.constellationWhyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie kũrora ũku tondũ macokio makonainie na kwaga kũmenya mbere na kwaga kũmenya kĩrĩa gĩgũũka no ikorwo cirĩ mũrigo ũmwe wa kwaga kũmenya."
+  },
+  "daily_function.constellationWatchOverTime": {
+    "kik": "Kũrora kũrĩa gũgũũka no kuonanie kana mĩtaratara ĩgũthiĩ na mbere kwĩyathanĩrwo, kuohanĩrio makĩria, kana kũmenyeka mbere makĩria ũrĩa mĩrimũ ĩgũcenjia."
+  },
+  "daily_function.constellationWhyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie kũrora ũku tondũ mawĩra mokire kũhingwo, toro gũtharĩkĩrwo, kũndũ kwa ũtũũro kũhutĩtio, na kũhutania no kuonanie ũrĩa mĩrimũ ĩgacenjia ũtũũro wa o mũthenya."
+  },
+  "care_experience.constellationWatchOverTime": {
+    "kik": "Kũrora kũrĩa gũgũũka no kuonanie kana kũhota kũrĩgĩtwo kũracenjia, kana kũmenya mũrimũ kana kũrigitwo kũrĩgĩkorwo kũrũngĩrĩru makĩria, kana mĩhaka ĩgũthirĩrĩria, kana maũndũ ma ũteithio makĩnyiha bata ihinda-inĩ."
+  },
+  "care_experience.constellationWhyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie kũrora ũku tondũ nĩmataaragia ũrĩa ũthiĩte na mbere na ũteithio hamwe na mĩrimũ na ũtũũro wa o mũthenya."
+  },
+  "pelvic_function.constellationWatchOverTime": {
+    "kik": "Kũrora kũrĩa gũgũũka no kuonanie kana gũtũrũhwo gũgũtũũra kũrĩ ihinda rĩmwerĩ, gũgĩthiĩ na mbere gũtũũra makĩria, kana gũkĩnyitanĩra makĩria na iye, thuno, kana kũguthũka."
+  },
+  "pelvic_function.constellationWhyConnected": {
+    "kik": "Atlas nĩĩhũganĩirie kũrora ũku tondũ gũtũrũhwo nĩ nda, ĩmenyithia cia mũcenjanio wa mwĩrĩ, na kũrĩa ciarĩ no ionanie mĩtaratara ĩhũganĩte ya nda, ti mũrimũ ũmwe wiki."
+  },
+  "preview_pain.label": {
+    "kik": "Mũrimũ"
+  },
+  "preview_pain.sub": {
+    "kik": "Rora mĩhianĩre ya mũrimũ"
+  },
+  "preview_hormonal.label": {
+    "kik": "Hormone"
+  },
+  "preview_hormonal.sub": {
+    "kik": "Rora mĩhianĩre ya hormone"
+  },
+  "preview_cycle.label": {
+    "kik": "Mweri"
+  },
+  "preview_cycle.sub": {
+    "kik": "Rora mĩhianĩre ya mweri"
+  },
+  "preview_daily_life.label": {
+    "kik": "Ũtũũro wa o Mũthenya"
+  },
+  "preview_daily_life.sub": {
+    "kik": "Rora mĩhianĩre ya ũtũũro wa o mũthenya"
+  },
+  "preview_care_access.label": {
+    "kik": "Rũgendo rwa Ũteithio"
+  },
+  "preview_care_access.sub": {
+    "kik": "Rora rũgendo rwaku rwa ũteithio"
+  },
+  "preview_bleeding.label": {
+    "kik": "Gũita Thakame"
+  },
+  "preview_bleeding.sub": {
+    "kik": "Rora mĩhianĩre ya gũita thakame"
+  },
+  "SIG-BOD-BLD-001.label": {
+    "kik": "Gũcenjania Indo cia Kũrigitira Kaingĩ"
+  },
+  "SIG-BOD-BLD-002.label": {
+    "kik": "Indo cia Kũrigitira Ciiyũraga Narua"
+  },
+  "SIG-BOD-BLD-003.label": {
+    "kik": "Gũita Thakame Kũingĩ kwa Mweri"
+  },
+  "SIG-BOD-BLD-004.label": {
+    "kik": "Gũita Thakame Kwa Ihinda Rĩraihu"
+  },
+  "SIG-BOD-BLD-005.label": {
+    "kik": "Gũita Thakame Kwa Ihinda Rĩraihu Mũno"
+  },
+  "SIG-BOD-BLD-006.label": {
+    "kik": "Gũita Thakame Kwa Ihinda Rĩnini"
+  },
+  "SIG-BOD-BLD-007.label": {
+    "kik": "Ihinda rĩa Gũita Thakame Rĩgacenjia"
+  },
+  "SIG-BOD-BLD-008.label": {
+    "kik": "Kũruta Mĩrigo Mĩnene"
+  },
+  "SIG-BOD-BLD-009.label": {
+    "kik": "Mĩrigo Kaingĩ"
+  },
+  "SIG-BOD-BLD-010.label": {
+    "kik": "Mĩrigo Hamwe na Gũita Thakame Kũingĩ"
+  },
+  "SIG-BOD-BLD-011.label": {
+    "kik": "Gũita Thakame Gatagatĩ-inĩ ka Mweri"
+  },
+  "SIG-BOD-BLD-012.label": {
+    "kik": "Gũita Thakame Gũtarĩ Mũhũthũ Kũmenya Mbere Gatagatĩ ka Mweri"
+  },
+  "SIG-BOD-BLD-013.label": {
+    "kik": "Njĩra ya Gũthiĩ kwa Gũita Thakame"
+  },
+  "SIG-BOD-BLD-014.label": {
+    "kik": "Mũrigo wa Gũita Thakame Ũgũongereka"
+  },
+  "SIG-BOD-BLD-015.label": {
+    "kik": "Mũrigo wa Gũita Thakame Ũgũnyiha"
+  },
+  "SIG-BOD-BLD-016.label": {
+    "kik": "Mũhianĩre wa Gũita Thakame Ũrũgamĩte"
+  },
+  "SIG-BOD-BLD-017.label": {
+    "kik": "Gũita Thakame Kũhutania na Mawĩra"
+  },
+  "SIG-BOD-BLD-018.label": {
+    "kik": "Gũita Thakame Kũrehe Mũrigo wa Gũthugunda"
+  },
+  "SIG-BOD-BLD-019.label": {
+    "kik": "Wĩtangĩko wa Thakame Kuura"
+  },
+  "SIG-BOD-BLD-020.label": {
+    "kik": "Gũita Thakame Kũhutania na Ũtukũ"
+  },
+  "SIG-BOD-BLD-021.label": {
+    "kik": "Gũita Thakame Kũnyihia Hinya"
+  },
+  "SIG-BOD-BLD-022.label": {
+    "kik": "Kwaga Kũmenya Ũhoro wa Gũita Thakame"
+  },
+  "SIG-BOD-BLD-023.label": {
+    "kik": "Kuona Gũita Thakame ta Ũndũ wa Kawaida"
+  },
+  "SIG-BOD-BLD-024.label": {
+    "kik": "Kĩmenyithia gĩa Kũmakwo Nĩ Gũita Thakame"
+  },
+  "SIG-BOD-BLD-025.label": {
+    "kik": "Mũhianĩre wa Gũita Thakame Thutha wa Mũcenjanio"
+  },
+  "SIG-BOD-BLD-026.label": {
+    "kik": "Kĩmenyithia gĩa Gũita Thakame Kuuma Mũhĩrĩga-inĩ"
+  },
+  "SIG-BOD-BLD-027.label": {
+    "kik": "Gũita Thakame Hamwe na Ũhoro wa Gũciara"
+  },
+  "SIG-BOD-BLD-028.label": {
+    "kik": "Gũita Thakame Ihinda-inĩ rĩa Mũcenjanio wa Gũciara"
+  },
+  "SIG-BOD-BLD-029.label": {
+    "kik": "Gũita Thakame Kũhinyĩrĩrio"
+  },
+  "SIG-BOD-BLD-030.label": {
+    "kik": "Kĩmenyithia gĩa Gũita Thakame Kwenda Ũteithio wa Narua"
+  },
+  "SIG-BOD-PAIN-001.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Mweri"
+  },
+  "SIG-BOD-PAIN-002.label": {
+    "kik": "Mũrimũ Ũtarĩ Wĩgerekanĩtie na Mweri"
+  },
+  "SIG-BOD-PAIN-003.label": {
+    "kik": "Mũrimũ Mũrikanĩtie"
+  },
+  "SIG-BOD-PAIN-004.label": {
+    "kik": "Ihinda rĩa Mũrimũ Mweri-inĩ"
+  },
+  "SIG-BOD-PAIN-005.label": {
+    "kik": "Ihinda rĩa Mũrimũ Mbere ya Mweri"
+  },
+  "SIG-BOD-PAIN-006.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Kũruta Tondũ"
+  },
+  "SIG-BOD-PAIN-007.label": {
+    "kik": "Mũrimũ Ũrathiĩ na Mbere"
+  },
+  "SIG-BOD-PAIN-008.label": {
+    "kik": "Mũrimũ Ũtarĩ Mũhũthũ Kũmenya Mbere"
+  },
+  "SIG-BOD-PAIN-009.label": {
+    "kik": "Mũrimũ Mũhũthũ Kũmenya Mbere"
+  },
+  "SIG-BOD-PAIN-010.label": {
+    "kik": "Mũrimũ Ũrathiĩ Ũgĩongereka"
+  },
+  "SIG-BOD-PAIN-011.label": {
+    "kik": "Mũrimũ Ũrathiĩ Ũkĩnoga"
+  },
+  "SIG-BOD-PAIN-012.label": {
+    "kik": "Mũrimũ Mũrũgamĩte"
+  },
+  "SIG-BOD-PAIN-013.label": {
+    "kik": "Mũrigo wa Mũrimũ Mũnene"
+  },
+  "SIG-BOD-PAIN-014.label": {
+    "kik": "Mũrigo wa Mũrimũ Mũnini"
+  },
+  "SIG-BOD-PAIN-015.label": {
+    "kik": "Kũrĩa Mũrimũ Wonekaga Nda"
+  },
+  "SIG-BOD-PAIN-016.label": {
+    "kik": "Kũrĩa Mũrimũ Wonekaga Nda ya Thĩ"
+  },
+  "SIG-BOD-PAIN-017.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Ng'ongo"
+  },
+  "SIG-BOD-PAIN-018.label": {
+    "kik": "Mũrimũ Ũrathiĩ Nginya Kũguru"
+  },
+  "SIG-BOD-PAIN-019.label": {
+    "kik": "Mũrimũ Kũndũ Kũingĩ"
+  },
+  "SIG-BOD-PAIN-020.label": {
+    "kik": "Mũrimũ Mũrikanĩtie Mwĩrĩ-inĩ na Nda"
+  },
+  "SIG-BOD-PAIN-021.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Ũndũ Mũna"
+  },
+  "SIG-BOD-PAIN-022.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Kũguthũka"
+  },
+  "SIG-BOD-PAIN-023.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Ũhoro wa Wĩra wa Mĩĩrĩ"
+  },
+  "SIG-BOD-PAIN-024.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Iye"
+  },
+  "SIG-BOD-PAIN-025.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Thuno"
+  },
+  "SIG-BOD-PAIN-026.label": {
+    "kik": "Mũrimũ Hamwe na Mũrigo wa Gũita Thakame"
+  },
+  "SIG-BOD-PAIN-027.label": {
+    "kik": "Mũrimũ Kũhutania na Mawĩra"
+  },
+  "SIG-BOD-PAIN-028.label": {
+    "kik": "Mũrimũ Kũhutania na Kũhurũka"
+  },
+  "SIG-BOD-PAIN-029.label": {
+    "kik": "Kuona Mũrimũ ta Ũndũ wa Kawaida"
+  },
+  "SIG-BOD-PAIN-030.label": {
+    "kik": "Kĩmenyithia gĩa Kũmakwo Nĩ Mũrimũ"
+  },
+  "SIG-BOD-PAIN-031.label": {
+    "kik": "Mũrigo wa Mũrimũ wa Ihinda Rĩraihu"
+  },
+  "SIG-BOD-PAIN-032.label": {
+    "kik": "Mũrimũ Ũhinyĩrĩirie"
+  },
+  "SIG-BOD-PAIN-033.label": {
+    "kik": "Kĩmenyithia gĩa Mũrimũ Kwenda Ũteithio wa Narua"
+  },
+  "SIG-BOD-PAIN-034.label": {
+    "kik": "Mũrimũ Ihinda-inĩ rĩa Gũciara"
+  },
+  "SIG-BOD-PAIN-035.label": {
+    "kik": "Mũrimũ Wĩgerekanĩtie na Hormone"
+  },
+  "SIG-BOD-PEL-001.label": {
+    "kik": "Gũtũrũhwo nĩ Nda"
+  },
+  "SIG-BOD-PEL-002.label": {
+    "kik": "Kwĩigua Nda Ĩiyũrĩte"
+  },
+  "SIG-BOD-PEL-003.label": {
+    "kik": "Kĩmenyithia gĩa Nda Kũimba"
+  },
+  "SIG-BOD-PEL-004.label": {
+    "kik": "Kĩmenyithia gĩa Ũhoro wa Chakũrĩa"
+  },
+  "SIG-BOD-PEL-005.label": {
+    "kik": "Kwenda Iye Narua kana Gũthĩnĩrĩka"
+  },
+  "SIG-BOD-PEL-006.label": {
+    "kik": "Mũrigo Wĩgerekanĩtie na Iye Kũrũma"
+  },
+  "SIG-BOD-PEL-007.label": {
+    "kik": "Mũrigo Wĩgerekanĩtie na Nda Kũrũra"
+  },
+  "SIG-BOD-PEL-008.label": {
+    "kik": "Kĩmenyithia gĩa Kwenda Thuno Narua"
+  },
+  "SIG-BOD-PEL-009.label": {
+    "kik": "Kĩmenyithia gĩa Mũrimũ Rĩrĩa Thuno Ĩrarũta"
+  },
+  "SIG-BOD-PEL-010.label": {
+    "kik": "Kĩmenyithia gĩa Thuno Kũruta Kaingĩ"
+  },
+  "SIG-BOD-PEL-011.label": {
+    "kik": "Kĩrĩndĩ kĩa Ĩmenyithia cia Nda na Thuno"
+  },
+  "SIG-BOD-PEL-012.label": {
+    "kik": "Kĩrĩndĩ kĩa Ĩmenyithia cia Nda na Iye"
+  },
+  "SIG-BOD-PEL-013.label": {
+    "kik": "Kĩrĩndĩ kĩa Ĩmenyithia cia Mĩthemba Mĩingĩ ya Nda"
+  },
+  "SIG-BOD-PEL-014.label": {
+    "kik": "Gũtũrũhwo Hamwe na Mũrigo wa Gũita Thakame"
+  },
+  "SIG-BOD-PEL-015.label": {
+    "kik": "Gũtũrũhwo Hamwe na Mũrigo wa Mũrimũ"
+  },
+  "SIG-BOD-PEL-016.label": {
+    "kik": "Njĩra ya Gũthiĩ kwa Ĩmenyithia cia Nda"
+  },
+  "SIG-BOD-PEL-017.label": {
+    "kik": "Ĩmenyithia cia Nda Igũthirĩrĩria"
+  },
+  "SIG-BOD-PEL-018.label": {
+    "kik": "Kuona Ĩmenyithia cia Nda ta cia Kawaida"
+  },
+  "SIG-BOD-PEL-019.label": {
+    "kik": "Ĩmenyithia cia Nda Ihinyĩrĩirie"
+  },
+  "SIG-BOD-PEL-020.label": {
+    "kik": "Kĩmenyithia gĩa Nda Kwenda Ũteithio wa Narua"
+  },
+  "SIG-BOD-CYC-001.label": {
+    "kik": "Mũhianĩre wa Mweri Mũrũgamĩte"
+  },
+  "SIG-BOD-CYC-002.label": {
+    "kik": "Mũhianĩre wa Mweri Ũtarĩ Mũhũthũ Kũmenya Mbere"
+  },
+  "SIG-BOD-CYC-003.label": {
+    "kik": "Mweri Ũtarĩ Mũhũthũ Kũmenya Mbere Mũno"
+  },
+  "SIG-BOD-CYC-004.label": {
+    "kik": "Mũhianĩre wa Mweri Mũthiũrũrũkĩrio"
+  },
+  "SIG-BOD-CYC-005.label": {
+    "kik": "Mweri Mũthiũrũrũkĩrio Kaingĩ"
+  },
+  "SIG-BOD-CYC-006.label": {
+    "kik": "Ihinda rĩa Mweri Rĩgacenjia"
+  },
+  "SIG-BOD-CYC-007.label": {
+    "kik": "Mweri Ũgacenjia Ihinda-inĩ"
+  },
+  "SIG-BOD-CYC-008.label": {
+    "kik": "Kĩmenyithia gĩa Mweri Kũnyiha"
+  },
+  "SIG-BOD-CYC-009.label": {
+    "kik": "Kĩmenyithia gĩa Mweri Kũraiha"
+  },
+  "SIG-BOD-CYC-010.label": {
+    "kik": "Mũhianĩre wa Mĩrimũ Wĩgerekanĩtie na Mweri"
+  },
+  "SIG-BOD-CYC-011.label": {
+    "kik": "Mũhianĩre wa Mĩrimũ Wĩgerekanĩtie na Kũruta Tondũ"
+  },
+  "SIG-BOD-CYC-012.label": {
+    "kik": "Mũhianĩre wa Mĩrimũ Ũtarĩ Wĩgerekanĩtie na Mweri"
+  },
+  "SIG-BOD-CYC-013.label": {
+    "kik": "Kwaga Kũmenya Ũhoro wa Mweri"
+  },
+  "SIG-BOD-CYC-014.label": {
+    "kik": "Mũrigo wa Mweri Hamwe na Gũita Thakame"
+  },
+  "SIG-BOD-CYC-015.label": {
+    "kik": "Mũrigo wa Mweri Hamwe na Mũrimũ"
+  },
+  "SIG-BOD-CYC-016.label": {
+    "kik": "Mũrigo wa Mweri Hamwe na Ĩmenyithia cia Hormone"
+  },
+  "SIG-BOD-CYC-017.label": {
+    "kik": "Kuona Mweri ta Ũndũ wa Kawaida"
+  },
+  "SIG-BOD-CYC-018.label": {
+    "kik": "Kĩmenyithia gĩa Kũmakwo Nĩ Mweri"
+  },
+  "SIG-BOD-CYC-019.label": {
+    "kik": "Kĩmenyithia gĩa Mweri Ihinda-inĩ rĩa Gũciara"
+  },
+  "SIG-BOD-CYC-020.label": {
+    "kik": "Kĩmenyithia gĩa Njĩra ĩrĩa Mweri Ũrathiĩ"
+  },
+  "SIG-BOD-HOR-001.label": {
+    "kik": "Kĩmenyithia gĩa Ũhoro wa Yathi ya Hormone"
+  },
+  "SIG-BOD-HOR-002.label": {
+    "kik": "Kĩmenyithia gĩa Mũcenjanio wa Gĩkonde"
+  },
+  "SIG-BOD-HOR-003.label": {
+    "kik": "Kĩmenyithia gĩa Njuĩrĩ Kũrarĩa"
+  },
+  "SIG-BOD-HOR-004.label": {
+    "kik": "Kĩmenyithia gĩa Njuĩrĩ Kũharagana kana Kũhũthũ"
+  },
+  "SIG-BOD-HOR-005.label": {
+    "kik": "Kĩmenyithia gĩa Mũcenjanio wa Ũritũ"
+  },
+  "SIG-BOD-HOR-006.label": {
+    "kik": "Kĩmenyithia gĩa Ihinda rĩa Meciria Wĩgerekanĩtie na Hormone"
+  },
+  "SIG-BOD-HOR-007.label": {
+    "kik": "Kĩmenyithia gĩa Mũrimũ wa Nyondo"
+  },
+  "SIG-BOD-HOR-008.label": {
+    "kik": "Kĩmenyithia gĩa Kũigua Ũrugarĩ kana Mũcenjanio wa Ũrugarĩ"
+  },
+  "SIG-BOD-HOR-009.label": {
+    "kik": "Kĩmenyithia gĩa Kũrĩta Ũtukũ"
+  },
+  "SIG-BOD-HOR-010.label": {
+    "kik": "Kĩrĩndĩ kĩa Ĩmenyithia cia Hormone"
+  },
+  "SIG-BOD-HOR-011.label": {
+    "kik": "Kĩrĩndĩ kĩa Hormone na Mweri"
+  },
+  "SIG-BOD-HOR-012.label": {
+    "kik": "Kĩrĩndĩ kĩa Hormone na Mũrimũ"
+  },
+  "SIG-BOD-HOR-013.label": {
+    "kik": "Kĩrĩndĩ kĩa Hormone na Gũita Thakame"
+  },
+  "SIG-BOD-HOR-014.label": {
+    "kik": "Njĩra ya Gũthiĩ kwa Mũcenjanio wa Hormone"
+  },
+  "SIG-BOD-HOR-015.label": {
+    "kik": "Ĩmenyithia cia Hormone Igũthirĩrĩria"
+  },
+  "SIG-BOD-HOR-016.label": {
+    "kik": "Kuona Hormone ta Ũndũ wa Kawaida"
+  },
+  "SIG-BOD-HOR-017.label": {
+    "kik": "Kĩmenyithia gĩa Kũmakwo Nĩ Hormone"
+  },
+  "SIG-BOD-HOR-018.label": {
+    "kik": "Kĩmenyithia gĩa Hormone Ihinda-inĩ rĩa Ũtũũro"
+  },
+  "SIG-BOD-HOR-019.label": {
+    "kik": "Kĩmenyithia gĩa Hormone Ihinda-inĩ rĩa Gũciara"
+  },
+  "SIG-BOD-HOR-020.label": {
+    "kik": "Hormone Kũhinyĩrĩrio"
+  },
+  "SIG-BOD-BODY-001.label": {
+    "kik": "Mũcenjanio wa Mwĩrĩ Ũngĩoneka"
+  },
+  "SIG-BOD-BODY-002.label": {
+    "kik": "Mũcenjanio wa Ũnene kana Mũhianĩre wa Nda"
+  },
+  "SIG-BOD-BODY-003.label": {
+    "kik": "Kwĩigua Mwĩrĩ Ũimbĩte"
+  },
+  "SIG-BOD-BODY-004.label": {
+    "kik": "Mũhianĩre wa Mũcenjanio wa Ũritũ"
+  },
+  "SIG-BOD-BODY-005.label": {
+    "kik": "Ũnyitani wa Hinya na Mwĩrĩ"
+  },
+  "SIG-BOD-BODY-006.label": {
+    "kik": "Kĩmenyithia gĩa Kũgũrũrũkwo kana Kwaga Hinya"
+  },
+  "SIG-BOD-BODY-007.label": {
+    "kik": "Kĩmenyithia gĩa Kũhĩngĩca Kũnora"
+  },
+  "SIG-BOD-BODY-008.label": {
+    "kik": "Mũcenjanio wa Mwĩrĩ Hamwe na Mũrigo wa Gũita Thakame"
+  },
+  "SIG-BOD-BODY-009.label": {
+    "kik": "Mũcenjanio wa Mwĩrĩ Hamwe na Mũrigo wa Mũrimũ"
+  },
+  "SIG-BOD-BODY-010.label": {
+    "kik": "Mũcenjanio wa Mwĩrĩ Hamwe na Gũtharĩkĩrwo kwa Mweri"
+  },
+  "SIG-BOD-BODY-011.label": {
+    "kik": "Mũcenjanio wa Mwĩrĩ Hamwe na Ĩmenyithia cia Hormone"
+  },
+  "SIG-BOD-BODY-012.label": {
+    "kik": "Njĩra ya Gũthiĩ kwa Mũcenjanio wa Mwĩrĩ"
+  },
+  "SIG-BOD-BODY-013.label": {
+    "kik": "Mũcenjanio wa Mwĩrĩ Ũgũthirĩrĩria"
+  },
+  "SIG-BOD-BODY-014.label": {
+    "kik": "Kwaga Kũmenya Mũcenjanio wa Mwĩrĩ"
+  },
+  "SIG-BOD-BODY-015.label": {
+    "kik": "Kũmakwo Nĩ Mũcenjanio wa Mwĩrĩ"
+  },
+  "SIG-BOD-BODY-016.label": {
+    "kik": "Kuona Mũcenjanio wa Mwĩrĩ ta Ũndũ wa Kawaida"
+  },
+  "SIG-BOD-BODY-017.label": {
+    "kik": "Kĩmenyithia gĩa Mũrigo Wĩgerekanĩtie na Mũhianĩre wa Mwĩrĩ"
+  },
+  "SIG-BOD-BODY-018.label": {
+    "kik": "Kĩmenyithia gĩa Mũritũ wa Mwĩrĩ"
+  },
+  "SIG-BOD-BODY-019.label": {
+    "kik": "Kwĩigua Machalo Ta Kũimba"
+  },
+  "SIG-BOD-BODY-020.label": {
+    "kik": "Kĩrĩndĩ kĩa Ĩmenyithia cia Mwĩrĩ"
+  },
+  "SIG-BOD-BODY-021.label": {
+    "kik": "Mũrigo Mũrikanĩtie wa Mwĩrĩ"
+  },
+  "SIG-BOD-BODY-022.label": {
+    "kik": "Mũcenjanio wa Mwĩrĩ Ihinda-inĩ rĩa Gũciara"
+  },
+  "SIG-BOD-BODY-023.label": {
+    "kik": "Mũhianĩre wa Mwĩrĩ Thutha wa Gũciara"
+  },
+  "SIG-BOD-BODY-024.label": {
+    "kik": "Kĩmenyithia gĩa Mwĩrĩ Kwenda Ũteithio wa Narua"
+  },
+  "SIG-BOD-BODY-025.label": {
+    "kik": "Riũngano rwa Ĩmenyithia Ciothe cia Mwĩrĩ"
+  },
+  "SIG-FUNC-001.label": {
+    "kik": "Kũgirĩrĩria Mawĩra"
+  },
+  "SIG-FUNC-002.label": {
+    "kik": "Gũtharĩkĩrwo kwa Mĩtaratara"
+  },
+  "SIG-FUNC-003.label": {
+    "kik": "Kũgirĩrĩria Kwĩmenyerera"
+  },
+  "SIG-FUNC-004.label": {
+    "kik": "Kũgirĩrĩria Mawĩra ma Mũciĩ"
+  },
+  "SIG-FUNC-005.label": {
+    "kik": "Kũgirĩrĩria Gũthiĩ Kũndũ"
+  },
+  "SIG-FUNC-006.label": {
+    "kik": "Kũgirĩrĩria Rũgendo"
+  },
+  "SIG-FUNC-007.label": {
+    "kik": "Gũthugunda Kũringana na Mĩrimũ"
+  },
+  "SIG-FUNC-008.label": {
+    "kik": "Ũhoti wa Wĩra Mũnini"
+  },
+  "SIG-FUNC-009.label": {
+    "kik": "Mũrigo Mũnene wa Kũhinga Mawĩra"
+  },
+  "SIG-FUNC-010.label": {
+    "kik": "Mũrigo Mũnini wa Kũhinga Mawĩra"
+  },
+  "SIG-FUNC-011.label": {
+    "kik": "Mũrigo Ũtacenjagĩria wa Kũhinga Mawĩra"
+  },
+  "SIG-FUNC-012.label": {
+    "kik": "Mũrigo Ũgũthirĩrĩria wa Kũhinga Mawĩra"
+  },
+  "SIG-FUNC-013.label": {
+    "kik": "Kũhutania na Kũndũ Kũingĩ kwa Ũtũũro"
+  },
+  "SIG-FUNC-014.label": {
+    "kik": "Kwĩgerekania na Ũtũũro wa o Mũthenya"
+  },
+  "SIG-FUNC-015.label": {
+    "kik": "Kwaga Kũmenya Ũhoti wa Wĩra"
+  },
+  "SIG-FUNC-016.label": {
+    "kik": "Gwĩthema Wĩra"
+  },
+  "SIG-FUNC-017.label": {
+    "kik": "Gũcelewa Gũcoka Hinya"
+  },
+  "SIG-FUNC-018.label": {
+    "kik": "Gũthondeka Mĩtaratara Kũringana na Mĩrimũ"
+  },
+  "SIG-FUNC-019.label": {
+    "kik": "Hinya Mũnini"
+  },
+  "SIG-FUNC-020.label": {
+    "kik": "Kũnoga Kaingĩ"
+  },
+  "SIG-FUNC-021.label": {
+    "kik": "Kũnoga Kũrũgamĩte"
+  },
+  "SIG-FUNC-022.label": {
+    "kik": "Kũnoga Wĩgerekanĩtie na Mweri"
+  },
+  "SIG-FUNC-023.label": {
+    "kik": "Kũnoga Thutha wa Mĩrimũ"
+  },
+  "SIG-FUNC-024.label": {
+    "kik": "Kũnoga Wĩgerekanĩtie na Wĩra"
+  },
+  "SIG-FUNC-025.label": {
+    "kik": "Kũnoga Hamwe na Kwaga Hinya"
+  },
+  "SIG-FUNC-026.label": {
+    "kik": "Hinya Ũgacenjia"
+  },
+  "SIG-FUNC-027.label": {
+    "kik": "Hinya Ũgũnyiha"
+  },
+  "SIG-FUNC-028.label": {
+    "kik": "Kwenda Kũhurũka Kaingĩ"
+  },
+  "SIG-FUNC-029.label": {
+    "kik": "Mawĩra Mokire Kũhingwo Tondũ wa Kũnoga"
+  },
+  "SIG-FUNC-030.label": {
+    "kik": "Mũrigo wa Kũnoga Ũgũongereka"
+  },
+  "SIG-FUNC-031.label": {
+    "kik": "Kuona Mũrigo wa Kũnoga ta Ũndũ wa Kawaida"
+  },
+  "SIG-FUNC-032.label": {
+    "kik": "Njĩra ya Kũrũgamia Hinya"
+  },
+  "SIG-FUNC-033.label": {
+    "kik": "Gũtharĩkĩrwo kwa Toro"
+  },
+  "SIG-FUNC-034.label": {
+    "kik": "Gũtharĩkĩrwo kwa Toro Kaingĩ"
+  },
+  "SIG-FUNC-035.label": {
+    "kik": "Gũtharĩkĩrwo kwa Toro Kũrũgamĩte"
+  },
+  "SIG-FUNC-036.label": {
+    "kik": "Toro Gũtharĩkĩrwo nĩ Mũrimũ"
+  },
+  "SIG-FUNC-037.label": {
+    "kik": "Toro Gũtharĩkĩrwo nĩ Gũita Thakame"
+  },
+  "SIG-FUNC-038.label": {
+    "kik": "Gũcoka Hinya Kũhũthũ"
+  },
+  "SIG-FUNC-039.label": {
+    "kik": "Mũrigo wa Mĩrimũ Ũtukũ"
+  },
+  "SIG-FUNC-040.label": {
+    "kik": "Kũhutania na Mũthenya Tondũ wa Toro"
+  },
+  "SIG-FUNC-041.label": {
+    "kik": "Kwaga Toro wa Gũcoka Hinya"
+  },
+  "SIG-FUNC-042.label": {
+    "kik": "Kwĩgerekania na Toro"
+  },
+  "SIG-FUNC-043.label": {
+    "kik": "Kũgirĩrĩria Wĩra kana Cukulu"
+  },
+  "SIG-FUNC-044.label": {
+    "kik": "Wĩra kana Cukulu Kũhingwo"
+  },
+  "SIG-FUNC-045.label": {
+    "kik": "Kwaga Kaingĩ"
+  },
+  "SIG-FUNC-046.label": {
+    "kik": "Wĩra Ũgũnyiha"
+  },
+  "SIG-FUNC-047.label": {
+    "kik": "Mũrigo wa Kũrũgamia Meciria"
+  },
+  "SIG-FUNC-048.label": {
+    "kik": "Mũrigo wa Gũtoonya Cukulu"
+  },
+  "SIG-FUNC-049.label": {
+    "kik": "Mũrigo wa Gũtoonya Wĩra"
+  },
+  "SIG-FUNC-050.label": {
+    "kik": "Wĩtangĩko wa Kwaga Kwĩhoka"
+  },
+  "SIG-FUNC-051.label": {
+    "kik": "Ũũgĩ wa Kũrĩkia Wĩra"
+  },
+  "SIG-FUNC-052.label": {
+    "kik": "Kũgirĩrĩria Wĩra kana Wĩruti wa Ũthomi"
+  },
+  "SIG-FUNC-053.label": {
+    "kik": "Mũrigo wa Kuonania Ũhoro"
+  },
+  "SIG-FUNC-054.label": {
+    "kik": "Njĩra ya Kwĩgerekania na Wĩra kana Cukulu"
+  },
+  "SIG-FUNC-055.label": {
+    "kik": "Kũgirĩrĩria Kũrigitwo Andũ"
+  },
+  "SIG-FUNC-056.label": {
+    "kik": "Mũrigo wa Kũrigitwo Andũ"
+  },
+  "SIG-FUNC-057.label": {
+    "kik": "Mũrigo wa Mawĩra ma Mũciĩ"
+  },
+  "SIG-FUNC-058.label": {
+    "kik": "Kuuo Wĩra Mũingĩ"
+  },
+  "SIG-FUNC-059.label": {
+    "kik": "Ũhoti Mũnini wa Kwĩhokwo Wĩra-inĩ wa Kũrigitwo"
+  },
+  "SIG-FUNC-060.label": {
+    "kik": "Kwenda Ũteithio Mũciĩ"
+  },
+  "SIG-FUNC-061.label": {
+    "kik": "Kũĩguo Ũrĩ Mũhĩtia wa Kũrigitwo Andũ"
+  },
+  "SIG-FUNC-062.label": {
+    "kik": "Gũthondeka Mawĩra ma Mũciĩ Mĩhereri-inĩ"
+  },
+  "SIG-FUNC-063.label": {
+    "kik": "Gũtharĩkĩrwo kwa Mĩtaratara ya Famĩlĩ"
+  },
+  "SIG-FUNC-064.label": {
+    "kik": "Mũrigo Mũhithe wa Mũciĩ"
+  },
+  "SIG-FUNC-065.label": {
+    "kik": "Kũgirĩrĩria Kũguthũka"
+  },
+  "SIG-FUNC-066.label": {
+    "kik": "Kũgirĩrĩria Gwĩkĩra Mwĩrĩ Wĩra"
+  },
+  "SIG-FUNC-067.label": {
+    "kik": "Mũrigo wa Gũthiĩ kana Kũrũgama"
+  },
+  "SIG-FUNC-068.label": {
+    "kik": "Gwĩthema Mawĩra"
+  },
+  "SIG-FUNC-069.label": {
+    "kik": "Kwaga Kũmenya Ũhoro wa Kũguthũka"
+  },
+  "SIG-FUNC-070.label": {
+    "kik": "Ũhoti wa Mwĩrĩ Ũgũnyiha"
+  },
+  "SIG-FUNC-071.label": {
+    "kik": "Mũrigo Wĩgerekanĩtie na Kũguthũka"
+  },
+  "SIG-FUNC-072.label": {
+    "kik": "Mũrigo wa Kũguthũka Rũgendo-inĩ"
+  },
+  "SIG-FUNC-073.label": {
+    "kik": "Njĩra ya Kũhurũka Handũ ha Kũguthũka"
+  },
+  "SIG-FUNC-074.label": {
+    "kik": "Wĩtangĩko wa Kũguthũka Tondũ wa Kũgũrũrũkwo"
+  },
+  "SIG-FUNC-075.label": {
+    "kik": "Kwaga Gũtoonya Mawĩra ma Kũguthũka"
+  },
+  "SIG-FUNC-076.label": {
+    "kik": "Gũcelewa Gũcoka Hinya wa Kũguthũka"
+  },
+  "SIG-FUNC-077.label": {
+    "kik": "Kũgirĩrĩria Gũtoonya Maũndũ ma Andũ"
+  },
+  "SIG-FUNC-078.label": {
+    "kik": "Kwĩyeheria kũrĩ Andũ"
+  },
+  "SIG-FUNC-079.label": {
+    "kik": "Kũhutania na Ũrata"
+  },
+  "SIG-FUNC-080.label": {
+    "kik": "Mũrigo wa Gũthugunda Rũgendo na Andũ"
+  },
+  "SIG-FUNC-081.label": {
+    "kik": "Mĩbango Ĩtigĩtwo"
+  },
+  "SIG-FUNC-082.label": {
+    "kik": "Wĩtangĩko wa Gũtoonya Maũndũ"
+  },
+  "SIG-FUNC-083.label": {
+    "kik": "Wĩtangĩko wa Kwĩigua Wĩ Wiki"
+  },
+  "SIG-FUNC-084.label": {
+    "kik": "Mũrigo wa Ũnyitani Machiegini"
+  },
+  "SIG-FUNC-085.label": {
+    "kik": "Kũgirĩrĩria Gũtoonya Andũ"
+  },
+  "SIG-FUNC-086.label": {
+    "kik": "Hinya wa Kũrĩ Andũ Ũgũthira"
+  },
+  "SIG-FUNC-087.label": {
+    "kik": "Kũmenyerera Wĩtangĩko wa Kũnyararwo"
+  },
+  "SIG-FUNC-088.label": {
+    "kik": "Njĩra ya Kwĩgerekania na Andũ"
+  },
+  "SIG-FUNC-089.label": {
+    "kik": "Kũhutania na Ngoro"
+  },
+  "SIG-FUNC-090.label": {
+    "kik": "Kũmakwo Nĩ Mĩrimũ"
+  },
+  "SIG-FUNC-091.label": {
+    "kik": "Ũrakaru wa Kwaga Kũhinga Mawĩra"
+  },
+  "SIG-FUNC-092.label": {
+    "kik": "Kuona Mũrigo ta Ũndũ wa Kawaida"
+  },
+  "SIG-FUNC-093.label": {
+    "kik": "Kwaga Wĩtĩkio wa Mwĩrĩ"
+  },
+  "SIG-FUNC-094.label": {
+    "kik": "Mũrigo wa Kwaga Kũmenya"
+  },
+  "SIG-FUNC-095.label": {
+    "kik": "Kũnoga kwa Ngoro Tondũ wa Gũtharĩkĩrwo"
+  },
+  "SIG-FUNC-096.label": {
+    "kik": "Kwĩyũria Ũhoro wa Mĩrimũ"
+  },
+  "SIG-FUNC-097.label": {
+    "kik": "Hinya wa Kwĩgerekania"
+  },
+  "SIG-FUNC-098.label": {
+    "kik": "Kũnoga kwa Ngoro"
+  },
+  "SIG-FUNC-099.label": {
+    "kik": "Kũrũgamia Ũhoti wa Gũthuura"
+  },
+  "SIG-FUNC-100.label": {
+    "kik": "Kwĩhaarĩria kũrĩ Kũmakwo Ũteithio"
+  },
+  "SIG-CARE-ACC-001.label": {
+    "kik": "Kwambĩrĩria Gũcaria Ũteithio"
+  },
+  "SIG-CARE-ACC-002.label": {
+    "kik": "Gũtirĩ Ũteithio Wamanyirwo"
+  },
+  "SIG-CARE-ACC-003.label": {
+    "kik": "Gũcaria Ũteithio Kũcelewa"
+  },
+  "SIG-CARE-ACC-004.label": {
+    "kik": "Gwĩthema Gũcaria Ũteithio"
+  },
+  "SIG-CARE-ACC-005.label": {
+    "kik": "Wĩtĩkio wa Kũhota Kũrĩgĩtwo"
+  },
+  "SIG-CARE-ACC-006.label": {
+    "kik": "Kũhota Kũrĩgĩtwo Kũnini"
+  },
+  "SIG-CARE-ACC-007.label": {
+    "kik": "Kũhota Kũrĩgĩtwo Gũtarĩ Mũhũthũ Kũmenya"
+  },
+  "SIG-CARE-ACC-008.label": {
+    "kik": "Kũgirĩrĩria Kwa Handũ"
+  },
+  "SIG-CARE-ACC-009.label": {
+    "kik": "Kũgirĩrĩria kwa Mbeca"
+  },
+  "SIG-CARE-ACC-010.label": {
+    "kik": "Kũgirĩrĩria Kwona Ihinda rĩa Kũrigitwo"
+  },
+  "SIG-CARE-ACC-011.label": {
+    "kik": "Kũgirĩrĩria Kwa Rũgendo"
+  },
+  "SIG-CARE-ACC-012.label": {
+    "kik": "Kũgirĩrĩria kwa Bima"
+  },
+  "SIG-CARE-ACC-013.label": {
+    "kik": "Kũgirĩrĩria Kũona Mũrigitani Molony"
+  },
+  "SIG-CARE-ACC-014.label": {
+    "kik": "Kwĩhoka Mũrigitani wa Mbere"
+  },
+  "SIG-CARE-ACC-015.label": {
+    "kik": "Kwĩhoka Ũteithio wa Naihenya"
+  },
+  "SIG-CARE-ACC-016.label": {
+    "kik": "Kwĩhoka Ũteithio wa Kompiuta"
+  },
+  "SIG-CARE-ACC-017.label": {
+    "kik": "Kwĩhoka Ũteithio Ũtarĩ wa Wĩra"
+  },
+  "SIG-CARE-ACC-018.label": {
+    "kik": "Kũhota Kũrĩgĩtwo Kũrathiĩ na Mbere"
+  },
+  "SIG-CARE-ACC-019.label": {
+    "kik": "Kũhota Kũrĩgĩtwo Kũrathiĩ Ũũru"
+  },
+  "SIG-CARE-ACC-020.label": {
+    "kik": "Kũhota Kũrĩgĩtwo Kũrũgamĩte"
+  },
+  "SIG-CARE-NAV-001.label": {
+    "kik": "Njĩra Njega ya Ũteithio"
+  },
+  "SIG-CARE-NAV-002.label": {
+    "kik": "Njĩra Ĩtarĩ Njega ya Ũteithio"
+  },
+  "SIG-CARE-NAV-003.label": {
+    "kik": "Gũtwarwo kũrĩ Mũrigitani Ũngĩ"
+  },
+  "SIG-CARE-NAV-004.label": {
+    "kik": "Kwaga Gũtwarwo kũrĩ Mũrigitani Ũngĩ"
+  },
+  "SIG-CARE-NAV-005.label": {
+    "kik": "Gũcelewa Gũtwarwo kũrĩ Mũrigitani Ũngĩ"
+  },
+  "SIG-CARE-NAV-006.label": {
+    "kik": "Gũthiĩ Kũrĩ Arigitani Aingĩ"
+  },
+  "SIG-CARE-NAV-007.label": {
+    "kik": "Ũteithio Ũtarĩ Ũmwe"
+  },
+  "SIG-CARE-NAV-008.label": {
+    "kik": "Ũteithio Ũrũmanĩrĩirwo"
+  },
+  "SIG-CARE-NAV-009.label": {
+    "kik": "Kwenda Ũteithio Ũhũganie"
+  },
+  "SIG-CARE-NAV-010.label": {
+    "kik": "Mũrigo wa Gũcaria Ũmenyi wa Mũrimũ"
+  },
+  "SIG-CARE-NAV-011.label": {
+    "kik": "Njĩra ya Teme Yambĩrĩirio"
+  },
+  "SIG-CARE-NAV-012.label": {
+    "kik": "Gũtirĩ Njĩra ya Teme"
+  },
+  "SIG-CARE-NAV-013.label": {
+    "kik": "Kũrũmĩrĩrwo Kwathugundĩtwo"
+  },
+  "SIG-CARE-NAV-014.label": {
+    "kik": "Kwaga Kũrũmĩrĩrwo"
+  },
+  "SIG-CARE-NAV-015.label": {
+    "kik": "Gũcaria Meciria Mangĩ"
+  },
+  "SIG-CARE-NAV-016.label": {
+    "kik": "Kwenda Kũmenya Ũrĩa Yo Ũteithio Ĩthiiaga"
+  },
+  "SIG-CARE-NAV-017.label": {
+    "kik": "Kwĩyarĩrĩria Ũteithio-inĩ"
+  },
+  "SIG-CARE-NAV-018.label": {
+    "kik": "Kũhinga Ũhoro wa Ũteithio Wega"
+  },
+  "SIG-CARE-VAL-001.label": {
+    "kik": "Kwĩigua Wathikĩrĩirio"
+  },
+  "SIG-CARE-VAL-002.label": {
+    "kik": "Kwĩigua Wetĩkĩrĩirwo"
+  },
+  "SIG-CARE-VAL-003.label": {
+    "kik": "Mĩrimũ Yakuo ta ya Kawaida"
+  },
+  "SIG-CARE-VAL-004.label": {
+    "kik": "Mĩrimũ Yakuo ta Mĩnini"
+  },
+  "SIG-CARE-VAL-005.label": {
+    "kik": "Ũteithio Ũregetwo"
+  },
+  "SIG-CARE-VAL-006.label": {
+    "kik": "Ũteithio Ũregetwo Kaingĩ"
+  },
+  "SIG-CARE-VAL-007.label": {
+    "kik": "Kwĩtĩkĩrwo kwa Ngoro"
+  },
+  "SIG-CARE-VAL-008.label": {
+    "kik": "Kwĩtĩkĩrwo kwa Ũthigi"
+  },
+  "SIG-CARE-VAL-009.label": {
+    "kik": "Kwĩtĩkĩrwo Thutha wa Kũmenya Mũrimũ"
+  },
+  "SIG-CARE-VAL-010.label": {
+    "kik": "Kwĩtĩkĩrwo Nĩ Teme"
+  },
+  "SIG-CARE-VAL-011.label": {
+    "kik": "Kwĩtĩkĩrwo Nĩ Ũthiũrwo"
+  },
+  "SIG-CARE-VAL-012.label": {
+    "kik": "Gũtirĩ Macokio Marũngĩrĩru"
+  },
+  "SIG-CARE-VAL-013.label": {
+    "kik": "Meciria Matacenjagĩria ma Arigitani"
+  },
+  "SIG-CARE-VAL-014.label": {
+    "kik": "Wĩtĩkio Kũongereka"
+  },
+  "SIG-CARE-VAL-015.label": {
+    "kik": "Wĩtĩkio Kũnyiha"
+  },
+  "SIG-CARE-VAL-016.label": {
+    "kik": "Kwĩyũria Thutha wa Ũteithio"
+  },
+  "SIG-CARE-VAL-017.label": {
+    "kik": "Mũrigitani Nĩ Ũrĩ na Wendo wa Kũmenya"
+  },
+  "SIG-CARE-VAL-018.label": {
+    "kik": "Mũrigitani Nĩ Ahingĩte Ũhoro Ũtarĩ Mũrũngĩrĩru"
+  },
+  "SIG-CARE-OUT-001.label": {
+    "kik": "Kũmenyeka kwa Mũrimũ"
+  },
+  "SIG-CARE-OUT-002.label": {
+    "kik": "Gũtirĩ Ũmenyi wa Mũrimũ Nginya Rĩu"
+  },
+  "SIG-CARE-OUT-003.label": {
+    "kik": "Ũtaarĩri Mũnini Wonekire"
+  },
+  "SIG-CARE-OUT-004.label": {
+    "kik": "Ũthiũrwo Waheanirwo"
+  },
+  "SIG-CARE-OUT-005.label": {
+    "kik": "Kũrũgamĩrĩrwo na Yathi Kũu"
+  },
+  "SIG-CARE-OUT-006.label": {
+    "kik": "Teme Ciathondekirwo"
+  },
+  "SIG-CARE-OUT-007.label": {
+    "kik": "Gũtirĩ Teme Ciaheanirwo"
+  },
+  "SIG-CARE-OUT-008.label": {
+    "kik": "Mũbango wa Kũrũgamia Mĩrimũ"
+  },
+  "SIG-CARE-OUT-009.label": {
+    "kik": "Ũhoro wa Ũteithio Ũtahingĩte"
+  },
+  "SIG-CARE-OUT-010.label": {
+    "kik": "Ũteithio Kũnora"
+  },
+  "SIG-CARE-OUT-011.label": {
+    "kik": "Ũteithio Gũtacenjagĩria"
+  },
+  "SIG-CARE-OUT-012.label": {
+    "kik": "Ũteithio Kũrathiĩ Ũũru"
+  },
+  "SIG-CARE-OUT-013.label": {
+    "kik": "Mũrigo wa Ũthiũrwo"
+  },
+  "SIG-CARE-OUT-014.label": {
+    "kik": "Wĩtangĩko wa Ũũru Woimĩte Yathi-inĩ"
+  },
+  "SIG-CARE-OUT-015.label": {
+    "kik": "Mũrigo wa Kũrũmĩrĩra Yathi"
+  },
+  "SIG-CARE-OUT-016.label": {
+    "kik": "Kwĩiguithio Wega na Ũteithio"
+  },
+  "SIG-CARE-OUT-017.label": {
+    "kik": "Kwaga Kwĩiguithio Wega na Ũteithio"
+  },
+  "SIG-CARE-SELF-001.label": {
+    "kik": "Kwandĩka Ũhoro Waku Mwene"
+  },
+  "SIG-CARE-SELF-002.label": {
+    "kik": "Gũthugunda Kũringana na Mĩrimũ"
+  },
+  "SIG-CARE-SELF-003.label": {
+    "kik": "Kwĩhaarĩria na Indo cia Kũrigitira"
+  },
+  "SIG-CARE-SELF-004.label": {
+    "kik": "Njĩra ya Gũcokia ne Mũrimũ"
+  },
+  "SIG-CARE-SELF-005.label": {
+    "kik": "Njĩra ya Kũhurũka na Gũcoka Hinya"
+  },
+  "SIG-CARE-SELF-006.label": {
+    "kik": "Kũgarũra Chakũrĩa kana Ũtũũro"
+  },
+  "SIG-CARE-SELF-007.label": {
+    "kik": "Kũgarũra Njĩra ya Gwĩkĩra Mwĩrĩ Wĩra"
+  },
+  "SIG-CARE-SELF-008.label": {
+    "kik": "Kwĩgerekania na Wĩra kana Cukulu"
+  },
+  "SIG-CARE-SELF-009.label": {
+    "kik": "Kwĩgerekania na Kũrigitwo Andũ"
+  },
+  "SIG-CARE-SELF-010.label": {
+    "kik": "Kwĩyarĩrĩria"
+  },
+  "SIG-CARE-SELF-011.label": {
+    "kik": "Kwĩhaarĩria na Ciũria"
+  },
+  "SIG-CARE-SELF-012.label": {
+    "kik": "Ũhoro Wandĩkĩtwo Wĩhaarĩirie"
+  },
+  "SIG-CARE-SELF-013.label": {
+    "kik": "Gũcaria Ũteithio kũrĩ Arata"
+  },
+  "SIG-CARE-SELF-014.label": {
+    "kik": "Gũcaria Ũteithio kũrĩ Famĩlĩ"
+  },
+  "SIG-CARE-SELF-015.label": {
+    "kik": "Gũcaria Ũteithio kũrĩ Andũ"
+  },
+  "SIG-CARE-SELF-016.label": {
+    "kik": "Gũcaria Ũmenyo Kompiuta-inĩ"
+  },
+  "SIG-CARE-SELF-017.label": {
+    "kik": "Wĩtĩkio wa Kwĩrũgamĩrĩra Ũgima"
+  },
+  "SIG-CARE-SELF-018.label": {
+    "kik": "Kũingĩhio Nĩ Kwĩrũgamĩrĩra"
+  },
+  "SIG-CARE-EMO-001.label": {
+    "kik": "Wĩtangĩko Wĩgerekanĩtie na Ũteithio"
+  },
+  "SIG-CARE-EMO-002.label": {
+    "kik": "Ũrakaru Wĩgerekanĩtie na Ũteithio"
+  },
+  "SIG-CARE-EMO-003.label": {
+    "kik": "Kũnoga Wĩgerekanĩtie na Ũteithio"
+  },
+  "SIG-CARE-EMO-004.label": {
+    "kik": "Kĩĩrĩgĩrĩro Wĩgerekanĩtie na Ũteithio"
+  },
+  "SIG-CARE-EMO-005.label": {
+    "kik": "Kũhoorerio Wĩgerekanĩtie na Ũteithio"
+  },
+  "SIG-CARE-EMO-006.label": {
+    "kik": "Thoni Wĩgerekanĩtie na Ũteithio"
+  },
+  "SIG-CARE-EMO-007.label": {
+    "kik": "Guoya Mũnene Wĩgerekanĩtie na Ũteithio"
+  },
+  "SIG-CARE-EMO-008.label": {
+    "kik": "Mangʼũrĩ Wĩgerekanĩtie na Ũteithio"
+  },
+  "SIG-CARE-EMO-009.label": {
+    "kik": "Kwĩigua Wĩ Wiki Ũteithio-inĩ"
+  },
+  "SIG-CARE-EMO-010.label": {
+    "kik": "Kwaga Kũmenya Ũteithio-inĩ"
+  },
+  "SIG-CARE-EMO-011.label": {
+    "kik": "Kũnoga Kũnene Ũteithio-inĩ"
+  },
+  "SIG-CARE-EMO-012.label": {
+    "kik": "Kwaga Kwĩhoka Ũthiũrwo"
+  },
+  "SIG-CARE-EMO-013.label": {
+    "kik": "Kwĩhoka Ũthiũrwo"
+  },
+  "SIG-CARE-EMO-014.label": {
+    "kik": "Kwĩiguithio na Ũgitĩri Ũteithio-inĩ"
+  },
+  "SIG-CARE-EMO-015.label": {
+    "kik": "Kwaga Kwĩiguithio na Ũgitĩri Ũteithio-inĩ"
+  },
+  "SIG-CARE-EMO-016.label": {
+    "kik": "Gwĩtĩkĩra Mĩrimũ ta Ĩrĩa Ĩrĩ"
+  },
+  "SIG-CARE-EMO-017.label": {
+    "kik": "Kwĩhaarĩria Gũcaria Ũteithio"
+  },
+  "SIG-CARE-EMO-018.label": {
+    "kik": "Wendo wa Kwĩrũgamĩrĩra Ũgima"
+  },
+  "SIG-CARE-EMO-019.label": {
+    "kik": "Kũmakwo Nĩ Ũhoti wa Gũthuura Ũhoro wa Gũciara"
+  },
+  "SIG-NAR-EXP-001.label": {
+    "kik": "Rũthiomi Rũthuurĩtwo rwa Ũgima"
+  },
+  "SIG-NAR-EXP-002.label": {
+    "kik": "Kũtaarĩria Mĩrimũ na Rũthiomi Rũhũthũ"
+  },
+  "SIG-NAR-EXP-003.label": {
+    "kik": "Kũtaarĩria Mĩrimũ na Ngerekano"
+  },
+  "SIG-NAR-EXP-004.label": {
+    "kik": "Rũthiomi Rũtarĩ Mũhũthũ rwa Kũtaarĩria Mĩrimũ"
+  },
+  "SIG-NAR-EXP-005.label": {
+    "kik": "Kũtaarĩria kwa Kĩmũhĩrĩga"
+  },
+  "SIG-NAR-EXP-006.label": {
+    "kik": "Gũtaarĩria Ũrĩa Mwĩrĩ Wĩiguithagia"
+  },
+  "SIG-NAR-EXP-007.label": {
+    "kik": "Rũthiomi rwa Kuonania Hinya wa Mũrimũ"
+  },
+  "SIG-NAR-EXP-008.label": {
+    "kik": "Rũthiomi rwa Kũgerania"
+  },
+  "SIG-NAR-EXP-009.label": {
+    "kik": "Rũthiomi Rwa Kũnyihia Bata"
+  },
+  "SIG-NAR-EXP-010.label": {
+    "kik": "Rũthiomi rwa Kuonania Kũnora"
+  },
+  "SIG-NAR-EXP-011.label": {
+    "kik": "Kũgarũra Rũthiomi Mĩario-inĩ"
+  },
+  "SIG-NAR-EXP-012.label": {
+    "kik": "Kwenda Gũtaũrwo"
+  },
+  "SIG-NAR-EXP-013.label": {
+    "kik": "Kũhoorera kana Kũhitha Ũhoro"
+  },
+  "SIG-NAR-EXP-014.label": {
+    "kik": "Gũtaarĩria Gũtarĩ Mũhingu"
+  },
+  "SIG-NAR-EXP-015.label": {
+    "kik": "Rũgano Rũthondeketwo na Ũteti"
+  },
+  "SIG-NAR-EXP-016.label": {
+    "kik": "Ũmenyi wa Mwĩrĩ Kuuma Ũrĩa Wee Mwene Wĩguaga"
+  },
+  "SIG-NAR-EXP-017.label": {
+    "kik": "Ũmenyi Mũnini wa Rũthiomi rwa Thigi"
+  },
+  "SIG-NAR-SYM-001.label": {
+    "kik": "Rũgano rwa Kwambĩrĩria kwa Mĩrimũ"
+  },
+  "SIG-NAR-SYM-002.label": {
+    "kik": "Rũgano rwa Kũmenya Mũhianĩre"
+  },
+  "SIG-NAR-SYM-003.label": {
+    "kik": "Rũgano rwa Mĩrimũ Kũgatha"
+  },
+  "SIG-NAR-SYM-004.label": {
+    "kik": "Rũgano Rwĩyarĩrĩirie Gũita Thakame"
+  },
+  "SIG-NAR-SYM-005.label": {
+    "kik": "Rũgano Rwĩyarĩrĩirie Mũrimũ"
+  },
+  "SIG-NAR-SYM-006.label": {
+    "kik": "Rũgano rwa Gũtharĩkĩrwo kwa Mweri"
+  },
+  "SIG-NAR-SYM-007.label": {
+    "kik": "Rũgano rwa Mũcenjanio wa Mwĩrĩ"
+  },
+  "SIG-NAR-SYM-008.label": {
+    "kik": "Rũgano Rwĩyarĩrĩirie Kũnoga"
+  },
+  "SIG-NAR-SYM-009.label": {
+    "kik": "Rũgano rwa Kũhutania na Ũtũũro wa o Mũthenya"
+  },
+  "SIG-NAR-SYM-010.label": {
+    "kik": "Rũgano rwa Mĩrimũ Ĩtarĩ Mũhũthũ Kũmenya"
+  },
+  "SIG-NAR-SYM-011.label": {
+    "kik": "Rũgano rwa Hinya wa Mĩrimũ"
+  },
+  "SIG-NAR-SYM-012.label": {
+    "kik": "Rũgano rwa Kuona Mĩrimũ ta ya Kawaida"
+  },
+  "SIG-NAR-SYM-013.label": {
+    "kik": "Rũgano rwa Kũmakwo Nĩ Mĩrimũ"
+  },
+  "SIG-NAR-SYM-014.label": {
+    "kik": "Rũgano rwa Mĩrimũ Mĩingĩ Mĩrikanĩtie"
+  },
+  "SIG-NAR-SYM-015.label": {
+    "kik": "Rũgano rwa Mĩrimũ Mĩhithe"
+  },
+  "SIG-NAR-SYM-016.label": {
+    "kik": "Rũgano rwa Mĩrimũ Ĩcokaga"
+  },
+  "SIG-NAR-SYM-017.label": {
+    "kik": "Rũgano rwa Ihinda Rĩrĩa Mĩrimũ Yakĩrire"
+  },
+  "SIG-NAR-MEA-001.label": {
+    "kik": "Gũcaria Tiend Ũhoro"
+  },
+  "SIG-NAR-MEA-002.label": {
+    "kik": "Gũtaũra Ũhoro na Meciria Aya Mwene"
+  },
+  "SIG-NAR-MEA-003.label": {
+    "kik": "Kwaga Kũmenya Gĩtũmi"
+  },
+  "SIG-NAR-MEA-004.label": {
+    "kik": "Kũmakwo Nĩ Kĩrĩa Gĩgũũka"
+  },
+  "SIG-NAR-MEA-005.label": {
+    "kik": "Tiend Ũhoro Wĩgerekanĩtie na Gũciara"
+  },
+  "SIG-NAR-MEA-006.label": {
+    "kik": "Kũmakwo Nĩ Ũhoro wa Gũciara"
+  },
+  "SIG-NAR-MEA-007.label": {
+    "kik": "Tiend Ũhoro Wĩgerekanĩtie na Ũrĩa Wĩguaga"
+  },
+  "SIG-NAR-MEA-008.label": {
+    "kik": "Gũtua Kana Ũndũ Nĩ wa Kawaida Kana Ti Wa"
+  },
+  "SIG-NAR-MEA-009.label": {
+    "kik": "Gũgerania na Andũ Angĩ"
+  },
+  "SIG-NAR-MEA-010.label": {
+    "kik": "Tiend Ũhoro Kuuma Famĩlĩ"
+  },
+  "SIG-NAR-MEA-011.label": {
+    "kik": "Tiend Ũhoro wa Kĩmũhĩrĩga"
+  },
+  "SIG-NAR-MEA-012.label": {
+    "kik": "Tiend Ũhoro wa Wĩtĩkio"
+  },
+  "SIG-NAR-MEA-013.label": {
+    "kik": "Ũmenyo wa Ũgwati"
+  },
+  "SIG-NAR-MEA-014.label": {
+    "kik": "Kũmenya Handũ Ũmenyo Ũtarĩ"
+  },
+  "SIG-NAR-MEA-015.label": {
+    "kik": "Rũgano rwa Kwĩyũria"
+  },
+  "SIG-NAR-MEA-016.label": {
+    "kik": "Rũgano rwa Gũcaria Kwĩtĩkĩrwo"
+  },
+  "SIG-NAR-MEA-017.label": {
+    "kik": "Kwenda Macokio"
+  },
+  "SIG-NAR-EMO-001.label": {
+    "kik": "Rũgano rwa Ũrakaru"
+  },
+  "SIG-NAR-EMO-002.label": {
+    "kik": "Rũgano rwa Guoya"
+  },
+  "SIG-NAR-EMO-003.label": {
+    "kik": "Rũgano rwa Wĩtangĩko Mũnene"
+  },
+  "SIG-NAR-EMO-004.label": {
+    "kik": "Rũgano rwa Kũhoorerio"
+  },
+  "SIG-NAR-EMO-005.label": {
+    "kik": "Rũgano rwa Kũnoga Kũnene"
+  },
+  "SIG-NAR-EMO-006.label": {
+    "kik": "Rũgano rwa Kwĩigua Wĩ Wiki"
+  },
+  "SIG-NAR-EMO-007.label": {
+    "kik": "Rũgano rwa Thoni"
+  },
+  "SIG-NAR-EMO-008.label": {
+    "kik": "Rũgano rwa Thoni Nini"
+  },
+  "SIG-NAR-EMO-009.label": {
+    "kik": "Rũgano rwa Mangʼũrĩ"
+  },
+  "SIG-NAR-EMO-010.label": {
+    "kik": "Rũgano rwa Kĩeha"
+  },
+  "SIG-NAR-EMO-011.label": {
+    "kik": "Rũgano rwa Kĩĩrĩgĩrĩro"
+  },
+  "SIG-NAR-EMO-012.label": {
+    "kik": "Rũgano rwa Gwĩtĩkĩra Ũrĩa Kũrĩ"
+  },
+  "SIG-NAR-EMO-013.label": {
+    "kik": "Rũgano rwa Kũiyũrwo nĩ Ngoro"
+  },
+  "SIG-NAR-EMO-014.label": {
+    "kik": "Rũgano rwa Kũmenyerera Mũno"
+  },
+  "SIG-NAR-EMO-015.label": {
+    "kik": "Kwaga Kũigua Ngoro"
+  },
+  "SIG-NAR-EMO-016.label": {
+    "kik": "Ngoro Ĩtarĩ Mũrũngĩrĩru"
+  },
+  "SIG-NAR-EMO-017.label": {
+    "kik": "Rũgano rwa Wĩtĩkio Kũrĩ We Mwene"
+  },
+  "SIG-NAR-CAR-001.label": {
+    "kik": "Rũgano rwa Gũcaria Ũteithio"
+  },
+  "SIG-NAR-CAR-002.label": {
+    "kik": "Rũgano rwa Gũcaria Ũteithio Kũcelewa"
+  },
+  "SIG-NAR-CAR-003.label": {
+    "kik": "Rũgano rwa Mũrigitani Kũrega"
+  },
+  "SIG-NAR-CAR-004.label": {
+    "kik": "Rũgano rwa Kwĩigua Wathikĩrĩirio"
+  },
+  "SIG-NAR-CAR-005.label": {
+    "kik": "Rũgano rwa Kwĩigua Ũtathikĩrĩirio"
+  },
+  "SIG-NAR-CAR-006.label": {
+    "kik": "Rũgano rwa Kũrũgamĩrĩrwo na Yathi Kũu"
+  },
+  "SIG-NAR-CAR-007.label": {
+    "kik": "Rũgano rwa Teme"
+  },
+  "SIG-NAR-CAR-008.label": {
+    "kik": "Rũgano rwa Gũtwarwo kũrĩ Mũrigitani Ũngĩ"
+  },
+  "SIG-NAR-CAR-009.label": {
+    "kik": "Rũgano rwa Kwaga Ũmenyi wa Mũrimũ"
+  },
+  "SIG-NAR-CAR-010.label": {
+    "kik": "Rũgano rwa Kũgirĩrĩria Kũhota Kũrĩgĩtwo"
+  },
+  "SIG-NAR-CAR-011.label": {
+    "kik": "Rũgano rwa Ũteithio Ũrũmanĩrĩirwo"
+  },
+  "SIG-NAR-CAR-012.label": {
+    "kik": "Kwĩyarĩrĩria Ũteithio-inĩ"
+  },
+  "SIG-NAR-CAR-013.label": {
+    "kik": "Rũgano rwa Wĩtĩkio kũrĩ Mũrigitani"
+  },
+  "SIG-NAR-CAR-014.label": {
+    "kik": "Rũgano rwa Wĩtĩkio Kũnyiha"
+  },
+  "SIG-NAR-CAR-015.label": {
+    "kik": "Rũgano rwa Ũteithio Ũngĩ"
+  },
+  "SIG-NAR-CAR-016.label": {
+    "kik": "Rũgano rwa Gwĩthema Ũteithio"
+  },
+  "SIG-NAR-CAR-017.label": {
+    "kik": "Rũgano rwa Ũrĩa Ũteithio Wathirire"
+  },
+  "SIG-NAR-SEN-001.label": {
+    "kik": "Rũgano rwa Kuonania Mũrimũ Wĩgerekanĩtie na Wĩra wa Mĩĩrĩ"
+  },
+  "SIG-NAR-SEN-002.label": {
+    "kik": "Rũgano rwa Kuonania Mĩrimũ ya Iye"
+  },
+  "SIG-NAR-SEN-003.label": {
+    "kik": "Rũgano rwa Kuonania Mĩrimũ ya Thuno"
+  },
+  "SIG-NAR-SEN-004.label": {
+    "kik": "Rũgano rwa Kũhutania na Ũnyitani Machiegini"
+  },
+  "SIG-NAR-SEN-005.label": {
+    "kik": "Rũgano rwa Kũmakwo Nĩ Hitho"
+  },
+  "SIG-NAR-SEN-006.label": {
+    "kik": "Kwenda Gũtaarĩria na Ũteithio Mũmenyereru"
+  },
+  "SIG-NAR-SEN-007.label": {
+    "kik": "Gũtaarĩria Kũhinyĩrĩrio Nĩ Thoni"
+  },
+  "SIG-NAR-SEN-008.label": {
+    "kik": "Kwĩthema Gũtaarĩria Mĩrimũ ya Hitho"
+  },
+  "SIG-NAR-SEN-009.label": {
+    "kik": "Kuona Mĩrimũ ya Hitho ta ya Kawaida"
+  },
+  "SIG-NAR-SEN-010.label": {
+    "kik": "Rũgano rwa Kwĩgĩria Mĩhaka"
+  },
+  "SIG-NAR-SEN-011.label": {
+    "kik": "Rũgano rwa Kũmakwo Nĩ Ũgitĩri"
+  },
+  "SIG-NAR-SEN-012.label": {
+    "kik": "Kwenda Ũhoro Ũikare Mũhithe"
+  },
+  "SIG-NAR-SEN-013.label": {
+    "kik": "Rũgano rwa Mwĩrĩ Kũhota Kũhinyĩrĩrio"
+  },
+  "SIG-NAR-SEN-014.label": {
+    "kik": "Gũtaarĩria na Gwĩtĩkĩra Ũthuurano Waku"
+  },
+  "SIG-NAR-SEN-015.label": {
+    "kik": "Rũgano rwa Gũcaria Ũteithio wa Hitho"
+  },
+  "SIG-NAR-TRA-001.label": {
+    "kik": "Rũgano rwa Mĩrimũ Kũnora Ũũru"
+  },
+  "SIG-NAR-TRA-002.label": {
+    "kik": "Rũgano rwa Mĩrimũ Kũnora"
+  },
+  "SIG-NAR-TRA-003.label": {
+    "kik": "Rũgano rwa Mĩrimũ Kũgacenjia"
+  },
+  "SIG-NAR-TRA-004.label": {
+    "kik": "Rũgano rwa Ihinda Rĩraihu"
+  },
+  "SIG-NAR-TRA-005.label": {
+    "kik": "Rũgano rwa Mũcenjanio Mwerũ"
+  },
+  "SIG-NAR-TRA-006.label": {
+    "kik": "Rũgano rwa Mũcenjanio wa Ihinda rĩa Ũtũũro"
+  },
+  "SIG-NAR-TRA-007.label": {
+    "kik": "Rũgano rwa Mũcenjanio wa Ũteithio"
+  },
+  "SIG-NAR-TRA-008.label": {
+    "kik": "Ũhoro Mwerũ wa Mĩrimũ"
+  },
+  "SIG-NAR-TRA-009.label": {
+    "kik": "Ũhoro wa Mĩrimũ Ĩrĩa Yathirire"
+  },
+  "SIG-NAR-TRA-010.label": {
+    "kik": "Rũgano rwa Mũrigo Ũgũthirĩrĩria"
+  },
+  "SIG-NAR-TRA-011.label": {
+    "kik": "Rũgano rwa Mũhianĩre Kũrũgama"
+  },
+  "SIG-NAR-TRA-012.label": {
+    "kik": "Ũcũrania wa Check-In"
+  },
+  "SIG-NAR-TRA-013.label": {
+    "kik": "Kũgerania Mbere na Rĩu"
+  },
+  "SIG-NAR-TRA-014.label": {
+    "kik": "Rũgano rwa Ihinda Rĩagarũrire Maũndũ"
+  },
+  "SIG-NAR-TRA-015.label": {
+    "kik": "Rũgano rwa Mũrigo Ũgũcokanĩrĩra"
+  },
+  "SIG-NAR-TRA-016.label": {
+    "kik": "Kwenda Kũrora Mahinda Marĩ Mbere"
+  },
+  "SIG-NAR-AGS-001.label": {
+    "kik": "Rũgano rwa Kwĩyarĩrĩria"
+  },
+  "SIG-NAR-AGS-002.label": {
+    "kik": "Rũgano rwa Njĩra ya Kwĩgerekania"
+  },
+  "SIG-NAR-AGS-003.label": {
+    "kik": "Rũgano rwa Kwĩrũgamĩrĩra Ũgima"
+  },
+  "SIG-NAR-AGS-004.label": {
+    "kik": "Rũgano rwa Ũteithio wa Arata"
+  },
+  "SIG-NAR-AGS-005.label": {
+    "kik": "Rũgano rwa Ũteithio wa Famĩlĩ"
+  },
+  "SIG-NAR-AGS-006.label": {
+    "kik": "Rũgano rwa Ũteithio wa Mũthuuri"
+  },
+  "SIG-NAR-AGS-007.label": {
+    "kik": "Rũgano rwa Ũteithio wa Andũ"
+  },
+  "SIG-NAR-AGS-008.label": {
+    "kik": "Rũgano rwa Gũcaria Ũmenyo"
+  },
+  "SIG-NAR-AGS-009.label": {
+    "kik": "Rũgano rwa Kwĩhaarĩria"
+  },
+  "SIG-NAR-AGS-010.label": {
+    "kik": "Rũgano rwa Kwĩgĩria Mĩhaka na Kũhurũka"
+  },
+  "SIG-NAR-AGS-011.label": {
+    "kik": "Rũgano rwa Ũũgĩ wa Kuona Njĩra"
+  },
+  "SIG-NAR-AGS-012.label": {
+    "kik": "Kwĩhaarĩria kũrĩ Kũmakwo Ũteithio"
+  },
+  "SIG-NAR-AGS-013.label": {
+    "kik": "Rũgano rwa Gũthugunda Ũteithio"
+  },
+  "SIG-NAR-AGS-014.label": {
+    "kik": "Rũgano rwa Hinya wa Kũrũgama Kana Ũhoro Ũrĩ Mũritũ"
+  },
+  "SIG-NAR-AGS-015.label": {
+    "kik": "Kũmenyeka kwa Hinya"
+  }
+}
